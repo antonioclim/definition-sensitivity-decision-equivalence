@@ -1,0 +1,218 @@
+{
+  "schema_version": "R13.1",
+  "dataset_kind": "TOY",
+  "input_status": "synthetic_fixture",
+  "provenance": {
+    "source_label": "Eight deliberately constructed units; no FAT or OpenAlex observations",
+    "source_sha256": "5e64ecba170b46adc7f5c7883a5560d5526d0ed4f0979c98bd192ba0cbf934c7",
+    "adapter_status": "synthetic_construction"
+  },
+  "states": [
+    "manual",
+    "standard",
+    "platform",
+    "specialised",
+    "integrated"
+  ],
+  "units": [
+    {
+      "id": "a",
+      "state_totals": {
+        "manual": "60",
+        "standard": "10",
+        "platform": "10",
+        "specialised": "10",
+        "integrated": "10"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "b",
+      "state_totals": {
+        "manual": "50",
+        "standard": "30",
+        "platform": "5",
+        "specialised": "5",
+        "integrated": "10"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "c",
+      "state_totals": {
+        "manual": "40",
+        "standard": "10",
+        "platform": "20",
+        "specialised": "20",
+        "integrated": "10"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "d",
+      "state_totals": {
+        "manual": "20",
+        "standard": "30",
+        "platform": "10",
+        "specialised": "20",
+        "integrated": "20"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "e",
+      "state_totals": {
+        "manual": "30",
+        "standard": "45",
+        "platform": "5",
+        "specialised": "10",
+        "integrated": "10"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "f",
+      "state_totals": {
+        "manual": "10",
+        "standard": "10",
+        "platform": "20",
+        "specialised": "30",
+        "integrated": "30"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "g",
+      "state_totals": {
+        "manual": "55",
+        "standard": "20",
+        "platform": "5",
+        "specialised": "10",
+        "integrated": "10"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "h",
+      "state_totals": {
+        "manual": "40",
+        "standard": "20",
+        "platform": "10",
+        "specialised": "10",
+        "integrated": "20"
+      },
+      "known_denominator": "100",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "narrow",
+      "states": [
+        "integrated"
+      ]
+    },
+    {
+      "id": "middle",
+      "states": [
+        "specialised",
+        "integrated"
+      ]
+    },
+    {
+      "id": "broad",
+      "states": [
+        "standard",
+        "platform",
+        "specialised",
+        "integrated"
+      ]
+    }
+  ],
+  "nested_boundaries": true,
+  "objective": {
+    "id": "platform_or_more",
+    "states": [
+      "platform",
+      "specialised",
+      "integrated"
+    ]
+  },
+  "priority": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "rules": [
+    {
+      "id": "lowest3",
+      "kind": "rank",
+      "direction": "lowest",
+      "k": 3
+    },
+    {
+      "id": "highest3",
+      "kind": "rank",
+      "direction": "highest",
+      "k": 3
+    },
+    {
+      "id": "below025",
+      "kind": "threshold",
+      "operator": "lt",
+      "threshold": "0.25"
+    }
+  ],
+  "cost_profiles": [
+    {
+      "id": "equal",
+      "false_positive": "1",
+      "false_negative": "1"
+    },
+    {
+      "id": "miss_costly",
+      "false_positive": "1",
+      "false_negative": "2"
+    },
+    {
+      "id": "include_costly",
+      "false_positive": "2",
+      "false_negative": "1"
+    }
+  ],
+  "action_cost_profiles_by_rule": {
+    "lowest3": [
+      "equal"
+    ],
+    "highest3": [
+      "equal"
+    ],
+    "below025": [
+      "equal",
+      "miss_costly",
+      "include_costly"
+    ]
+  },
+  "mixture_weighting": "equal_eligible_units",
+  "primary_missing_policy": "complete_known_states"
+}

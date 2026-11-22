@@ -1,0 +1,661 @@
+{
+  "schema_version": "R13-empirical-amendment-1.0",
+  "amendment_id": "ODSA-R13-FAT-OA-DESCRIPTIVE-20261111",
+  "prepared_at_utc": "2026-11-11T19:23:58.837971+00:00",
+  "status": "SPECIFIED_FOR_ROOT_FREEZE_NOT_EXECUTED",
+  "registration_status": "Dated prospective specification for new diagnostics; not a public preregistration and not retrospective preregistration of the FAT study or frozen Monte Carlo work.",
+  "canonical_baselines": {
+    "R11": "SCIENTOMETRICS_ODSA_R11_FINAL_20261111",
+    "R12": "SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111",
+    "changes_to_baselines": false,
+    "frozen_s2_unchanged": true
+  },
+  "phase1_completed_scope": [
+    "Read public historical code/protocols and the R12 plan",
+    "Confirm current primary OA schema/filter/roster documentation",
+    "Confirm FAT input existence, size and SHA256 without parsing rows",
+    "Specify all empirical choices and future acceptance gates"
+  ],
+  "phase1_not_executed": [
+    "No new FAT metrics or common-universe calculation",
+    "No OA country cohort acquisition",
+    "No new Monte Carlo or empirical replay",
+    "No login/account/API key/terms acceptance/payment/deposit"
+  ],
+  "research_questions": [
+    "For the registered source-stratum/country universe and declared benchmark, do alternative state boundaries select the same units for a fixed descriptive follow-up rule?",
+    "How large are plug-in semantic mismatch and action-set disagreement under explicit costs, denominators and priorities?",
+    "Do the registered direction, threshold, cost and weighting sensitivities alter that description, and which OA memberships are certified by marginal unknown-status envelopes?"
+  ],
+  "claim_scope": {
+    "type": "Conditional descriptive illustration and implementation verification",
+    "benchmarks": "Analytical benchmarks constructed from the same state register. They are not independently measured performance outcomes.",
+    "forbidden_inferences": [
+      "Causal or welfare effects",
+      "External construct validation",
+      "National technology/productivity ranking",
+      "Plan S, CC BY, embargo or licence compliance from OA status",
+      "Population representativeness beyond the specified provider-indexed cohort",
+      "Generalisable sampling uncertainty from deterministic diagnostics"
+    ],
+    "near_tautology": "An objective identical to a definition gives zero semantic mismatch and identical actions mechanically under a shared rule. Likewise D subset A_q forces FP_sem=0 and A_q subset D forces FN_sem=0: these zeros follow from the set design, not new empirical discovery. Matched-boundary cases are synthetic controls only; a nonmatching benchmark is not thereby externally validated."
+  },
+  "known_before_freeze": [
+    {
+      "id": "K01",
+      "status": "ALREADY_OBSERVED",
+      "description": "Original FAT public aggregates and the R11 manuscript, including 15 countries/16 source strata and boundary-specific eligible counts 14/16/16, were known. They do not determine the new G*."
+    },
+    {
+      "id": "K02",
+      "status": "ALREADY_OBSERVED",
+      "description": "The public integrated-planning maximum is below 0.25. Thus the illustrative threshold is not blind to all FAT outcomes; its potentially degenerate narrow-definition result must be retained."
+    },
+    {
+      "id": "K03",
+      "status": "ALREADY_OBSERVED",
+      "description": "The historical synthetic grid already includes k=3, tau=0.25, both rank directions, the platform/specialised/ERP objective and cost profiles 1:1, 1:2 and 2:1. No new simulation is proposed."
+    },
+    {
+      "id": "K04",
+      "status": "ALREADY_OBSERVED_IN_R12",
+      "description": "One global OpenAlex status-group response and one Romania 2024 article response were observed for transport/schema feasibility. Their hashes and timestamps remain in R12. They are not a representative sample or reusable rows of the future batch."
+    },
+    {
+      "id": "K05",
+      "status": "NOT_OBSERVED_IN_R13",
+      "description": "The new FAT common-universe size, action selections/losses and all EU27 cohort diagnostics have not been calculated in this phase."
+    }
+  ],
+  "common_contract": {
+    "unit_weights": "Every eligible source stratum/country has weight 1 in cross-unit semantic averages and action loss; no pooled cross-unit survey or publication weighting.",
+    "rules": {
+      "primary": {
+        "id": "lowest_3",
+        "kind": "rank",
+        "direction": "lowest",
+        "k": 3
+      },
+      "secondary_highest": {
+        "id": "highest_3",
+        "kind": "rank",
+        "direction": "highest",
+        "k": 3
+      },
+      "secondary_threshold": {
+        "id": "below_one_quarter",
+        "kind": "threshold",
+        "operator": "lt",
+        "threshold": "1/4"
+      }
+    },
+    "rationale": {
+      "lowest_3": "A fixed small review capacity of three units illustrates whether a boundary identifies the same low-prevalence units for descriptive follow-up. It is inherited from the earlier design and is not an estimated optimum or real resource allocation.",
+      "highest_3": "A secondary direction check identifies high-prevalence examples; it answers a different descriptive question and cannot replace the primary result.",
+      "threshold_1_4": "One prespecified threshold from the frozen synthetic grid, interpreted as a one-quarter descriptive reference. It is not an externally validated adoption/OA target; the known FAT exposure is declared.",
+      "minimum_10_FAT": "Retains the historical minimum used for cross-stratum summaries and keeps k=3 from dominating a tiny surviving roster. This is a project rule, not a confidentiality guarantee or statistical-power threshold."
+    },
+    "point_ties": "Exact rational equality only. A fixed, common priority selects the first k among ties. No rounding or epsilon changes membership.",
+    "tie_flag": "Flag an exact tie between the kth and (k+1)th scores. Also record a diagnostic near-boundary flag when the exact gap is <=1e-12; this flag never changes selection.",
+    "point_tie_sensitivity": "All-admissible membership envelopes are computed separately for each definition/objective on its degenerate point intervals. Do not combine independent tie resolutions across definitions or objective to claim exact joint loss bounds.",
+    "empty_sets": {
+      "jaccard": "1 by the inherited convention when both sets are empty; report both_empty_convention_one and both cardinalities. This is not positive evidence of substantive robustness.",
+      "symmetric_difference": "0 when both empty",
+      "action_loss": "0 when both empty on a nonempty common universe",
+      "rank_churn": "Defined only for registered rank comparisons with equal positive k=3; otherwise null/not_applicable. Empty universe is a hard failure."
+    },
+    "cost_profiles": {
+      "equal_costs": {
+        "false_inclusion": "1",
+        "false_exclusion": "1"
+      },
+      "exclusion_costly": {
+        "false_inclusion": "1",
+        "false_exclusion": "2"
+      },
+      "inclusion_costly": {
+        "false_inclusion": "2",
+        "false_exclusion": "1"
+      }
+    },
+    "semantic_cost_schedule": {
+      "primary": "equal_costs",
+      "secondary": [
+        "exclusion_costly",
+        "inclusion_costly"
+      ],
+      "scope": "Complete-case state distributions for all three boundaries; separately labelled from action cost, despite identical numerical coefficients."
+    },
+    "action_cost_schedule": {
+      "primary": "equal_costs for lowest_3",
+      "secondary_equal_costs": [
+        "highest_3",
+        "below_one_quarter"
+      ],
+      "secondary_asymmetric": [
+        "exclusion_costly and inclusion_costly for below_one_quarter only"
+      ],
+      "rank_asymmetry_limit": "At fixed equal k, false selections equal missed benchmark units. Profiles 1:2 and 2:1 therefore coincide and cannot identify a directional cost trade-off."
+    },
+    "semantic_estimands": {
+      "per_unit": "FP_sem(g,d)=sum_s p_g(s) 1{s in D_d but not A_q}; FN_sem(g,d)=sum_s p_g(s) 1{s in A_q but not D_d}.",
+      "across_units": "L_S(d;c)=sum_g[c_FP*FP_sem(g,d)+c_FN*FN_sem(g,d)] / |G*|.",
+      "interpretation": "A plug-in distribution-mass mismatch under assumed costs, not a frequency of actual policy harm. State proportions sum to one within each retained unit."
+    },
+    "action_estimands": {
+      "reference": "B_q,r = r({q_g:g in G*}) with the same priority, direction and parameter as B_d,r.",
+      "false_selection_count": "|B_d,r minus B_q,r|",
+      "missed_reference_count": "|B_q,r minus B_d,r|",
+      "count_scale_loss": "c_FP*false_selection_count + c_FN*missed_reference_count",
+      "per_unit_loss": "count_scale_loss / |G*|; not /k, selected count, union size, establishments or publications",
+      "pairwise": "For each of the three boundary pairs, retain equal_sets, intersection/union counts, symmetric difference and its /|G*| share, Jaccard and rank churn where applicable.",
+      "benchmark_comparison": "Retain the same set statistics for every definition against q.",
+      "weighted_loss_range": "Per-unit loss under asymmetric costs need not be <=1; it is an average assumed cost, not a probability."
+    },
+    "inference": "No p-values, confidence intervals, bootstrap, sampling-variance or causal claims are added. Plug-in points use the observed registered state distributions.",
+    "output_numeric_encoding": "Exact integers and rational numerator/denominator strings form the internal canonical calculation record. Display decimals are derived after selection and never used as inputs. Public outputs contain only authorised estimates and their authorised denominators, including |G*|; protected source-level denominators and any components exposing them remain internal."
+  },
+  "fat": {
+    "input": {
+      "filename": "fat0_raw_data_qje.csv",
+      "bytes": 19633172,
+      "sha256": "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17",
+      "availability_proof": "R13_FAT_INPUT_AVAILABILITY.json",
+      "producer_catalogue": "https://microdata.worldbank.org/catalog/8209",
+      "data_doi": "https://doi.org/10.48529/assd-3j65",
+      "producer_logical_file": "fat0_raw_data_qje",
+      "access_route": "https://microdata.worldbank.org/catalog/8209/get-microdata",
+      "access_limit": "The producer route requires login. R13 uses the already retained exact input; no new login/download was made. Original download-event date and identity with a current producer export remain unverified. The input is not redistributed."
+    },
+    "fields": [
+      "country",
+      "base_wt",
+      "ib9b1",
+      "ib9b2",
+      "ib9b3",
+      "ib9b4",
+      "ib9b5"
+    ],
+    "unit": "Exact source label in country; 16 historical source strata represent 15 reporting countries. India and India_Wave2_New are separate units.",
+    "priority": [
+      "Bangladesh",
+      "Brazil",
+      "BurkinaFaso",
+      "Cambodia",
+      "Chile",
+      "Croatia",
+      "Ethiopia",
+      "Georgia",
+      "Ghana",
+      "India",
+      "India_Wave2_New",
+      "Kenya",
+      "Korea",
+      "Poland",
+      "Senegal",
+      "Vietnam"
+    ],
+    "priority_rule": "Literal listed order, identical to ascending ASCII order for this fixed roster; filter it to G* without reordering. No locale-dependent comparison.",
+    "states": [
+      "handwritten_processes",
+      "standard_software",
+      "mobile_apps_or_digital_platforms",
+      "specialised_software",
+      "erp"
+    ],
+    "state_field_order": [
+      "ib9b1",
+      "ib9b2",
+      "ib9b3",
+      "ib9b4",
+      "ib9b5"
+    ],
+    "definitions": {
+      "integrated_planning": [
+        "erp"
+      ],
+      "specialised_planning": [
+        "specialised_software",
+        "erp"
+      ],
+      "digitally_enabled_planning": [
+        "standard_software",
+        "mobile_apps_or_digital_platforms",
+        "specialised_software",
+        "erp"
+      ]
+    },
+    "definition_order": [
+      "integrated_planning",
+      "specialised_planning",
+      "digitally_enabled_planning"
+    ],
+    "objective": {
+      "id": "platform_or_more_specific_planning",
+      "states": [
+        "mobile_apps_or_digital_platforms",
+        "specialised_software",
+        "erp"
+      ],
+      "historical_identifier": "dedicated_or_integrated_objective",
+      "rationale": "Monitor routine planning through a platform/mobile application, specialised software or ERP rather than generic standard software alone. This is a specified scope of most-used planning support, not proof of higher productivity or a universal capability hierarchy. The historical platform-or-higher shorthand denotes this state set."
+    },
+    "measure_boundary": "MOST-used production-planning method. Do not reinterpret it as most sophisticated technology possessed, capability, all tools used, investment or performance.",
+    "row_taxonomy": {
+      "mapped": "Exactly one valid 1 and four valid 0 values in the five indicators.",
+      "unresolved": "All valid zero, or no positive with at least one missing/special value and no invalid nonbinary value.",
+      "excluded_ambiguous": "One valid positive with any missing/special value elsewhere.",
+      "hard_failure": "Multiple positives or invalid nonmissing nonbinary values, changed roster/header/input identity or failure of registered replay reconciliation.",
+      "absent_field": "ib9b6 is unavailable. Unresolved rows are not silently called Other, non-users, handwritten or inapplicable."
+    },
+    "within_stratum_denominator": "D_g=sum of positive finite base_wt over mapped rows, common to all three d and q. Neither suppressed endpoint nor boundary-specific numerator changes D_g.",
+    "weight_arithmetic": {
+      "validity": "Preserve the historical missing-token and finite-positive JavaScript Number classification first. Exact fractions do not rescue weights excluded by that contract.",
+      "representation": "For retained positive finite weights, parse the original trimmed decimal/scientific token exactly as a rational, using ASCII decimal grammar. Sum exactly and divide exactly.",
+      "decimal_regex": "^[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$",
+      "nondecimal_finite_weight": "Halt before new diagnostics if a weight is positive/finite under the legacy contract but is not covered by this grammar; do not silently change interpretation.",
+      "reconciliation": "Before any new action/semantic metric, reproduce historical row taxonomy/counts, weight eligibility and released aggregates using unchanged historical code or a transparently observed in-memory adapter. New exact-rational rates and comparable summaries must match historical float rates within absolute 1e-12, with exact integer counts and suppression flags. Save only sanitised counts of checks/max residuals.",
+      "identity_limit": "This is a new arithmetic implementation for recorded decimal weights, not a claim of bit-identical sequential floating-point summation. Frozen R11 code/results remain byte-unchanged. The 1e-12 reconciliation tolerance never merges selection ties."
+    },
+    "common_eligibility": {
+      "name": "G*_FAT",
+      "calculate_in": "Phase 2 only",
+      "rules": [
+        "Source label belongs to the fixed historical roster",
+        "Mapped row count >=100 and positive-weight mapped contributor count >=100",
+        "Positive exact mapped-weight denominator D_g",
+        "For every one of the five state atoms, both its all-mapped count and its positive-weight mapped contributor count are either 0 or >=5",
+        "All three definitions and q meet the historical binary positive/negative cell screen; every contrast atom is covered by the atom screen",
+        "No failure of taxonomy, input identity or numerical reconciliation"
+      ],
+      "rationale": "The d/q membership patterns distinguish all five state atoms. Screening these atoms, including the rows that actually contribute weighted mass, strengthens the previous endpoint-only screen and avoids exchanging 14/16/16 denominators.",
+      "minimum_size": 10,
+      "too_small": "If fewer than 10 strata remain, do not relax the rule or choose another q. Report the new FAT numerical extension as not estimable under the registered release design; retain the original study.",
+      "composition_minimum_30": "Not applied to this action analysis; no new within-positive-class composition tables are proposed.",
+      "fixed_across": "All boundaries/objective, rules, cost profiles and the matched-row weighting sensitivity; no rule-specific deletion or pairwise universe substitution."
+    },
+    "primary": "Complete-case exact weighted state masses on G*_FAT, semantic equal-cost mismatch and lowest_3 action diagnostics.",
+    "weighting_sensitivity": {
+      "name": "matched_row_unweighted",
+      "row_universe": "The same positive-weight mapped rows used by the primary analysis",
+      "state_masses": "Count of contributing rows in each state divided by total positive-weight mapped contributor count",
+      "analyses": "Primary lowest_3 and equal-cost semantic mismatch only, using the identical G*",
+      "distinction": "This isolates removing weight magnitudes. It is not the historical all-mapped unweighted sensitivity, whose results remain unchanged."
+    },
+    "unresolved_extension": {
+      "new_fat_intervals": false,
+      "normalised_unresolved_total": null,
+      "normalised_unresolved_status": "not_identifiable",
+      "status": "NOT_USED_UNRESOLVED_ELIGIBILITY_AND_FULL_WEIGHT_MASS_NOT_ESTABLISHED",
+      "reason": "The historical source identifies the positive-weight unresolved subset mass, but admissibility of all unresolved rows to any five-state assignment and weights for excluded rows are not established. No new FAT interval or action-loss uncertainty claim is made. Historical conditional bounds are retained with their original limits. The reason is retained in separate adapter/protocol evidence, not an undeclared field in the strict normalised schema."
+    },
+    "release_policy_ref": "R13_FAT_DISCLOSURE_DESIGN.json"
+  },
+  "oa": {
+    "provider": "OpenAlex",
+    "sources": [
+      "WEB01",
+      "WEB02",
+      "WEB03",
+      "WEB04",
+      "WEB05",
+      "WEB06",
+      "WEB07",
+      "WEB08",
+      "WEB09",
+      "WEB10",
+      "WEB11",
+      "WEB12",
+      "WEB13",
+      "WEB14"
+    ],
+    "cohort": {
+      "year": 2024,
+      "type": "article",
+      "corpus": "core",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria"
+        },
+        {
+          "code": "BE",
+          "name": "Belgium"
+        },
+        {
+          "code": "BG",
+          "name": "Bulgaria"
+        },
+        {
+          "code": "CY",
+          "name": "Cyprus"
+        },
+        {
+          "code": "CZ",
+          "name": "Czechia"
+        },
+        {
+          "code": "DE",
+          "name": "Germany"
+        },
+        {
+          "code": "DK",
+          "name": "Denmark"
+        },
+        {
+          "code": "EE",
+          "name": "Estonia"
+        },
+        {
+          "code": "ES",
+          "name": "Spain"
+        },
+        {
+          "code": "FI",
+          "name": "Finland"
+        },
+        {
+          "code": "FR",
+          "name": "France"
+        },
+        {
+          "code": "GR",
+          "name": "Greece"
+        },
+        {
+          "code": "HR",
+          "name": "Croatia"
+        },
+        {
+          "code": "HU",
+          "name": "Hungary"
+        },
+        {
+          "code": "IE",
+          "name": "Ireland"
+        },
+        {
+          "code": "IT",
+          "name": "Italy"
+        },
+        {
+          "code": "LT",
+          "name": "Lithuania"
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg"
+        },
+        {
+          "code": "LV",
+          "name": "Latvia"
+        },
+        {
+          "code": "MT",
+          "name": "Malta"
+        },
+        {
+          "code": "NL",
+          "name": "Netherlands"
+        },
+        {
+          "code": "PL",
+          "name": "Poland"
+        },
+        {
+          "code": "PT",
+          "name": "Portugal"
+        },
+        {
+          "code": "RO",
+          "name": "Romania"
+        },
+        {
+          "code": "SE",
+          "name": "Sweden"
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia"
+        },
+        {
+          "code": "SK",
+          "name": "Slovakia"
+        }
+      ],
+      "country_filter": "authorships.institutions.country_code",
+      "attribution": "Each matching OpenAlex work is counted once within each country having at least one mapped authorship institution. International works count in multiple countries; country totals must not be summed as a unique EU total. No independence assumption is made.",
+      "exclusions": "No additional journal, language, retraction, citation, publication-quality or OA filter. Work type/year/country reflect provider metadata at acquisition. Unmapped affiliations and unindexed works are outside the observed frame, not the unknown-OA bucket."
+    },
+    "priority": [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK"
+    ],
+    "states": [
+      "closed",
+      "bronze",
+      "green",
+      "hybrid",
+      "gold",
+      "diamond"
+    ],
+    "unresolved_key": "unknown",
+    "definitions": {
+      "fully_oa_journal_status": [
+        "gold",
+        "diamond"
+      ],
+      "provider_detected_oa_excluding_bronze": [
+        "gold",
+        "diamond",
+        "hybrid",
+        "green"
+      ],
+      "any_provider_detected_oa": [
+        "gold",
+        "diamond",
+        "hybrid",
+        "green",
+        "bronze"
+      ]
+    },
+    "definition_order": [
+      "fully_oa_journal_status",
+      "provider_detected_oa_excluding_bronze",
+      "any_provider_detected_oa"
+    ],
+    "objective": {
+      "id": "provider_classified_publisher_availability",
+      "states": [
+        "gold",
+        "diamond",
+        "hybrid",
+        "bronze"
+      ],
+      "rationale": "Monitor the publisher access route specifically, including free-to-read publisher access with unidentified open licence. The question is whether broader/narrower provider-status summaries identify the same low publisher-availability countries. Repository-only green access is a different route, not a failure of scholarly openness.",
+      "limits": "Derived from the same scalar status, not an independently checked location. Includes bronze and therefore must not be called licensed OA, Plan S compliance, persistence, timeliness or unrestricted reuse."
+    },
+    "partition": "Use the provider scalar statuses as mutually exclusive nominal states. Do not impose an ordinal quality scale or pretend that real repository/publisher locations cannot overlap.",
+    "query_template": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:{country_code}&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+    "query_manifest": "R13_OA_QUERY_MANIFEST.json",
+    "acquisition": {
+      "status": "PLANNED_NOT_EXECUTED",
+      "required_successful_responses": 27,
+      "acquired_in_R13": 0,
+      "order": "Ascending ISO code, exactly as priority",
+      "transport": "Anonymous HTTPS GET; no authentication, account, email, API key, payment, cursor or full-text download",
+      "rate_limit": "Sequential, at most one request per second",
+      "timeout_seconds": 60,
+      "maximum_response_bytes": 262144,
+      "maximum_attempts_per_country": 3,
+      "retryable": "Transport failures, HTTP 408, 429 or 5xx only; delays 5 then 15 seconds, respecting a longer Retry-After up to 60 seconds; stop rather than bypass longer blocks, login requirements or quota restrictions. A 429 indicating plan/credential requirements is a stop.",
+      "batch_window_seconds": 3600,
+      "response_choice": "First successfully transported and schema-valid response for each fixed query. Archive all attempts. Do not choose among multiple successful responses by values.",
+      "failure_policy": "Any missing country response, schema/enum failure, limit breach or batch lasting more than one hour stops the cohort analysis. No partial-country diagnostic, repeated outcome-selected batch or reuse of the earlier Romania probe. A later permitted attempt is a separately numbered acquisition batch with failed evidence retained.",
+      "captured": "Request URL/parameters, UTC request/response times, HTTP status, content type, Date/ETag/Last-Modified and rate-limit headers if returned, raw JSON bytes, byte length and SHA256; code/runtime and source registry identity. Do not capture credentials or cookies.",
+      "snapshot_claim": "A frozen local batch acquired over an explicit interval; not a transactionally atomic snapshot of the provider database."
+    },
+    "schema_gates": [
+      "HTTP 200 and bounded JSON body",
+      "Exactly one group per returned key; only the six registered keys or literal unknown",
+      "Finite nonnegative integer counts, excluding bool values",
+      "meta.count is a nonnegative integer and equals the sum of all seven-state/bucket counts",
+      "No nested groups or nonempty unrequested record payload; an absent or empty results list is accepted; unexpected semantic schema change stops processing",
+      "per_page=100 exceeds the seven possible keys. When returned, groups_count must equal the number of returned buckets and next_cursor must be null; neither optional marker is required to exist. Completeness additionally requires the fixed enum and exact sum-to-meta.count check.",
+      "Missing known group can be set to zero only after complete-response and sum checks pass; unknown absence then means zero, not inferred closed",
+      "Unexpected/unrecognised category is quarantined and halts the batch; a residual is not silently assigned to unknown or closed"
+    ],
+    "denominators": {
+      "N": "meta.count, including any unknown-status works",
+      "M": "Count in the literal unknown bucket of the validated complete response, or zero only when absent after complete-response reconciliation",
+      "D": "N-M=sum of the six registered status counts",
+      "primary_rate": "P_gd/D_g and Q_g/D_g; the same known-status denominator for all d and q",
+      "coverage": "Publish N, M, D and M/N separately for every country; coverage among matched works does not measure missing affiliation or indexing coverage."
+    },
+    "common_eligibility": {
+      "name": "G*_OA",
+      "rule": "All 27 predeclared countries must have complete valid responses with N>0 and D>0. Then G*=the full roster. If a country fails, publish the acquisition/denominator failure, not a reduced decision comparison. No countries are removed for small/zero OA rates or adverse results.",
+      "minimum_size_if_success": 27
+    },
+    "primary": "Complete-case integer-count state masses, semantic equal-cost mismatch and lowest_3 action diagnostics on all 27 countries.",
+    "unknown_sensitivity": {
+      "condition": "Only if M is identified by the validated complete response; M=0 gives degenerate bounds. Missing/unavailable M is not zero and blocks this analysis.",
+      "assumption": "Every unknown-status matched work could occupy one of the six registered states. This is a sensitivity model, not a validation of upstream classification.",
+      "bounds": "For each d and q separately, [P/(D+M),(P+M)/(D+M)]. Retain rational endpoints. A definition and q share the same unknown works; do not independently assign these works to favour each comparison.",
+      "analyses": "Per-definition/objective marginal guaranteed/possible/excluded membership for lowest_3 with all-admissible ties, plus guaranteed/ambiguous/excluded membership for the strict below-1/4 rule.",
+      "interpretation": "Rectangular marginal outer-envelope certificates. Guaranteed/excluded statements over the box remain valid for the feasible joint subset. An outer-envelope possible member is not claimed to be attainable in the actual joint cohort.",
+      "shared_publication_dependence": "The same internationally coauthored work can contribute to several countries. Assigning its unknown OA status couples their counts. Grouped country counts do not identify the work overlap or the full joint feasible set; therefore rectangularity is not asserted for the actual common cohort. P10 is used as an outer-envelope certificate, not an exact joint possible-membership result.",
+      "not_computed": [
+        "Exact joint/coupled action-loss extrema",
+        "Independent best/worst endpoint combinations across d and q",
+        "New scenario selection optimised for disagreement",
+        "Statistical confidence intervals"
+      ]
+    },
+    "release": "Raw grouped responses, all country counts, transformations, registered diagnostics and failures may be distributed with OpenAlex attribution under the metadata CC0 terms. No article full texts are acquired or relicensed. Code licensing is a separate project decision.",
+    "fallback": "If the fixed anonymous batch cannot be completed, retain this as a documented planned illustration with the R12 feasibility probes. Do not switch opportunistically to CWTS, Unpaywall, a smaller country subset or a paid service. Any replacement requires a versioned amendment and renewed phase authorisation."
+  },
+  "analysis_families": [
+    {
+      "id": "P1",
+      "priority": "PRIMARY",
+      "data": "FAT exact weighted / OA known-status counts",
+      "rule": "lowest_3",
+      "costs": "equal_costs",
+      "outputs": "Three d-versus-q objective-relative loss and set comparisons, plus three d-versus-d set comparisons. A boundary pair is not relabelled as a separately justified objective."
+    },
+    {
+      "id": "P2",
+      "priority": "PRIMARY",
+      "data": "Same complete-case state masses",
+      "rule": "none",
+      "costs": "equal_costs",
+      "outputs": "Per-boundary cross-unit mean false-inclusion mass, false-exclusion mass and semantic loss."
+    },
+    {
+      "id": "S1",
+      "priority": "SECONDARY",
+      "data": "Same complete-case state masses and G*",
+      "rule": "highest_3",
+      "costs": "equal_costs",
+      "outputs": "Same comparison family as P1; does not replace primary conclusions."
+    },
+    {
+      "id": "S2",
+      "priority": "SECONDARY",
+      "data": "Same complete-case state masses and G*",
+      "rule": "below_one_quarter",
+      "costs": "equal_costs, exclusion_costly, inclusion_costly for d-versus-q; pairwise set comparisons once",
+      "outputs": "Threshold set/action diagnostics, retaining empty/all-selected cases."
+    },
+    {
+      "id": "S3",
+      "priority": "SECONDARY",
+      "data": "Same complete-case state masses and G*",
+      "rule": "none",
+      "costs": "exclusion_costly and inclusion_costly semantic costs",
+      "outputs": "Semantic cost sensitivity separately from action-cost sensitivity."
+    },
+    {
+      "id": "S4",
+      "priority": "SECONDARY_FAT_ONLY",
+      "data": "Matched-row unweighted, same G*",
+      "rule": "lowest_3",
+      "costs": "equal_costs",
+      "outputs": "P1 and P2 with weight magnitudes removed."
+    },
+    {
+      "id": "S5",
+      "priority": "SECONDARY",
+      "data": "Complete-case point scores",
+      "rule": "lowest_3 and highest_3",
+      "costs": "not applicable",
+      "outputs": "Exact boundary-tie flags and separate all-admissible membership-envelope sizes per d/q; FAT identities withheld."
+    },
+    {
+      "id": "S6",
+      "priority": "SECONDARY_OA_ONLY",
+      "data": "Known counts plus identified unknown M",
+      "rule": "lowest_3 and below_one_quarter",
+      "costs": "not applicable",
+      "outputs": "Marginal unknown-status membership certificates per d/q; no coupled action-loss claims."
+    }
+  ],
+  "excluded_extensions": [
+    "No CIS five-state application",
+    "No new FAT unknown-state interval analysis",
+    "No firm-size/export/sector regression or performance validation",
+    "No licence-aware OA/Plan S classification",
+    "No additional threshold/k search, objective search, hypothesis testing or Monte Carlo rerun",
+    "No provider/coverage validation from agreement with another service sharing the same database"
+  ],
+  "retention_rule": "Keep all eligible registered comparisons, zero/no-change results and unfavourable patterns. Scientific outcomes never determine selection of units, rule, objective, costs or reporting family. Disclosure or failed data gates may withhold a complete predefined FAT block with an explicit reason; absence must not be described as zero.",
+  "phase2_acceptance": [
+    "Dated and hash-bound amendment and all choice files precede new metrics or cohort acquisition.",
+    "Independent contract/toy tests are labelled synthetic; they do not establish input validity or empirical findings.",
+    "FAT identity, taxonomy, weight and historical-reconciliation gates pass before G* and new diagnostics; no row/source-value leakage in logs.",
+    "OA all-27 acquisition, schema, denominator and source-identity gates pass before any diagnostic.",
+    "A second implementation or direct rational identities checks the small aggregate calculations; labels distinguish this from rerunning frozen scientific code.",
+    "Cumulative FAT disclosure review passes for each fixed output block; otherwise withhold that block and disclose why without exposing suppressed values.",
+    "Attach source/derived/code hashes, runtimes, failures and the authorised denominators of published results, including |G*|. Protected FAT source-level denominators remain internal; manuscript claims stay within the declared estimands."
+  ],
+  "normative_executable_contracts": {
+    "input": "05_EXECUTABLE_CONTRACTS/R13_STATE_INPUT.schema.json",
+    "output": "05_EXECUTABLE_CONTRACTS/R13_STATE_OUTPUT.schema.json",
+    "relationship_to_suggestions": "These delivered executable schemas govern the adapters. R13_EMPIRICAL_IO_SCHEMA_SUGGESTIONS.json is a distinct conceptual sketch; its six-unit example is not the executed eight-unit contract fixture.",
+    "unresolved_status_enum": [
+      "known_nonnegative_total",
+      "not_identifiable"
+    ],
+    "FAT": "unresolved_total=null and unresolved_status=not_identifiable; explanatory reasons stay in separate protocol/adapter evidence."
+  },
+  "change_control": {
+    "policy": "No silent change. A required post-freeze change receives a numbered amendment, rationale, time/hash, outcome-exposure statement and rerun of every affected new diagnostic. Preserve original code, source extract and failed run. R11/R12 and frozen S2 are never overwritten.",
+    "phase_boundary": "This R13 phase ends after protocol and contract verification. Phase 2 requires the next agreed author instruction; next does not independently authorise external accounts, submissions, deposits or terms acceptance."
+  }
+}

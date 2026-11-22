@@ -1,0 +1,2837 @@
+{
+  "schema": "R15_NATIVE_FIGURE_SCENE_1",
+  "figure": 2,
+  "width_mm": 119,
+  "height_mm": 145,
+  "description": "Overlapping event fractions in the preserved deterministic design register",
+  "objects": [
+    {
+      "id": "fig2_event_0_label",
+      "type": "text",
+      "role": "label",
+      "text": "Material level detected",
+      "x": 4,
+      "y": 4,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_0",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 10.0,
+      "width": 69.33333333419999,
+      "height": 5,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 12.25,
+      "x2": 6.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 14.5,
+      "x2": 8.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 5.75,
+      "y1": 15.0,
+      "x2": 10.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 8.0,
+      "y1": 15.0,
+      "x2": 13.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 10.25,
+      "y1": 15.0,
+      "x2": 15.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 12.5,
+      "y1": 15.0,
+      "x2": 17.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 14.75,
+      "y1": 15.0,
+      "x2": 19.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 17.0,
+      "y1": 15.0,
+      "x2": 22.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 19.25,
+      "y1": 15.0,
+      "x2": 24.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 21.5,
+      "y1": 15.0,
+      "x2": 26.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 23.75,
+      "y1": 15.0,
+      "x2": 28.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.0,
+      "y1": 15.0,
+      "x2": 31.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.25,
+      "y1": 15.0,
+      "x2": 33.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 30.5,
+      "y1": 15.0,
+      "x2": 35.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.75,
+      "y1": 15.0,
+      "x2": 37.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.0,
+      "y1": 15.0,
+      "x2": 40.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.25,
+      "y1": 15.0,
+      "x2": 42.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 39.5,
+      "y1": 15.0,
+      "x2": 44.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 41.75,
+      "y1": 15.0,
+      "x2": 46.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.0,
+      "y1": 15.0,
+      "x2": 49.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.25,
+      "y1": 15.0,
+      "x2": 51.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 48.5,
+      "y1": 15.0,
+      "x2": 53.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 50.75,
+      "y1": 15.0,
+      "x2": 55.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.0,
+      "y1": 15.0,
+      "x2": 58.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.25,
+      "y1": 15.0,
+      "x2": 60.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_26",
+      "type": "line",
+      "role": "hatch",
+      "x1": 57.5,
+      "y1": 15.0,
+      "x2": 62.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_27",
+      "type": "line",
+      "role": "hatch",
+      "x1": 59.75,
+      "y1": 15.0,
+      "x2": 64.75,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_28",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.0,
+      "y1": 15.0,
+      "x2": 67.0,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_29",
+      "type": "line",
+      "role": "hatch",
+      "x1": 64.25,
+      "y1": 15.0,
+      "x2": 69.25,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_30",
+      "type": "line",
+      "role": "hatch",
+      "x1": 66.5,
+      "y1": 15.0,
+      "x2": 71.5,
+      "y2": 10.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_31",
+      "type": "line",
+      "role": "hatch",
+      "x1": 68.75,
+      "y1": 15.0,
+      "x2": 73.33333333419999,
+      "y2": 10.416666665800008,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_32",
+      "type": "line",
+      "role": "hatch",
+      "x1": 71.0,
+      "y1": 15.0,
+      "x2": 73.33333333419999,
+      "y2": 12.666666665800008,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_hatch_1_33",
+      "type": "line",
+      "role": "hatch",
+      "x1": 73.25,
+      "y1": 15.0,
+      "x2": 73.33333333419999,
+      "y2": 14.916666665800008,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 10.0,
+      "width": 69.33333333419999,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_0_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_0_percent",
+      "type": "text",
+      "role": "label",
+      "text": "88.9%",
+      "x": 83,
+      "y": 10,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_0_count",
+      "type": "text",
+      "role": "label",
+      "text": "1536/1728",
+      "x": 98,
+      "y": 10,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_event_1_label",
+      "type": "text",
+      "role": "label",
+      "text": "Semantic mismatch",
+      "x": 4,
+      "y": 22,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_1",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 28.0,
+      "width": 58.5,
+      "height": 5,
+      "fill": "#228c35",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_1_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_1_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4,
+      "y1": 29.6,
+      "x2": 62.5,
+      "y2": 29.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_1_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_1_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4,
+      "y1": 31.4,
+      "x2": 62.5,
+      "y2": 31.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_1_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_1_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 28.0,
+      "width": 58.5,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_1_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_1_percent",
+      "type": "text",
+      "role": "label",
+      "text": "75.0%",
+      "x": 83,
+      "y": 28,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_1_count",
+      "type": "text",
+      "role": "label",
+      "text": "1296/1728",
+      "x": 98,
+      "y": 28,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_event_2_label",
+      "type": "text",
+      "role": "label",
+      "text": "No strict reversal with semantic mismatch",
+      "x": 4,
+      "y": 40,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_2",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 46.0,
+      "width": 42.2500000026,
+      "height": 5,
+      "fill": "#59c2e8",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 48.25,
+      "x2": 6.25,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 50.5,
+      "x2": 8.5,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 5.75,
+      "y1": 51.0,
+      "x2": 10.75,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 8.0,
+      "y1": 51.0,
+      "x2": 13.0,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 10.25,
+      "y1": 51.0,
+      "x2": 15.25,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 12.5,
+      "y1": 51.0,
+      "x2": 17.5,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 14.75,
+      "y1": 51.0,
+      "x2": 19.75,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 17.0,
+      "y1": 51.0,
+      "x2": 22.0,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 19.25,
+      "y1": 51.0,
+      "x2": 24.25,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 21.5,
+      "y1": 51.0,
+      "x2": 26.5,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 23.75,
+      "y1": 51.0,
+      "x2": 28.75,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.0,
+      "y1": 51.0,
+      "x2": 31.0,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.25,
+      "y1": 51.0,
+      "x2": 33.25,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 30.5,
+      "y1": 51.0,
+      "x2": 35.5,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.75,
+      "y1": 51.0,
+      "x2": 37.75,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.0,
+      "y1": 51.0,
+      "x2": 40.0,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.25,
+      "y1": 51.0,
+      "x2": 42.25,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 39.5,
+      "y1": 51.0,
+      "x2": 44.5,
+      "y2": 46.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 41.75,
+      "y1": 51.0,
+      "x2": 46.2500000026,
+      "y2": 46.4999999974,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.0,
+      "y1": 51.0,
+      "x2": 46.2500000026,
+      "y2": 48.7499999974,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 48.75,
+      "x2": 6.25,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 46.5,
+      "x2": 8.5,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 5.75,
+      "y1": 46.0,
+      "x2": 10.75,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 8.0,
+      "y1": 46.0,
+      "x2": 13.0,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 10.25,
+      "y1": 46.0,
+      "x2": 15.25,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 12.5,
+      "y1": 46.0,
+      "x2": 17.5,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 14.75,
+      "y1": 46.0,
+      "x2": 19.75,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 17.0,
+      "y1": 46.0,
+      "x2": 22.0,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 19.25,
+      "y1": 46.0,
+      "x2": 24.25,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 21.5,
+      "y1": 46.0,
+      "x2": 26.5,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 23.75,
+      "y1": 46.0,
+      "x2": 28.75,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.0,
+      "y1": 46.0,
+      "x2": 31.0,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.25,
+      "y1": 46.0,
+      "x2": 33.25,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 30.5,
+      "y1": 46.0,
+      "x2": 35.5,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.75,
+      "y1": 46.0,
+      "x2": 37.75,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.0,
+      "y1": 46.0,
+      "x2": 40.0,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.25,
+      "y1": 46.0,
+      "x2": 42.25,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 39.5,
+      "y1": 46.0,
+      "x2": 44.5,
+      "y2": 51.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 41.75,
+      "y1": 46.0,
+      "x2": 46.2500000026,
+      "y2": 50.5000000026,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_hatch_-1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.0,
+      "y1": 46.0,
+      "x2": 46.2500000026,
+      "y2": 48.2500000026,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 46.0,
+      "width": 42.2500000026,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_2_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_2_percent",
+      "type": "text",
+      "role": "label",
+      "text": "54.2%",
+      "x": 83,
+      "y": 46,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_2_count",
+      "type": "text",
+      "role": "label",
+      "text": "4680/8640",
+      "x": 98,
+      "y": 46,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_event_3_label",
+      "type": "text",
+      "role": "label",
+      "text": "Numerical difference but same action",
+      "x": 4,
+      "y": 58,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_3",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 64.0,
+      "width": 29.4666666684,
+      "height": 5,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 66.25,
+      "x2": 6.25,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 68.5,
+      "x2": 8.5,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 5.75,
+      "y1": 69.0,
+      "x2": 10.75,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 8.0,
+      "y1": 69.0,
+      "x2": 13.0,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 10.25,
+      "y1": 69.0,
+      "x2": 15.25,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 12.5,
+      "y1": 69.0,
+      "x2": 17.5,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 14.75,
+      "y1": 69.0,
+      "x2": 19.75,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 17.0,
+      "y1": 69.0,
+      "x2": 22.0,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 19.25,
+      "y1": 69.0,
+      "x2": 24.25,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 21.5,
+      "y1": 69.0,
+      "x2": 26.5,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 23.75,
+      "y1": 69.0,
+      "x2": 28.75,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.0,
+      "y1": 69.0,
+      "x2": 31.0,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.25,
+      "y1": 69.0,
+      "x2": 33.25,
+      "y2": 64.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 30.5,
+      "y1": 69.0,
+      "x2": 33.466666668399995,
+      "y2": 66.0333333316,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.75,
+      "y1": 69.0,
+      "x2": 33.466666668399995,
+      "y2": 68.2833333316,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 64.0,
+      "width": 29.4666666684,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_3_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_3_percent",
+      "type": "text",
+      "role": "label",
+      "text": "37.8%",
+      "x": 83,
+      "y": 64,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_3_count",
+      "type": "text",
+      "role": "label",
+      "text": "3264/8640",
+      "x": 98,
+      "y": 64,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_event_4_label",
+      "type": "text",
+      "role": "label",
+      "text": "Material level change but same action",
+      "x": 4,
+      "y": 76,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_4",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 82.0,
+      "width": 24.2666666658,
+      "height": 5,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 84.25,
+      "x2": 6.25,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 86.5,
+      "x2": 8.5,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 5.75,
+      "y1": 87.0,
+      "x2": 10.75,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 8.0,
+      "y1": 87.0,
+      "x2": 13.0,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 10.25,
+      "y1": 87.0,
+      "x2": 15.25,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 12.5,
+      "y1": 87.0,
+      "x2": 17.5,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 14.75,
+      "y1": 87.0,
+      "x2": 19.75,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 17.0,
+      "y1": 87.0,
+      "x2": 22.0,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 19.25,
+      "y1": 87.0,
+      "x2": 24.25,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 21.5,
+      "y1": 87.0,
+      "x2": 26.5,
+      "y2": 82.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 23.75,
+      "y1": 87.0,
+      "x2": 28.2666666658,
+      "y2": 82.4833333342,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.0,
+      "y1": 87.0,
+      "x2": 28.2666666658,
+      "y2": 84.7333333342,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 82.0,
+      "width": 24.2666666658,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_4_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_4_percent",
+      "type": "text",
+      "role": "label",
+      "text": "31.1%",
+      "x": 83,
+      "y": 82,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_4_count",
+      "type": "text",
+      "role": "label",
+      "text": "2688/8640",
+      "x": 98,
+      "y": 82,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_event_5_label",
+      "type": "text",
+      "role": "label",
+      "text": "Rank reversal",
+      "x": 4,
+      "y": 94,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_5",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 100.0,
+      "width": 21.6666666684,
+      "height": 5,
+      "fill": "#ef6673",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_5_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_5_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4,
+      "y1": 101.6,
+      "x2": 25.6666666684,
+      "y2": 101.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_5_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_5_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4,
+      "y1": 103.4,
+      "x2": 25.6666666684,
+      "y2": 103.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_5_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_5_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 100.0,
+      "width": 21.6666666684,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_5_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_5_percent",
+      "type": "text",
+      "role": "label",
+      "text": "27.8%",
+      "x": 83,
+      "y": 100,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_5_count",
+      "type": "text",
+      "role": "label",
+      "text": "480/1728",
+      "x": 98,
+      "y": 100,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_event_6_label",
+      "type": "text",
+      "role": "label",
+      "text": "Action change below materiality threshold",
+      "x": 4,
+      "y": 112,
+      "width": 111,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "diagnostic"
+      }
+    },
+    {
+      "id": "fig2_event_6",
+      "type": "rect",
+      "role": "bar",
+      "x": 4,
+      "y": 118.0,
+      "width": 3.4666666632,
+      "height": 5,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_6_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_6_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 120.25,
+      "x2": 6.25,
+      "y2": 118.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_6_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_6_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 4.0,
+      "y1": 122.5,
+      "x2": 7.4666666632,
+      "y2": 119.0333333368,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_6_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_6_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 5.75,
+      "y1": 123.0,
+      "x2": 7.4666666632,
+      "y2": 121.2833333368,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_6_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_6_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 4,
+      "y": 118.0,
+      "width": 3.4666666632,
+      "height": 5,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      },
+      "native_group": "fig2_event_6_editable_bar_group"
+    },
+    {
+      "id": "fig2_event_6_percent",
+      "type": "text",
+      "role": "label",
+      "text": "4.4%",
+      "x": 83,
+      "y": 118,
+      "width": 14,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      }
+    },
+    {
+      "id": "fig2_event_6_count",
+      "type": "text",
+      "role": "label",
+      "text": "384/8640",
+      "x": 98,
+      "y": 118,
+      "width": 18,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "right",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "fields": [
+          "events",
+          "cases"
+        ]
+      }
+    },
+    {
+      "id": "fig2_fraction_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 4,
+      "y1": 131,
+      "x2": 82,
+      "y2": 131,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 4.0,
+      "y1": 131,
+      "x2": 4.0,
+      "y2": 132.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0",
+      "x": -1.0,
+      "y": 132.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 19.6,
+      "y1": 131,
+      "x2": 19.6,
+      "y2": 132.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "20",
+      "x": 14.600000000000001,
+      "y": 132.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 35.2,
+      "y1": 131,
+      "x2": 35.2,
+      "y2": 132.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "40",
+      "x": 30.200000000000003,
+      "y": 132.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 50.8,
+      "y1": 131,
+      "x2": 50.8,
+      "y2": 132.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "60",
+      "x": 45.8,
+      "y": 132.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_4",
+      "type": "line",
+      "role": "tick",
+      "x1": 66.4,
+      "y1": 131,
+      "x2": 66.4,
+      "y2": 132.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_label_4",
+      "type": "text",
+      "role": "tick_label",
+      "text": "80",
+      "x": 61.400000000000006,
+      "y": 132.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_5",
+      "type": "line",
+      "role": "tick",
+      "x1": 82.0,
+      "y1": 131,
+      "x2": 82.0,
+      "y2": 132.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_tick_label_5",
+      "type": "text",
+      "role": "tick_label",
+      "text": "100",
+      "x": 77.0,
+      "y": 132.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig2_fraction_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Share of registered design cases (%)",
+      "x": 2,
+      "y": 138,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    }
+  ],
+  "value_trace": [
+    {
+      "object_id": "fig2_event_0",
+      "source_exact": "0.8888888889",
+      "display": "88.9%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 0,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    },
+    {
+      "object_id": "fig2_event_1",
+      "source_exact": "0.75",
+      "display": "75.0%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 1,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    },
+    {
+      "object_id": "fig2_event_2",
+      "source_exact": "0.5416666667",
+      "display": "54.2%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 2,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    },
+    {
+      "object_id": "fig2_event_3",
+      "source_exact": "0.3777777778",
+      "display": "37.8%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 3,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    },
+    {
+      "object_id": "fig2_event_4",
+      "source_exact": "0.3111111111",
+      "display": "31.1%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 4,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    },
+    {
+      "object_id": "fig2_event_5",
+      "source_exact": "0.2777777778",
+      "display": "27.8%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 5,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    },
+    {
+      "object_id": "fig2_event_6",
+      "source_exact": "0.0444444444",
+      "display": "4.4%",
+      "source": {
+        "source_file": "Figure_2_ablation_event_frequencies.csv",
+        "row_index_zero_based": 6,
+        "field": "fraction"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 4,
+        "axis_span_mm": 78,
+        "axis_maximum": "1"
+      }
+    }
+  ],
+  "object_count": 156,
+  "object_types": {
+    "text": 28,
+    "rect": 14,
+    "line": 114
+  }
+}

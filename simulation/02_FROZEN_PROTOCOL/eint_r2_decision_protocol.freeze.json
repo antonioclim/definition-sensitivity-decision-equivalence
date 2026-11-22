@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "protocol_schema_version": "3.0-econ.1",
+  "status": "FROZEN_DESIGN_NOT_FULLY_EXECUTED",
+  "freeze_date": "2026-08-21",
+  "protocol_filename": "eint_r2_decision_protocol.yml",
+  "protocol_sha256": "1d7361861b4eee84dda9313a52ca3a3643873744d933bcdd208dab795ec18e22",
+  "previous_association_protocol_results_seen": true,
+  "new_decision_layer_results_seen_before_freeze": false,
+  "public_study2_calibration_values_seen": true,
+  "private_source_level_results_used": false,
+  "full_execution_authorised": false,
+  "required_next_action": "A separately authorised EINT-R3 full execution must verify this SHA-256 before running."
+}

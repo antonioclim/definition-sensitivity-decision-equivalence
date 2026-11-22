@@ -1,0 +1,1128 @@
+{
+  "schema_version": "R14.1",
+  "dataset_kind": "OA",
+  "input_sha256": "beb764cfe4d441f009da8a2202ae2350b19d0eaefbfe5be624e8f927073114fe",
+  "S5_point_ties": {
+    "lowest_3": {
+      "fully_oa_journal_status": {
+        "boundary_gap": "7682857/634859605",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "DK",
+          "FR",
+          "LU"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "DK",
+            "FR",
+            "LU"
+          ],
+          "possible": [
+            "DK",
+            "FR",
+            "LU"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      },
+      "provider_detected_oa_excluding_bronze": {
+        "boundary_gap": "8950/2960111",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "FR",
+          "GR",
+          "MT"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "FR",
+            "GR",
+            "MT"
+          ],
+          "possible": [
+            "FR",
+            "GR",
+            "MT"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      },
+      "any_provider_detected_oa": {
+        "boundary_gap": "45154/22447595",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "CY",
+          "FR",
+          "GR"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "CY",
+            "FR",
+            "GR"
+          ],
+          "possible": [
+            "CY",
+            "FR",
+            "GR"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "BG",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      },
+      "provider_classified_publisher_availability": {
+        "boundary_gap": "48557/2250710",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "BE",
+          "FR",
+          "LU"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "BE",
+            "FR",
+            "LU"
+          ],
+          "possible": [
+            "BE",
+            "FR",
+            "LU"
+          ],
+          "excluded": [
+            "AT",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      }
+    },
+    "highest_3": {
+      "fully_oa_journal_status": {
+        "boundary_gap": "29821/8334694",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "HR",
+          "LT",
+          "PL"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "HR",
+            "LT",
+            "PL"
+          ],
+          "possible": [
+            "HR",
+            "LT",
+            "PL"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HU",
+            "IE",
+            "IT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      },
+      "provider_detected_oa_excluding_bronze": {
+        "boundary_gap": "272263/69028406",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "FI",
+          "HU",
+          "NL"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "FI",
+            "HU",
+            "NL"
+          ],
+          "possible": [
+            "FI",
+            "HU",
+            "NL"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FR",
+            "GR",
+            "HR",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      },
+      "any_provider_detected_oa": {
+        "boundary_gap": "34990/552181143",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "BG",
+          "FI",
+          "NL"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "BG",
+            "FI",
+            "NL"
+          ],
+          "possible": [
+            "BG",
+            "FI",
+            "NL"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FR",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      },
+      "provider_classified_publisher_availability": {
+        "boundary_gap": "606745/22773174",
+        "boundary_exact_tie": false,
+        "boundary_gap_at_most_1e_12": false,
+        "fixed_priority_selected": [
+          "BG",
+          "HU",
+          "RO"
+        ],
+        "all_admissible_membership": {
+          "guaranteed": [
+            "BG",
+            "HU",
+            "RO"
+          ],
+          "possible": [
+            "BG",
+            "HU",
+            "RO"
+          ],
+          "excluded": [
+            "AT",
+            "BE",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "HR",
+            "IE",
+            "IT",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "SE",
+            "SI",
+            "SK"
+          ]
+        }
+      }
+    }
+  },
+  "S6_unknown": {
+    "scope": "Marginal rectangular outer-envelope certificates; not joint attainability or joint action-loss extrema.",
+    "intervals": {
+      "fully_oa_journal_status": {
+        "AT": [
+          "10096/27537",
+          "10096/27537"
+        ],
+        "BE": [
+          "903/2480",
+          "903/2480"
+        ],
+        "BG": [
+          "5083/8391",
+          "5083/8391"
+        ],
+        "CY": [
+          "1313/2849",
+          "1313/2849"
+        ],
+        "CZ": [
+          "4918/11169",
+          "4918/11169"
+        ],
+        "DE": [
+          "11543/32087",
+          "11543/32087"
+        ],
+        "DK": [
+          "10818/31805",
+          "10818/31805"
+        ],
+        "EE": [
+          "551/1146",
+          "551/1146"
+        ],
+        "ES": [
+          "3643/7371",
+          "3643/7371"
+        ],
+        "FI": [
+          "2960/7403",
+          "2960/7403"
+        ],
+        "FR": [
+          "5623/17148",
+          "5623/17148"
+        ],
+        "GR": [
+          "2129/4321",
+          "2129/4321"
+        ],
+        "HR": [
+          "3226/4983",
+          "3226/4983"
+        ],
+        "HU": [
+          "10741/18442",
+          "10741/18442"
+        ],
+        "IE": [
+          "6343/17092",
+          "6343/17092"
+        ],
+        "IT": [
+          "25829/60249",
+          "25829/60249"
+        ],
+        "LT": [
+          "3919/6142",
+          "3919/6142"
+        ],
+        "LU": [
+          "267/790",
+          "267/790"
+        ],
+        "LV": [
+          "861/1357",
+          "861/1357"
+        ],
+        "MT": [
+          "499/1039",
+          "499/1039"
+        ],
+        "NL": [
+          "7031/19961",
+          "7031/19961"
+        ],
+        "PL": [
+          "44523/69004",
+          "44523/69004"
+        ],
+        "PT": [
+          "17188/33187",
+          "17188/33187"
+        ],
+        "RO": [
+          "13039/20743",
+          "13039/20743"
+        ],
+        "SE": [
+          "16185/41801",
+          "16185/41801"
+        ],
+        "SI": [
+          "3981/7486",
+          "3981/7486"
+        ],
+        "SK": [
+          "4980/8329",
+          "4980/8329"
+        ]
+      },
+      "provider_detected_oa_excluding_bronze": {
+        "AT": [
+          "7325/9179",
+          "7325/9179"
+        ],
+        "BE": [
+          "1347/1736",
+          "1347/1736"
+        ],
+        "BG": [
+          "6664/8391",
+          "6664/8391"
+        ],
+        "CY": [
+          "2120/2849",
+          "2120/2849"
+        ],
+        "CZ": [
+          "8507/11169",
+          "8507/11169"
+        ],
+        "DE": [
+          "11219/14585",
+          "11219/14585"
+        ],
+        "DK": [
+          "24832/31805",
+          "24832/31805"
+        ],
+        "EE": [
+          "1345/1719",
+          "1345/1719"
+        ],
+        "ES": [
+          "31949/39312",
+          "31949/39312"
+        ],
+        "FI": [
+          "19477/22209",
+          "19477/22209"
+        ],
+        "FR": [
+          "13397/20006",
+          "13397/20006"
+        ],
+        "GR": [
+          "3177/4321",
+          "3177/4321"
+        ],
+        "HR": [
+          "4141/4983",
+          "4141/4983"
+        ],
+        "HU": [
+          "15795/18442",
+          "15795/18442"
+        ],
+        "IE": [
+          "6403/8546",
+          "6403/8546"
+        ],
+        "IT": [
+          "93977/120498",
+          "93977/120498"
+        ],
+        "LT": [
+          "4957/6142",
+          "4957/6142"
+        ],
+        "LU": [
+          "633/790",
+          "633/790"
+        ],
+        "LV": [
+          "2269/2714",
+          "2269/2714"
+        ],
+        "MT": [
+          "770/1039",
+          "770/1039"
+        ],
+        "NL": [
+          "51562/59883",
+          "51562/59883"
+        ],
+        "PL": [
+          "57621/69004",
+          "57621/69004"
+        ],
+        "PT": [
+          "27072/33187",
+          "27072/33187"
+        ],
+        "RO": [
+          "16647/20743",
+          "16647/20743"
+        ],
+        "SE": [
+          "35238/41801",
+          "35238/41801"
+        ],
+        "SI": [
+          "3191/3743",
+          "3191/3743"
+        ],
+        "SK": [
+          "6648/8329",
+          "6648/8329"
+        ]
+      },
+      "any_provider_detected_oa": {
+        "AT": [
+          "23321/27537",
+          "23321/27537"
+        ],
+        "BE": [
+          "14719/17360",
+          "14719/17360"
+        ],
+        "BG": [
+          "7739/8391",
+          "7739/8391"
+        ],
+        "CY": [
+          "4519/5698",
+          "4519/5698"
+        ],
+        "CZ": [
+          "9164/11169",
+          "9164/11169"
+        ],
+        "DE": [
+          "130818/160435",
+          "130818/160435"
+        ],
+        "DK": [
+          "26572/31805",
+          "26572/31805"
+        ],
+        "EE": [
+          "467/573",
+          "467/573"
+        ],
+        "ES": [
+          "50699/58968",
+          "50699/58968"
+        ],
+        "FI": [
+          "20353/22209",
+          "20353/22209"
+        ],
+        "FR": [
+          "91957/120036",
+          "91957/120036"
+        ],
+        "GR": [
+          "17174/21605",
+          "17174/21605"
+        ],
+        "HR": [
+          "267/302",
+          "267/302"
+        ],
+        "HU": [
+          "8410/9221",
+          "8410/9221"
+        ],
+        "IE": [
+          "14081/17092",
+          "14081/17092"
+        ],
+        "IT": [
+          "50269/60249",
+          "50269/60249"
+        ],
+        "LT": [
+          "5293/6142",
+          "5293/6142"
+        ],
+        "LU": [
+          "673/790",
+          "673/790"
+        ],
+        "LV": [
+          "2387/2714",
+          "2387/2714"
+        ],
+        "MT": [
+          "828/1039",
+          "828/1039"
+        ],
+        "NL": [
+          "54620/59883",
+          "54620/59883"
+        ],
+        "PL": [
+          "15143/17251",
+          "15143/17251"
+        ],
+        "PT": [
+          "28571/33187",
+          "28571/33187"
+        ],
+        "RO": [
+          "18824/20743",
+          "18824/20743"
+        ],
+        "SE": [
+          "37156/41801",
+          "37156/41801"
+        ],
+        "SI": [
+          "3387/3743",
+          "3387/3743"
+        ],
+        "SK": [
+          "7191/8329",
+          "7191/8329"
+        ]
+      },
+      "provider_classified_publisher_availability": {
+        "AT": [
+          "21140/27537",
+          "21140/27537"
+        ],
+        "BE": [
+          "22081/34720",
+          "22081/34720"
+        ],
+        "BG": [
+          "7214/8391",
+          "7214/8391"
+        ],
+        "CY": [
+          "1962/2849",
+          "1962/2849"
+        ],
+        "CZ": [
+          "485/657",
+          "485/657"
+        ],
+        "DE": [
+          "117971/160435",
+          "117971/160435"
+        ],
+        "DK": [
+          "4511/6361",
+          "4511/6361"
+        ],
+        "EE": [
+          "1243/1719",
+          "1243/1719"
+        ],
+        "ES": [
+          "15179/19656",
+          "15179/19656"
+        ],
+        "FI": [
+          "18355/22209",
+          "18355/22209"
+        ],
+        "FR": [
+          "3477/5716",
+          "3477/5716"
+        ],
+        "GR": [
+          "15516/21605",
+          "15516/21605"
+        ],
+        "HR": [
+          "2611/3322",
+          "2611/3322"
+        ],
+        "HU": [
+          "7940/9221",
+          "7940/9221"
+        ],
+        "IE": [
+          "12701/17092",
+          "12701/17092"
+        ],
+        "IT": [
+          "88763/120498",
+          "88763/120498"
+        ],
+        "LT": [
+          "2495/3071",
+          "2495/3071"
+        ],
+        "LU": [
+          "527/790",
+          "527/790"
+        ],
+        "LV": [
+          "2261/2714",
+          "2261/2714"
+        ],
+        "MT": [
+          "771/1039",
+          "771/1039"
+        ],
+        "NL": [
+          "46829/59883",
+          "46829/59883"
+        ],
+        "PL": [
+          "56961/69004",
+          "56961/69004"
+        ],
+        "PT": [
+          "25752/33187",
+          "25752/33187"
+        ],
+        "RO": [
+          "18015/20743",
+          "18015/20743"
+        ],
+        "SE": [
+          "34555/41801",
+          "34555/41801"
+        ],
+        "SI": [
+          "6187/7486",
+          "6187/7486"
+        ],
+        "SK": [
+          "6831/8329",
+          "6831/8329"
+        ]
+      }
+    },
+    "lowest_3": {
+      "fully_oa_journal_status": {
+        "guaranteed": [
+          "DK",
+          "FR",
+          "LU"
+        ],
+        "possible": [
+          "DK",
+          "FR",
+          "LU"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "EE",
+          "ES",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "provider_detected_oa_excluding_bronze": {
+        "guaranteed": [
+          "FR",
+          "GR",
+          "MT"
+        ],
+        "possible": [
+          "FR",
+          "GR",
+          "MT"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "any_provider_detected_oa": {
+        "guaranteed": [
+          "CY",
+          "FR",
+          "GR"
+        ],
+        "possible": [
+          "CY",
+          "FR",
+          "GR"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "provider_classified_publisher_availability": {
+        "guaranteed": [
+          "BE",
+          "FR",
+          "LU"
+        ],
+        "possible": [
+          "BE",
+          "FR",
+          "LU"
+        ],
+        "excluded": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    },
+    "below_one_quarter": {
+      "fully_oa_journal_status": {
+        "guaranteed": [],
+        "possible": [],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "provider_detected_oa_excluding_bronze": {
+        "guaranteed": [],
+        "possible": [],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "any_provider_detected_oa": {
+        "guaranteed": [],
+        "possible": [],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "provider_classified_publisher_availability": {
+        "guaranteed": [],
+        "possible": [],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      }
+    }
+  }
+}

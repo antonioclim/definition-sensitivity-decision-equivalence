@@ -1,0 +1,149 @@
+{
+  "schema": "ODSA_COMPONENT_RIGHTS_SCOPE_1.0",
+  "project_title": "Definition sensitivity and decision equivalence in science and technology indicators",
+  "author": "Antonio Clim",
+  "controlling_scope": {
+    "file": "LICENSE.md",
+    "sha256": "967fe71d533117cff07a866ba3428bc357fd5d190014b5fab151d67a00b8a1c4",
+    "approval_date_recorded_in_controlling_text": "2026-11-14",
+    "source_commit": "5af6cad12d6d8f7283a9f9f6440ed5bd0556a687",
+    "scope_status": "Approved component-specific grants as recorded in the controlling text",
+    "no_new_grant_created_by_this_mapping": true
+  },
+  "grant_limits": [
+    "Only rights the author holds are granted.",
+    "MIT and CC BY 4.0 are assigned by component; the archive is not dual-licensed at the user's choice.",
+    "Specific upstream notices and exclusions govern their identified material.",
+    "Provider facts, quoted or separately licensed content retain their status.",
+    "No exclusive right over individual numbers or source facts is asserted.",
+    "Historical receipts are preserved as evidence of their preparation state; a recorded proposal is not rewritten as a contemporaneous approval.",
+    "Release preparation and licence approval do not establish publication."
+  ],
+  "excluded_from_author_software_grants": [
+    "Manuscript",
+    "Supplementary manuscript prose",
+    "Controlled FAT microdata",
+    "Observation identifiers and protected working reports",
+    "Four newer withheld FAT numerical blocks, eligible roster and exact eligible count",
+    "Third-party material outside the author's rights",
+    "Indexed article full texts",
+    "Standard licence legal texts themselves"
+  ],
+  "categories": {
+    "author_code": {
+      "label": "Original source code, tests, schemas and execution configuration",
+      "author_grant": "MIT",
+      "scope": "Only original source and implementation/configuration contributions for which Antonio Clim holds the relevant rights; dependencies and separately licensed fragments retain their own terms.",
+      "notice": "LICENSES/MIT.txt"
+    },
+    "author_documentation": {
+      "label": "Original software and research-protocol documentation",
+      "author_grant": "CC-BY-4.0",
+      "scope": "Only original authored expression, structure and commentary. Source facts, quotations and separately licensed material are not relicensed.",
+      "notice": "LICENSES/CC-BY-4.0.txt"
+    },
+    "author_figures": {
+      "label": "Original figure contributions and editable/exported representations",
+      "author_grant": "CC-BY-4.0",
+      "scope": "Only original drawing, layout, explanatory and presentation contributions within the author's rights. Source/provider facts and separately licensed material retain their status.",
+      "notice": "LICENSES/CC-BY-4.0.txt"
+    },
+    "author_aggregate_results": {
+      "label": "Approved original aggregate-result and derived-table contributions",
+      "author_grant": "CC-BY-4.0",
+      "scope": "Only original authored presentation, arrangement and commentary in the approved aggregate outputs; no exclusive rights are asserted over numbers, source facts or underlying provider material. This does not cover microdata or withheld outputs.",
+      "notice": "LICENSES/CC-BY-4.0.txt"
+    },
+    "openalex_provider_material": {
+      "label": "Retained raw OpenAlex provider responses and metadata",
+      "author_grant": null,
+      "retained_upstream_terms": "CC0-1.0 as recorded for the retained provider material",
+      "scope": "Provider material remains under its recorded upstream terms; the author does not relicense it. Metadata terms do not convey rights in indexed article full texts.",
+      "provenance": "oa/04_CODE_AND_PROTOCOL/frozen/R13_EMPIRICAL_SOURCE_EVIDENCE.json",
+      "provider_terms_url": "https://openalex.org/transparency"
+    },
+    "mixed_provenance": {
+      "label": "Acquisition, normalisation, provider/source facts and mixed-provenance records",
+      "author_grant": "CC-BY-4.0 only for original authored structure or commentary",
+      "whole_file_licence": null,
+      "scope": "No blanket author grant over the file. Source facts, provider material, quotations and separately licensed content retain their status. Factual source routes grant no rights in the catalogue or dataset they identify.",
+      "notice": "LICENSE.md"
+    },
+    "world_bank_source": {
+      "label": "Seven retained original World Bank Stata source files",
+      "author_grant": null,
+      "retained_upstream_terms": "LicenseRef-World-Bank-Retained-Notice",
+      "scope": "The exact retained World Bank source notice governs this component. No MIT or CC BY author grant is applied; the source notice does not license controlled FAT microdata.",
+      "notice": "third_party_notices/WORLD_BANK_SOURCE_LICENSE.txt",
+      "inner_notice": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/LICENSE.txt"
+    },
+    "world_bank_notice": {
+      "label": "Retained original World Bank copyright and licence notice",
+      "author_grant": null,
+      "scope": "Retained source notice, without correction or substitution. No author-owned copyright grant is asserted over this text.",
+      "notice": "third_party_notices/WORLD_BANK_SOURCE_LICENSE.txt"
+    },
+    "historical_evidence": {
+      "label": "Historical manifests, execution/audit receipts, diagnostics and provenance ledgers",
+      "author_grant": "CC-BY-4.0 only for original authored structure or commentary",
+      "whole_file_licence": null,
+      "scope": "Recorded hashes, run facts and historical states remain factual evidence. Original authored structure/commentary is covered only within the author's rights; quoted/provider/dependency material retains its status. Earlier proposed-licence and unpublished-status statements remain historical, not current grants.",
+      "notice": "LICENSE.md"
+    },
+    "current_distribution_metadata": {
+      "label": "Current distribution identification, rights mapping and integrity indices",
+      "author_grant": "CC-BY-4.0 only for original authored structure or commentary",
+      "scope": "Original authored metadata presentation is covered within the author's rights. Names, identifiers, hashes and source facts are not given new exclusive rights. Rights statements describe the approved scope rather than enlarging it.",
+      "notice": "LICENSE.md"
+    },
+    "standard_licence_text": {
+      "label": "Reproduced standard licence legal text",
+      "author_grant": null,
+      "scope": "No author-owned copyright grant is asserted over the standard licence legal text itself. The licence governs identified contributions, not ownership of the legal text.",
+      "notice": "LICENSE.md"
+    },
+    "mixed_component_archive": {
+      "label": "Container of separately scoped scientific components",
+      "author_grant": null,
+      "whole_file_licence": null,
+      "scope": "No blanket archive licence. Consult every member's explicit classification in RIGHTS_INVENTORY.json and the applicable original notices.",
+      "notice": "RIGHTS_INVENTORY.json"
+    }
+  },
+  "world_bank_notice_identity": {
+    "outer_notice": "third_party_notices/WORLD_BANK_SOURCE_LICENSE.txt",
+    "outer_sha256": "2b814cdbdb9408bccef5615891454cca64b3c4c90d72e79fc54ce953a4835dc3",
+    "inner_notice": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/LICENSE.txt",
+    "inner_sha256": "2b814cdbdb9408bccef5615891454cca64b3c4c90d72e79fc54ce953a4835dc3",
+    "identifier": "LicenseRef-World-Bank-Retained-Notice",
+    "retention": "Each retained notice is preserved in its own existing byte representation. The nonstandard original wording is not replaced by a standard licence text.",
+    "code_source_doi": "10.60572/xw8f-0k41"
+  },
+  "scientific_archive": {
+    "path": "scientific/ODSA_SCIENTIFIC_RECORDS_PC1.zip",
+    "sha256": "62c5fcb825d1ddaed0e1816d45599bd6e11a5e00ead26af970d4dffc3873383e",
+    "members_including_manifest": 361,
+    "immutable_for_this_packaging": true
+  },
+  "inventory": "RIGHTS_INVENTORY.json",
+  "integrity_manifest": "MANIFEST_SHA256.json",
+  "integrity_design": "Path classifications do not contain per-file hashes or self hashes. The distribution manifest binds outer bytes; the unchanged inner manifest binds scientific member bytes. This avoids circular self-hashes.",
+  "standard_licence_texts": {
+    "LICENSES/MIT.txt": {
+      "source": "https://opensource.org/license/mit",
+      "sha256": "afc62f17e6f57052d7449fc70d263689dd7b316ff4db83b562c2710702204c85",
+      "representation": "OSI standard licence text with the holder and year filled in and body reflowed"
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "representation": "Verbatim Creative Commons English plain-text legal code"
+    }
+  },
+  "controlled_fat_input": {
+    "source_doi": "10.48529/assd-3j65",
+    "source_route_record": "scientific_records/source_information/WORLD_BANK_FAT_SOURCE_ROUTE_PC1.json",
+    "private_source_redistributed": false
+  },
+  "distribution_version": "1.0.0"
+}

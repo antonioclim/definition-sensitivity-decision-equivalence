@@ -1,0 +1,345 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "R13 working point-comparison output",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "R13.1"
+    },
+    "dataset_kind": {
+      "enum": [
+        "TOY",
+        "FAT",
+        "OA"
+      ]
+    },
+    "input_status": {
+      "enum": [
+        "synthetic_fixture",
+        "real_extension_input"
+      ]
+    },
+    "release_status": {
+      "const": "working_only_not_release_approval"
+    },
+    "unit_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "unit_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "mixture_weighting": {
+      "const": "equal_eligible_units"
+    },
+    "rates": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string",
+          "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+        }
+      }
+    },
+    "mixture_masses": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+      }
+    },
+    "semantic": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "false_inclusion_mass": {
+              "type": "string",
+              "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+            },
+            "false_exclusion_mass": {
+              "type": "string",
+              "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+            },
+            "semantic_loss": {
+              "type": "string",
+              "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+            }
+          },
+          "required": [
+            "false_inclusion_mass",
+            "false_exclusion_mass",
+            "semantic_loss"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "rules": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "selected_sets": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              "uniqueItems": true
+            }
+          },
+          "pairwise_definition_comparisons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "left": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "right": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "equal_sets": {
+                  "type": "boolean"
+                },
+                "intersection_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "union_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "symmetric_difference_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "jaccard": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                },
+                "jaccard_status": {
+                  "enum": [
+                    "defined_nonempty_union",
+                    "both_empty_convention_one"
+                  ]
+                },
+                "normalised_symmetric_difference": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                },
+                "rank_churn": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "rank_churn_status": {
+                  "enum": [
+                    "defined_equal_positive_rank_size",
+                    "not_applicable_to_rule_or_zero_k"
+                  ]
+                }
+              },
+              "required": [
+                "left",
+                "right",
+                "equal_sets",
+                "intersection_count",
+                "union_count",
+                "symmetric_difference_count",
+                "jaccard",
+                "jaccard_status",
+                "normalised_symmetric_difference",
+                "rank_churn",
+                "rank_churn_status"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "objective_comparisons": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "equal_sets": {
+                  "type": "boolean"
+                },
+                "intersection_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "union_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "symmetric_difference_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "jaccard": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                },
+                "jaccard_status": {
+                  "enum": [
+                    "defined_nonempty_union",
+                    "both_empty_convention_one"
+                  ]
+                },
+                "normalised_symmetric_difference": {
+                  "type": "string",
+                  "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                },
+                "rank_churn": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "rank_churn_status": {
+                  "enum": [
+                    "defined_equal_positive_rank_size",
+                    "not_applicable_to_rule_or_zero_k"
+                  ]
+                }
+              },
+              "required": [
+                "equal_sets",
+                "intersection_count",
+                "union_count",
+                "symmetric_difference_count",
+                "jaccard",
+                "jaccard_status",
+                "normalised_symmetric_difference",
+                "rank_churn",
+                "rank_churn_status"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "objective_losses": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "false_selection_count": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "missed_reference_count": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "action_loss_count_scale": {
+                    "type": "string",
+                    "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                  },
+                  "action_loss_per_unit": {
+                    "type": "string",
+                    "pattern": "^-?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$|^-?[0-9]+/[1-9][0-9]*$"
+                  },
+                  "selected_count": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "reference_count": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "false_selection_count",
+                  "missed_reference_count",
+                  "action_loss_count_scale",
+                  "action_loss_per_unit",
+                  "selected_count",
+                  "reference_count"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "required": [
+          "selected_sets",
+          "pairwise_definition_comparisons",
+          "objective_comparisons",
+          "objective_losses"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "scope": {
+      "type": "string"
+    },
+    "identities": {
+      "type": "object",
+      "properties": {
+        "input_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "core_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "executor_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "input_sha256",
+        "core_sha256",
+        "executor_sha256"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_kind",
+    "input_status",
+    "release_status",
+    "unit_count",
+    "unit_ids",
+    "mixture_weighting",
+    "rates",
+    "mixture_masses",
+    "semantic",
+    "rules",
+    "scope"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,517 @@
+{
+  "schema_version": "R13.1",
+  "dataset_kind": "OA",
+  "input_status": "real_extension_input",
+  "provenance": {
+    "source_label": "R14.1 recovery fixed EU27 OpenAlex batch; independently reconciled from captured raw responses",
+    "source_sha256": "0b9f2b06d566f9882255126d7ae92fc7e7750a36aca8a0b920bae5e3e0a3333e",
+    "adapter_status": "independently_reconciled"
+  },
+  "states": [
+    "closed",
+    "bronze",
+    "green",
+    "hybrid",
+    "gold",
+    "diamond"
+  ],
+  "units": [
+    {
+      "id": "AT",
+      "state_totals": {
+        "closed": "4216",
+        "bronze": "1346",
+        "green": "2181",
+        "hybrid": "9698",
+        "gold": "7844",
+        "diamond": "2252"
+      },
+      "known_denominator": "27537",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "BE",
+      "state_totals": {
+        "closed": "5282",
+        "bronze": "2498",
+        "green": "7357",
+        "hybrid": "6941",
+        "gold": "9495",
+        "diamond": "3147"
+      },
+      "known_denominator": "34720",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "BG",
+      "state_totals": {
+        "closed": "652",
+        "bronze": "1075",
+        "green": "525",
+        "hybrid": "1056",
+        "gold": "2027",
+        "diamond": "3056"
+      },
+      "known_denominator": "8391",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "CY",
+      "state_totals": {
+        "closed": "1179",
+        "bronze": "279",
+        "green": "595",
+        "hybrid": "1019",
+        "gold": "1674",
+        "diamond": "952"
+      },
+      "known_denominator": "5698",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "CZ",
+      "state_totals": {
+        "closed": "4010",
+        "bronze": "1314",
+        "green": "1838",
+        "hybrid": "5340",
+        "gold": "6099",
+        "diamond": "3737"
+      },
+      "known_denominator": "22338",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "DE",
+      "state_totals": {
+        "closed": "29617",
+        "bronze": "7409",
+        "green": "12847",
+        "hybrid": "52847",
+        "gold": "45999",
+        "diamond": "11716"
+      },
+      "known_denominator": "160435",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "DK",
+      "state_totals": {
+        "closed": "5233",
+        "bronze": "1740",
+        "green": "4017",
+        "hybrid": "9997",
+        "gold": "8535",
+        "diamond": "2283"
+      },
+      "known_denominator": "31805",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "EE",
+      "state_totals": {
+        "closed": "636",
+        "bronze": "112",
+        "green": "316",
+        "hybrid": "721",
+        "gold": "1060",
+        "diamond": "593"
+      },
+      "known_denominator": "3438",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "ES",
+      "state_totals": {
+        "closed": "16538",
+        "bronze": "5551",
+        "green": "10324",
+        "hybrid": "27235",
+        "gold": "31324",
+        "diamond": "26964"
+      },
+      "known_denominator": "117936",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "FI",
+      "state_totals": {
+        "closed": "1856",
+        "bronze": "876",
+        "green": "1998",
+        "hybrid": "8599",
+        "gold": "5944",
+        "diamond": "2936"
+      },
+      "known_denominator": "22209",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "FR",
+      "state_totals": {
+        "closed": "28079",
+        "bronze": "11575",
+        "green": "18940",
+        "hybrid": "22081",
+        "gold": "24809",
+        "diamond": "14552"
+      },
+      "known_denominator": "120036",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "GR",
+      "state_totals": {
+        "closed": "4431",
+        "bronze": "1289",
+        "green": "1658",
+        "hybrid": "3582",
+        "gold": "7282",
+        "diamond": "3363"
+      },
+      "known_denominator": "21605",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "HR",
+      "state_totals": {
+        "closed": "1155",
+        "bronze": "529",
+        "green": "978",
+        "hybrid": "852",
+        "gold": "2624",
+        "diamond": "3828"
+      },
+      "known_denominator": "9966",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "HU",
+      "state_totals": {
+        "closed": "1622",
+        "bronze": "1025",
+        "green": "940",
+        "hybrid": "4114",
+        "gold": "4955",
+        "diamond": "5786"
+      },
+      "known_denominator": "18442",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "IE",
+      "state_totals": {
+        "closed": "3011",
+        "bronze": "1275",
+        "green": "1380",
+        "hybrid": "5083",
+        "gold": "4947",
+        "diamond": "1396"
+      },
+      "known_denominator": "17092",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "IT",
+      "state_totals": {
+        "closed": "19960",
+        "bronze": "6561",
+        "green": "11775",
+        "hybrid": "30544",
+        "gold": "38148",
+        "diamond": "13510"
+      },
+      "known_denominator": "120498",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "LT",
+      "state_totals": {
+        "closed": "849",
+        "bronze": "336",
+        "green": "303",
+        "hybrid": "735",
+        "gold": "2125",
+        "diamond": "1794"
+      },
+      "known_denominator": "6142",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "LU",
+      "state_totals": {
+        "closed": "351",
+        "bronze": "120",
+        "green": "438",
+        "hybrid": "660",
+        "gold": "613",
+        "diamond": "188"
+      },
+      "known_denominator": "2370",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "LV",
+      "state_totals": {
+        "closed": "327",
+        "bronze": "118",
+        "green": "126",
+        "hybrid": "421",
+        "gold": "975",
+        "diamond": "747"
+      },
+      "known_denominator": "2714",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "MT",
+      "state_totals": {
+        "closed": "211",
+        "bronze": "58",
+        "green": "57",
+        "hybrid": "214",
+        "gold": "309",
+        "diamond": "190"
+      },
+      "known_denominator": "1039",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "NL",
+      "state_totals": {
+        "closed": "5263",
+        "bronze": "3058",
+        "green": "7791",
+        "hybrid": "22678",
+        "gold": "17213",
+        "diamond": "3880"
+      },
+      "known_denominator": "59883",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "PL",
+      "state_totals": {
+        "closed": "8432",
+        "bronze": "2951",
+        "green": "3611",
+        "hybrid": "9487",
+        "gold": "19105",
+        "diamond": "25418"
+      },
+      "known_denominator": "69004",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "PT",
+      "state_totals": {
+        "closed": "4616",
+        "bronze": "1499",
+        "green": "2819",
+        "hybrid": "7065",
+        "gold": "9312",
+        "diamond": "7876"
+      },
+      "known_denominator": "33187",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "RO",
+      "state_totals": {
+        "closed": "1919",
+        "bronze": "2177",
+        "green": "809",
+        "hybrid": "2799",
+        "gold": "6927",
+        "diamond": "6112"
+      },
+      "known_denominator": "20743",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "SE",
+      "state_totals": {
+        "closed": "4645",
+        "bronze": "1918",
+        "green": "2601",
+        "hybrid": "16452",
+        "gold": "13033",
+        "diamond": "3152"
+      },
+      "known_denominator": "41801",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "SI",
+      "state_totals": {
+        "closed": "712",
+        "bronze": "392",
+        "green": "587",
+        "hybrid": "1814",
+        "gold": "2294",
+        "diamond": "1687"
+      },
+      "known_denominator": "7486",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    },
+    {
+      "id": "SK",
+      "state_totals": {
+        "closed": "1138",
+        "bronze": "543",
+        "green": "360",
+        "hybrid": "1308",
+        "gold": "2520",
+        "diamond": "2460"
+      },
+      "known_denominator": "8329",
+      "unresolved_total": "0",
+      "unresolved_status": "known_nonnegative_total"
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "fully_oa_journal_status",
+      "states": [
+        "gold",
+        "diamond"
+      ]
+    },
+    {
+      "id": "provider_detected_oa_excluding_bronze",
+      "states": [
+        "gold",
+        "diamond",
+        "hybrid",
+        "green"
+      ]
+    },
+    {
+      "id": "any_provider_detected_oa",
+      "states": [
+        "gold",
+        "diamond",
+        "hybrid",
+        "green",
+        "bronze"
+      ]
+    }
+  ],
+  "nested_boundaries": true,
+  "objective": {
+    "id": "provider_classified_publisher_availability",
+    "states": [
+      "gold",
+      "diamond",
+      "hybrid",
+      "bronze"
+    ]
+  },
+  "priority": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GR",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "rules": [
+    {
+      "id": "lowest_3",
+      "kind": "rank",
+      "direction": "lowest",
+      "k": 3
+    },
+    {
+      "id": "highest_3",
+      "kind": "rank",
+      "direction": "highest",
+      "k": 3
+    },
+    {
+      "id": "below_one_quarter",
+      "kind": "threshold",
+      "operator": "lt",
+      "threshold": "1/4"
+    }
+  ],
+  "cost_profiles": [
+    {
+      "id": "equal_costs",
+      "false_positive": "1",
+      "false_negative": "1"
+    },
+    {
+      "id": "exclusion_costly",
+      "false_positive": "1",
+      "false_negative": "2"
+    },
+    {
+      "id": "inclusion_costly",
+      "false_positive": "2",
+      "false_negative": "1"
+    }
+  ],
+  "action_cost_profiles_by_rule": {
+    "lowest_3": [
+      "equal_costs"
+    ],
+    "highest_3": [
+      "equal_costs"
+    ],
+    "below_one_quarter": [
+      "equal_costs",
+      "exclusion_costly",
+      "inclusion_costly"
+    ]
+  },
+  "mixture_weighting": "equal_eligible_units",
+  "primary_missing_policy": "complete_known_states"
+}

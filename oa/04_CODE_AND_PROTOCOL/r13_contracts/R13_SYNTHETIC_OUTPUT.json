@@ -1,0 +1,571 @@
+{
+  "schema_version": "R13.1",
+  "dataset_kind": "TOY",
+  "input_status": "synthetic_fixture",
+  "release_status": "working_only_not_release_approval",
+  "unit_count": 8,
+  "unit_ids": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "mixture_weighting": "equal_eligible_units",
+  "rates": {
+    "narrow": {
+      "a": "1/10",
+      "b": "1/10",
+      "c": "1/10",
+      "d": "1/5",
+      "e": "1/10",
+      "f": "3/10",
+      "g": "1/10",
+      "h": "1/5"
+    },
+    "middle": {
+      "a": "1/5",
+      "b": "3/20",
+      "c": "3/10",
+      "d": "2/5",
+      "e": "1/5",
+      "f": "3/5",
+      "g": "1/5",
+      "h": "3/10"
+    },
+    "broad": {
+      "a": "2/5",
+      "b": "1/2",
+      "c": "3/5",
+      "d": "4/5",
+      "e": "7/10",
+      "f": "9/10",
+      "g": "9/20",
+      "h": "3/5"
+    },
+    "platform_or_more": {
+      "a": "3/10",
+      "b": "1/5",
+      "c": "1/2",
+      "d": "1/2",
+      "e": "1/4",
+      "f": "4/5",
+      "g": "1/4",
+      "h": "2/5"
+    }
+  },
+  "mixture_masses": {
+    "manual": "61/160",
+    "standard": "7/32",
+    "platform": "17/160",
+    "specialised": "23/160",
+    "integrated": "3/20"
+  },
+  "semantic": {
+    "narrow": {
+      "equal": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "1/4",
+        "semantic_loss": "1/4"
+      },
+      "miss_costly": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "1/4",
+        "semantic_loss": "1/2"
+      },
+      "include_costly": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "1/4",
+        "semantic_loss": "1/4"
+      }
+    },
+    "middle": {
+      "equal": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "17/160",
+        "semantic_loss": "17/160"
+      },
+      "miss_costly": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "17/160",
+        "semantic_loss": "17/80"
+      },
+      "include_costly": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "17/160",
+        "semantic_loss": "17/160"
+      }
+    },
+    "broad": {
+      "equal": {
+        "false_inclusion_mass": "7/32",
+        "false_exclusion_mass": "0",
+        "semantic_loss": "7/32"
+      },
+      "miss_costly": {
+        "false_inclusion_mass": "7/32",
+        "false_exclusion_mass": "0",
+        "semantic_loss": "7/32"
+      },
+      "include_costly": {
+        "false_inclusion_mass": "7/32",
+        "false_exclusion_mass": "0",
+        "semantic_loss": "7/16"
+      }
+    }
+  },
+  "rules": {
+    "lowest3": {
+      "selected_sets": {
+        "narrow": [
+          "a",
+          "b",
+          "c"
+        ],
+        "middle": [
+          "a",
+          "b",
+          "e"
+        ],
+        "broad": [
+          "a",
+          "b",
+          "g"
+        ],
+        "platform_or_more": [
+          "b",
+          "e",
+          "g"
+        ]
+      },
+      "pairwise_definition_comparisons": [
+        {
+          "left": "narrow",
+          "right": "middle",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "narrow",
+          "right": "broad",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "middle",
+          "right": "broad",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      ],
+      "objective_comparisons": {
+        "narrow": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/2",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "middle": {
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "broad": {
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      },
+      "objective_losses": {
+        "narrow": {
+          "equal": {
+            "false_selection_count": 2,
+            "missed_reference_count": 2,
+            "action_loss_count_scale": "4",
+            "action_loss_per_unit": "1/2",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "middle": {
+          "equal": {
+            "false_selection_count": 1,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "2",
+            "action_loss_per_unit": "1/4",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "broad": {
+          "equal": {
+            "false_selection_count": 1,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "2",
+            "action_loss_per_unit": "1/4",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        }
+      }
+    },
+    "highest3": {
+      "selected_sets": {
+        "narrow": [
+          "d",
+          "f",
+          "h"
+        ],
+        "middle": [
+          "c",
+          "d",
+          "f"
+        ],
+        "broad": [
+          "d",
+          "e",
+          "f"
+        ],
+        "platform_or_more": [
+          "c",
+          "d",
+          "f"
+        ]
+      },
+      "pairwise_definition_comparisons": [
+        {
+          "left": "narrow",
+          "right": "middle",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "narrow",
+          "right": "broad",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "middle",
+          "right": "broad",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      ],
+      "objective_comparisons": {
+        "narrow": {
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "middle": {
+          "equal_sets": true,
+          "intersection_count": 3,
+          "union_count": 3,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": "0",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "broad": {
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/4",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      },
+      "objective_losses": {
+        "narrow": {
+          "equal": {
+            "false_selection_count": 1,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "2",
+            "action_loss_per_unit": "1/4",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "middle": {
+          "equal": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "broad": {
+          "equal": {
+            "false_selection_count": 1,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "2",
+            "action_loss_per_unit": "1/4",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        }
+      }
+    },
+    "below025": {
+      "selected_sets": {
+        "narrow": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "g",
+          "h"
+        ],
+        "middle": [
+          "a",
+          "b",
+          "e",
+          "g"
+        ],
+        "broad": [],
+        "platform_or_more": [
+          "b"
+        ]
+      },
+      "pairwise_definition_comparisons": [
+        {
+          "left": "narrow",
+          "right": "middle",
+          "equal_sets": false,
+          "intersection_count": 4,
+          "union_count": 7,
+          "symmetric_difference_count": 3,
+          "jaccard": "4/7",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "3/8",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        {
+          "left": "narrow",
+          "right": "broad",
+          "equal_sets": false,
+          "intersection_count": 0,
+          "union_count": 7,
+          "symmetric_difference_count": 7,
+          "jaccard": "0",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "7/8",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        {
+          "left": "middle",
+          "right": "broad",
+          "equal_sets": false,
+          "intersection_count": 0,
+          "union_count": 4,
+          "symmetric_difference_count": 4,
+          "jaccard": "0",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/2",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        }
+      ],
+      "objective_comparisons": {
+        "narrow": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 7,
+          "symmetric_difference_count": 6,
+          "jaccard": "1/7",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "3/4",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        "middle": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 4,
+          "symmetric_difference_count": 3,
+          "jaccard": "1/4",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "3/8",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        "broad": {
+          "equal_sets": false,
+          "intersection_count": 0,
+          "union_count": 1,
+          "symmetric_difference_count": 1,
+          "jaccard": "0",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "1/8",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        }
+      },
+      "objective_losses": {
+        "narrow": {
+          "equal": {
+            "false_selection_count": 6,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "6",
+            "action_loss_per_unit": "3/4",
+            "selected_count": 7,
+            "reference_count": 1
+          },
+          "miss_costly": {
+            "false_selection_count": 6,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "6",
+            "action_loss_per_unit": "3/4",
+            "selected_count": 7,
+            "reference_count": 1
+          },
+          "include_costly": {
+            "false_selection_count": 6,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "12",
+            "action_loss_per_unit": "3/2",
+            "selected_count": 7,
+            "reference_count": 1
+          }
+        },
+        "middle": {
+          "equal": {
+            "false_selection_count": 3,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "3",
+            "action_loss_per_unit": "3/8",
+            "selected_count": 4,
+            "reference_count": 1
+          },
+          "miss_costly": {
+            "false_selection_count": 3,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "3",
+            "action_loss_per_unit": "3/8",
+            "selected_count": 4,
+            "reference_count": 1
+          },
+          "include_costly": {
+            "false_selection_count": 3,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "6",
+            "action_loss_per_unit": "3/4",
+            "selected_count": 4,
+            "reference_count": 1
+          }
+        },
+        "broad": {
+          "equal": {
+            "false_selection_count": 0,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "1",
+            "action_loss_per_unit": "1/8",
+            "selected_count": 0,
+            "reference_count": 1
+          },
+          "miss_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "2",
+            "action_loss_per_unit": "1/4",
+            "selected_count": 0,
+            "reference_count": 1
+          },
+          "include_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "1",
+            "action_loss_per_unit": "1/8",
+            "selected_count": 0,
+            "reference_count": 1
+          }
+        }
+      }
+    }
+  },
+  "scope": "Point comparisons on supplied normalised known-state totals; no source-adapter, missing-data or population validation",
+  "identities": {
+    "input_sha256": "381bee1ef8c2b8e48d729e4acf5456aeee418d887b78a6b17cfb39c9df22f745",
+    "core_sha256": "221afe006b7d799b2f5044b5cbb0c61ba8b3f46304d6abb1d0003169715f0541",
+    "executor_sha256": "041578bbcd531e0b8b97cd8960240c01f556f554b12029ea4e5750f0493f5bf0"
+  }
+}

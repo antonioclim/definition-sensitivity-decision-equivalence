@@ -1,0 +1,47 @@
+{
+  "status": "PASS_SOURCE_IDENTITY_PRESERVED",
+  "R11_ESM_2_archive_sha256": "73ae680c704319342fce279036a101b3b2533d5ace5bd47eda99bb56a0aea885",
+  "all_six_CSV_identities_match_R9_ledger": true,
+  "inputs": [
+    {
+      "path": "SOURCE_DATA/Figure_1_architecture_register.csv",
+      "sha256": "698662f049deff77030652eec5579726518ee349251ec6ec229bfd42554d2bf5",
+      "provenance": "R11 CURRENT_FIGURES/SOURCE_DATA archive member; unchanged"
+    },
+    {
+      "path": "SOURCE_DATA/Figure_2_ablation_event_frequencies.csv",
+      "sha256": "4790a4afced7cd57c4eb6c40121ed8291cc92ed203046182bc72ccfcf2ad7327",
+      "provenance": "R11 CURRENT_FIGURES/SOURCE_DATA archive member; unchanged"
+    },
+    {
+      "path": "SOURCE_DATA/Figure_3_panel_A_reference_rates_mae.csv",
+      "sha256": "f7262ad9141f0f7503b837efe4a9ef1714431da98cbb6aab2da6257d3eec18ac",
+      "provenance": "R11 CURRENT_FIGURES/SOURCE_DATA archive member; unchanged"
+    },
+    {
+      "path": "SOURCE_DATA/Figure_3_panel_B_reference_ordering.csv",
+      "sha256": "fc74a987911aa021ea2bc3436b3b19af877d53708e338acf0d4f05b53066116a",
+      "provenance": "R11 CURRENT_FIGURES/SOURCE_DATA archive member; unchanged"
+    },
+    {
+      "path": "SOURCE_DATA/Figure_3_panel_C_unmatched_objective.csv",
+      "sha256": "ce883a4bf65b04a6cf1702d250bba12101ba36e0eeb8ba1b7736231aca9679ea",
+      "provenance": "R11 CURRENT_FIGURES/SOURCE_DATA archive member; unchanged"
+    },
+    {
+      "path": "SOURCE_DATA/Figure_4_unresolved_determinacy.csv",
+      "sha256": "185c5ad05307ccfdfae01ba955b26f9d4bc3043a876ef3687919ed5576e049bd",
+      "provenance": "R11 CURRENT_FIGURES/SOURCE_DATA archive member; unchanged"
+    },
+    {
+      "path": "SOURCE_DATA/R14_1_OA_REPORTING_TABLES.json",
+      "sha256": "b96426af1c100caea41a616fd1a962cd6bb15bd5ecd681a559ca60af000bd99b",
+      "provenance": "R14.1 public exact OA reporting; unchanged"
+    }
+  ],
+  "figure1_approved_conceptual_revision": "General terminology for provider or technology states; positive classes and indicator rates retained; separately declared objective and common action rule feed the decision audit. No empirical number changed.",
+  "new_MC_replications": 0,
+  "new_FAT_numeric_blocks_used": false,
+  "new_FAT_eligible_n_or_roster_used": false,
+  "global_licence_assigned": false
+}

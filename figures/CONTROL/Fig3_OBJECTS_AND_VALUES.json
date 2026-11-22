@@ -1,0 +1,3824 @@
+{
+  "schema": "R15_NATIVE_FIGURE_SCENE_1",
+  "figure": 3,
+  "width_mm": 119,
+  "height_mm": 191,
+  "description": "Preserved synthetic reference-cell diagnostic summaries",
+  "objects": [
+    {
+      "id": "fig3_panel_a",
+      "type": "text",
+      "role": "panel_label",
+      "text": "a",
+      "x": 3,
+      "y": 1,
+      "width": 5,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 9,
+      "font_weight": "bold",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_a_label_0",
+      "type": "text",
+      "role": "label",
+      "text": "Integrated",
+      "x": 3,
+      "y": 12,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "definition"
+      }
+    },
+    {
+      "id": "fig3_a_rate_0",
+      "type": "rect",
+      "role": "bar",
+      "x": 32,
+      "y": 12,
+      "width": 2.6933172713323787,
+      "height": 4.8,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_0_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 14.25,
+      "x2": 34.25,
+      "y2": 12.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_0_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 16.5,
+      "x2": 34.693317271332376,
+      "y2": 13.806682728667623,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_0_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.95,
+      "y1": 16.8,
+      "x2": 34.69331727133238,
+      "y2": 16.05668272866762,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_0_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 32,
+      "y": 12,
+      "width": 2.6933172713323787,
+      "height": 4.8,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_value_0",
+      "type": "text",
+      "role": "label",
+      "text": "3.78%",
+      "x": 91,
+      "y": 11.3,
+      "width": 25,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.4,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      }
+    },
+    {
+      "id": "fig3_a_mae_0",
+      "type": "text",
+      "role": "label",
+      "text": "MAE 0.009",
+      "x": 91,
+      "y": 15.8,
+      "width": 25,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "observed_mae"
+      }
+    },
+    {
+      "id": "fig3_a_label_1",
+      "type": "text",
+      "role": "label",
+      "text": "Specialised",
+      "x": 3,
+      "y": 25,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "definition"
+      }
+    },
+    {
+      "id": "fig3_a_rate_1",
+      "type": "rect",
+      "role": "bar",
+      "x": 32,
+      "y": 25,
+      "width": 7.598282246920013,
+      "height": 4.8,
+      "fill": "#228c35",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_1_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32,
+      "y1": 26.6,
+      "x2": 39.598282246920014,
+      "y2": 26.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_1_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32,
+      "y1": 28.4,
+      "x2": 39.598282246920014,
+      "y2": 28.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_1_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 32,
+      "y": 25,
+      "width": 7.598282246920013,
+      "height": 4.8,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_value_1",
+      "type": "text",
+      "role": "label",
+      "text": "10.66%",
+      "x": 91,
+      "y": 24.3,
+      "width": 25,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.4,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "population_rate"
+      }
+    },
+    {
+      "id": "fig3_a_mae_1",
+      "type": "text",
+      "role": "label",
+      "text": "MAE 0.015",
+      "x": 91,
+      "y": 28.8,
+      "width": 25,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "observed_mae"
+      }
+    },
+    {
+      "id": "fig3_a_label_2_1",
+      "type": "text",
+      "role": "label",
+      "text": "Digitally",
+      "x": 3,
+      "y": 37,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "definition"
+      }
+    },
+    {
+      "id": "fig3_a_label_2_2",
+      "type": "text",
+      "role": "label",
+      "text": "enabled",
+      "x": 3,
+      "y": 41.3,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "definition"
+      }
+    },
+    {
+      "id": "fig3_a_rate_2",
+      "type": "rect",
+      "role": "bar",
+      "x": 32,
+      "y": 38,
+      "width": 52.167536282419015,
+      "height": 4.8,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 40.25,
+      "x2": 34.25,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 42.5,
+      "x2": 36.5,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.95,
+      "y1": 42.8,
+      "x2": 38.75,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 36.2,
+      "y1": 42.8,
+      "x2": 41.0,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 38.45,
+      "y1": 42.8,
+      "x2": 43.25,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.7,
+      "y1": 42.8,
+      "x2": 45.5,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.95,
+      "y1": 42.8,
+      "x2": 47.75,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 45.2,
+      "y1": 42.8,
+      "x2": 50.0,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 47.45,
+      "y1": 42.8,
+      "x2": 52.25,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.7,
+      "y1": 42.8,
+      "x2": 54.5,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.95,
+      "y1": 42.8,
+      "x2": 56.75,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 54.2,
+      "y1": 42.8,
+      "x2": 59.0,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 56.45,
+      "y1": 42.8,
+      "x2": 61.25,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.7,
+      "y1": 42.8,
+      "x2": 63.5,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.95,
+      "y1": 42.8,
+      "x2": 65.75,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 63.2,
+      "y1": 42.8,
+      "x2": 68.0,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 65.45,
+      "y1": 42.8,
+      "x2": 70.25,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 67.7,
+      "y1": 42.8,
+      "x2": 72.5,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 69.95,
+      "y1": 42.8,
+      "x2": 74.75,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 72.2,
+      "y1": 42.8,
+      "x2": 77.0,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 74.45,
+      "y1": 42.8,
+      "x2": 79.25,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 76.7,
+      "y1": 42.8,
+      "x2": 81.5,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 78.95,
+      "y1": 42.8,
+      "x2": 83.75,
+      "y2": 38.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 81.2,
+      "y1": 42.8,
+      "x2": 84.16753628241901,
+      "y2": 39.832463717580985,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 83.45,
+      "y1": 42.8,
+      "x2": 84.16753628241901,
+      "y2": 42.082463717580985,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 40.55,
+      "x2": 34.25,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 38.3,
+      "x2": 36.5,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.95,
+      "y1": 38,
+      "x2": 38.75,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 36.2,
+      "y1": 38,
+      "x2": 41.0,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 38.45,
+      "y1": 38,
+      "x2": 43.25,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.7,
+      "y1": 38,
+      "x2": 45.5,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.95,
+      "y1": 38,
+      "x2": 47.75,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 45.2,
+      "y1": 38,
+      "x2": 50.0,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 47.45,
+      "y1": 38,
+      "x2": 52.25,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.7,
+      "y1": 38,
+      "x2": 54.5,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.95,
+      "y1": 38,
+      "x2": 56.75,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 54.2,
+      "y1": 38,
+      "x2": 59.0,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 56.45,
+      "y1": 38,
+      "x2": 61.25,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.7,
+      "y1": 38,
+      "x2": 63.5,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.95,
+      "y1": 38,
+      "x2": 65.75,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 63.2,
+      "y1": 38,
+      "x2": 68.0,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 65.45,
+      "y1": 38,
+      "x2": 70.25,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 67.7,
+      "y1": 38,
+      "x2": 72.5,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 69.95,
+      "y1": 38,
+      "x2": 74.75,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 72.2,
+      "y1": 38,
+      "x2": 77.0,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 74.45,
+      "y1": 38,
+      "x2": 79.25,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 76.7,
+      "y1": 38,
+      "x2": 81.5,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 78.95,
+      "y1": 38,
+      "x2": 83.75,
+      "y2": 42.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 81.2,
+      "y1": 38,
+      "x2": 84.16753628241901,
+      "y2": 40.96753628241901,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_hatch_-1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 83.45,
+      "y1": 38,
+      "x2": 84.16753628241901,
+      "y2": 38.71753628241901,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_2_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 32,
+      "y": 38,
+      "width": 52.167536282419015,
+      "height": 4.8,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "native_group": "fig3_a_rate_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_a_rate_value_2",
+      "type": "text",
+      "role": "label",
+      "text": "73.22%",
+      "x": 91,
+      "y": 37.3,
+      "width": 25,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.4,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      }
+    },
+    {
+      "id": "fig3_a_mae_2",
+      "type": "text",
+      "role": "label",
+      "text": "MAE 0.022",
+      "x": 91,
+      "y": 41.8,
+      "width": 25,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "observed_mae"
+      }
+    },
+    {
+      "id": "fig3_a_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 32,
+      "y1": 48,
+      "x2": 89,
+      "y2": 48,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 32.0,
+      "y1": 48,
+      "x2": 32.0,
+      "y2": 49.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0",
+      "x": 27.0,
+      "y": 49.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 46.25,
+      "y1": 48,
+      "x2": 46.25,
+      "y2": 49.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "20",
+      "x": 41.25,
+      "y": 49.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 60.5,
+      "y1": 48,
+      "x2": 60.5,
+      "y2": 49.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "40",
+      "x": 55.5,
+      "y": 49.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 74.75,
+      "y1": 48,
+      "x2": 74.75,
+      "y2": 49.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "60",
+      "x": 69.75,
+      "y": 49.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_4",
+      "type": "line",
+      "role": "tick",
+      "x1": 89.0,
+      "y1": 48,
+      "x2": 89.0,
+      "y2": 49.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_a_tick_label_4",
+      "type": "text",
+      "role": "tick_label",
+      "text": "80",
+      "x": 84.0,
+      "y": 49.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_a_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Population rate (%)",
+      "x": 2,
+      "y": 56,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_panel_b",
+      "type": "text",
+      "role": "panel_label",
+      "text": "b",
+      "x": 3,
+      "y": 65,
+      "width": 5,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 9,
+      "font_weight": "bold",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_legend_circle",
+      "type": "ellipse",
+      "role": "marker",
+      "x": 12,
+      "y": 66.3,
+      "width": 2,
+      "height": 2,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": null
+    },
+    {
+      "id": "fig3_b_legend_circle_text",
+      "type": "text",
+      "role": "legend_text",
+      "text": "Strict reversal",
+      "x": 16,
+      "y": 65.2,
+      "width": 30,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_legend_square",
+      "type": "rect",
+      "role": "legend_marker",
+      "x": 54,
+      "y": 66.3,
+      "width": 2,
+      "height": 2,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": null
+    },
+    {
+      "id": "fig3_b_legend_square_text",
+      "type": "text",
+      "role": "legend_text",
+      "text": "Highest top-three churn",
+      "x": 58,
+      "y": 65.2,
+      "width": 58,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_label_0_0",
+      "type": "text",
+      "role": "label",
+      "text": "Integrated →",
+      "x": 3,
+      "y": 76.8,
+      "width": 32,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 0,
+        "field": "contrast"
+      }
+    },
+    {
+      "id": "fig3_b_label_0_1",
+      "type": "text",
+      "role": "label",
+      "text": "specialised",
+      "x": 3,
+      "y": 81.1,
+      "width": 32,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 0,
+        "field": "contrast"
+      }
+    },
+    {
+      "id": "fig3_b_connection_0",
+      "type": "line",
+      "role": "comparison_connector",
+      "x1": 51.3259375,
+      "y1": 81,
+      "x2": 81.52333333333334,
+      "y2": 81,
+      "stroke": "#999999",
+      "stroke_width": 0.5,
+      "source": null
+    },
+    {
+      "id": "fig3_b_reversal_0",
+      "type": "ellipse",
+      "role": "marker",
+      "x": 50.2259375,
+      "y": 79.9,
+      "width": 2.2,
+      "height": 2.2,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 0,
+        "field": "strict_reversal_share"
+      }
+    },
+    {
+      "id": "fig3_b_churn_0",
+      "type": "rect",
+      "role": "marker",
+      "x": 80.42333333333335,
+      "y": 79.9,
+      "width": 2.2,
+      "height": 2.2,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 0,
+        "field": "highest_top3_churn"
+      }
+    },
+    {
+      "id": "fig3_b_label_1_0",
+      "type": "text",
+      "role": "label",
+      "text": "Specialised →",
+      "x": 3,
+      "y": 89.8,
+      "width": 32,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 1,
+        "field": "contrast"
+      }
+    },
+    {
+      "id": "fig3_b_label_1_1",
+      "type": "text",
+      "role": "label",
+      "text": "digitally enabled",
+      "x": 3,
+      "y": 94.1,
+      "width": 32,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 1,
+        "field": "contrast"
+      }
+    },
+    {
+      "id": "fig3_b_connection_1",
+      "type": "line",
+      "role": "comparison_connector",
+      "x1": 54.383576393,
+      "y1": 94,
+      "x2": 84.90472222633333,
+      "y2": 94,
+      "stroke": "#999999",
+      "stroke_width": 0.5,
+      "source": null
+    },
+    {
+      "id": "fig3_b_reversal_1",
+      "type": "ellipse",
+      "role": "marker",
+      "x": 53.283576393,
+      "y": 92.9,
+      "width": 2.2,
+      "height": 2.2,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 1,
+        "field": "strict_reversal_share"
+      }
+    },
+    {
+      "id": "fig3_b_churn_1",
+      "type": "rect",
+      "role": "marker",
+      "x": 83.80472222633334,
+      "y": 92.9,
+      "width": 2.2,
+      "height": 2.2,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 1,
+        "field": "highest_top3_churn"
+      }
+    },
+    {
+      "id": "fig3_b_label_2_0",
+      "type": "text",
+      "role": "label",
+      "text": "Integrated →",
+      "x": 3,
+      "y": 102.8,
+      "width": 32,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 2,
+        "field": "contrast"
+      }
+    },
+    {
+      "id": "fig3_b_label_2_1",
+      "type": "text",
+      "role": "label",
+      "text": "digitally enabled",
+      "x": 3,
+      "y": 107.1,
+      "width": 32,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 2,
+        "field": "contrast"
+      }
+    },
+    {
+      "id": "fig3_b_connection_2",
+      "type": "line",
+      "role": "comparison_connector",
+      "x1": 57.87827777366667,
+      "y1": 107,
+      "x2": 95.35722222633333,
+      "y2": 107,
+      "stroke": "#999999",
+      "stroke_width": 0.5,
+      "source": null
+    },
+    {
+      "id": "fig3_b_reversal_2",
+      "type": "ellipse",
+      "role": "marker",
+      "x": 56.778277773666666,
+      "y": 105.9,
+      "width": 2.2,
+      "height": 2.2,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 2,
+        "field": "strict_reversal_share"
+      }
+    },
+    {
+      "id": "fig3_b_churn_2",
+      "type": "rect",
+      "role": "marker",
+      "x": 94.25722222633334,
+      "y": 105.9,
+      "width": 2.2,
+      "height": 2.2,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 2,
+        "field": "highest_top3_churn"
+      }
+    },
+    {
+      "id": "fig3_b_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 37,
+      "y1": 114,
+      "x2": 111,
+      "y2": 114,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 37.0,
+      "y1": 114,
+      "x2": 37.0,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.0",
+      "x": 32.0,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 49.333333333333336,
+      "y1": 114,
+      "x2": 49.333333333333336,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.1",
+      "x": 44.333333333333336,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 61.66666666666667,
+      "y1": 114,
+      "x2": 61.66666666666667,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.2",
+      "x": 56.66666666666667,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 74.0,
+      "y1": 114,
+      "x2": 74.0,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.3",
+      "x": 69.0,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_4",
+      "type": "line",
+      "role": "tick",
+      "x1": 86.33333333333334,
+      "y1": 114,
+      "x2": 86.33333333333334,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_4",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.4",
+      "x": 81.33333333333334,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_5",
+      "type": "line",
+      "role": "tick",
+      "x1": 98.66666666666667,
+      "y1": 114,
+      "x2": 98.66666666666667,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_5",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.5",
+      "x": 93.66666666666667,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_6",
+      "type": "line",
+      "role": "tick",
+      "x1": 111.0,
+      "y1": 114,
+      "x2": 111.0,
+      "y2": 115.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_b_tick_label_6",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.6",
+      "x": 106.0,
+      "y": 115.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_b_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Strict-reversal share / highest top-three churn",
+      "x": 2,
+      "y": 122,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_panel_c",
+      "type": "text",
+      "role": "panel_label",
+      "text": "c",
+      "x": 3,
+      "y": 132,
+      "width": 5,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 9,
+      "font_weight": "bold",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_label_0",
+      "type": "text",
+      "role": "label",
+      "text": "Integrated",
+      "x": 3,
+      "y": 143,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_loss_0",
+      "type": "rect",
+      "role": "bar",
+      "x": 32,
+      "y": 143,
+      "width": 7.509428571428572,
+      "height": 4.8,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_0_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 145.25,
+      "x2": 34.25,
+      "y2": 143.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_0_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 147.5,
+      "x2": 36.5,
+      "y2": 143.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_0_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.95,
+      "y1": 147.8,
+      "x2": 38.75,
+      "y2": 143.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_0_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 36.2,
+      "y1": 147.8,
+      "x2": 39.50942857142857,
+      "y2": 144.49057142857143,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_0_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 38.45,
+      "y1": 147.8,
+      "x2": 39.50942857142857,
+      "y2": 146.74057142857143,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_0_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 32,
+      "y": 143,
+      "width": 7.509428571428572,
+      "height": 4.8,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_0_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_value_0",
+      "type": "text",
+      "role": "label",
+      "text": "8.8%",
+      "x": 40.50942857142857,
+      "y": 143,
+      "width": 13,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      }
+    },
+    {
+      "id": "fig3_c_direction_0_0",
+      "type": "text",
+      "role": "label",
+      "text": "False",
+      "x": 96,
+      "y": 142.0,
+      "width": 20,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "mismatch_type"
+      }
+    },
+    {
+      "id": "fig3_c_direction_0_1",
+      "type": "text",
+      "role": "label",
+      "text": "exclusion",
+      "x": 96,
+      "y": 146.0,
+      "width": 20,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "mismatch_type"
+      }
+    },
+    {
+      "id": "fig3_c_label_1",
+      "type": "text",
+      "role": "label",
+      "text": "Specialised",
+      "x": 3,
+      "y": 155,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_loss_1",
+      "type": "rect",
+      "role": "bar",
+      "x": 32,
+      "y": 155,
+      "width": 1.6088571428571428,
+      "height": 4.8,
+      "fill": "#228c35",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_1_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32,
+      "y1": 156.6,
+      "x2": 33.60885714285714,
+      "y2": 156.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_1_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32,
+      "y1": 158.4,
+      "x2": 33.60885714285714,
+      "y2": 158.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_1_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 32,
+      "y": 155,
+      "width": 1.6088571428571428,
+      "height": 4.8,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_1_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_value_1",
+      "type": "text",
+      "role": "label",
+      "text": "1.9%",
+      "x": 34.60885714285714,
+      "y": 155,
+      "width": 13,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "semantic_mismatch_mass"
+      }
+    },
+    {
+      "id": "fig3_c_direction_1_0",
+      "type": "text",
+      "role": "label",
+      "text": "False",
+      "x": 96,
+      "y": 154.0,
+      "width": 20,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "mismatch_type"
+      }
+    },
+    {
+      "id": "fig3_c_direction_1_1",
+      "type": "text",
+      "role": "label",
+      "text": "exclusion",
+      "x": 96,
+      "y": 158.0,
+      "width": 20,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "mismatch_type"
+      }
+    },
+    {
+      "id": "fig3_c_label_2_1",
+      "type": "text",
+      "role": "label",
+      "text": "Digitally",
+      "x": 3,
+      "y": 166,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_label_2_2",
+      "type": "text",
+      "role": "label",
+      "text": "enabled",
+      "x": 3,
+      "y": 170.3,
+      "width": 27,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_loss_2",
+      "type": "rect",
+      "role": "bar",
+      "x": 32,
+      "y": 167,
+      "width": 52.008857142857146,
+      "height": 4.8,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 169.25,
+      "x2": 34.25,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 171.5,
+      "x2": 36.5,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.95,
+      "y1": 171.8,
+      "x2": 38.75,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 36.2,
+      "y1": 171.8,
+      "x2": 41.0,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 38.45,
+      "y1": 171.8,
+      "x2": 43.25,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.7,
+      "y1": 171.8,
+      "x2": 45.5,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.95,
+      "y1": 171.8,
+      "x2": 47.75,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 45.2,
+      "y1": 171.8,
+      "x2": 50.0,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 47.45,
+      "y1": 171.8,
+      "x2": 52.25,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.7,
+      "y1": 171.8,
+      "x2": 54.5,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.95,
+      "y1": 171.8,
+      "x2": 56.75,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 54.2,
+      "y1": 171.8,
+      "x2": 59.0,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 56.45,
+      "y1": 171.8,
+      "x2": 61.25,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.7,
+      "y1": 171.8,
+      "x2": 63.5,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.95,
+      "y1": 171.8,
+      "x2": 65.75,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 63.2,
+      "y1": 171.8,
+      "x2": 68.0,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 65.45,
+      "y1": 171.8,
+      "x2": 70.25,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 67.7,
+      "y1": 171.8,
+      "x2": 72.5,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 69.95,
+      "y1": 171.8,
+      "x2": 74.75,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 72.2,
+      "y1": 171.8,
+      "x2": 77.0,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 74.45,
+      "y1": 171.8,
+      "x2": 79.25,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 76.7,
+      "y1": 171.8,
+      "x2": 81.5,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 78.95,
+      "y1": 171.8,
+      "x2": 83.75,
+      "y2": 167.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 81.2,
+      "y1": 171.8,
+      "x2": 84.00885714285715,
+      "y2": 168.99114285714288,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 83.45,
+      "y1": 171.8,
+      "x2": 84.00885714285715,
+      "y2": 171.24114285714288,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 169.55,
+      "x2": 34.25,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 32.0,
+      "y1": 167.3,
+      "x2": 36.5,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.95,
+      "y1": 167,
+      "x2": 38.75,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 36.2,
+      "y1": 167,
+      "x2": 41.0,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 38.45,
+      "y1": 167,
+      "x2": 43.25,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.7,
+      "y1": 167,
+      "x2": 45.5,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.95,
+      "y1": 167,
+      "x2": 47.75,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 45.2,
+      "y1": 167,
+      "x2": 50.0,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 47.45,
+      "y1": 167,
+      "x2": 52.25,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.7,
+      "y1": 167,
+      "x2": 54.5,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.95,
+      "y1": 167,
+      "x2": 56.75,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 54.2,
+      "y1": 167,
+      "x2": 59.0,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 56.45,
+      "y1": 167,
+      "x2": 61.25,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.7,
+      "y1": 167,
+      "x2": 63.5,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.95,
+      "y1": 167,
+      "x2": 65.75,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 63.2,
+      "y1": 167,
+      "x2": 68.0,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 65.45,
+      "y1": 167,
+      "x2": 70.25,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 67.7,
+      "y1": 167,
+      "x2": 72.5,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 69.95,
+      "y1": 167,
+      "x2": 74.75,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 72.2,
+      "y1": 167,
+      "x2": 77.0,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 74.45,
+      "y1": 167,
+      "x2": 79.25,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 76.7,
+      "y1": 167,
+      "x2": 81.5,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 78.95,
+      "y1": 167,
+      "x2": 83.75,
+      "y2": 171.8,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 81.2,
+      "y1": 167,
+      "x2": 84.00885714285715,
+      "y2": 169.80885714285714,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_hatch_-1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 83.45,
+      "y1": 167,
+      "x2": 84.00885714285715,
+      "y2": 167.55885714285714,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_2_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 32,
+      "y": 167,
+      "width": 52.008857142857146,
+      "height": 4.8,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "native_group": "fig3_c_loss_2_editable_bar_group"
+    },
+    {
+      "id": "fig3_c_loss_value_2",
+      "type": "text",
+      "role": "label",
+      "text": "60.7%",
+      "x": 85.00885714285715,
+      "y": 167,
+      "width": 13,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.1,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      }
+    },
+    {
+      "id": "fig3_c_direction_2_0",
+      "type": "text",
+      "role": "label",
+      "text": "False",
+      "x": 96,
+      "y": 166.0,
+      "width": 20,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "mismatch_type"
+      }
+    },
+    {
+      "id": "fig3_c_direction_2_1",
+      "type": "text",
+      "role": "label",
+      "text": "inclusion",
+      "x": 96,
+      "y": 170.0,
+      "width": 20,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "mismatch_type"
+      }
+    },
+    {
+      "id": "fig3_c_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 32,
+      "y1": 178,
+      "x2": 92,
+      "y2": 178,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 32.0,
+      "y1": 178,
+      "x2": 32.0,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0",
+      "x": 27.0,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 40.57142857142857,
+      "y1": 178,
+      "x2": 40.57142857142857,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "10",
+      "x": 35.57142857142857,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 49.14285714285714,
+      "y1": 178,
+      "x2": 49.14285714285714,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "20",
+      "x": 44.14285714285714,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 57.714285714285715,
+      "y1": 178,
+      "x2": 57.714285714285715,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "30",
+      "x": 52.714285714285715,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_4",
+      "type": "line",
+      "role": "tick",
+      "x1": 66.28571428571428,
+      "y1": 178,
+      "x2": 66.28571428571428,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_4",
+      "type": "text",
+      "role": "tick_label",
+      "text": "40",
+      "x": 61.28571428571428,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_5",
+      "type": "line",
+      "role": "tick",
+      "x1": 74.85714285714286,
+      "y1": 178,
+      "x2": 74.85714285714286,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_5",
+      "type": "text",
+      "role": "tick_label",
+      "text": "50",
+      "x": 69.85714285714286,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_6",
+      "type": "line",
+      "role": "tick",
+      "x1": 83.42857142857143,
+      "y1": 178,
+      "x2": 83.42857142857143,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_6",
+      "type": "text",
+      "role": "tick_label",
+      "text": "60",
+      "x": 78.42857142857143,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_7",
+      "type": "line",
+      "role": "tick",
+      "x1": 92.0,
+      "y1": 178,
+      "x2": 92.0,
+      "y2": 179.25,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig3_c_tick_label_7",
+      "type": "text",
+      "role": "tick_label",
+      "text": "70",
+      "x": 87.0,
+      "y": 179.5,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.2,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig3_c_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Share of total synthetic state mass (%)",
+      "x": 2,
+      "y": 186,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.5,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    }
+  ],
+  "value_trace": [
+    {
+      "object_id": "fig3_a_rate_0",
+      "source_exact": "0.03780094415905093",
+      "display": "3.78%",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "population_rate"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 32,
+        "axis_span_mm": 57,
+        "axis_maximum": "0.8"
+      }
+    },
+    {
+      "object_id": "fig3_a_mae_0",
+      "source_exact": "0.009391411176735207",
+      "display": "MAE 0.009",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 0,
+        "field": "observed_mae"
+      },
+      "geometry_transform": {
+        "property": "text",
+        "rounding": "three decimals"
+      }
+    },
+    {
+      "object_id": "fig3_a_rate_1",
+      "source_exact": "0.10664255785150895",
+      "display": "10.66%",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "population_rate"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 32,
+        "axis_span_mm": 57,
+        "axis_maximum": "0.8"
+      }
+    },
+    {
+      "object_id": "fig3_a_mae_1",
+      "source_exact": "0.015374016183973242",
+      "display": "MAE 0.015",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 1,
+        "field": "observed_mae"
+      },
+      "geometry_transform": {
+        "property": "text",
+        "rounding": "three decimals"
+      }
+    },
+    {
+      "object_id": "fig3_a_rate_2",
+      "source_exact": "0.7321759478234249",
+      "display": "73.22%",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "population_rate"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 32,
+        "axis_span_mm": 57,
+        "axis_maximum": "0.8"
+      }
+    },
+    {
+      "object_id": "fig3_a_mae_2",
+      "source_exact": "0.022048673560367507",
+      "display": "MAE 0.022",
+      "source": {
+        "source_file": "Figure_3_panel_A_reference_rates_mae.csv",
+        "row_index_zero_based": 2,
+        "field": "observed_mae"
+      },
+      "geometry_transform": {
+        "property": "text",
+        "rounding": "three decimals"
+      }
+    },
+    {
+      "object_id": "fig3_b_reversal_0",
+      "source_exact": "0.11615625",
+      "display": null,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 0,
+        "field": "strict_reversal_share"
+      },
+      "geometry_transform": {
+        "property": "centre_x",
+        "axis_origin_mm": 37,
+        "axis_span_mm": 74,
+        "axis_maximum": "0.6"
+      }
+    },
+    {
+      "object_id": "fig3_b_churn_0",
+      "source_exact": "0.361",
+      "display": null,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 0,
+        "field": "highest_top3_churn"
+      },
+      "geometry_transform": {
+        "property": "centre_x",
+        "axis_origin_mm": 37,
+        "axis_span_mm": 74,
+        "axis_maximum": "0.6"
+      }
+    },
+    {
+      "object_id": "fig3_b_reversal_1",
+      "source_exact": "0.1409479167",
+      "display": null,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 1,
+        "field": "strict_reversal_share"
+      },
+      "geometry_transform": {
+        "property": "centre_x",
+        "axis_origin_mm": 37,
+        "axis_span_mm": 74,
+        "axis_maximum": "0.6"
+      }
+    },
+    {
+      "object_id": "fig3_b_churn_1",
+      "source_exact": "0.3884166667",
+      "display": null,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 1,
+        "field": "highest_top3_churn"
+      },
+      "geometry_transform": {
+        "property": "centre_x",
+        "axis_origin_mm": 37,
+        "axis_span_mm": 74,
+        "axis_maximum": "0.6"
+      }
+    },
+    {
+      "object_id": "fig3_b_reversal_2",
+      "source_exact": "0.1692833333",
+      "display": null,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 2,
+        "field": "strict_reversal_share"
+      },
+      "geometry_transform": {
+        "property": "centre_x",
+        "axis_origin_mm": 37,
+        "axis_span_mm": 74,
+        "axis_maximum": "0.6"
+      }
+    },
+    {
+      "object_id": "fig3_b_churn_2",
+      "source_exact": "0.4731666667",
+      "display": null,
+      "source": {
+        "source_file": "Figure_3_panel_B_reference_ordering.csv",
+        "row_index_zero_based": 2,
+        "field": "highest_top3_churn"
+      },
+      "geometry_transform": {
+        "property": "centre_x",
+        "axis_origin_mm": 37,
+        "axis_span_mm": 74,
+        "axis_maximum": "0.6"
+      }
+    },
+    {
+      "object_id": "fig3_c_loss_0",
+      "source_exact": "0.08761",
+      "display": "8.8%",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 0,
+        "field": "semantic_mismatch_mass"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 32,
+        "axis_span_mm": 60,
+        "axis_maximum": "0.7"
+      }
+    },
+    {
+      "object_id": "fig3_c_loss_1",
+      "source_exact": "0.01877",
+      "display": "1.9%",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 1,
+        "field": "semantic_mismatch_mass"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 32,
+        "axis_span_mm": 60,
+        "axis_maximum": "0.7"
+      }
+    },
+    {
+      "object_id": "fig3_c_loss_2",
+      "source_exact": "0.60677",
+      "display": "60.7%",
+      "source": {
+        "source_file": "Figure_3_panel_C_unmatched_objective.csv",
+        "row_index_zero_based": 2,
+        "field": "semantic_mismatch_mass"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 32,
+        "axis_span_mm": 60,
+        "axis_maximum": "0.7"
+      }
+    }
+  ],
+  "object_count": 215,
+  "object_types": {
+    "text": 57,
+    "rect": 16,
+    "line": 138,
+    "ellipse": 4
+  }
+}

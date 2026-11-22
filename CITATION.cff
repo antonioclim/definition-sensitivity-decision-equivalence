@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Cite the archived version once its Zenodo record is public. See LICENSE.md for component-specific grants."
+title: "Definition sensitivity and decision equivalence in science and technology indicators: reproducibility materials"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Clim
+    given-names: Antonio
+    affiliation: "Bucharest University of Economic Studies"
+    orcid: "https://orcid.org/0000-0003-4745-0431"
+repository-code: "https://github.com/antonioclim/definition-sensitivity-decision-equivalence"
+doi: "10.5281/zenodo.24213372"
+abstract: "Computational materials for the study of definition sensitivity and decision equivalence, including the frozen simulation protocol and code, retained metric-summary outputs, captured OpenAlex responses, offline verification, public historical FAT evidence and editable figures. The OpenAlex materials cover the 2024 publication cohort as observed in responses captured in November 2026. See LICENSE.md and RIGHTS_INVENTORY.json for the terms that apply to individual components."
+keywords:
+  - scientometric indicators
+  - open access
+  - technology adoption
+  - decision equivalence
+  - sensitivity analysis
+  - partial identification

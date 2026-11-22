@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sha256sum_entries": 62,
+  "sha256sum_failures": [],
+  "manifest_rows": 61,
+  "manifest_failures": [],
+  "source_archive_sha256": "6a1e8018d1643434af91a6475e9e223ea2b184c82ee10770bf1a505a8f287a6d"
+}

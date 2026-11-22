@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cell_count": 2,
+  "cell_ids": [
+    "cell_0001",
+    "cell_0002"
+  ],
+  "streams_per_cell": 4,
+  "replications_per_stream": 1000,
+  "total_replications": 8000,
+  "sequential_seconds": 95.272016877,
+  "parallel_seconds": 46.99083103600003,
+  "ordered_results_equal": true,
+  "canonical_sha256": "62b6415778e435405edf041bcb5906c75efafcb860cc78baba18527a7d31660d"
+}

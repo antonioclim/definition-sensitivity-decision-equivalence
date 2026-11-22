@@ -1,0 +1,494 @@
+{
+  "schema_version": "R14.1",
+  "batch_sha256": "0b9f2b06d566f9882255126d7ae92fc7e7750a36aca8a0b920bae5e3e0a3333e",
+  "countries": [
+    {
+      "unit_id": "AT",
+      "country_name": "Austria",
+      "N": 27537,
+      "M": 0,
+      "D": 27537,
+      "counts": {
+        "closed": 4216,
+        "bronze": 1346,
+        "green": 2181,
+        "hybrid": 9698,
+        "gold": 7844,
+        "diamond": 2252,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "BE",
+      "country_name": "Belgium",
+      "N": 34720,
+      "M": 0,
+      "D": 34720,
+      "counts": {
+        "closed": 5282,
+        "bronze": 2498,
+        "green": 7357,
+        "hybrid": 6941,
+        "gold": 9495,
+        "diamond": 3147,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "BG",
+      "country_name": "Bulgaria",
+      "N": 8391,
+      "M": 0,
+      "D": 8391,
+      "counts": {
+        "closed": 652,
+        "bronze": 1075,
+        "green": 525,
+        "hybrid": 1056,
+        "gold": 2027,
+        "diamond": 3056,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "CY",
+      "country_name": "Cyprus",
+      "N": 5698,
+      "M": 0,
+      "D": 5698,
+      "counts": {
+        "closed": 1179,
+        "bronze": 279,
+        "green": 595,
+        "hybrid": 1019,
+        "gold": 1674,
+        "diamond": 952,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "CZ",
+      "country_name": "Czechia",
+      "N": 22338,
+      "M": 0,
+      "D": 22338,
+      "counts": {
+        "closed": 4010,
+        "bronze": 1314,
+        "green": 1838,
+        "hybrid": 5340,
+        "gold": 6099,
+        "diamond": 3737,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "DE",
+      "country_name": "Germany",
+      "N": 160435,
+      "M": 0,
+      "D": 160435,
+      "counts": {
+        "closed": 29617,
+        "bronze": 7409,
+        "green": 12847,
+        "hybrid": 52847,
+        "gold": 45999,
+        "diamond": 11716,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "DK",
+      "country_name": "Denmark",
+      "N": 31805,
+      "M": 0,
+      "D": 31805,
+      "counts": {
+        "closed": 5233,
+        "bronze": 1740,
+        "green": 4017,
+        "hybrid": 9997,
+        "gold": 8535,
+        "diamond": 2283,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "EE",
+      "country_name": "Estonia",
+      "N": 3438,
+      "M": 0,
+      "D": 3438,
+      "counts": {
+        "closed": 636,
+        "bronze": 112,
+        "green": 316,
+        "hybrid": 721,
+        "gold": 1060,
+        "diamond": 593,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "ES",
+      "country_name": "Spain",
+      "N": 117936,
+      "M": 0,
+      "D": 117936,
+      "counts": {
+        "closed": 16538,
+        "bronze": 5551,
+        "green": 10324,
+        "hybrid": 27235,
+        "gold": 31324,
+        "diamond": 26964,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "FI",
+      "country_name": "Finland",
+      "N": 22209,
+      "M": 0,
+      "D": 22209,
+      "counts": {
+        "closed": 1856,
+        "bronze": 876,
+        "green": 1998,
+        "hybrid": 8599,
+        "gold": 5944,
+        "diamond": 2936,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "FR",
+      "country_name": "France",
+      "N": 120036,
+      "M": 0,
+      "D": 120036,
+      "counts": {
+        "closed": 28079,
+        "bronze": 11575,
+        "green": 18940,
+        "hybrid": 22081,
+        "gold": 24809,
+        "diamond": 14552,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "GR",
+      "country_name": "Greece",
+      "N": 21605,
+      "M": 0,
+      "D": 21605,
+      "counts": {
+        "closed": 4431,
+        "bronze": 1289,
+        "green": 1658,
+        "hybrid": 3582,
+        "gold": 7282,
+        "diamond": 3363,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "HR",
+      "country_name": "Croatia",
+      "N": 9966,
+      "M": 0,
+      "D": 9966,
+      "counts": {
+        "closed": 1155,
+        "bronze": 529,
+        "green": 978,
+        "hybrid": 852,
+        "gold": 2624,
+        "diamond": 3828,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "HU",
+      "country_name": "Hungary",
+      "N": 18442,
+      "M": 0,
+      "D": 18442,
+      "counts": {
+        "closed": 1622,
+        "bronze": 1025,
+        "green": 940,
+        "hybrid": 4114,
+        "gold": 4955,
+        "diamond": 5786,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "IE",
+      "country_name": "Ireland",
+      "N": 17092,
+      "M": 0,
+      "D": 17092,
+      "counts": {
+        "closed": 3011,
+        "bronze": 1275,
+        "green": 1380,
+        "hybrid": 5083,
+        "gold": 4947,
+        "diamond": 1396,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "IT",
+      "country_name": "Italy",
+      "N": 120498,
+      "M": 0,
+      "D": 120498,
+      "counts": {
+        "closed": 19960,
+        "bronze": 6561,
+        "green": 11775,
+        "hybrid": 30544,
+        "gold": 38148,
+        "diamond": 13510,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "LT",
+      "country_name": "Lithuania",
+      "N": 6142,
+      "M": 0,
+      "D": 6142,
+      "counts": {
+        "closed": 849,
+        "bronze": 336,
+        "green": 303,
+        "hybrid": 735,
+        "gold": 2125,
+        "diamond": 1794,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "LU",
+      "country_name": "Luxembourg",
+      "N": 2370,
+      "M": 0,
+      "D": 2370,
+      "counts": {
+        "closed": 351,
+        "bronze": 120,
+        "green": 438,
+        "hybrid": 660,
+        "gold": 613,
+        "diamond": 188,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "LV",
+      "country_name": "Latvia",
+      "N": 2714,
+      "M": 0,
+      "D": 2714,
+      "counts": {
+        "closed": 327,
+        "bronze": 118,
+        "green": 126,
+        "hybrid": 421,
+        "gold": 975,
+        "diamond": 747,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "MT",
+      "country_name": "Malta",
+      "N": 1039,
+      "M": 0,
+      "D": 1039,
+      "counts": {
+        "closed": 211,
+        "bronze": 58,
+        "green": 57,
+        "hybrid": 214,
+        "gold": 309,
+        "diamond": 190,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "NL",
+      "country_name": "Netherlands",
+      "N": 59883,
+      "M": 0,
+      "D": 59883,
+      "counts": {
+        "closed": 5263,
+        "bronze": 3058,
+        "green": 7791,
+        "hybrid": 22678,
+        "gold": 17213,
+        "diamond": 3880,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "PL",
+      "country_name": "Poland",
+      "N": 69004,
+      "M": 0,
+      "D": 69004,
+      "counts": {
+        "closed": 8432,
+        "bronze": 2951,
+        "green": 3611,
+        "hybrid": 9487,
+        "gold": 19105,
+        "diamond": 25418,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "PT",
+      "country_name": "Portugal",
+      "N": 33187,
+      "M": 0,
+      "D": 33187,
+      "counts": {
+        "closed": 4616,
+        "bronze": 1499,
+        "green": 2819,
+        "hybrid": 7065,
+        "gold": 9312,
+        "diamond": 7876,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "RO",
+      "country_name": "Romania",
+      "N": 20743,
+      "M": 0,
+      "D": 20743,
+      "counts": {
+        "closed": 1919,
+        "bronze": 2177,
+        "green": 809,
+        "hybrid": 2799,
+        "gold": 6927,
+        "diamond": 6112,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "SE",
+      "country_name": "Sweden",
+      "N": 41801,
+      "M": 0,
+      "D": 41801,
+      "counts": {
+        "closed": 4645,
+        "bronze": 1918,
+        "green": 2601,
+        "hybrid": 16452,
+        "gold": 13033,
+        "diamond": 3152,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "SI",
+      "country_name": "Slovenia",
+      "N": 7486,
+      "M": 0,
+      "D": 7486,
+      "counts": {
+        "closed": 712,
+        "bronze": 392,
+        "green": 587,
+        "hybrid": 1814,
+        "gold": 2294,
+        "diamond": 1687,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    },
+    {
+      "unit_id": "SK",
+      "country_name": "Slovakia",
+      "N": 8329,
+      "M": 0,
+      "D": 8329,
+      "counts": {
+        "closed": 1138,
+        "bronze": 543,
+        "green": 360,
+        "hybrid": 1308,
+        "gold": 2520,
+        "diamond": 2460,
+        "unknown": 0
+      },
+      "returned_bucket_count": 6,
+      "missing_OA_share": "0"
+    }
+  ],
+  "stage_status": "CANDIDATE_AWAITING_SEPARATE_ADAPTER_ACCEPTANCE",
+  "input_stage_note": "This candidate is not yet a normative accepted input. The independent adapter must approve it and write the final normalised input before diagnose is permitted."
+}

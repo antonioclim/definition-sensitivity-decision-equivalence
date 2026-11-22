@@ -1,0 +1,54 @@
+{
+  "schema": "FIGURE_CAPTIONS_2",
+  "article_title": "Definition sensitivity and decision equivalence in science and technology indicators",
+  "journal": "Scientometrics",
+  "caption_format_note": "The manuscript supplies bold Fig. and the number before the caption. Captions are not printed inside the artwork.",
+  "figures": [
+    {
+      "number": 1,
+      "width_mm": 119,
+      "height_mm": 111,
+      "png_for_docx": "PNG_600/Fig1.png",
+      "caption": "ODSA measurement and decision architecture. Candidate positive classes and a separately declared objective are applied to the retained state register. One common rule maps their rate vectors to selected sets. The audit reports levels, composition, ordering, semantic mismatch and action disagreement, with observation and assignment assumptions recorded explicitly. Source: author's construction using deterministic code",
+      "alt_text": "Two branches feed a decision audit. The first maps a state register to candidate positive classes and then indicator rates. The second declares an objective and a common threshold, rank or robust-ordering rule. The audit compares selected sets, entries, exits, loss and indeterminacy.",
+      "source_note": "Conceptual reconstruction of the five-stage architecture in the preserved R11 figure source. The branch structure and general terminology were explicitly approved for R15; no numerical result is encoded."
+    },
+    {
+      "number": 2,
+      "width_mm": 119,
+      "height_mm": 145,
+      "png_for_docx": "PNG_600/Fig2.png",
+      "caption": "Diagnostic non-substitution in the deterministic register. Material level change, semantic mismatch and strict reversal each use 1,728 cases; the four joint diagnostics use 8,640 threshold-expanded cases. The overlapping fractions describe the registered design and are not empirical prevalence estimates. Source: author's calculations",
+      "alt_text": "Seven horizontal bars give overlapping event fractions: material level detected, 88.9%; semantic mismatch, 75.0%; no strict reversal with semantic mismatch, 54.2%; numerical difference but the same action, 37.8%; material level change but the same action, 31.1%; rank reversal, 27.8%; action change below the materiality threshold, 4.4%. Event counts and denominators appear beside every bar.",
+      "source_note": "All seven stored fractions and fourteen event/denominator counts are preserved from Figure_2_ablation_event_frequencies.csv. Fractions retain the original stored precision."
+    },
+    {
+      "number": 3,
+      "width_mm": 119,
+      "height_mm": 191,
+      "png_for_docx": "PNG_600/Fig3.png",
+      "caption": "Synthetic reference-cell diagnostics. Panel a reports calibrated population rates and observed mean absolute error. Panel b reports strict-reversal shares and highest-three churn. Panel c reports false exclusion or inclusion as a share of total synthetic state mass relative to the platform-or-higher objective. The 97% standard-software and 3% platform split of their combined mass is a design assumption. Calibration uses disclosure-cleared application medians. Source: author's calculations",
+      "alt_text": "Three panels summarise the synthetic reference cell. Integrated, specialised and digitally enabled population rates are 3.78%, 10.66% and 73.22%, with MAE 0.009, 0.015 and 0.022. Strict-reversal shares range from about 0.116 to 0.169, while highest-three churn ranges from 0.361 to about 0.473. Relative to the platform-or-higher objective, mismatch is 8.8% and 1.9% false exclusion for the first two definitions and 60.7% false inclusion for the third, measured against total synthetic state mass.",
+      "source_note": "All fifteen numeric entries are preserved from the three archived Figure_3 panel CSVs; no Monte Carlo experiment was rerun in this phase."
+    },
+    {
+      "number": 4,
+      "width_mm": 119,
+      "height_mm": 110,
+      "png_for_docx": "PNG_600/Fig4.png",
+      "caption": "Mean shares of strictly orderable pairs under no unresolved states, approximately 5% independently unresolved records and state-dependent unresolvedness. A pair contributes only when one lower bound exceeds the other upper bound; exact point ties are excluded. These are deterministic assignment bounds conditional on the registered state space. Source: author's calculations",
+      "alt_text": "Grouped bars compare the strictly orderable pair share for three definitions. With no unresolved states, the shares are 0.945, 0.974 and 0.986 for integrated, specialised and digitally enabled definitions. With approximately 5% independently unresolved states, the shares are 0.081, 0.371 and 0.630. With state-dependent unresolved states, they are 0.060, 0.318 and 0.597.",
+      "source_note": "All nine stored pair shares are preserved from Figure_4_unresolved_determinacy.csv."
+    },
+    {
+      "number": 5,
+      "width_mm": 119,
+      "height_mm": 143,
+      "png_for_docx": "PNG_600/Fig5.png",
+      "caption": "Open access semantic mismatch and action disagreement. Panel a shows equal-country semantic loss against the stipulated publisher-availability objective Q. Panels b and c show normalised equal-cost action loss under lowest-three and highest-three selection, respectively. Every action loss uses 27 countries as denominator. The three panels share neither a sampling interpretation nor a claim of policy optimality. All below-25% selections are empty and are reported in the text. Source: retained R14.1 OpenAlex counts and exact calculations",
+      "alt_text": "Three panels compare OA definitions D1, D2 and D3 with the declared publisher-availability objective. Mean equal-cost semantic loss is 0.287974, 0.147646 and 0.089034. Lowest-three action loss per country is 0.074074, 0.148148 and 0.148148. Highest-three action loss per country is 0.222222, 0.148148 and 0.148148. Equal action-loss totals for D2 and D3 do not imply identical selected country sets.",
+      "source_note": "Nine exact rational values and their registered six-decimal representations are taken directly from R14_1_OA_REPORTING_TABLES.json. The panels measure different objects: within-country state shares, averaged equally across countries, versus selected-country discrepancies divided by 27. No FAT result is disclosed."
+    }
+  ],
+  "alignment_scope": "Caption text and artwork files are provided for the R19 manuscript. The final manuscript identity is recorded in the complete project delivery."
+}

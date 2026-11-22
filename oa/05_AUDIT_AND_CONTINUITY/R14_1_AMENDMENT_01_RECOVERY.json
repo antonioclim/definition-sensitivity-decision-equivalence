@@ -1,0 +1,164 @@
+{
+  "amendment_id": "ODSA-R14.1-A01-RECOVERY-20261111",
+  "created_utc": "2026-11-11T21:45:51.690339+00:00",
+  "status": "FROZEN_BEFORE_RECOVERY_ACQUISITION_AND_EMPIRICAL_CALCULATIONS",
+  "reason": "Restored execution environment lacks original R14 source extract, implementation files, outputs and reports. Complete the interrupted Phase 2 delivery by transparent newly numbered acquisition/re-execution with the unchanged recovered R13 analytical specification.",
+  "author_instruction": "Continue until the previous unfinished response is completed; existing Phase 2 analytical and anonymous-public-read authorisations retained.",
+  "original_R14_retention_deviation": {
+    "status": "UNRESOLVED_ORIGINAL_BYTES_NOT_RECOVERED",
+    "rule": "R13 section 8 requires preserving original source extract, code and failed runs. That original-retention requirement can no longer be certified.",
+    "preserved": "Earlier conversation-reported facts and public file identities are labelled historical reported evidence only. New evidence has its own identities and is not backdated."
+  },
+  "recovered_baselines": [
+    {
+      "file": "SCIENTOMETRICS_ODSA_R11_FINAL_20261111.zip",
+      "bytes": 63654483,
+      "sha256": "229f7fc50f3197d06dea295c9cf13036146c77569f68623bbf9c598ceaa10e41"
+    },
+    {
+      "file": "SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111.zip",
+      "bytes": 440174,
+      "sha256": "b5b8a0e5742fb9486105f825970962d10f67978239c97d9253b6f076fdf05a7e"
+    },
+    {
+      "file": "SCIENTOMETRICS_ODSA_R13_PHASE1_20261111.zip",
+      "bytes": 577898,
+      "sha256": "221a174e021f0c821fb61dc0286c6d3a06bbfeeaf2b4f391f2baa91dd7f17b4b"
+    }
+  ],
+  "frozen_scientific_files": [
+    {
+      "file": "R13_EMPIRICAL_PROTOCOL_EN_GB.json",
+      "bytes": 35141,
+      "sha256": "cde4280396ac29ba8cb840148bb019ec5a5d75da1f42b7d17cbe09f11b0358e4"
+    },
+    {
+      "file": "R13_EMPIRICAL_PROTOCOL_EN_GB.txt",
+      "bytes": 36908,
+      "sha256": "254e36b5ccb6b53c1ae32bc2c3670f28c623c8f423bc16e48fc6cec7c18c9fa6"
+    },
+    {
+      "file": "R13_EMPIRICAL_SOURCE_EVIDENCE.json",
+      "bytes": 21102,
+      "sha256": "236305adbd5dbc73462957150329181f96b9185ed0d5b22b73ec26b0a1d13e6e"
+    },
+    {
+      "file": "R13_FAT_DISCLOSURE_DESIGN.json",
+      "bytes": 9013,
+      "sha256": "5077739877e93d98464f8bf8d47124af906f22396874c27e671c9e81decfbc8e"
+    },
+    {
+      "file": "R13_OA_QUERY_MANIFEST.json",
+      "bytes": 14266,
+      "sha256": "e07ad740deba04d481672dbaab2b8f4de97daf54160609c46edb11cd4bfccc4f"
+    }
+  ],
+  "canonical_FAT_input": {
+    "file": "fat0_raw_data_qje.csv",
+    "bytes": 19633172,
+    "sha256": "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17",
+    "archive": {
+      "file": "WLD_2019-2023_FAT_v01_M_CSV.zip",
+      "bytes": 1752618,
+      "sha256": "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e"
+    },
+    "retrieval": "Recovered existing user-provided archive from persistent files; no new producer access/login. Identity verification only before this amendment."
+  },
+  "unchanged_choices": [
+    "EU27 roster and ISO priority",
+    "2024 article core cohort and institution-country filter",
+    "All 27 exact URLs",
+    "Six-state partition and literal unknown bucket",
+    "D1/D2/D3 and Q memberships",
+    "Common universe, denominator and equal-unit aggregation",
+    "Primary lowest_3, secondary highest_3 and strict below_one_quarter",
+    "Registered semantic/action cost schedules",
+    "Exact rational arithmetic, exact ties and separate 1e-12 diagnostic",
+    "S5/S6 marginal envelopes and absence of joint loss extrema",
+    "FAT input identity, taxonomy, weights, common eligibility and matched-row sensitivity",
+    "All four FAT numerical blocks and exact eligible n remain WITHHELD"
+  ],
+  "replacement_acquisition": {
+    "batch_id": "OA-R14.1-RECOVERY-BATCH-01",
+    "route": "Same frozen anonymous HTTPS GET URLs",
+    "numbered_separately_from_lost_batch": true,
+    "selection": "First successfully transported and schema-valid response for every country; retain each attempt. No batch choice based on agreement with old results.",
+    "limits": {
+      "sequential_at_most_per_second": 1,
+      "timeout_seconds": 60,
+      "maximum_body_bytes": 262144,
+      "attempts_per_country": 3,
+      "maximum_batch_seconds": 3600
+    },
+    "failure": "Any mandatory country/schema/denominator/credential or timing failure stops the whole cohort analysis; no changed provider, smaller cohort or old Romania substitute."
+  },
+  "outcomes_already_known_from_conversation": {
+    "evidence_class": "PREVIOUSLY_REPORTED_NOT_REVERIFIED_FROM_ORIGINAL_R14_BYTES",
+    "OA_equal_semantic_loss_approx": {
+      "D1": "0.28797394306903534",
+      "D2": "0.14764645950729116",
+      "D3": "0.08903402433598881"
+    },
+    "OA_lowest3": {
+      "Q": [
+        "BE",
+        "FR",
+        "LU"
+      ],
+      "D1": [
+        "DK",
+        "FR",
+        "LU"
+      ],
+      "D2": [
+        "FR",
+        "GR",
+        "MT"
+      ],
+      "D3": [
+        "CY",
+        "FR",
+        "GR"
+      ]
+    },
+    "OA_highest3": {
+      "Q": [
+        "BG",
+        "HU",
+        "RO"
+      ],
+      "D1": [
+        "HR",
+        "LT",
+        "PL"
+      ],
+      "D2": [
+        "FI",
+        "HU",
+        "NL"
+      ],
+      "D3": [
+        "BG",
+        "FI",
+        "NL"
+      ]
+    },
+    "OA_registered_nulls": "All four threshold selections empty; unknown count zero for every country; no exact/near rank boundary tie.",
+    "FAT": "Computation and bounded review previously reported PASS; all four new blocks and exact eligible n previously WITHHELD; no protected values restated.",
+    "previous_review_claims": "Reported 3560 OA comparisons, 1177 adapter checks, 1741 reporting checks, 188-file public review and 8+4 rendered DOCX pages. These old claims are not accepted as new checks.",
+    "no_blinding_claim": true
+  },
+  "new_execution_evidence": "New acquisition, adapter, producer, independent verifier, document and archive evidence will bind actual runtime commands, timestamps and code/input/output hashes where public. No protected FAT output digest or data-dependent check count is released.",
+  "FAT_release_decision": "WITHHOLD_ALL_FOUR_NEW_BLOCKS_AND_EXACT_ELIGIBLE_COUNT. No attempt to reverse the previously reported unresolved cumulative-release decision during recovery.",
+  "new_MC_replications": 0,
+  "phase_boundary": "Complete recovery delivery of Phase 2; do not start R15 manuscript/ODG work or final five kits until next.",
+  "external_actions_not_authorised": [
+    "submission",
+    "GitHub publication",
+    "Zenodo deposit",
+    "account creation",
+    "new terms acceptance",
+    "payments",
+    "messages to others"
+  ]
+}

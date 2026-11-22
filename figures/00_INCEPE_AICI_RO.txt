@@ -1,0 +1,15 @@
+FIGURI EDITABILE R19
+
+Deschide ODG_NATIVE/Fig1.odg până la Fig5.odg în LibreOffice Draw.
+Instrucţiunile de editare sunt în GHID_EDITARE_FIGURI_RO.txt.
+Descrierea tehnică şi comenzile de regenerare sunt în README_FIGURES_EN_GB.txt.
+Legendele se află în CONTROL/FIGURE_CAPTIONS_AND_ALT_TEXT_EN_GB.json.
+
+Pentru controlul integrităţii, din acest director rulează:
+
+    python verify_package.py
+
+Fişierele grafice principale sunt identice cu cele din R18. În această versiune
+sunt eliminate numai punctele finale ale celor cinci legende şi sunt actualizate
+documentaţia, auditul şi manifestul pachetului. Manuscrisul şi suplimentul
+sunt livrate separat în dosarul articolului. Acest pachet nu publică nimic.

@@ -1,0 +1,2193 @@
+{
+  "schema_version": "R14.1-reporting-1.0",
+  "input_sha256": "beb764cfe4d441f009da8a2202ae2350b19d0eaefbfe5be624e8f927073114fe",
+  "point_sha256": "a0449ac419aa9b0fd210bca4ede2f623085a943291871453a1d45d3710f2f5a2",
+  "secondary_sha256": "6366f408c4ad0fb10fe6ff7dc15da8dc2e3cd89bde92647a18e753a2b169fc74",
+  "rounding": "Six decimal places, nearest with ties to even, using exact rational inputs. Exact values are retained.",
+  "definition_labels": {
+    "fully_oa_journal_status": "D1",
+    "provider_detected_oa_excluding_bronze": "D2",
+    "any_provider_detected_oa": "D3",
+    "provider_classified_publisher_availability": "Q"
+  },
+  "semantic": [
+    {
+      "definition": "D1",
+      "definition_id": "fully_oa_journal_status",
+      "cost": "equal_costs",
+      "false_inclusion_exact": "0",
+      "false_exclusion_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "loss_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_inclusion": "0.000000",
+      "false_exclusion": "0.287974",
+      "loss": "0.287974"
+    },
+    {
+      "definition": "D1",
+      "definition_id": "fully_oa_journal_status",
+      "cost": "exclusion_costly",
+      "false_inclusion_exact": "0",
+      "false_exclusion_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "loss_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/1599972400386997237051982175155136879830299788629852505405786572830494051347182707098640",
+      "false_inclusion": "0.000000",
+      "false_exclusion": "0.287974",
+      "loss": "0.575948"
+    },
+    {
+      "definition": "D1",
+      "definition_id": "fully_oa_journal_status",
+      "cost": "inclusion_costly",
+      "false_inclusion_exact": "0",
+      "false_exclusion_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "loss_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_inclusion": "0.000000",
+      "false_exclusion": "0.287974",
+      "loss": "0.287974"
+    },
+    {
+      "definition": "D2",
+      "definition_id": "provider_detected_oa_excluding_bronze",
+      "cost": "equal_costs",
+      "false_inclusion_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_exclusion_exact": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+      "loss_exact": "67494360064720639804078344561994527025878774730134470479086857763521536614222037523681/457134971539142067729137764330039108522942796751386430115939020808712586099195059171040",
+      "false_inclusion": "0.089034",
+      "false_exclusion": "0.058612",
+      "loss": "0.147646"
+    },
+    {
+      "definition": "D2",
+      "definition_id": "provider_detected_oa_excluding_bronze",
+      "cost": "exclusion_costly",
+      "false_inclusion_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_exclusion_exact": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+      "loss_exact": "220005692546718761783527946721692331637134150837233683095903397463621209588980463516937/1066648266924664824701321450103424586553533192419901670270524381886996034231455138065760",
+      "false_inclusion": "0.089034",
+      "false_exclusion": "0.058612",
+      "loss": "0.206259"
+    },
+    {
+      "definition": "D2",
+      "definition_id": "provider_detected_oa_excluding_bronze",
+      "cost": "inclusion_costly",
+      "false_inclusion_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_exclusion_exact": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+      "loss_exact": "765014630019168838924304440037179871345506885677901849265771536003119838516890300451/3232267475529287347579761970010377535010706643696671728092498126930291012822591327472",
+      "false_inclusion": "0.089034",
+      "false_exclusion": "0.058612",
+      "loss": "0.236680"
+    },
+    {
+      "definition": "D3",
+      "definition_id": "any_provider_detected_oa",
+      "cost": "equal_costs",
+      "false_inclusion_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_exclusion_exact": "0",
+      "loss_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_inclusion": "0.089034",
+      "false_exclusion": "0.000000",
+      "loss": "0.089034"
+    },
+    {
+      "definition": "D3",
+      "definition_id": "any_provider_detected_oa",
+      "cost": "exclusion_costly",
+      "false_inclusion_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_exclusion_exact": "0",
+      "loss_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_inclusion": "0.089034",
+      "false_exclusion": "0.000000",
+      "loss": "0.089034"
+    },
+    {
+      "definition": "D3",
+      "definition_id": "any_provider_detected_oa",
+      "cost": "inclusion_costly",
+      "false_inclusion_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "false_exclusion_exact": "0",
+      "loss_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/1599972400386997237051982175155136879830299788629852505405786572830494051347182707098640",
+      "false_inclusion": "0.089034",
+      "false_exclusion": "0.000000",
+      "loss": "0.178068"
+    }
+  ],
+  "selections": [
+    {
+      "rule": "lowest_3",
+      "definition": "D1",
+      "selected": [
+        "DK",
+        "FR",
+        "LU"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D2",
+      "selected": [
+        "FR",
+        "GR",
+        "MT"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D3",
+      "selected": [
+        "CY",
+        "FR",
+        "GR"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "Q",
+      "selected": [
+        "BE",
+        "FR",
+        "LU"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D1",
+      "selected": [
+        "HR",
+        "LT",
+        "PL"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D2",
+      "selected": [
+        "FI",
+        "HU",
+        "NL"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D3",
+      "selected": [
+        "BG",
+        "FI",
+        "NL"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "Q",
+      "selected": [
+        "BG",
+        "HU",
+        "RO"
+      ],
+      "count": 3
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D1",
+      "selected": [],
+      "count": 0
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D2",
+      "selected": [],
+      "count": 0
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D3",
+      "selected": [],
+      "count": 0
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "Q",
+      "selected": [],
+      "count": 0
+    }
+  ],
+  "objective_comparisons": [
+    {
+      "rule": "lowest_3",
+      "definition": "D1",
+      "cost": "equal_costs",
+      "false_selection_count": 1,
+      "missed_reference_count": 1,
+      "action_loss_count_scale": "2",
+      "action_loss_per_unit": "2/27",
+      "selected_count": 3,
+      "reference_count": 3,
+      "equal_sets": false,
+      "intersection_count": 2,
+      "union_count": 4,
+      "symmetric_difference_count": 2,
+      "jaccard": "1/2",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "2/27",
+      "rank_churn": "1/3",
+      "rank_churn_status": "defined_equal_positive_rank_size",
+      "action_loss_per_unit_display": "0.074074"
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D2",
+      "cost": "equal_costs",
+      "false_selection_count": 2,
+      "missed_reference_count": 2,
+      "action_loss_count_scale": "4",
+      "action_loss_per_unit": "4/27",
+      "selected_count": 3,
+      "reference_count": 3,
+      "equal_sets": false,
+      "intersection_count": 1,
+      "union_count": 5,
+      "symmetric_difference_count": 4,
+      "jaccard": "1/5",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "4/27",
+      "rank_churn": "2/3",
+      "rank_churn_status": "defined_equal_positive_rank_size",
+      "action_loss_per_unit_display": "0.148148"
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D3",
+      "cost": "equal_costs",
+      "false_selection_count": 2,
+      "missed_reference_count": 2,
+      "action_loss_count_scale": "4",
+      "action_loss_per_unit": "4/27",
+      "selected_count": 3,
+      "reference_count": 3,
+      "equal_sets": false,
+      "intersection_count": 1,
+      "union_count": 5,
+      "symmetric_difference_count": 4,
+      "jaccard": "1/5",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "4/27",
+      "rank_churn": "2/3",
+      "rank_churn_status": "defined_equal_positive_rank_size",
+      "action_loss_per_unit_display": "0.148148"
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D1",
+      "cost": "equal_costs",
+      "false_selection_count": 3,
+      "missed_reference_count": 3,
+      "action_loss_count_scale": "6",
+      "action_loss_per_unit": "2/9",
+      "selected_count": 3,
+      "reference_count": 3,
+      "equal_sets": false,
+      "intersection_count": 0,
+      "union_count": 6,
+      "symmetric_difference_count": 6,
+      "jaccard": "0",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "2/9",
+      "rank_churn": "1",
+      "rank_churn_status": "defined_equal_positive_rank_size",
+      "action_loss_per_unit_display": "0.222222"
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D2",
+      "cost": "equal_costs",
+      "false_selection_count": 2,
+      "missed_reference_count": 2,
+      "action_loss_count_scale": "4",
+      "action_loss_per_unit": "4/27",
+      "selected_count": 3,
+      "reference_count": 3,
+      "equal_sets": false,
+      "intersection_count": 1,
+      "union_count": 5,
+      "symmetric_difference_count": 4,
+      "jaccard": "1/5",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "4/27",
+      "rank_churn": "2/3",
+      "rank_churn_status": "defined_equal_positive_rank_size",
+      "action_loss_per_unit_display": "0.148148"
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D3",
+      "cost": "equal_costs",
+      "false_selection_count": 2,
+      "missed_reference_count": 2,
+      "action_loss_count_scale": "4",
+      "action_loss_per_unit": "4/27",
+      "selected_count": 3,
+      "reference_count": 3,
+      "equal_sets": false,
+      "intersection_count": 1,
+      "union_count": 5,
+      "symmetric_difference_count": 4,
+      "jaccard": "1/5",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "4/27",
+      "rank_churn": "2/3",
+      "rank_churn_status": "defined_equal_positive_rank_size",
+      "action_loss_per_unit_display": "0.148148"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D1",
+      "cost": "equal_costs",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D1",
+      "cost": "exclusion_costly",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D1",
+      "cost": "inclusion_costly",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D2",
+      "cost": "equal_costs",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D2",
+      "cost": "exclusion_costly",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D2",
+      "cost": "inclusion_costly",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D3",
+      "cost": "equal_costs",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D3",
+      "cost": "exclusion_costly",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D3",
+      "cost": "inclusion_costly",
+      "false_selection_count": 0,
+      "missed_reference_count": 0,
+      "action_loss_count_scale": "0",
+      "action_loss_per_unit": "0",
+      "selected_count": 0,
+      "reference_count": 0,
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k",
+      "action_loss_per_unit_display": "0.000000"
+    }
+  ],
+  "pairwise_comparisons": [
+    {
+      "rule": "lowest_3",
+      "left_label": "D1",
+      "right_label": "D2",
+      "left_count": 3,
+      "right_count": 3,
+      "left": "fully_oa_journal_status",
+      "right": "provider_detected_oa_excluding_bronze",
+      "equal_sets": false,
+      "intersection_count": 1,
+      "union_count": 5,
+      "symmetric_difference_count": 4,
+      "jaccard": "1/5",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "4/27",
+      "rank_churn": "2/3",
+      "rank_churn_status": "defined_equal_positive_rank_size"
+    },
+    {
+      "rule": "lowest_3",
+      "left_label": "D1",
+      "right_label": "D3",
+      "left_count": 3,
+      "right_count": 3,
+      "left": "fully_oa_journal_status",
+      "right": "any_provider_detected_oa",
+      "equal_sets": false,
+      "intersection_count": 1,
+      "union_count": 5,
+      "symmetric_difference_count": 4,
+      "jaccard": "1/5",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "4/27",
+      "rank_churn": "2/3",
+      "rank_churn_status": "defined_equal_positive_rank_size"
+    },
+    {
+      "rule": "lowest_3",
+      "left_label": "D2",
+      "right_label": "D3",
+      "left_count": 3,
+      "right_count": 3,
+      "left": "provider_detected_oa_excluding_bronze",
+      "right": "any_provider_detected_oa",
+      "equal_sets": false,
+      "intersection_count": 2,
+      "union_count": 4,
+      "symmetric_difference_count": 2,
+      "jaccard": "1/2",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "2/27",
+      "rank_churn": "1/3",
+      "rank_churn_status": "defined_equal_positive_rank_size"
+    },
+    {
+      "rule": "highest_3",
+      "left_label": "D1",
+      "right_label": "D2",
+      "left_count": 3,
+      "right_count": 3,
+      "left": "fully_oa_journal_status",
+      "right": "provider_detected_oa_excluding_bronze",
+      "equal_sets": false,
+      "intersection_count": 0,
+      "union_count": 6,
+      "symmetric_difference_count": 6,
+      "jaccard": "0",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "2/9",
+      "rank_churn": "1",
+      "rank_churn_status": "defined_equal_positive_rank_size"
+    },
+    {
+      "rule": "highest_3",
+      "left_label": "D1",
+      "right_label": "D3",
+      "left_count": 3,
+      "right_count": 3,
+      "left": "fully_oa_journal_status",
+      "right": "any_provider_detected_oa",
+      "equal_sets": false,
+      "intersection_count": 0,
+      "union_count": 6,
+      "symmetric_difference_count": 6,
+      "jaccard": "0",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "2/9",
+      "rank_churn": "1",
+      "rank_churn_status": "defined_equal_positive_rank_size"
+    },
+    {
+      "rule": "highest_3",
+      "left_label": "D2",
+      "right_label": "D3",
+      "left_count": 3,
+      "right_count": 3,
+      "left": "provider_detected_oa_excluding_bronze",
+      "right": "any_provider_detected_oa",
+      "equal_sets": false,
+      "intersection_count": 2,
+      "union_count": 4,
+      "symmetric_difference_count": 2,
+      "jaccard": "1/2",
+      "jaccard_status": "defined_nonempty_union",
+      "normalised_symmetric_difference": "2/27",
+      "rank_churn": "1/3",
+      "rank_churn_status": "defined_equal_positive_rank_size"
+    },
+    {
+      "rule": "below_one_quarter",
+      "left_label": "D1",
+      "right_label": "D2",
+      "left_count": 0,
+      "right_count": 0,
+      "left": "fully_oa_journal_status",
+      "right": "provider_detected_oa_excluding_bronze",
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+    },
+    {
+      "rule": "below_one_quarter",
+      "left_label": "D1",
+      "right_label": "D3",
+      "left_count": 0,
+      "right_count": 0,
+      "left": "fully_oa_journal_status",
+      "right": "any_provider_detected_oa",
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+    },
+    {
+      "rule": "below_one_quarter",
+      "left_label": "D2",
+      "right_label": "D3",
+      "left_count": 0,
+      "right_count": 0,
+      "left": "provider_detected_oa_excluding_bronze",
+      "right": "any_provider_detected_oa",
+      "equal_sets": true,
+      "intersection_count": 0,
+      "union_count": 0,
+      "symmetric_difference_count": 0,
+      "jaccard": "1",
+      "jaccard_status": "both_empty_convention_one",
+      "normalised_symmetric_difference": "0",
+      "rank_churn": null,
+      "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+    }
+  ],
+  "point_ties": [
+    {
+      "rule": "lowest_3",
+      "definition": "D1",
+      "boundary_gap": "7682857/634859605",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "DK",
+        "FR",
+        "LU"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "DK",
+          "FR",
+          "LU"
+        ],
+        "possible": [
+          "DK",
+          "FR",
+          "LU"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "EE",
+          "ES",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "1.21016630E-2",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D2",
+      "boundary_gap": "8950/2960111",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "FR",
+        "GR",
+        "MT"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "FR",
+          "GR",
+          "MT"
+        ],
+        "possible": [
+          "FR",
+          "GR",
+          "MT"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "3.02353527E-3",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D3",
+      "boundary_gap": "45154/22447595",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "CY",
+        "FR",
+        "GR"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "CY",
+          "FR",
+          "GR"
+        ],
+        "possible": [
+          "CY",
+          "FR",
+          "GR"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "2.01152952E-3",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "Q",
+      "boundary_gap": "48557/2250710",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "BE",
+        "FR",
+        "LU"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "BE",
+          "FR",
+          "LU"
+        ],
+        "possible": [
+          "BE",
+          "FR",
+          "LU"
+        ],
+        "excluded": [
+          "AT",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "2.15740811E-2",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D1",
+      "boundary_gap": "29821/8334694",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "HR",
+        "LT",
+        "PL"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "HR",
+          "LT",
+          "PL"
+        ],
+        "possible": [
+          "HR",
+          "LT",
+          "PL"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HU",
+          "IE",
+          "IT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "3.57793579E-3",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D2",
+      "boundary_gap": "272263/69028406",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "FI",
+        "HU",
+        "NL"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "FI",
+          "HU",
+          "NL"
+        ],
+        "possible": [
+          "FI",
+          "HU",
+          "NL"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FR",
+          "GR",
+          "HR",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "3.94421682E-3",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "D3",
+      "boundary_gap": "34990/552181143",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "BG",
+        "FI",
+        "NL"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "BG",
+          "FI",
+          "NL"
+        ],
+        "possible": [
+          "BG",
+          "FI",
+          "NL"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "6.33668868E-5",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    },
+    {
+      "rule": "highest_3",
+      "definition": "Q",
+      "boundary_gap": "606745/22773174",
+      "boundary_exact_tie": false,
+      "boundary_gap_at_most_1e_12": false,
+      "fixed_priority_selected": [
+        "BG",
+        "HU",
+        "RO"
+      ],
+      "all_admissible_membership": {
+        "guaranteed": [
+          "BG",
+          "HU",
+          "RO"
+        ],
+        "possible": [
+          "BG",
+          "HU",
+          "RO"
+        ],
+        "excluded": [
+          "AT",
+          "BE",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "IE",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      "boundary_gap_display": "2.66429704E-2",
+      "guaranteed_count": 3,
+      "possible_count": 3
+    }
+  ],
+  "unknown_membership": [
+    {
+      "rule": "lowest_3",
+      "definition": "D1",
+      "guaranteed": [
+        "DK",
+        "FR",
+        "LU"
+      ],
+      "possible": [
+        "DK",
+        "FR",
+        "LU"
+      ],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "EE",
+        "ES",
+        "FI",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 3,
+      "possible_count": 3,
+      "ambiguous_count": 0,
+      "excluded_count": 24
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D2",
+      "guaranteed": [
+        "FR",
+        "GR",
+        "MT"
+      ],
+      "possible": [
+        "FR",
+        "GR",
+        "MT"
+      ],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 3,
+      "possible_count": 3,
+      "ambiguous_count": 0,
+      "excluded_count": 24
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "D3",
+      "guaranteed": [
+        "CY",
+        "FR",
+        "GR"
+      ],
+      "possible": [
+        "CY",
+        "FR",
+        "GR"
+      ],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 3,
+      "possible_count": 3,
+      "ambiguous_count": 0,
+      "excluded_count": 24
+    },
+    {
+      "rule": "lowest_3",
+      "definition": "Q",
+      "guaranteed": [
+        "BE",
+        "FR",
+        "LU"
+      ],
+      "possible": [
+        "BE",
+        "FR",
+        "LU"
+      ],
+      "excluded": [
+        "AT",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 3,
+      "possible_count": 3,
+      "ambiguous_count": 0,
+      "excluded_count": 24
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D1",
+      "guaranteed": [],
+      "possible": [],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 0,
+      "possible_count": 0,
+      "ambiguous_count": 0,
+      "excluded_count": 27
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D2",
+      "guaranteed": [],
+      "possible": [],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 0,
+      "possible_count": 0,
+      "ambiguous_count": 0,
+      "excluded_count": 27
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "D3",
+      "guaranteed": [],
+      "possible": [],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 0,
+      "possible_count": 0,
+      "ambiguous_count": 0,
+      "excluded_count": 27
+    },
+    {
+      "rule": "below_one_quarter",
+      "definition": "Q",
+      "guaranteed": [],
+      "possible": [],
+      "excluded": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "guaranteed_count": 0,
+      "possible_count": 0,
+      "ambiguous_count": 0,
+      "excluded_count": 27
+    }
+  ],
+  "countries": [
+    {
+      "country": "AT",
+      "country_name": "Austria",
+      "N": 27537,
+      "D": 27537,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "10096/27537",
+          "display": "0.366634"
+        },
+        "D2": {
+          "exact": "7325/9179",
+          "display": "0.798017"
+        },
+        "D3": {
+          "exact": "23321/27537",
+          "display": "0.846897"
+        },
+        "Q": {
+          "exact": "21140/27537",
+          "display": "0.767694"
+        }
+      }
+    },
+    {
+      "country": "BE",
+      "country_name": "Belgium",
+      "N": 34720,
+      "D": 34720,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "903/2480",
+          "display": "0.364113"
+        },
+        "D2": {
+          "exact": "1347/1736",
+          "display": "0.775922"
+        },
+        "D3": {
+          "exact": "14719/17360",
+          "display": "0.847869"
+        },
+        "Q": {
+          "exact": "22081/34720",
+          "display": "0.635974"
+        }
+      }
+    },
+    {
+      "country": "BG",
+      "country_name": "Bulgaria",
+      "N": 8391,
+      "D": 8391,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "5083/8391",
+          "display": "0.605768"
+        },
+        "D2": {
+          "exact": "6664/8391",
+          "display": "0.794184"
+        },
+        "D3": {
+          "exact": "7739/8391",
+          "display": "0.922298"
+        },
+        "Q": {
+          "exact": "7214/8391",
+          "display": "0.859731"
+        }
+      }
+    },
+    {
+      "country": "CY",
+      "country_name": "Cyprus",
+      "N": 5698,
+      "D": 5698,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "1313/2849",
+          "display": "0.460863"
+        },
+        "D2": {
+          "exact": "2120/2849",
+          "display": "0.744121"
+        },
+        "D3": {
+          "exact": "4519/5698",
+          "display": "0.793085"
+        },
+        "Q": {
+          "exact": "1962/2849",
+          "display": "0.688663"
+        }
+      }
+    },
+    {
+      "country": "CZ",
+      "country_name": "Czechia",
+      "N": 22338,
+      "D": 22338,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "4918/11169",
+          "display": "0.440326"
+        },
+        "D2": {
+          "exact": "8507/11169",
+          "display": "0.761662"
+        },
+        "D3": {
+          "exact": "9164/11169",
+          "display": "0.820485"
+        },
+        "Q": {
+          "exact": "485/657",
+          "display": "0.738204"
+        }
+      }
+    },
+    {
+      "country": "DE",
+      "country_name": "Germany",
+      "N": 160435,
+      "D": 160435,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "11543/32087",
+          "display": "0.359741"
+        },
+        "D2": {
+          "exact": "11219/14585",
+          "display": "0.769215"
+        },
+        "D3": {
+          "exact": "130818/160435",
+          "display": "0.815396"
+        },
+        "Q": {
+          "exact": "117971/160435",
+          "display": "0.735320"
+        }
+      }
+    },
+    {
+      "country": "DK",
+      "country_name": "Denmark",
+      "N": 31805,
+      "D": 31805,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "10818/31805",
+          "display": "0.340135"
+        },
+        "D2": {
+          "exact": "24832/31805",
+          "display": "0.780758"
+        },
+        "D3": {
+          "exact": "26572/31805",
+          "display": "0.835466"
+        },
+        "Q": {
+          "exact": "4511/6361",
+          "display": "0.709165"
+        }
+      }
+    },
+    {
+      "country": "EE",
+      "country_name": "Estonia",
+      "N": 3438,
+      "D": 3438,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "551/1146",
+          "display": "0.480803"
+        },
+        "D2": {
+          "exact": "1345/1719",
+          "display": "0.782432"
+        },
+        "D3": {
+          "exact": "467/573",
+          "display": "0.815009"
+        },
+        "Q": {
+          "exact": "1243/1719",
+          "display": "0.723095"
+        }
+      }
+    },
+    {
+      "country": "ES",
+      "country_name": "Spain",
+      "N": 117936,
+      "D": 117936,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "3643/7371",
+          "display": "0.494234"
+        },
+        "D2": {
+          "exact": "31949/39312",
+          "display": "0.812704"
+        },
+        "D3": {
+          "exact": "50699/58968",
+          "display": "0.859771"
+        },
+        "Q": {
+          "exact": "15179/19656",
+          "display": "0.772232"
+        }
+      }
+    },
+    {
+      "country": "FI",
+      "country_name": "Finland",
+      "N": 22209,
+      "D": 22209,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "2960/7403",
+          "display": "0.399838"
+        },
+        "D2": {
+          "exact": "19477/22209",
+          "display": "0.876987"
+        },
+        "D3": {
+          "exact": "20353/22209",
+          "display": "0.916430"
+        },
+        "Q": {
+          "exact": "18355/22209",
+          "display": "0.826467"
+        }
+      }
+    },
+    {
+      "country": "FR",
+      "country_name": "France",
+      "N": 120036,
+      "D": 120036,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "5623/17148",
+          "display": "0.327910"
+        },
+        "D2": {
+          "exact": "13397/20006",
+          "display": "0.669649"
+        },
+        "D3": {
+          "exact": "91957/120036",
+          "display": "0.766079"
+        },
+        "Q": {
+          "exact": "3477/5716",
+          "display": "0.608293"
+        }
+      }
+    },
+    {
+      "country": "GR",
+      "country_name": "Greece",
+      "N": 21605,
+      "D": 21605,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "2129/4321",
+          "display": "0.492710"
+        },
+        "D2": {
+          "exact": "3177/4321",
+          "display": "0.735246"
+        },
+        "D3": {
+          "exact": "17174/21605",
+          "display": "0.794909"
+        },
+        "Q": {
+          "exact": "15516/21605",
+          "display": "0.718167"
+        }
+      }
+    },
+    {
+      "country": "HR",
+      "country_name": "Croatia",
+      "N": 9966,
+      "D": 9966,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "3226/4983",
+          "display": "0.647401"
+        },
+        "D2": {
+          "exact": "4141/4983",
+          "display": "0.831025"
+        },
+        "D3": {
+          "exact": "267/302",
+          "display": "0.884106"
+        },
+        "Q": {
+          "exact": "2611/3322",
+          "display": "0.785972"
+        }
+      }
+    },
+    {
+      "country": "HU",
+      "country_name": "Hungary",
+      "N": 18442,
+      "D": 18442,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "10741/18442",
+          "display": "0.582421"
+        },
+        "D2": {
+          "exact": "15795/18442",
+          "display": "0.856469"
+        },
+        "D3": {
+          "exact": "8410/9221",
+          "display": "0.912049"
+        },
+        "Q": {
+          "exact": "7940/9221",
+          "display": "0.861078"
+        }
+      }
+    },
+    {
+      "country": "IE",
+      "country_name": "Ireland",
+      "N": 17092,
+      "D": 17092,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "6343/17092",
+          "display": "0.371109"
+        },
+        "D2": {
+          "exact": "6403/8546",
+          "display": "0.749239"
+        },
+        "D3": {
+          "exact": "14081/17092",
+          "display": "0.823836"
+        },
+        "Q": {
+          "exact": "12701/17092",
+          "display": "0.743096"
+        }
+      }
+    },
+    {
+      "country": "IT",
+      "country_name": "Italy",
+      "N": 120498,
+      "D": 120498,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "25829/60249",
+          "display": "0.428704"
+        },
+        "D2": {
+          "exact": "93977/120498",
+          "display": "0.779905"
+        },
+        "D3": {
+          "exact": "50269/60249",
+          "display": "0.834354"
+        },
+        "Q": {
+          "exact": "88763/120498",
+          "display": "0.736635"
+        }
+      }
+    },
+    {
+      "country": "LT",
+      "country_name": "Lithuania",
+      "N": 6142,
+      "D": 6142,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "3919/6142",
+          "display": "0.638066"
+        },
+        "D2": {
+          "exact": "4957/6142",
+          "display": "0.807066"
+        },
+        "D3": {
+          "exact": "5293/6142",
+          "display": "0.861771"
+        },
+        "Q": {
+          "exact": "2495/3071",
+          "display": "0.812439"
+        }
+      }
+    },
+    {
+      "country": "LU",
+      "country_name": "Luxembourg",
+      "N": 2370,
+      "D": 2370,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "267/790",
+          "display": "0.337975"
+        },
+        "D2": {
+          "exact": "633/790",
+          "display": "0.801266"
+        },
+        "D3": {
+          "exact": "673/790",
+          "display": "0.851899"
+        },
+        "Q": {
+          "exact": "527/790",
+          "display": "0.667089"
+        }
+      }
+    },
+    {
+      "country": "LV",
+      "country_name": "Latvia",
+      "N": 2714,
+      "D": 2714,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "861/1357",
+          "display": "0.634488"
+        },
+        "D2": {
+          "exact": "2269/2714",
+          "display": "0.836035"
+        },
+        "D3": {
+          "exact": "2387/2714",
+          "display": "0.879514"
+        },
+        "Q": {
+          "exact": "2261/2714",
+          "display": "0.833088"
+        }
+      }
+    },
+    {
+      "country": "MT",
+      "country_name": "Malta",
+      "N": 1039,
+      "D": 1039,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "499/1039",
+          "display": "0.480269"
+        },
+        "D2": {
+          "exact": "770/1039",
+          "display": "0.741097"
+        },
+        "D3": {
+          "exact": "828/1039",
+          "display": "0.796920"
+        },
+        "Q": {
+          "exact": "771/1039",
+          "display": "0.742060"
+        }
+      }
+    },
+    {
+      "country": "NL",
+      "country_name": "Netherlands",
+      "N": 59883,
+      "D": 59883,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "7031/19961",
+          "display": "0.352237"
+        },
+        "D2": {
+          "exact": "51562/59883",
+          "display": "0.861046"
+        },
+        "D3": {
+          "exact": "54620/59883",
+          "display": "0.912112"
+        },
+        "Q": {
+          "exact": "46829/59883",
+          "display": "0.782008"
+        }
+      }
+    },
+    {
+      "country": "PL",
+      "country_name": "Poland",
+      "N": 69004,
+      "D": 69004,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "44523/69004",
+          "display": "0.645223"
+        },
+        "D2": {
+          "exact": "57621/69004",
+          "display": "0.835039"
+        },
+        "D3": {
+          "exact": "15143/17251",
+          "display": "0.877804"
+        },
+        "Q": {
+          "exact": "56961/69004",
+          "display": "0.825474"
+        }
+      }
+    },
+    {
+      "country": "PT",
+      "country_name": "Portugal",
+      "N": 33187,
+      "D": 33187,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "17188/33187",
+          "display": "0.517914"
+        },
+        "D2": {
+          "exact": "27072/33187",
+          "display": "0.815741"
+        },
+        "D3": {
+          "exact": "28571/33187",
+          "display": "0.860909"
+        },
+        "Q": {
+          "exact": "25752/33187",
+          "display": "0.775966"
+        }
+      }
+    },
+    {
+      "country": "RO",
+      "country_name": "Romania",
+      "N": 20743,
+      "D": 20743,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "13039/20743",
+          "display": "0.628598"
+        },
+        "D2": {
+          "exact": "16647/20743",
+          "display": "0.802536"
+        },
+        "D3": {
+          "exact": "18824/20743",
+          "display": "0.907487"
+        },
+        "Q": {
+          "exact": "18015/20743",
+          "display": "0.868486"
+        }
+      }
+    },
+    {
+      "country": "SE",
+      "country_name": "Sweden",
+      "N": 41801,
+      "D": 41801,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "16185/41801",
+          "display": "0.387192"
+        },
+        "D2": {
+          "exact": "35238/41801",
+          "display": "0.842994"
+        },
+        "D3": {
+          "exact": "37156/41801",
+          "display": "0.888878"
+        },
+        "Q": {
+          "exact": "34555/41801",
+          "display": "0.826655"
+        }
+      }
+    },
+    {
+      "country": "SI",
+      "country_name": "Slovenia",
+      "N": 7486,
+      "D": 7486,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "3981/7486",
+          "display": "0.531793"
+        },
+        "D2": {
+          "exact": "3191/3743",
+          "display": "0.852525"
+        },
+        "D3": {
+          "exact": "3387/3743",
+          "display": "0.904889"
+        },
+        "Q": {
+          "exact": "6187/7486",
+          "display": "0.826476"
+        }
+      }
+    },
+    {
+      "country": "SK",
+      "country_name": "Slovakia",
+      "N": 8329,
+      "D": 8329,
+      "M": 0,
+      "missing_share": "0.000000",
+      "missing_share_exact": "0",
+      "rates": {
+        "D1": {
+          "exact": "4980/8329",
+          "display": "0.597911"
+        },
+        "D2": {
+          "exact": "6648/8329",
+          "display": "0.798175"
+        },
+        "D3": {
+          "exact": "7191/8329",
+          "display": "0.863369"
+        },
+        "Q": {
+          "exact": "6831/8329",
+          "display": "0.820146"
+        }
+      }
+    }
+  ],
+  "scope": "Every registered family is retained; tables do not change the underlying exact comparisons."
+}

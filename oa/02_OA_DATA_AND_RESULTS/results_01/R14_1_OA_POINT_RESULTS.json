@@ -1,0 +1,652 @@
+{
+  "schema_version": "R13.1",
+  "dataset_kind": "OA",
+  "input_status": "real_extension_input",
+  "release_status": "working_only_not_release_approval",
+  "unit_count": 27,
+  "unit_ids": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GR",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "mixture_weighting": "equal_eligible_units",
+  "rates": {
+    "fully_oa_journal_status": {
+      "AT": "10096/27537",
+      "BE": "903/2480",
+      "BG": "5083/8391",
+      "CY": "1313/2849",
+      "CZ": "4918/11169",
+      "DE": "11543/32087",
+      "DK": "10818/31805",
+      "EE": "551/1146",
+      "ES": "3643/7371",
+      "FI": "2960/7403",
+      "FR": "5623/17148",
+      "GR": "2129/4321",
+      "HR": "3226/4983",
+      "HU": "10741/18442",
+      "IE": "6343/17092",
+      "IT": "25829/60249",
+      "LT": "3919/6142",
+      "LU": "267/790",
+      "LV": "861/1357",
+      "MT": "499/1039",
+      "NL": "7031/19961",
+      "PL": "44523/69004",
+      "PT": "17188/33187",
+      "RO": "13039/20743",
+      "SE": "16185/41801",
+      "SI": "3981/7486",
+      "SK": "4980/8329"
+    },
+    "provider_detected_oa_excluding_bronze": {
+      "AT": "7325/9179",
+      "BE": "1347/1736",
+      "BG": "6664/8391",
+      "CY": "2120/2849",
+      "CZ": "8507/11169",
+      "DE": "11219/14585",
+      "DK": "24832/31805",
+      "EE": "1345/1719",
+      "ES": "31949/39312",
+      "FI": "19477/22209",
+      "FR": "13397/20006",
+      "GR": "3177/4321",
+      "HR": "4141/4983",
+      "HU": "15795/18442",
+      "IE": "6403/8546",
+      "IT": "93977/120498",
+      "LT": "4957/6142",
+      "LU": "633/790",
+      "LV": "2269/2714",
+      "MT": "770/1039",
+      "NL": "51562/59883",
+      "PL": "57621/69004",
+      "PT": "27072/33187",
+      "RO": "16647/20743",
+      "SE": "35238/41801",
+      "SI": "3191/3743",
+      "SK": "6648/8329"
+    },
+    "any_provider_detected_oa": {
+      "AT": "23321/27537",
+      "BE": "14719/17360",
+      "BG": "7739/8391",
+      "CY": "4519/5698",
+      "CZ": "9164/11169",
+      "DE": "130818/160435",
+      "DK": "26572/31805",
+      "EE": "467/573",
+      "ES": "50699/58968",
+      "FI": "20353/22209",
+      "FR": "91957/120036",
+      "GR": "17174/21605",
+      "HR": "267/302",
+      "HU": "8410/9221",
+      "IE": "14081/17092",
+      "IT": "50269/60249",
+      "LT": "5293/6142",
+      "LU": "673/790",
+      "LV": "2387/2714",
+      "MT": "828/1039",
+      "NL": "54620/59883",
+      "PL": "15143/17251",
+      "PT": "28571/33187",
+      "RO": "18824/20743",
+      "SE": "37156/41801",
+      "SI": "3387/3743",
+      "SK": "7191/8329"
+    },
+    "provider_classified_publisher_availability": {
+      "AT": "21140/27537",
+      "BE": "22081/34720",
+      "BG": "7214/8391",
+      "CY": "1962/2849",
+      "CZ": "485/657",
+      "DE": "117971/160435",
+      "DK": "4511/6361",
+      "EE": "1243/1719",
+      "ES": "15179/19656",
+      "FI": "18355/22209",
+      "FR": "3477/5716",
+      "GR": "15516/21605",
+      "HR": "2611/3322",
+      "HU": "7940/9221",
+      "IE": "12701/17092",
+      "IT": "88763/120498",
+      "LT": "2495/3071",
+      "LU": "527/790",
+      "LV": "2261/2714",
+      "MT": "771/1039",
+      "NL": "46829/59883",
+      "PL": "56961/69004",
+      "PT": "25752/33187",
+      "RO": "18015/20743",
+      "SE": "34555/41801",
+      "SI": "6187/7486",
+      "SK": "6831/8329"
+    }
+  },
+  "mixture_masses": {
+    "closed": "231486965710388374509598160579363817822330105019564275597280513334635794382822602243433/1599972400386997237051982175155136879830299788629852505405786572830494051347182707098640",
+    "bronze": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+    "green": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+    "hybrid": "733944164695034089144120222417693599968677047947608096903061973545021336784865534779457/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+    "gold": "84103359076411874416513435889761833821979994354387844764130320227832607790470444923643/290904072797635861282178577300933978150963597932700455528324831423726191154033219472480",
+    "diamond": "22423304976466982915942651852315209734234479935694843590922541429477249449967611781671/118516474102740536077924605567047176283725910268877963363391597987444003803495015340640"
+  },
+  "semantic": {
+    "fully_oa_journal_status": {
+      "equal_costs": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "semantic_loss": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280"
+      },
+      "exclusion_costly": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "semantic_loss": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/1599972400386997237051982175155136879830299788629852505405786572830494051347182707098640"
+      },
+      "inclusion_costly": {
+        "false_inclusion_mass": "0",
+        "false_exclusion_mass": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "semantic_loss": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280"
+      }
+    },
+    "provider_detected_oa_excluding_bronze": {
+      "equal_costs": {
+        "false_inclusion_mass": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "false_exclusion_mass": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+        "semantic_loss": "67494360064720639804078344561994527025878774730134470479086857763521536614222037523681/457134971539142067729137764330039108522942796751386430115939020808712586099195059171040"
+      },
+      "exclusion_costly": {
+        "false_inclusion_mass": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "false_exclusion_mass": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+        "semantic_loss": "220005692546718761783527946721692331637134150837233683095903397463621209588980463516937/1066648266924664824701321450103424586553533192419901670270524381886996034231455138065760"
+      },
+      "inclusion_costly": {
+        "false_inclusion_mass": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "false_exclusion_mass": "837440647546533401448605259019821514753491763858297565385964655240185353304044971/14287764108401325543855103276911797251614543307226630220980037620604151125602174520",
+        "semantic_loss": "765014630019168838924304440037179871345506885677901849265771536003119838516890300451/3232267475529287347579761970010377535010706643696671728092498126930291012822591327472"
+      }
+    },
+    "any_provider_detected_oa": {
+      "equal_costs": {
+        "false_inclusion_mass": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "false_exclusion_mass": "0",
+        "semantic_loss": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280"
+      },
+      "exclusion_costly": {
+        "false_inclusion_mass": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "false_exclusion_mass": "0",
+        "semantic_loss": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280"
+      },
+      "inclusion_costly": {
+        "false_inclusion_mass": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+        "false_exclusion_mass": "0",
+        "semantic_loss": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/1599972400386997237051982175155136879830299788629852505405786572830494051347182707098640"
+      }
+    }
+  },
+  "rules": {
+    "lowest_3": {
+      "selected_sets": {
+        "fully_oa_journal_status": [
+          "DK",
+          "FR",
+          "LU"
+        ],
+        "provider_detected_oa_excluding_bronze": [
+          "FR",
+          "GR",
+          "MT"
+        ],
+        "any_provider_detected_oa": [
+          "CY",
+          "FR",
+          "GR"
+        ],
+        "provider_classified_publisher_availability": [
+          "BE",
+          "FR",
+          "LU"
+        ]
+      },
+      "pairwise_definition_comparisons": [
+        {
+          "left": "fully_oa_journal_status",
+          "right": "provider_detected_oa_excluding_bronze",
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "4/27",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "fully_oa_journal_status",
+          "right": "any_provider_detected_oa",
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "4/27",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "provider_detected_oa_excluding_bronze",
+          "right": "any_provider_detected_oa",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "2/27",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      ],
+      "objective_comparisons": {
+        "fully_oa_journal_status": {
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "2/27",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "provider_detected_oa_excluding_bronze": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "4/27",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "any_provider_detected_oa": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "4/27",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      },
+      "objective_losses": {
+        "fully_oa_journal_status": {
+          "equal_costs": {
+            "false_selection_count": 1,
+            "missed_reference_count": 1,
+            "action_loss_count_scale": "2",
+            "action_loss_per_unit": "2/27",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "provider_detected_oa_excluding_bronze": {
+          "equal_costs": {
+            "false_selection_count": 2,
+            "missed_reference_count": 2,
+            "action_loss_count_scale": "4",
+            "action_loss_per_unit": "4/27",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "any_provider_detected_oa": {
+          "equal_costs": {
+            "false_selection_count": 2,
+            "missed_reference_count": 2,
+            "action_loss_count_scale": "4",
+            "action_loss_per_unit": "4/27",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        }
+      }
+    },
+    "highest_3": {
+      "selected_sets": {
+        "fully_oa_journal_status": [
+          "HR",
+          "LT",
+          "PL"
+        ],
+        "provider_detected_oa_excluding_bronze": [
+          "FI",
+          "HU",
+          "NL"
+        ],
+        "any_provider_detected_oa": [
+          "BG",
+          "FI",
+          "NL"
+        ],
+        "provider_classified_publisher_availability": [
+          "BG",
+          "HU",
+          "RO"
+        ]
+      },
+      "pairwise_definition_comparisons": [
+        {
+          "left": "fully_oa_journal_status",
+          "right": "provider_detected_oa_excluding_bronze",
+          "equal_sets": false,
+          "intersection_count": 0,
+          "union_count": 6,
+          "symmetric_difference_count": 6,
+          "jaccard": "0",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "2/9",
+          "rank_churn": "1",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "fully_oa_journal_status",
+          "right": "any_provider_detected_oa",
+          "equal_sets": false,
+          "intersection_count": 0,
+          "union_count": 6,
+          "symmetric_difference_count": 6,
+          "jaccard": "0",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "2/9",
+          "rank_churn": "1",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        {
+          "left": "provider_detected_oa_excluding_bronze",
+          "right": "any_provider_detected_oa",
+          "equal_sets": false,
+          "intersection_count": 2,
+          "union_count": 4,
+          "symmetric_difference_count": 2,
+          "jaccard": "1/2",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "2/27",
+          "rank_churn": "1/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      ],
+      "objective_comparisons": {
+        "fully_oa_journal_status": {
+          "equal_sets": false,
+          "intersection_count": 0,
+          "union_count": 6,
+          "symmetric_difference_count": 6,
+          "jaccard": "0",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "2/9",
+          "rank_churn": "1",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "provider_detected_oa_excluding_bronze": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "4/27",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        },
+        "any_provider_detected_oa": {
+          "equal_sets": false,
+          "intersection_count": 1,
+          "union_count": 5,
+          "symmetric_difference_count": 4,
+          "jaccard": "1/5",
+          "jaccard_status": "defined_nonempty_union",
+          "normalised_symmetric_difference": "4/27",
+          "rank_churn": "2/3",
+          "rank_churn_status": "defined_equal_positive_rank_size"
+        }
+      },
+      "objective_losses": {
+        "fully_oa_journal_status": {
+          "equal_costs": {
+            "false_selection_count": 3,
+            "missed_reference_count": 3,
+            "action_loss_count_scale": "6",
+            "action_loss_per_unit": "2/9",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "provider_detected_oa_excluding_bronze": {
+          "equal_costs": {
+            "false_selection_count": 2,
+            "missed_reference_count": 2,
+            "action_loss_count_scale": "4",
+            "action_loss_per_unit": "4/27",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        },
+        "any_provider_detected_oa": {
+          "equal_costs": {
+            "false_selection_count": 2,
+            "missed_reference_count": 2,
+            "action_loss_count_scale": "4",
+            "action_loss_per_unit": "4/27",
+            "selected_count": 3,
+            "reference_count": 3
+          }
+        }
+      }
+    },
+    "below_one_quarter": {
+      "selected_sets": {
+        "fully_oa_journal_status": [],
+        "provider_detected_oa_excluding_bronze": [],
+        "any_provider_detected_oa": [],
+        "provider_classified_publisher_availability": []
+      },
+      "pairwise_definition_comparisons": [
+        {
+          "left": "fully_oa_journal_status",
+          "right": "provider_detected_oa_excluding_bronze",
+          "equal_sets": true,
+          "intersection_count": 0,
+          "union_count": 0,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "both_empty_convention_one",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        {
+          "left": "fully_oa_journal_status",
+          "right": "any_provider_detected_oa",
+          "equal_sets": true,
+          "intersection_count": 0,
+          "union_count": 0,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "both_empty_convention_one",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        {
+          "left": "provider_detected_oa_excluding_bronze",
+          "right": "any_provider_detected_oa",
+          "equal_sets": true,
+          "intersection_count": 0,
+          "union_count": 0,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "both_empty_convention_one",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        }
+      ],
+      "objective_comparisons": {
+        "fully_oa_journal_status": {
+          "equal_sets": true,
+          "intersection_count": 0,
+          "union_count": 0,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "both_empty_convention_one",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        "provider_detected_oa_excluding_bronze": {
+          "equal_sets": true,
+          "intersection_count": 0,
+          "union_count": 0,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "both_empty_convention_one",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        },
+        "any_provider_detected_oa": {
+          "equal_sets": true,
+          "intersection_count": 0,
+          "union_count": 0,
+          "symmetric_difference_count": 0,
+          "jaccard": "1",
+          "jaccard_status": "both_empty_convention_one",
+          "normalised_symmetric_difference": "0",
+          "rank_churn": null,
+          "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+        }
+      },
+      "objective_losses": {
+        "fully_oa_journal_status": {
+          "equal_costs": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          },
+          "exclusion_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          },
+          "inclusion_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          }
+        },
+        "provider_detected_oa_excluding_bronze": {
+          "equal_costs": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          },
+          "exclusion_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          },
+          "inclusion_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          }
+        },
+        "any_provider_detected_oa": {
+          "equal_costs": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          },
+          "exclusion_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          },
+          "inclusion_costly": {
+            "false_selection_count": 0,
+            "missed_reference_count": 0,
+            "action_loss_count_scale": "0",
+            "action_loss_per_unit": "0",
+            "selected_count": 0,
+            "reference_count": 0
+          }
+        }
+      }
+    }
+  },
+  "scope": "Point comparisons on supplied normalised known-state totals; no source-adapter, missing-data or population validation",
+  "identities": {
+    "input_sha256": "beb764cfe4d441f009da8a2202ae2350b19d0eaefbfe5be624e8f927073114fe",
+    "core_sha256": "221afe006b7d799b2f5044b5cbb0c61ba8b3f46304d6abb1d0003169715f0541",
+    "executor_sha256": "041578bbcd531e0b8b97cd8960240c01f556f554b12029ea4e5750f0493f5bf0"
+  }
+}

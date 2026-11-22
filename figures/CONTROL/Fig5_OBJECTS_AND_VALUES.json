@@ -1,0 +1,4517 @@
+{
+  "schema": "R15_NATIVE_FIGURE_SCENE_1",
+  "figure": 5,
+  "width_mm": 119,
+  "height_mm": 143,
+  "description": "OA definition comparisons with a declared publisher-availability objective",
+  "objects": [
+    {
+      "id": "fig5_a_panel",
+      "type": "text",
+      "role": "panel_label",
+      "text": "a",
+      "x": 3,
+      "y": 1,
+      "width": 5,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 9,
+      "font_weight": "bold",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_D1_label",
+      "type": "text",
+      "role": "label",
+      "text": "D1",
+      "x": 6,
+      "y": 11,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_D1",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 11,
+      "width": 65.69405576262368,
+      "height": 4.6,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 13.25,
+      "x2": 22.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 15.5,
+      "x2": 24.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 15.6,
+      "x2": 26.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 15.6,
+      "x2": 29.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 15.6,
+      "x2": 31.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 15.6,
+      "x2": 33.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 15.6,
+      "x2": 35.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 15.6,
+      "x2": 38.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 15.6,
+      "x2": 40.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 15.6,
+      "x2": 42.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 15.6,
+      "x2": 44.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.4,
+      "y1": 15.6,
+      "x2": 47.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.65,
+      "y1": 15.6,
+      "x2": 49.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.9,
+      "y1": 15.6,
+      "x2": 51.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.15,
+      "y1": 15.6,
+      "x2": 53.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.4,
+      "y1": 15.6,
+      "x2": 56.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.65,
+      "y1": 15.6,
+      "x2": 58.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.9,
+      "y1": 15.6,
+      "x2": 60.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.15,
+      "y1": 15.6,
+      "x2": 62.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.4,
+      "y1": 15.6,
+      "x2": 65.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.65,
+      "y1": 15.6,
+      "x2": 67.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 64.9,
+      "y1": 15.6,
+      "x2": 69.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 67.15,
+      "y1": 15.6,
+      "x2": 71.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 69.4,
+      "y1": 15.6,
+      "x2": 74.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 71.65,
+      "y1": 15.6,
+      "x2": 76.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_26",
+      "type": "line",
+      "role": "hatch",
+      "x1": 73.9,
+      "y1": 15.6,
+      "x2": 78.5,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_27",
+      "type": "line",
+      "role": "hatch",
+      "x1": 76.15,
+      "y1": 15.6,
+      "x2": 80.75,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_28",
+      "type": "line",
+      "role": "hatch",
+      "x1": 78.4,
+      "y1": 15.6,
+      "x2": 83.0,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_29",
+      "type": "line",
+      "role": "hatch",
+      "x1": 80.65,
+      "y1": 15.6,
+      "x2": 85.25,
+      "y2": 11.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_30",
+      "type": "line",
+      "role": "hatch",
+      "x1": 82.9,
+      "y1": 15.6,
+      "x2": 85.69405576262369,
+      "y2": 12.805944237376321,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_hatch_1_31",
+      "type": "line",
+      "role": "hatch",
+      "x1": 85.15,
+      "y1": 15.6,
+      "x2": 85.69405576262368,
+      "y2": 15.055944237376329,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 11,
+      "width": 65.69405576262368,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "native_group": "fig5_a_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D1_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.287974",
+      "x": 96,
+      "y": 11,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      }
+    },
+    {
+      "id": "fig5_a_D2_label",
+      "type": "text",
+      "role": "label",
+      "text": "D2",
+      "x": 6,
+      "y": 20,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_D2",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 20,
+      "width": 33.681848575100794,
+      "height": 4.6,
+      "fill": "#228c35",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/3/loss_exact",
+        "display_path": "/semantic/3/loss"
+      },
+      "native_group": "fig5_a_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D2_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20,
+      "y1": 21.6,
+      "x2": 53.681848575100794,
+      "y2": 21.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/3/loss_exact",
+        "display_path": "/semantic/3/loss"
+      },
+      "native_group": "fig5_a_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D2_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20,
+      "y1": 23.4,
+      "x2": 53.681848575100794,
+      "y2": 23.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/3/loss_exact",
+        "display_path": "/semantic/3/loss"
+      },
+      "native_group": "fig5_a_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D2_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 20,
+      "width": 33.681848575100794,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/3/loss_exact",
+        "display_path": "/semantic/3/loss"
+      },
+      "native_group": "fig5_a_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D2_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.147646",
+      "x": 96,
+      "y": 20,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/3/loss_exact",
+        "display_path": "/semantic/3/loss"
+      }
+    },
+    {
+      "id": "fig5_a_D3_label",
+      "type": "text",
+      "role": "label",
+      "text": "D3",
+      "x": 6,
+      "y": 29,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_D3",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 29,
+      "width": 20.310886801647445,
+      "height": 4.6,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 31.25,
+      "x2": 22.25,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 33.5,
+      "x2": 24.5,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 33.6,
+      "x2": 26.75,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 33.6,
+      "x2": 29.0,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 33.6,
+      "x2": 31.25,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 33.6,
+      "x2": 33.5,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 33.6,
+      "x2": 35.75,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 33.6,
+      "x2": 38.0,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 33.6,
+      "x2": 40.25,
+      "y2": 29.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 33.6,
+      "x2": 40.31088680164744,
+      "y2": 31.189113198352555,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 33.6,
+      "x2": 40.31088680164744,
+      "y2": 33.43911319835256,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 31.35,
+      "x2": 22.25,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 29.1,
+      "x2": 24.5,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 29,
+      "x2": 26.75,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 29,
+      "x2": 29.0,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 29,
+      "x2": 31.25,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 29,
+      "x2": 33.5,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 29,
+      "x2": 35.75,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 29,
+      "x2": 38.0,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 29,
+      "x2": 40.25,
+      "y2": 33.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 29,
+      "x2": 40.31088680164744,
+      "y2": 31.410886801647447,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_hatch_-1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 29,
+      "x2": 40.31088680164744,
+      "y2": 29.160886801647447,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 29,
+      "width": 20.310886801647445,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "native_group": "fig5_a_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_a_D3_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.089034",
+      "x": 96,
+      "y": 29,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      }
+    },
+    {
+      "id": "fig5_a_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 20,
+      "y1": 37,
+      "x2": 93,
+      "y2": 37,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 20.0,
+      "y1": 37,
+      "x2": 20.0,
+      "y2": 38.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.00",
+      "x": 15.0,
+      "y": 38.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 42.8125,
+      "y1": 37,
+      "x2": 42.8125,
+      "y2": 38.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.10",
+      "x": 37.8125,
+      "y": 38.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 65.625,
+      "y1": 37,
+      "x2": 65.625,
+      "y2": 38.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.20",
+      "x": 60.625,
+      "y": 38.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 88.4375,
+      "y1": 37,
+      "x2": 88.4375,
+      "y2": 38.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_a_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.30",
+      "x": 83.4375,
+      "y": 38.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_a_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Mean semantic loss (equal country weights)",
+      "x": 2,
+      "y": 43,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.4,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_panel",
+      "type": "text",
+      "role": "panel_label",
+      "text": "b",
+      "x": 3,
+      "y": 48,
+      "width": 5,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 9,
+      "font_weight": "bold",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_D1_label",
+      "type": "text",
+      "role": "label",
+      "text": "D1",
+      "x": 6,
+      "y": 58,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_D1",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 58,
+      "width": 21.62962962962963,
+      "height": 4.6,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 60.25,
+      "x2": 22.25,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 62.5,
+      "x2": 24.5,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 62.6,
+      "x2": 26.75,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 62.6,
+      "x2": 29.0,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 62.6,
+      "x2": 31.25,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 62.6,
+      "x2": 33.5,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 62.6,
+      "x2": 35.75,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 62.6,
+      "x2": 38.0,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 62.6,
+      "x2": 40.25,
+      "y2": 58.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 62.6,
+      "x2": 41.62962962962963,
+      "y2": 58.87037037037037,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 62.6,
+      "x2": 41.62962962962963,
+      "y2": 61.12037037037037,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 58,
+      "width": 21.62962962962963,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D1_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.074074",
+      "x": 96,
+      "y": 58,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      }
+    },
+    {
+      "id": "fig5_b_D2_label",
+      "type": "text",
+      "role": "label",
+      "text": "D2",
+      "x": 6,
+      "y": 67,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_D2",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 67,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "#228c35",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/1/action_loss_per_unit",
+        "display_path": "/objective_comparisons/1/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D2_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20,
+      "y1": 68.6,
+      "x2": 63.25925925925926,
+      "y2": 68.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/1/action_loss_per_unit",
+        "display_path": "/objective_comparisons/1/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D2_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20,
+      "y1": 70.4,
+      "x2": 63.25925925925926,
+      "y2": 70.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/1/action_loss_per_unit",
+        "display_path": "/objective_comparisons/1/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D2_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 67,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/1/action_loss_per_unit",
+        "display_path": "/objective_comparisons/1/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D2_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.148148",
+      "x": 96,
+      "y": 67,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/1/action_loss_per_unit",
+        "display_path": "/objective_comparisons/1/action_loss_per_unit_display"
+      }
+    },
+    {
+      "id": "fig5_b_D3_label",
+      "type": "text",
+      "role": "label",
+      "text": "D3",
+      "x": 6,
+      "y": 76,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_D3",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 76,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 78.25,
+      "x2": 22.25,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 80.5,
+      "x2": 24.5,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 80.6,
+      "x2": 26.75,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 80.6,
+      "x2": 29.0,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 80.6,
+      "x2": 31.25,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 80.6,
+      "x2": 33.5,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 80.6,
+      "x2": 35.75,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 80.6,
+      "x2": 38.0,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 80.6,
+      "x2": 40.25,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 80.6,
+      "x2": 42.5,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 80.6,
+      "x2": 44.75,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.4,
+      "y1": 80.6,
+      "x2": 47.0,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.65,
+      "y1": 80.6,
+      "x2": 49.25,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.9,
+      "y1": 80.6,
+      "x2": 51.5,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.15,
+      "y1": 80.6,
+      "x2": 53.75,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.4,
+      "y1": 80.6,
+      "x2": 56.0,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.65,
+      "y1": 80.6,
+      "x2": 58.25,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.9,
+      "y1": 80.6,
+      "x2": 60.5,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.15,
+      "y1": 80.6,
+      "x2": 62.75,
+      "y2": 76.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.4,
+      "y1": 80.6,
+      "x2": 63.25925925925926,
+      "y2": 77.74074074074073,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.65,
+      "y1": 80.6,
+      "x2": 63.25925925925926,
+      "y2": 79.99074074074073,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 78.35,
+      "x2": 22.25,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 76.1,
+      "x2": 24.5,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 76,
+      "x2": 26.75,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 76,
+      "x2": 29.0,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 76,
+      "x2": 31.25,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 76,
+      "x2": 33.5,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 76,
+      "x2": 35.75,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 76,
+      "x2": 38.0,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 76,
+      "x2": 40.25,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 76,
+      "x2": 42.5,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 76,
+      "x2": 44.75,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.4,
+      "y1": 76,
+      "x2": 47.0,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.65,
+      "y1": 76,
+      "x2": 49.25,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.9,
+      "y1": 76,
+      "x2": 51.5,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.15,
+      "y1": 76,
+      "x2": 53.75,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.4,
+      "y1": 76,
+      "x2": 56.0,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.65,
+      "y1": 76,
+      "x2": 58.25,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.9,
+      "y1": 76,
+      "x2": 60.5,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.15,
+      "y1": 76,
+      "x2": 62.75,
+      "y2": 80.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.4,
+      "y1": 76,
+      "x2": 63.25925925925926,
+      "y2": 78.85925925925926,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_hatch_-1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.65,
+      "y1": 76,
+      "x2": 63.25925925925926,
+      "y2": 76.60925925925926,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 76,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_b_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_b_D3_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.148148",
+      "x": 96,
+      "y": 76,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      }
+    },
+    {
+      "id": "fig5_b_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 20,
+      "y1": 84,
+      "x2": 93,
+      "y2": 84,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 20.0,
+      "y1": 84,
+      "x2": 20.0,
+      "y2": 85.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.00",
+      "x": 15.0,
+      "y": 85.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 34.6,
+      "y1": 84,
+      "x2": 34.6,
+      "y2": 85.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.05",
+      "x": 29.6,
+      "y": 85.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 49.2,
+      "y1": 84,
+      "x2": 49.2,
+      "y2": 85.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.10",
+      "x": 44.2,
+      "y": 85.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 63.8,
+      "y1": 84,
+      "x2": 63.8,
+      "y2": 85.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.15",
+      "x": 58.8,
+      "y": 85.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_4",
+      "type": "line",
+      "role": "tick",
+      "x1": 78.4,
+      "y1": 84,
+      "x2": 78.4,
+      "y2": 85.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_label_4",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.20",
+      "x": 73.4,
+      "y": 85.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_5",
+      "type": "line",
+      "role": "tick",
+      "x1": 93.0,
+      "y1": 84,
+      "x2": 93.0,
+      "y2": 85.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_b_tick_label_5",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.25",
+      "x": 88.0,
+      "y": 85.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_b_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Action loss per country: lowest three",
+      "x": 2,
+      "y": 90,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.4,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_panel",
+      "type": "text",
+      "role": "panel_label",
+      "text": "c",
+      "x": 3,
+      "y": 95,
+      "width": 5,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 9,
+      "font_weight": "bold",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_D1_label",
+      "type": "text",
+      "role": "label",
+      "text": "D1",
+      "x": 6,
+      "y": 105,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_D1",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 105,
+      "width": 64.88888888888889,
+      "height": 4.6,
+      "fill": "#477cb3",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 107.25,
+      "x2": 22.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 109.5,
+      "x2": 24.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 109.6,
+      "x2": 26.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 109.6,
+      "x2": 29.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 109.6,
+      "x2": 31.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 109.6,
+      "x2": 33.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 109.6,
+      "x2": 35.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 109.6,
+      "x2": 38.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 109.6,
+      "x2": 40.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 109.6,
+      "x2": 42.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 109.6,
+      "x2": 44.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.4,
+      "y1": 109.6,
+      "x2": 47.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.65,
+      "y1": 109.6,
+      "x2": 49.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.9,
+      "y1": 109.6,
+      "x2": 51.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.15,
+      "y1": 109.6,
+      "x2": 53.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.4,
+      "y1": 109.6,
+      "x2": 56.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.65,
+      "y1": 109.6,
+      "x2": 58.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.9,
+      "y1": 109.6,
+      "x2": 60.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.15,
+      "y1": 109.6,
+      "x2": 62.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.4,
+      "y1": 109.6,
+      "x2": 65.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.65,
+      "y1": 109.6,
+      "x2": 67.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_22",
+      "type": "line",
+      "role": "hatch",
+      "x1": 64.9,
+      "y1": 109.6,
+      "x2": 69.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_23",
+      "type": "line",
+      "role": "hatch",
+      "x1": 67.15,
+      "y1": 109.6,
+      "x2": 71.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_24",
+      "type": "line",
+      "role": "hatch",
+      "x1": 69.4,
+      "y1": 109.6,
+      "x2": 74.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_25",
+      "type": "line",
+      "role": "hatch",
+      "x1": 71.65,
+      "y1": 109.6,
+      "x2": 76.25,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_26",
+      "type": "line",
+      "role": "hatch",
+      "x1": 73.9,
+      "y1": 109.6,
+      "x2": 78.5,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_27",
+      "type": "line",
+      "role": "hatch",
+      "x1": 76.15,
+      "y1": 109.6,
+      "x2": 80.75,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_28",
+      "type": "line",
+      "role": "hatch",
+      "x1": 78.4,
+      "y1": 109.6,
+      "x2": 83.0,
+      "y2": 105.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_29",
+      "type": "line",
+      "role": "hatch",
+      "x1": 80.65,
+      "y1": 109.6,
+      "x2": 84.88888888888889,
+      "y2": 105.36111111111111,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_hatch_1_30",
+      "type": "line",
+      "role": "hatch",
+      "x1": 82.9,
+      "y1": 109.6,
+      "x2": 84.88888888888889,
+      "y2": 107.61111111111111,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 105,
+      "width": 64.88888888888889,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D1_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D1_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.222222",
+      "x": 96,
+      "y": 105,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      }
+    },
+    {
+      "id": "fig5_c_D2_label",
+      "type": "text",
+      "role": "label",
+      "text": "D2",
+      "x": 6,
+      "y": 114,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_D2",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 114,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "#228c35",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/4/action_loss_per_unit",
+        "display_path": "/objective_comparisons/4/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D2_hatch_0",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20,
+      "y1": 115.6,
+      "x2": 63.25925925925926,
+      "y2": 115.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/4/action_loss_per_unit",
+        "display_path": "/objective_comparisons/4/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D2_hatch_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20,
+      "y1": 117.4,
+      "x2": 63.25925925925926,
+      "y2": 117.4,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/4/action_loss_per_unit",
+        "display_path": "/objective_comparisons/4/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D2_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 114,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/4/action_loss_per_unit",
+        "display_path": "/objective_comparisons/4/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D2_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D2_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.148148",
+      "x": 96,
+      "y": 114,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/4/action_loss_per_unit",
+        "display_path": "/objective_comparisons/4/action_loss_per_unit_display"
+      }
+    },
+    {
+      "id": "fig5_c_D3_label",
+      "type": "text",
+      "role": "label",
+      "text": "D3",
+      "x": 6,
+      "y": 123,
+      "width": 11,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.7,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_D3",
+      "type": "rect",
+      "role": "bar",
+      "x": 20,
+      "y": 123,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "#d2be3a",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 125.25,
+      "x2": 22.25,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 127.5,
+      "x2": 24.5,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 127.6,
+      "x2": 26.75,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 127.6,
+      "x2": 29.0,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 127.6,
+      "x2": 31.25,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 127.6,
+      "x2": 33.5,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 127.6,
+      "x2": 35.75,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 127.6,
+      "x2": 38.0,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 127.6,
+      "x2": 40.25,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 127.6,
+      "x2": 42.5,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 127.6,
+      "x2": 44.75,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.4,
+      "y1": 127.6,
+      "x2": 47.0,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.65,
+      "y1": 127.6,
+      "x2": 49.25,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.9,
+      "y1": 127.6,
+      "x2": 51.5,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.15,
+      "y1": 127.6,
+      "x2": 53.75,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.4,
+      "y1": 127.6,
+      "x2": 56.0,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.65,
+      "y1": 127.6,
+      "x2": 58.25,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.9,
+      "y1": 127.6,
+      "x2": 60.5,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.15,
+      "y1": 127.6,
+      "x2": 62.75,
+      "y2": 123.0,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.4,
+      "y1": 127.6,
+      "x2": 63.25925925925926,
+      "y2": 124.74074074074073,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.65,
+      "y1": 127.6,
+      "x2": 63.25925925925926,
+      "y2": 126.99074074074073,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_1",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 125.35,
+      "x2": 22.25,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_2",
+      "type": "line",
+      "role": "hatch",
+      "x1": 20.0,
+      "y1": 123.1,
+      "x2": 24.5,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_3",
+      "type": "line",
+      "role": "hatch",
+      "x1": 22.15,
+      "y1": 123,
+      "x2": 26.75,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_4",
+      "type": "line",
+      "role": "hatch",
+      "x1": 24.4,
+      "y1": 123,
+      "x2": 29.0,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_5",
+      "type": "line",
+      "role": "hatch",
+      "x1": 26.65,
+      "y1": 123,
+      "x2": 31.25,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_6",
+      "type": "line",
+      "role": "hatch",
+      "x1": 28.9,
+      "y1": 123,
+      "x2": 33.5,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_7",
+      "type": "line",
+      "role": "hatch",
+      "x1": 31.15,
+      "y1": 123,
+      "x2": 35.75,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_8",
+      "type": "line",
+      "role": "hatch",
+      "x1": 33.4,
+      "y1": 123,
+      "x2": 38.0,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_9",
+      "type": "line",
+      "role": "hatch",
+      "x1": 35.65,
+      "y1": 123,
+      "x2": 40.25,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_10",
+      "type": "line",
+      "role": "hatch",
+      "x1": 37.9,
+      "y1": 123,
+      "x2": 42.5,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_11",
+      "type": "line",
+      "role": "hatch",
+      "x1": 40.15,
+      "y1": 123,
+      "x2": 44.75,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_12",
+      "type": "line",
+      "role": "hatch",
+      "x1": 42.4,
+      "y1": 123,
+      "x2": 47.0,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_13",
+      "type": "line",
+      "role": "hatch",
+      "x1": 44.65,
+      "y1": 123,
+      "x2": 49.25,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_14",
+      "type": "line",
+      "role": "hatch",
+      "x1": 46.9,
+      "y1": 123,
+      "x2": 51.5,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_15",
+      "type": "line",
+      "role": "hatch",
+      "x1": 49.15,
+      "y1": 123,
+      "x2": 53.75,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_16",
+      "type": "line",
+      "role": "hatch",
+      "x1": 51.4,
+      "y1": 123,
+      "x2": 56.0,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_17",
+      "type": "line",
+      "role": "hatch",
+      "x1": 53.65,
+      "y1": 123,
+      "x2": 58.25,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_18",
+      "type": "line",
+      "role": "hatch",
+      "x1": 55.9,
+      "y1": 123,
+      "x2": 60.5,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_19",
+      "type": "line",
+      "role": "hatch",
+      "x1": 58.15,
+      "y1": 123,
+      "x2": 62.75,
+      "y2": 127.6,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_20",
+      "type": "line",
+      "role": "hatch",
+      "x1": 60.4,
+      "y1": 123,
+      "x2": 63.25925925925926,
+      "y2": 125.85925925925926,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_hatch_-1_21",
+      "type": "line",
+      "role": "hatch",
+      "x1": 62.65,
+      "y1": 123,
+      "x2": 63.25925925925926,
+      "y2": 123.60925925925926,
+      "stroke": "#222222",
+      "stroke_width": 0.1,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_outline",
+      "type": "rect",
+      "role": "bar_outline",
+      "x": 20,
+      "y": 123,
+      "width": 43.25925925925926,
+      "height": 4.6,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 0.15,
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "native_group": "fig5_c_D3_editable_bar_group"
+    },
+    {
+      "id": "fig5_c_D3_value",
+      "type": "text",
+      "role": "label",
+      "text": "0.148148",
+      "x": 96,
+      "y": 123,
+      "width": 21,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.3,
+      "font_weight": "normal",
+      "align": "left",
+      "color": "#222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      }
+    },
+    {
+      "id": "fig5_c_axis",
+      "type": "line",
+      "role": "axis",
+      "x1": 20,
+      "y1": 131,
+      "x2": 93,
+      "y2": 131,
+      "stroke": "#222222",
+      "stroke_width": 0.2,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_0",
+      "type": "line",
+      "role": "tick",
+      "x1": 20.0,
+      "y1": 131,
+      "x2": 20.0,
+      "y2": 132.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_label_0",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.00",
+      "x": 15.0,
+      "y": 132.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_1",
+      "type": "line",
+      "role": "tick",
+      "x1": 34.6,
+      "y1": 131,
+      "x2": 34.6,
+      "y2": 132.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_label_1",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.05",
+      "x": 29.6,
+      "y": 132.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_2",
+      "type": "line",
+      "role": "tick",
+      "x1": 49.2,
+      "y1": 131,
+      "x2": 49.2,
+      "y2": 132.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_label_2",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.10",
+      "x": 44.2,
+      "y": 132.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_3",
+      "type": "line",
+      "role": "tick",
+      "x1": 63.8,
+      "y1": 131,
+      "x2": 63.8,
+      "y2": 132.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_label_3",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.15",
+      "x": 58.8,
+      "y": 132.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_4",
+      "type": "line",
+      "role": "tick",
+      "x1": 78.4,
+      "y1": 131,
+      "x2": 78.4,
+      "y2": 132.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_label_4",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.20",
+      "x": 73.4,
+      "y": 132.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_5",
+      "type": "line",
+      "role": "tick",
+      "x1": 93.0,
+      "y1": 131,
+      "x2": 93.0,
+      "y2": 132.1,
+      "stroke": "#222222",
+      "stroke_width": 0.18,
+      "source": null
+    },
+    {
+      "id": "fig5_c_tick_label_5",
+      "type": "text",
+      "role": "tick_label",
+      "text": "0.25",
+      "x": 88.0,
+      "y": 132.3,
+      "width": 10,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.0,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    },
+    {
+      "id": "fig5_c_axis_label",
+      "type": "text",
+      "role": "axis_label",
+      "text": "Action loss per country: highest three",
+      "x": 2,
+      "y": 137,
+      "width": 115,
+      "height": 4.3,
+      "font_family": "Liberation Sans",
+      "font_size_pt": 8.4,
+      "font_weight": "normal",
+      "align": "center",
+      "color": "#222222",
+      "source": null
+    }
+  ],
+  "value_trace": [
+    {
+      "object_id": "fig5_a_D1",
+      "source_exact": "921500721882145895866155650648808905698928077348367852837164161591234209252252662664501/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "display": "0.287974",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/0/loss_exact",
+        "display_path": "/semantic/0/loss"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.32"
+      }
+    },
+    {
+      "object_id": "fig5_a_D2",
+      "source_exact": "67494360064720639804078344561994527025878774730134470479086857763521536614222037523681/457134971539142067729137764330039108522942796751386430115939020808712586099195059171040",
+      "display": "0.147646",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/3/loss_exact",
+        "display_path": "/semantic/3/loss"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.32"
+      }
+    },
+    {
+      "object_id": "fig5_a_D3",
+      "source_exact": "284903963265932671906512983702846383450900393710181537419505816298437883832167134780723/3199944800773994474103964350310273759660599577259705010811573145660988102694365414197280",
+      "display": "0.089034",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/semantic/6/loss_exact",
+        "display_path": "/semantic/6/loss"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.32"
+      }
+    },
+    {
+      "object_id": "fig5_b_D1",
+      "source_exact": "2/27",
+      "display": "0.074074",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/0/action_loss_per_unit",
+        "display_path": "/objective_comparisons/0/action_loss_per_unit_display"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.25"
+      }
+    },
+    {
+      "object_id": "fig5_b_D2",
+      "source_exact": "4/27",
+      "display": "0.148148",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/1/action_loss_per_unit",
+        "display_path": "/objective_comparisons/1/action_loss_per_unit_display"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.25"
+      }
+    },
+    {
+      "object_id": "fig5_b_D3",
+      "source_exact": "4/27",
+      "display": "0.148148",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/2/action_loss_per_unit",
+        "display_path": "/objective_comparisons/2/action_loss_per_unit_display"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.25"
+      }
+    },
+    {
+      "object_id": "fig5_c_D1",
+      "source_exact": "2/9",
+      "display": "0.222222",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/3/action_loss_per_unit",
+        "display_path": "/objective_comparisons/3/action_loss_per_unit_display"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.25"
+      }
+    },
+    {
+      "object_id": "fig5_c_D2",
+      "source_exact": "4/27",
+      "display": "0.148148",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/4/action_loss_per_unit",
+        "display_path": "/objective_comparisons/4/action_loss_per_unit_display"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.25"
+      }
+    },
+    {
+      "object_id": "fig5_c_D3",
+      "source_exact": "4/27",
+      "display": "0.148148",
+      "source": {
+        "source_file": "R14_1_OA_REPORTING_TABLES.json",
+        "json_path": "/objective_comparisons/5/action_loss_per_unit",
+        "display_path": "/objective_comparisons/5/action_loss_per_unit_display"
+      },
+      "geometry_transform": {
+        "property": "width",
+        "axis_origin_mm": 20,
+        "axis_span_mm": 73,
+        "axis_maximum": "0.25"
+      }
+    }
+  ],
+  "object_count": 261,
+  "object_types": {
+    "text": 40,
+    "rect": 18,
+    "line": 203
+  }
+}

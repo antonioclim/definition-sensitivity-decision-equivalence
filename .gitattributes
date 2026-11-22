@@ -1,0 +1,9 @@
+# Preserve hash-bound UTF-8 files and historical line endings on every platform.
+* -text
+*.zip binary
+*.docx binary
+*.pdf binary
+*.odg binary
+*.png binary
+*.tif binary
+*.tiff binary

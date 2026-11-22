@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="119.000000mm" height="110.000000mm" viewBox="0 0 119 110" role="img">
+ <title>Fig. 4: Preserved synthetic strict-order determinacy by unresolved-state profile</title>
+ <desc>All labels are editable SVG text; all data marks are native vector primitives. See the adjacent object and value manifests.</desc>
+ <text id="fig4_y_axis_label" data-role="axis_label" x="15" y="4.169527777777778" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Share of strictly orderable pairs</text>
+ <line id="fig4_y_grid_0" data-role="grid" fill="none" stroke="#d2d2d2" stroke-width="0.1" x1="15" y1="80" x2="115" y2="80" />
+ <line id="fig4_y_tick_0" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="14" y1="80" x2="15" y2="80" />
+ <text id="fig4_y_tick_label_0" data-role="tick_label" x="12" y="81.13354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="end">0.0</text>
+ <line id="fig4_y_grid_1" data-role="grid" fill="none" stroke="#d2d2d2" stroke-width="0.1" x1="15" y1="66.4" x2="115" y2="66.4" />
+ <line id="fig4_y_tick_1" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="14" y1="66.4" x2="15" y2="66.4" />
+ <text id="fig4_y_tick_label_1" data-role="tick_label" x="12" y="67.53354444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="end">0.2</text>
+ <line id="fig4_y_grid_2" data-role="grid" fill="none" stroke="#d2d2d2" stroke-width="0.1" x1="15" y1="52.8" x2="115" y2="52.8" />
+ <line id="fig4_y_tick_2" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="14" y1="52.8" x2="15" y2="52.8" />
+ <text id="fig4_y_tick_label_2" data-role="tick_label" x="12" y="53.93354444444444" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="end">0.4</text>
+ <line id="fig4_y_grid_3" data-role="grid" fill="none" stroke="#d2d2d2" stroke-width="0.1" x1="15" y1="39.2" x2="115" y2="39.2" />
+ <line id="fig4_y_tick_3" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="14" y1="39.2" x2="15" y2="39.2" />
+ <text id="fig4_y_tick_label_3" data-role="tick_label" x="12" y="40.33354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="end">0.6</text>
+ <line id="fig4_y_grid_4" data-role="grid" fill="none" stroke="#d2d2d2" stroke-width="0.1" x1="15" y1="25.599999999999994" x2="115" y2="25.599999999999994" />
+ <line id="fig4_y_tick_4" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="14" y1="25.599999999999994" x2="15" y2="25.599999999999994" />
+ <text id="fig4_y_tick_label_4" data-role="tick_label" x="12" y="26.733544444444437" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="end">0.8</text>
+ <line id="fig4_y_grid_5" data-role="grid" fill="none" stroke="#d2d2d2" stroke-width="0.1" x1="15" y1="12" x2="115" y2="12" />
+ <line id="fig4_y_tick_5" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="14" y1="12" x2="15" y2="12" />
+ <text id="fig4_y_tick_label_5" data-role="tick_label" x="12" y="13.133544444444444" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="end">1.0</text>
+ <line id="fig4_y_axis" data-role="axis" fill="none" stroke="#222222" stroke-width="0.2" x1="15" y1="12" x2="15" y2="80" />
+ <line id="fig4_x_axis" data-role="axis" fill="none" stroke="#222222" stroke-width="0.2" x1="15" y1="80" x2="115" y2="80" />
+ <g id="fig4_d0_p0_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d0_p0" data-role="bar" fill="#477cb3" stroke="#222222" stroke-width="0.15" x="18" y="15.723566664399996" width="7" height="64.2764333356" />
+  <line id="fig4_d0_p0_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="17.973566664399996" x2="20.25" y2="15.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="20.223566664399996" x2="22.5" y2="15.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="22.473566664399996" x2="24.75" y2="15.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="24.723566664399996" x2="25.0" y2="17.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="26.973566664399996" x2="25.0" y2="19.973566664399996" />
+  <line id="fig4_d0_p0_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="29.223566664399996" x2="25.0" y2="22.223566664399996" />
+  <line id="fig4_d0_p0_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="31.473566664399996" x2="25.0" y2="24.473566664399996" />
+  <line id="fig4_d0_p0_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="33.723566664399996" x2="25.0" y2="26.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="35.973566664399996" x2="25.0" y2="28.973566664399996" />
+  <line id="fig4_d0_p0_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="38.223566664399996" x2="25.0" y2="31.223566664399996" />
+  <line id="fig4_d0_p0_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="40.473566664399996" x2="25.0" y2="33.473566664399996" />
+  <line id="fig4_d0_p0_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="42.723566664399996" x2="25.0" y2="35.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="44.973566664399996" x2="25.0" y2="37.973566664399996" />
+  <line id="fig4_d0_p0_hatch_1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="47.223566664399996" x2="25.0" y2="40.223566664399996" />
+  <line id="fig4_d0_p0_hatch_1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="49.473566664399996" x2="25.0" y2="42.473566664399996" />
+  <line id="fig4_d0_p0_hatch_1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="51.723566664399996" x2="25.0" y2="44.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="53.973566664399996" x2="25.0" y2="46.973566664399996" />
+  <line id="fig4_d0_p0_hatch_1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="56.223566664399996" x2="25.0" y2="49.223566664399996" />
+  <line id="fig4_d0_p0_hatch_1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="58.473566664399996" x2="25.0" y2="51.473566664399996" />
+  <line id="fig4_d0_p0_hatch_1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="60.723566664399996" x2="25.0" y2="53.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="62.973566664399996" x2="25.0" y2="55.973566664399996" />
+  <line id="fig4_d0_p0_hatch_1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="65.2235666644" x2="25.0" y2="58.223566664399996" />
+  <line id="fig4_d0_p0_hatch_1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="67.4735666644" x2="25.0" y2="60.473566664399996" />
+  <line id="fig4_d0_p0_hatch_1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="69.7235666644" x2="25.0" y2="62.723566664399996" />
+  <line id="fig4_d0_p0_hatch_1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="71.9735666644" x2="25.0" y2="64.9735666644" />
+  <line id="fig4_d0_p0_hatch_1_26" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="74.2235666644" x2="25.0" y2="67.2235666644" />
+  <line id="fig4_d0_p0_hatch_1_27" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="76.4735666644" x2="25.0" y2="69.4735666644" />
+  <line id="fig4_d0_p0_hatch_1_28" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.0" y1="78.7235666644" x2="25.0" y2="71.7235666644" />
+  <line id="fig4_d0_p0_hatch_1_29" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="18.973566664399996" y1="80.0" x2="25.0" y2="73.9735666644" />
+  <line id="fig4_d0_p0_hatch_1_30" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="21.223566664399996" y1="80.0" x2="25.0" y2="76.2235666644" />
+  <line id="fig4_d0_p0_hatch_1_31" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="23.473566664399996" y1="80.0" x2="25.0" y2="78.4735666644" />
+  <rect id="fig4_d0_p0_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="18" y="15.723566664399996" width="7" height="64.2764333356" />
+ </g>
+ <text id="fig4_d0_p0_value" data-role="label" x="21.5" y="13.845116664399997" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.945</text>
+ <g id="fig4_d0_p1_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d0_p1" data-role="bar" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="26" y="74.492" width="7" height="5.508" />
+  <line id="fig4_d0_p1_hatch_0" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="26" y1="76.092" x2="33" y2="76.092" />
+  <line id="fig4_d0_p1_hatch_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="26" y1="77.89200000000001" x2="33" y2="77.89200000000001" />
+  <line id="fig4_d0_p1_hatch_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="26" y1="79.69200000000001" x2="33" y2="79.69200000000001" />
+  <rect id="fig4_d0_p1_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="26" y="74.492" width="7" height="5.508" />
+ </g>
+ <text id="fig4_d0_p1_value" data-role="label" x="29.5" y="72.61355" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.081</text>
+ <g id="fig4_d0_p2_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d0_p2" data-role="bar" fill="#228c35" stroke="#222222" stroke-width="0.15" x="34" y="75.92" width="7" height="4.08" />
+  <line id="fig4_d0_p2_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="34.0" y1="78.17" x2="36.25" y2="75.92" />
+  <line id="fig4_d0_p2_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="34.42" y1="80.0" x2="38.5" y2="75.92" />
+  <line id="fig4_d0_p2_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.67" y1="80.0" x2="40.75" y2="75.92" />
+  <line id="fig4_d0_p2_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.92" y1="80.0" x2="41.0" y2="77.92" />
+  <line id="fig4_d0_p2_hatch_-1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="34.0" y1="77.75" x2="36.25" y2="80.0" />
+  <line id="fig4_d0_p2_hatch_-1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="34.42" y1="75.92" x2="38.5" y2="80.0" />
+  <line id="fig4_d0_p2_hatch_-1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.67" y1="75.92" x2="40.75" y2="80.0" />
+  <line id="fig4_d0_p2_hatch_-1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.92" y1="75.92" x2="41.0" y2="78.0" />
+  <rect id="fig4_d0_p2_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="34" y="75.92" width="7" height="4.08" />
+ </g>
+ <text id="fig4_d0_p2_value" data-role="label" x="37.5" y="74.04155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.060</text>
+ <text id="fig4_x_label_0_0" data-role="category_label" x="30.0" y="86.16952777777779" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">Integrated</text>
+ <g id="fig4_d1_p0_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d1_p0" data-role="bar" fill="#477cb3" stroke="#222222" stroke-width="0.15" x="52" y="13.766441664400006" width="7" height="66.2335583356" />
+  <line id="fig4_d1_p0_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="16.016441664400006" x2="54.25" y2="13.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="18.266441664400006" x2="56.5" y2="13.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="20.516441664400006" x2="58.75" y2="13.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="22.766441664400006" x2="59.0" y2="15.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="25.016441664400006" x2="59.0" y2="18.016441664400006" />
+  <line id="fig4_d1_p0_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="27.266441664400006" x2="59.0" y2="20.266441664400006" />
+  <line id="fig4_d1_p0_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="29.516441664400006" x2="59.0" y2="22.516441664400006" />
+  <line id="fig4_d1_p0_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="31.766441664400006" x2="59.0" y2="24.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="34.016441664400006" x2="59.0" y2="27.016441664400006" />
+  <line id="fig4_d1_p0_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="36.266441664400006" x2="59.0" y2="29.266441664400006" />
+  <line id="fig4_d1_p0_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="38.516441664400006" x2="59.0" y2="31.516441664400006" />
+  <line id="fig4_d1_p0_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="40.766441664400006" x2="59.0" y2="33.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="43.016441664400006" x2="59.0" y2="36.016441664400006" />
+  <line id="fig4_d1_p0_hatch_1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="45.266441664400006" x2="59.0" y2="38.266441664400006" />
+  <line id="fig4_d1_p0_hatch_1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="47.516441664400006" x2="59.0" y2="40.516441664400006" />
+  <line id="fig4_d1_p0_hatch_1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="49.766441664400006" x2="59.0" y2="42.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="52.016441664400006" x2="59.0" y2="45.016441664400006" />
+  <line id="fig4_d1_p0_hatch_1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="54.266441664400006" x2="59.0" y2="47.266441664400006" />
+  <line id="fig4_d1_p0_hatch_1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="56.516441664400006" x2="59.0" y2="49.516441664400006" />
+  <line id="fig4_d1_p0_hatch_1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="58.766441664400006" x2="59.0" y2="51.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="61.016441664400006" x2="59.0" y2="54.016441664400006" />
+  <line id="fig4_d1_p0_hatch_1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="63.266441664400006" x2="59.0" y2="56.266441664400006" />
+  <line id="fig4_d1_p0_hatch_1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="65.5164416644" x2="59.0" y2="58.516441664400006" />
+  <line id="fig4_d1_p0_hatch_1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="67.7664416644" x2="59.0" y2="60.766441664400006" />
+  <line id="fig4_d1_p0_hatch_1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="70.0164416644" x2="59.0" y2="63.016441664400006" />
+  <line id="fig4_d1_p0_hatch_1_26" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="72.2664416644" x2="59.0" y2="65.2664416644" />
+  <line id="fig4_d1_p0_hatch_1_27" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="74.5164416644" x2="59.0" y2="67.5164416644" />
+  <line id="fig4_d1_p0_hatch_1_28" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="76.7664416644" x2="59.0" y2="69.7664416644" />
+  <line id="fig4_d1_p0_hatch_1_29" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="52.0" y1="79.0164416644" x2="59.0" y2="72.0164416644" />
+  <line id="fig4_d1_p0_hatch_1_30" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="53.266441664400006" y1="80.0" x2="59.0" y2="74.2664416644" />
+  <line id="fig4_d1_p0_hatch_1_31" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="55.516441664400006" y1="80.0" x2="59.0" y2="76.5164416644" />
+  <line id="fig4_d1_p0_hatch_1_32" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="57.766441664400006" y1="80.0" x2="59.0" y2="78.7664416644" />
+  <rect id="fig4_d1_p0_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="52" y="13.766441664400006" width="7" height="66.2335583356" />
+ </g>
+ <text id="fig4_d1_p0_value" data-role="label" x="55.5" y="11.887991664400007" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.974</text>
+ <g id="fig4_d1_p1_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d1_p1" data-role="bar" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="60" y="54.772" width="7" height="25.228" />
+  <line id="fig4_d1_p1_hatch_0" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="56.372" x2="67" y2="56.372" />
+  <line id="fig4_d1_p1_hatch_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="58.172" x2="67" y2="58.172" />
+  <line id="fig4_d1_p1_hatch_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="59.972" x2="67" y2="59.972" />
+  <line id="fig4_d1_p1_hatch_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="61.772" x2="67" y2="61.772" />
+  <line id="fig4_d1_p1_hatch_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="63.572" x2="67" y2="63.572" />
+  <line id="fig4_d1_p1_hatch_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="65.372" x2="67" y2="65.372" />
+  <line id="fig4_d1_p1_hatch_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="67.172" x2="67" y2="67.172" />
+  <line id="fig4_d1_p1_hatch_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="68.97200000000001" x2="67" y2="68.97200000000001" />
+  <line id="fig4_d1_p1_hatch_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="70.772" x2="67" y2="70.772" />
+  <line id="fig4_d1_p1_hatch_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="72.572" x2="67" y2="72.572" />
+  <line id="fig4_d1_p1_hatch_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="74.372" x2="67" y2="74.372" />
+  <line id="fig4_d1_p1_hatch_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="76.172" x2="67" y2="76.172" />
+  <line id="fig4_d1_p1_hatch_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60" y1="77.97200000000001" x2="67" y2="77.97200000000001" />
+  <rect id="fig4_d1_p1_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="60" y="54.772" width="7" height="25.228" />
+ </g>
+ <text id="fig4_d1_p1_value" data-role="label" x="63.5" y="52.89355" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.371</text>
+ <g id="fig4_d1_p2_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d1_p2" data-role="bar" fill="#228c35" stroke="#222222" stroke-width="0.15" x="68" y="58.376000000000005" width="7" height="21.624" />
+  <line id="fig4_d1_p2_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="60.626000000000005" x2="70.25" y2="58.376000000000005" />
+  <line id="fig4_d1_p2_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="62.876000000000005" x2="72.5" y2="58.376000000000005" />
+  <line id="fig4_d1_p2_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="65.126" x2="74.75" y2="58.376000000000005" />
+  <line id="fig4_d1_p2_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="67.376" x2="75.0" y2="60.376000000000005" />
+  <line id="fig4_d1_p2_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="69.626" x2="75.0" y2="62.626000000000005" />
+  <line id="fig4_d1_p2_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="71.876" x2="75.0" y2="64.876" />
+  <line id="fig4_d1_p2_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="74.126" x2="75.0" y2="67.126" />
+  <line id="fig4_d1_p2_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="76.376" x2="75.0" y2="69.376" />
+  <line id="fig4_d1_p2_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="78.626" x2="75.0" y2="71.626" />
+  <line id="fig4_d1_p2_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.876" y1="80.0" x2="75.0" y2="73.876" />
+  <line id="fig4_d1_p2_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="71.126" y1="80.0" x2="75.0" y2="76.126" />
+  <line id="fig4_d1_p2_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="73.376" y1="80.0" x2="75.0" y2="78.376" />
+  <line id="fig4_d1_p2_hatch_-1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="77.75" x2="70.25" y2="80.0" />
+  <line id="fig4_d1_p2_hatch_-1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="75.5" x2="72.5" y2="80.0" />
+  <line id="fig4_d1_p2_hatch_-1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="73.25" x2="74.75" y2="80.0" />
+  <line id="fig4_d1_p2_hatch_-1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="71.0" x2="75.0" y2="78.0" />
+  <line id="fig4_d1_p2_hatch_-1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="68.75" x2="75.0" y2="75.75" />
+  <line id="fig4_d1_p2_hatch_-1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="66.5" x2="75.0" y2="73.5" />
+  <line id="fig4_d1_p2_hatch_-1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="64.25" x2="75.0" y2="71.25" />
+  <line id="fig4_d1_p2_hatch_-1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="62.0" x2="75.0" y2="69.0" />
+  <line id="fig4_d1_p2_hatch_-1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.0" y1="59.75" x2="75.0" y2="66.75" />
+  <line id="fig4_d1_p2_hatch_-1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="68.876" y1="58.376000000000005" x2="75.0" y2="64.5" />
+  <line id="fig4_d1_p2_hatch_-1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="71.126" y1="58.376000000000005" x2="75.0" y2="62.25" />
+  <line id="fig4_d1_p2_hatch_-1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="73.376" y1="58.376000000000005" x2="75.0" y2="60.0" />
+  <rect id="fig4_d1_p2_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="68" y="58.376000000000005" width="7" height="21.624" />
+ </g>
+ <text id="fig4_d1_p2_value" data-role="label" x="71.5" y="56.497550000000004" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.318</text>
+ <text id="fig4_x_label_1_0" data-role="category_label" x="64.0" y="86.16952777777779" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">Specialised</text>
+ <g id="fig4_d2_p0_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d2_p0" data-role="bar" fill="#477cb3" stroke="#222222" stroke-width="0.15" x="86" y="12.928766664400001" width="7" height="67.0712333356" />
+  <line id="fig4_d2_p0_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="15.178766664400001" x2="88.25" y2="12.928766664400001" />
+  <line id="fig4_d2_p0_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="17.4287666644" x2="90.5" y2="12.928766664400001" />
+  <line id="fig4_d2_p0_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="19.6787666644" x2="92.75" y2="12.928766664400001" />
+  <line id="fig4_d2_p0_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="21.9287666644" x2="93.0" y2="14.928766664400001" />
+  <line id="fig4_d2_p0_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="24.1787666644" x2="93.0" y2="17.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="26.4287666644" x2="93.0" y2="19.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="28.6787666644" x2="93.0" y2="21.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="30.9287666644" x2="93.0" y2="23.9287666644" />
+  <line id="fig4_d2_p0_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="33.1787666644" x2="93.0" y2="26.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="35.4287666644" x2="93.0" y2="28.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="37.6787666644" x2="93.0" y2="30.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="39.9287666644" x2="93.0" y2="32.9287666644" />
+  <line id="fig4_d2_p0_hatch_1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="42.1787666644" x2="93.0" y2="35.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="44.4287666644" x2="93.0" y2="37.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="46.6787666644" x2="93.0" y2="39.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="48.9287666644" x2="93.0" y2="41.9287666644" />
+  <line id="fig4_d2_p0_hatch_1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="51.1787666644" x2="93.0" y2="44.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="53.4287666644" x2="93.0" y2="46.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="55.6787666644" x2="93.0" y2="48.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="57.9287666644" x2="93.0" y2="50.9287666644" />
+  <line id="fig4_d2_p0_hatch_1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="60.1787666644" x2="93.0" y2="53.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="62.4287666644" x2="93.0" y2="55.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="64.6787666644" x2="93.0" y2="57.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="66.9287666644" x2="93.0" y2="59.9287666644" />
+  <line id="fig4_d2_p0_hatch_1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="69.1787666644" x2="93.0" y2="62.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_26" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="71.4287666644" x2="93.0" y2="64.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_27" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="73.6787666644" x2="93.0" y2="66.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_28" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="75.9287666644" x2="93.0" y2="68.9287666644" />
+  <line id="fig4_d2_p0_hatch_1_29" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.0" y1="78.1787666644" x2="93.0" y2="71.1787666644" />
+  <line id="fig4_d2_p0_hatch_1_30" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="86.4287666644" y1="80.0" x2="93.0" y2="73.4287666644" />
+  <line id="fig4_d2_p0_hatch_1_31" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="88.6787666644" y1="80.0" x2="93.0" y2="75.6787666644" />
+  <line id="fig4_d2_p0_hatch_1_32" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="90.9287666644" y1="80.0" x2="93.0" y2="77.9287666644" />
+  <rect id="fig4_d2_p0_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="86" y="12.928766664400001" width="7" height="67.0712333356" />
+ </g>
+ <text id="fig4_d2_p0_value" data-role="label" x="89.5" y="11.050316664400002" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.986</text>
+ <g id="fig4_d2_p1_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d2_p1" data-role="bar" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="94" y="37.16" width="7" height="42.84" />
+  <line id="fig4_d2_p1_hatch_0" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="38.76" x2="101" y2="38.76" />
+  <line id="fig4_d2_p1_hatch_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="40.559999999999995" x2="101" y2="40.559999999999995" />
+  <line id="fig4_d2_p1_hatch_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="42.36" x2="101" y2="42.36" />
+  <line id="fig4_d2_p1_hatch_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="44.16" x2="101" y2="44.16" />
+  <line id="fig4_d2_p1_hatch_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="45.959999999999994" x2="101" y2="45.959999999999994" />
+  <line id="fig4_d2_p1_hatch_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="47.76" x2="101" y2="47.76" />
+  <line id="fig4_d2_p1_hatch_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="49.56" x2="101" y2="49.56" />
+  <line id="fig4_d2_p1_hatch_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="51.36" x2="101" y2="51.36" />
+  <line id="fig4_d2_p1_hatch_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="53.16" x2="101" y2="53.16" />
+  <line id="fig4_d2_p1_hatch_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="54.96" x2="101" y2="54.96" />
+  <line id="fig4_d2_p1_hatch_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="56.760000000000005" x2="101" y2="56.760000000000005" />
+  <line id="fig4_d2_p1_hatch_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="58.56" x2="101" y2="58.56" />
+  <line id="fig4_d2_p1_hatch_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="60.36" x2="101" y2="60.36" />
+  <line id="fig4_d2_p1_hatch_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="62.160000000000004" x2="101" y2="62.160000000000004" />
+  <line id="fig4_d2_p1_hatch_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="63.96000000000001" x2="101" y2="63.96000000000001" />
+  <line id="fig4_d2_p1_hatch_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="65.76" x2="101" y2="65.76" />
+  <line id="fig4_d2_p1_hatch_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="67.56" x2="101" y2="67.56" />
+  <line id="fig4_d2_p1_hatch_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="69.36000000000001" x2="101" y2="69.36000000000001" />
+  <line id="fig4_d2_p1_hatch_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="71.16" x2="101" y2="71.16" />
+  <line id="fig4_d2_p1_hatch_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="72.96000000000001" x2="101" y2="72.96000000000001" />
+  <line id="fig4_d2_p1_hatch_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="74.75999999999999" x2="101" y2="74.75999999999999" />
+  <line id="fig4_d2_p1_hatch_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="76.56" x2="101" y2="76.56" />
+  <line id="fig4_d2_p1_hatch_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="94" y1="78.35999999999999" x2="101" y2="78.35999999999999" />
+  <rect id="fig4_d2_p1_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="94" y="37.16" width="7" height="42.84" />
+ </g>
+ <text id="fig4_d2_p1_value" data-role="label" x="97.5" y="35.281549999999996" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.630</text>
+ <g id="fig4_d2_p2_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_d2_p2" data-role="bar" fill="#228c35" stroke="#222222" stroke-width="0.15" x="102" y="39.404" width="7" height="40.596" />
+  <line id="fig4_d2_p2_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="41.654" x2="104.25" y2="39.404" />
+  <line id="fig4_d2_p2_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="43.904" x2="106.5" y2="39.404" />
+  <line id="fig4_d2_p2_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="46.154" x2="108.75" y2="39.404" />
+  <line id="fig4_d2_p2_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="48.404" x2="109.0" y2="41.404" />
+  <line id="fig4_d2_p2_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="50.654" x2="109.0" y2="43.654" />
+  <line id="fig4_d2_p2_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="52.904" x2="109.0" y2="45.904" />
+  <line id="fig4_d2_p2_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="55.154" x2="109.0" y2="48.154" />
+  <line id="fig4_d2_p2_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="57.404" x2="109.0" y2="50.404" />
+  <line id="fig4_d2_p2_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="59.654" x2="109.0" y2="52.654" />
+  <line id="fig4_d2_p2_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="61.904" x2="109.0" y2="54.904" />
+  <line id="fig4_d2_p2_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="64.154" x2="109.0" y2="57.154" />
+  <line id="fig4_d2_p2_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="66.404" x2="109.0" y2="59.404" />
+  <line id="fig4_d2_p2_hatch_1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="68.654" x2="109.0" y2="61.654" />
+  <line id="fig4_d2_p2_hatch_1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="70.904" x2="109.0" y2="63.904" />
+  <line id="fig4_d2_p2_hatch_1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="73.154" x2="109.0" y2="66.154" />
+  <line id="fig4_d2_p2_hatch_1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="75.404" x2="109.0" y2="68.404" />
+  <line id="fig4_d2_p2_hatch_1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="77.654" x2="109.0" y2="70.654" />
+  <line id="fig4_d2_p2_hatch_1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="79.904" x2="109.0" y2="72.904" />
+  <line id="fig4_d2_p2_hatch_1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="104.154" y1="80.0" x2="109.0" y2="75.154" />
+  <line id="fig4_d2_p2_hatch_1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="106.404" y1="80.0" x2="109.0" y2="77.404" />
+  <line id="fig4_d2_p2_hatch_1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="108.654" y1="80.0" x2="109.0" y2="79.654" />
+  <line id="fig4_d2_p2_hatch_-1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="77.75" x2="104.25" y2="80.0" />
+  <line id="fig4_d2_p2_hatch_-1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="75.5" x2="106.5" y2="80.0" />
+  <line id="fig4_d2_p2_hatch_-1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="73.25" x2="108.75" y2="80.0" />
+  <line id="fig4_d2_p2_hatch_-1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="71.0" x2="109.0" y2="78.0" />
+  <line id="fig4_d2_p2_hatch_-1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="68.75" x2="109.0" y2="75.75" />
+  <line id="fig4_d2_p2_hatch_-1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="66.5" x2="109.0" y2="73.5" />
+  <line id="fig4_d2_p2_hatch_-1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="64.25" x2="109.0" y2="71.25" />
+  <line id="fig4_d2_p2_hatch_-1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="62.0" x2="109.0" y2="69.0" />
+  <line id="fig4_d2_p2_hatch_-1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="59.75" x2="109.0" y2="66.75" />
+  <line id="fig4_d2_p2_hatch_-1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="57.5" x2="109.0" y2="64.5" />
+  <line id="fig4_d2_p2_hatch_-1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="55.25" x2="109.0" y2="62.25" />
+  <line id="fig4_d2_p2_hatch_-1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="53.0" x2="109.0" y2="60.0" />
+  <line id="fig4_d2_p2_hatch_-1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="50.75" x2="109.0" y2="57.75" />
+  <line id="fig4_d2_p2_hatch_-1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="48.5" x2="109.0" y2="55.5" />
+  <line id="fig4_d2_p2_hatch_-1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="46.25" x2="109.0" y2="53.25" />
+  <line id="fig4_d2_p2_hatch_-1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="44.0" x2="109.0" y2="51.0" />
+  <line id="fig4_d2_p2_hatch_-1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="41.75" x2="109.0" y2="48.75" />
+  <line id="fig4_d2_p2_hatch_-1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="102.0" y1="39.5" x2="109.0" y2="46.5" />
+  <line id="fig4_d2_p2_hatch_-1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="104.154" y1="39.404" x2="109.0" y2="44.25" />
+  <line id="fig4_d2_p2_hatch_-1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="106.404" y1="39.404" x2="109.0" y2="42.0" />
+  <line id="fig4_d2_p2_hatch_-1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="108.654" y1="39.404" x2="109.0" y2="39.75" />
+  <rect id="fig4_d2_p2_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="102" y="39.404" width="7" height="40.596" />
+ </g>
+ <text id="fig4_d2_p2_value" data-role="label" x="105.5" y="37.52555" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="middle">0.597</text>
+ <text id="fig4_x_label_2_0" data-role="category_label" x="98.0" y="86.16952777777779" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">Digitally</text>
+ <text id="fig4_x_label_2_1" data-role="category_label" x="98.0" y="90.5695277777778" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">enabled</text>
+ <g id="fig4_legend_0_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_legend_0" data-role="bar" fill="#477cb3" stroke="#222222" stroke-width="0.15" x="4" y="101.5" width="3" height="3" />
+  <line id="fig4_legend_0_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="4.0" y1="103.75" x2="6.25" y2="101.5" />
+  <line id="fig4_legend_0_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="5.5" y1="104.5" x2="7.0" y2="103.0" />
+  <rect id="fig4_legend_0_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="4" y="101.5" width="3" height="3" />
+ </g>
+ <text id="fig4_legend_0_text" data-role="legend_text" x="8" y="103.90955555555556" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">No unresolved</text>
+ <g id="fig4_legend_1_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_legend_1" data-role="bar" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="39" y="101.5" width="3" height="3" />
+  <line id="fig4_legend_1_hatch_0" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="39" y1="103.1" x2="42" y2="103.1" />
+  <rect id="fig4_legend_1_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="39" y="101.5" width="3" height="3" />
+ </g>
+ <text id="fig4_legend_1_text" data-role="legend_text" x="43" y="103.90955555555556" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">Independent ≈5%</text>
+ <g id="fig4_legend_2_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig4_legend_2" data-role="bar" fill="#228c35" stroke="#222222" stroke-width="0.15" x="81" y="101.5" width="3" height="3" />
+  <line id="fig4_legend_2_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="81.0" y1="103.75" x2="83.25" y2="101.5" />
+  <line id="fig4_legend_2_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="82.5" y1="104.5" x2="84.0" y2="103.0" />
+  <line id="fig4_legend_2_hatch_-1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="81.0" y1="102.25" x2="83.25" y2="104.5" />
+  <line id="fig4_legend_2_hatch_-1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="82.5" y1="101.5" x2="84.0" y2="103.0" />
+  <rect id="fig4_legend_2_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="81" y="101.5" width="3" height="3" />
+ </g>
+ <text id="fig4_legend_2_text" data-role="legend_text" x="85" y="103.90955555555556" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">State-dependent</text>
+</svg>

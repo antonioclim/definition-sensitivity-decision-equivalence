@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "test_count": 43,
+  "checks": [
+    {
+      "id": "hand_selection_lowest3_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_lowest3_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_lowest3_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_lowest3_platform_or_more",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_highest3_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_highest3_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_highest3_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_highest3_platform_or_more",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_below025_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_below025_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_below025_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_selection_below025_platform_or_more",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_semantic_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_semantic_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_semantic_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_lowest3_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_lowest3_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_lowest3_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_highest3_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_highest3_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_highest3_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_below025_narrow",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_below025_middle",
+      "status": "PASS"
+    },
+    {
+      "id": "hand_action_loss_below025_broad",
+      "status": "PASS"
+    },
+    {
+      "id": "threshold_cost_asymmetry_false_negative",
+      "status": "PASS"
+    },
+    {
+      "id": "threshold_cost_asymmetry_false_positive",
+      "status": "PASS"
+    },
+    {
+      "id": "threshold_churn_absent",
+      "status": "PASS"
+    },
+    {
+      "id": "strict_threshold_leaves_equal_quarter_unselected",
+      "status": "PASS"
+    },
+    {
+      "id": "empty_pairwise_union_not_present_in_this_fixture",
+      "status": "PASS"
+    },
+    {
+      "id": "synthetic_source_identity",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_source_status_mislabel",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_unknown_schema_field",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_changed_known_denominator",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_mismatched_state_register",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_duplicate_unit",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_missing_common_priority",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_non_nested_definitions",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_unregistered_objective_state",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_missing_rule_cost_mapping",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_zero_registered_cost",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_unidentified_unknown_as_zero",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_rank_size_outside_cohort",
+      "status": "PASS"
+    },
+    {
+      "id": "output_schema",
+      "status": "PASS"
+    }
+  ],
+  "runtime_python": "3.12.14",
+  "jsonschema_version": "4.26.0",
+  "scope": "Eight synthetic units, hand-worked outcomes and deliberate invalid-input cases only",
+  "new_empirical_analyses": 0,
+  "new_MC_replications": 0,
+  "identities": {
+    "odsa_contract_core.py": "221afe006b7d799b2f5044b5cbb0c61ba8b3f46304d6abb1d0003169715f0541",
+    "execute_state_contract.py": "041578bbcd531e0b8b97cd8960240c01f556f554b12029ea4e5750f0493f5bf0",
+    "check_state_contract.py": "32cedcceec52f15d9f557d4ed11ab3f6037a0f40689a6f609fadc3f15a67811f",
+    "R13_STATE_INPUT.schema.json": "0e0d9c50ce84b601ab9e13e8959cde9ae0d1b0220b3b084dfe3ae63d04a4127f",
+    "R13_STATE_OUTPUT.schema.json": "8ecc3d4c8fdb8bbff94747b8c91b0247af40aeb4ad2b4c3ae7e65e0a15f67ca0",
+    "R13_SYNTHETIC_INPUT.json": "381bee1ef8c2b8e48d729e4acf5456aeee418d887b78a6b17cfb39c9df22f745"
+  }
+}

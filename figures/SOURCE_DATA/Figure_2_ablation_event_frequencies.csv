@@ -1,0 +1,8 @@
+diagnostic,events,cases,fraction,family
+Material level detected,1536,1728,0.8888888889,Level
+Semantic mismatch,1296,1728,0.75,Meaning
+No strict reversal with semantic mismatch,4680,8640,0.5416666667,Meaning/rank
+Numerical difference but same action,3264,8640,0.3777777778,Action
+Material level change but same action,2688,8640,0.3111111111,Action
+Rank reversal,480,1728,0.2777777778,Rank
+Action change below materiality threshold,384,8640,0.0444444444,Action

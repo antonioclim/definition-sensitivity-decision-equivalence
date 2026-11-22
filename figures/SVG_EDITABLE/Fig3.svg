@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="119.000000mm" height="191.000000mm" viewBox="0 0 119 191" role="img">
+ <title>Fig. 3: Preserved synthetic reference-cell diagnostic summaries</title>
+ <desc>All labels are editable SVG text; all data marks are native vector primitives. See the adjacent object and value manifests.</desc>
+ <text id="fig3_panel_a" data-role="panel_label" x="3" y="4.2295" font-family="Liberation Sans" font-size="3.175" data-font-size-pt="9" font-weight="bold" fill="#222222" text-anchor="start">a</text>
+ <text id="fig3_a_label_0" data-role="label" x="3" y="15.169527777777779" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Integrated</text>
+ <g id="fig3_a_rate_0_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig3_a_rate_0" data-role="bar" fill="#477cb3" stroke="#222222" stroke-width="0.15" x="32" y="12" width="2.6933172713323787" height="4.8" />
+  <line id="fig3_a_rate_0_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="14.25" x2="34.25" y2="12.0" />
+  <line id="fig3_a_rate_0_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="16.5" x2="34.693317271332376" y2="13.806682728667623" />
+  <line id="fig3_a_rate_0_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="33.95" y1="16.8" x2="34.69331727133238" y2="16.05668272866762" />
+  <rect id="fig3_a_rate_0_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="32" y="12" width="2.6933172713323787" height="4.8" />
+ </g>
+ <text id="fig3_a_rate_value_0" data-role="label" x="91" y="14.457533333333334" font-family="Liberation Sans" font-size="2.963333333333333" data-font-size-pt="8.4" font-weight="normal" fill="#222222" text-anchor="start">3.78%</text>
+ <text id="fig3_a_mae_0" data-role="label" x="91" y="18.909555555555556" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">MAE 0.009</text>
+ <text id="fig3_a_label_1" data-role="label" x="3" y="28.169527777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Specialised</text>
+ <g id="fig3_a_rate_1_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig3_a_rate_1" data-role="bar" fill="#228c35" stroke="#222222" stroke-width="0.15" x="32" y="25" width="7.598282246920013" height="4.8" />
+  <line id="fig3_a_rate_1_hatch_0" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32" y1="26.6" x2="39.598282246920014" y2="26.6" />
+  <line id="fig3_a_rate_1_hatch_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32" y1="28.4" x2="39.598282246920014" y2="28.4" />
+  <rect id="fig3_a_rate_1_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="32" y="25" width="7.598282246920013" height="4.8" />
+ </g>
+ <text id="fig3_a_rate_value_1" data-role="label" x="91" y="27.457533333333334" font-family="Liberation Sans" font-size="2.963333333333333" data-font-size-pt="8.4" font-weight="normal" fill="#222222" text-anchor="start">10.66%</text>
+ <text id="fig3_a_mae_1" data-role="label" x="91" y="31.909555555555556" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">MAE 0.015</text>
+ <text id="fig3_a_label_2_1" data-role="label" x="3" y="40.16952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Digitally</text>
+ <text id="fig3_a_label_2_2" data-role="label" x="3" y="44.46952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">enabled</text>
+ <g id="fig3_a_rate_2_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig3_a_rate_2" data-role="bar" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="32" y="38" width="52.167536282419015" height="4.8" />
+  <line id="fig3_a_rate_2_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="40.25" x2="34.25" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="42.5" x2="36.5" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="33.95" y1="42.8" x2="38.75" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.2" y1="42.8" x2="41.0" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.45" y1="42.8" x2="43.25" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="40.7" y1="42.8" x2="45.5" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="42.95" y1="42.8" x2="47.75" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="45.2" y1="42.8" x2="50.0" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="47.45" y1="42.8" x2="52.25" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="49.7" y1="42.8" x2="54.5" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="51.95" y1="42.8" x2="56.75" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="54.2" y1="42.8" x2="59.0" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="56.45" y1="42.8" x2="61.25" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="58.7" y1="42.8" x2="63.5" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60.95" y1="42.8" x2="65.75" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="63.2" y1="42.8" x2="68.0" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="65.45" y1="42.8" x2="70.25" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="67.7" y1="42.8" x2="72.5" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="69.95" y1="42.8" x2="74.75" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="72.2" y1="42.8" x2="77.0" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="74.45" y1="42.8" x2="79.25" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="76.7" y1="42.8" x2="81.5" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="78.95" y1="42.8" x2="83.75" y2="38.0" />
+  <line id="fig3_a_rate_2_hatch_1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="81.2" y1="42.8" x2="84.16753628241901" y2="39.832463717580985" />
+  <line id="fig3_a_rate_2_hatch_1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="83.45" y1="42.8" x2="84.16753628241901" y2="42.082463717580985" />
+  <line id="fig3_a_rate_2_hatch_-1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="40.55" x2="34.25" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="38.3" x2="36.5" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="33.95" y1="38" x2="38.75" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.2" y1="38" x2="41.0" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.45" y1="38" x2="43.25" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="40.7" y1="38" x2="45.5" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="42.95" y1="38" x2="47.75" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="45.2" y1="38" x2="50.0" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="47.45" y1="38" x2="52.25" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="49.7" y1="38" x2="54.5" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="51.95" y1="38" x2="56.75" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="54.2" y1="38" x2="59.0" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="56.45" y1="38" x2="61.25" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="58.7" y1="38" x2="63.5" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60.95" y1="38" x2="65.75" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="63.2" y1="38" x2="68.0" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="65.45" y1="38" x2="70.25" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="67.7" y1="38" x2="72.5" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="69.95" y1="38" x2="74.75" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="72.2" y1="38" x2="77.0" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="74.45" y1="38" x2="79.25" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="76.7" y1="38" x2="81.5" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="78.95" y1="38" x2="83.75" y2="42.8" />
+  <line id="fig3_a_rate_2_hatch_-1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="81.2" y1="38" x2="84.16753628241901" y2="40.96753628241901" />
+  <line id="fig3_a_rate_2_hatch_-1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="83.45" y1="38" x2="84.16753628241901" y2="38.71753628241901" />
+  <rect id="fig3_a_rate_2_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="32" y="38" width="52.167536282419015" height="4.8" />
+ </g>
+ <text id="fig3_a_rate_value_2" data-role="label" x="91" y="40.45753333333333" font-family="Liberation Sans" font-size="2.963333333333333" data-font-size-pt="8.4" font-weight="normal" fill="#222222" text-anchor="start">73.22%</text>
+ <text id="fig3_a_mae_2" data-role="label" x="91" y="44.90955555555555" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">MAE 0.022</text>
+ <line id="fig3_a_axis" data-role="axis" fill="none" stroke="#222222" stroke-width="0.2" x1="32" y1="48" x2="89" y2="48" />
+ <line id="fig3_a_tick_0" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="32.0" y1="48" x2="32.0" y2="49.25" />
+ <text id="fig3_a_tick_label_0" data-role="tick_label" x="32.0" y="52.633544444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0</text>
+ <line id="fig3_a_tick_1" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="46.25" y1="48" x2="46.25" y2="49.25" />
+ <text id="fig3_a_tick_label_1" data-role="tick_label" x="46.25" y="52.633544444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">20</text>
+ <line id="fig3_a_tick_2" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="60.5" y1="48" x2="60.5" y2="49.25" />
+ <text id="fig3_a_tick_label_2" data-role="tick_label" x="60.5" y="52.633544444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">40</text>
+ <line id="fig3_a_tick_3" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="74.75" y1="48" x2="74.75" y2="49.25" />
+ <text id="fig3_a_tick_label_3" data-role="tick_label" x="74.75" y="52.633544444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">60</text>
+ <line id="fig3_a_tick_4" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="89.0" y1="48" x2="89.0" y2="49.25" />
+ <text id="fig3_a_tick_label_4" data-role="tick_label" x="89.0" y="52.633544444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">80</text>
+ <text id="fig3_a_axis_label" data-role="axis_label" x="59.5" y="59.16952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">Population rate (%)</text>
+ <text id="fig3_panel_b" data-role="panel_label" x="3" y="68.2295" font-family="Liberation Sans" font-size="3.175" data-font-size-pt="9" font-weight="bold" fill="#222222" text-anchor="start">b</text>
+ <ellipse id="fig3_b_legend_circle" data-role="marker" fill="#477cb3" stroke="#222222" stroke-width="0.15" cx="13.0" cy="67.3" rx="1.0" ry="1.0" />
+ <text id="fig3_b_legend_circle_text" data-role="legend_text" x="16" y="68.33354444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="start">Strict reversal</text>
+ <rect id="fig3_b_legend_square" data-role="legend_marker" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="54" y="66.3" width="2" height="2" />
+ <text id="fig3_b_legend_square_text" data-role="legend_text" x="58" y="68.33354444444446" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="start">Highest top-three churn</text>
+ <text id="fig3_b_label_0_0" data-role="label" x="3" y="79.92155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">Integrated →</text>
+ <text id="fig3_b_label_0_1" data-role="label" x="3" y="84.22155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">specialised</text>
+ <line id="fig3_b_connection_0" data-role="comparison_connector" fill="none" stroke="#999999" stroke-width="0.5" x1="51.3259375" y1="81" x2="81.52333333333334" y2="81" />
+ <ellipse id="fig3_b_reversal_0" data-role="marker" fill="#477cb3" stroke="#222222" stroke-width="0.15" cx="51.3259375" cy="81.0" rx="1.1" ry="1.1" />
+ <rect id="fig3_b_churn_0" data-role="marker" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="80.42333333333335" y="79.9" width="2.2" height="2.2" />
+ <text id="fig3_b_label_1_0" data-role="label" x="3" y="92.92155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">Specialised →</text>
+ <text id="fig3_b_label_1_1" data-role="label" x="3" y="97.22155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">digitally enabled</text>
+ <line id="fig3_b_connection_1" data-role="comparison_connector" fill="none" stroke="#999999" stroke-width="0.5" x1="54.383576393" y1="94" x2="84.90472222633333" y2="94" />
+ <ellipse id="fig3_b_reversal_1" data-role="marker" fill="#477cb3" stroke="#222222" stroke-width="0.15" cx="54.383576393" cy="94.0" rx="1.1" ry="1.1" />
+ <rect id="fig3_b_churn_1" data-role="marker" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="83.80472222633334" y="92.9" width="2.2" height="2.2" />
+ <text id="fig3_b_label_2_0" data-role="label" x="3" y="105.92155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">Integrated →</text>
+ <text id="fig3_b_label_2_1" data-role="label" x="3" y="110.22155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">digitally enabled</text>
+ <line id="fig3_b_connection_2" data-role="comparison_connector" fill="none" stroke="#999999" stroke-width="0.5" x1="57.87827777366667" y1="107" x2="95.35722222633333" y2="107" />
+ <ellipse id="fig3_b_reversal_2" data-role="marker" fill="#477cb3" stroke="#222222" stroke-width="0.15" cx="57.87827777366667" cy="107.0" rx="1.1" ry="1.1" />
+ <rect id="fig3_b_churn_2" data-role="marker" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="94.25722222633334" y="105.9" width="2.2" height="2.2" />
+ <line id="fig3_b_axis" data-role="axis" fill="none" stroke="#222222" stroke-width="0.2" x1="37" y1="114" x2="111" y2="114" />
+ <line id="fig3_b_tick_0" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="37.0" y1="114" x2="37.0" y2="115.25" />
+ <text id="fig3_b_tick_label_0" data-role="tick_label" x="37.0" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.0</text>
+ <line id="fig3_b_tick_1" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="49.333333333333336" y1="114" x2="49.333333333333336" y2="115.25" />
+ <text id="fig3_b_tick_label_1" data-role="tick_label" x="49.333333333333336" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.1</text>
+ <line id="fig3_b_tick_2" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="61.66666666666667" y1="114" x2="61.66666666666667" y2="115.25" />
+ <text id="fig3_b_tick_label_2" data-role="tick_label" x="61.66666666666667" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.2</text>
+ <line id="fig3_b_tick_3" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="74.0" y1="114" x2="74.0" y2="115.25" />
+ <text id="fig3_b_tick_label_3" data-role="tick_label" x="74.0" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.3</text>
+ <line id="fig3_b_tick_4" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="86.33333333333334" y1="114" x2="86.33333333333334" y2="115.25" />
+ <text id="fig3_b_tick_label_4" data-role="tick_label" x="86.33333333333334" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.4</text>
+ <line id="fig3_b_tick_5" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="98.66666666666667" y1="114" x2="98.66666666666667" y2="115.25" />
+ <text id="fig3_b_tick_label_5" data-role="tick_label" x="98.66666666666667" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.5</text>
+ <line id="fig3_b_tick_6" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="111.0" y1="114" x2="111.0" y2="115.25" />
+ <text id="fig3_b_tick_label_6" data-role="tick_label" x="111.0" y="118.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0.6</text>
+ <text id="fig3_b_axis_label" data-role="axis_label" x="59.5" y="125.16952777777779" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">Strict-reversal share / highest top-three churn</text>
+ <text id="fig3_panel_c" data-role="panel_label" x="3" y="135.2295" font-family="Liberation Sans" font-size="3.175" data-font-size-pt="9" font-weight="bold" fill="#222222" text-anchor="start">c</text>
+ <text id="fig3_c_label_0" data-role="label" x="3" y="146.16952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Integrated</text>
+ <g id="fig3_c_loss_0_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig3_c_loss_0" data-role="bar" fill="#477cb3" stroke="#222222" stroke-width="0.15" x="32" y="143" width="7.509428571428572" height="4.8" />
+  <line id="fig3_c_loss_0_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="145.25" x2="34.25" y2="143.0" />
+  <line id="fig3_c_loss_0_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="147.5" x2="36.5" y2="143.0" />
+  <line id="fig3_c_loss_0_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="33.95" y1="147.8" x2="38.75" y2="143.0" />
+  <line id="fig3_c_loss_0_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.2" y1="147.8" x2="39.50942857142857" y2="144.49057142857143" />
+  <line id="fig3_c_loss_0_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.45" y1="147.8" x2="39.50942857142857" y2="146.74057142857143" />
+  <rect id="fig3_c_loss_0_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="32" y="143" width="7.509428571428572" height="4.8" />
+ </g>
+ <text id="fig3_c_loss_value_0" data-role="label" x="40.50942857142857" y="146.12155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">8.8%</text>
+ <text id="fig3_c_direction_0_0" data-role="label" x="96" y="145.10955555555557" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">False</text>
+ <text id="fig3_c_direction_0_1" data-role="label" x="96" y="149.10955555555557" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">exclusion</text>
+ <text id="fig3_c_label_1" data-role="label" x="3" y="158.16952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Specialised</text>
+ <g id="fig3_c_loss_1_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig3_c_loss_1" data-role="bar" fill="#228c35" stroke="#222222" stroke-width="0.15" x="32" y="155" width="1.6088571428571428" height="4.8" />
+  <line id="fig3_c_loss_1_hatch_0" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32" y1="156.6" x2="33.60885714285714" y2="156.6" />
+  <line id="fig3_c_loss_1_hatch_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32" y1="158.4" x2="33.60885714285714" y2="158.4" />
+  <rect id="fig3_c_loss_1_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="32" y="155" width="1.6088571428571428" height="4.8" />
+ </g>
+ <text id="fig3_c_loss_value_1" data-role="label" x="34.60885714285714" y="158.12155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">1.9%</text>
+ <text id="fig3_c_direction_1_0" data-role="label" x="96" y="157.10955555555557" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">False</text>
+ <text id="fig3_c_direction_1_1" data-role="label" x="96" y="161.10955555555557" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">exclusion</text>
+ <text id="fig3_c_label_2_1" data-role="label" x="3" y="169.16952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">Digitally</text>
+ <text id="fig3_c_label_2_2" data-role="label" x="3" y="173.46952777777778" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="start">enabled</text>
+ <g id="fig3_c_loss_2_editable_bar_group" data-role="editable_bar_group">
+  <rect id="fig3_c_loss_2" data-role="bar" fill="#d2be3a" stroke="#222222" stroke-width="0.15" x="32" y="167" width="52.008857142857146" height="4.8" />
+  <line id="fig3_c_loss_2_hatch_1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="169.25" x2="34.25" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="171.5" x2="36.5" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="33.95" y1="171.8" x2="38.75" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.2" y1="171.8" x2="41.0" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.45" y1="171.8" x2="43.25" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="40.7" y1="171.8" x2="45.5" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="42.95" y1="171.8" x2="47.75" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="45.2" y1="171.8" x2="50.0" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="47.45" y1="171.8" x2="52.25" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="49.7" y1="171.8" x2="54.5" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="51.95" y1="171.8" x2="56.75" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="54.2" y1="171.8" x2="59.0" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="56.45" y1="171.8" x2="61.25" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="58.7" y1="171.8" x2="63.5" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60.95" y1="171.8" x2="65.75" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="63.2" y1="171.8" x2="68.0" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="65.45" y1="171.8" x2="70.25" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="67.7" y1="171.8" x2="72.5" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="69.95" y1="171.8" x2="74.75" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="72.2" y1="171.8" x2="77.0" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="74.45" y1="171.8" x2="79.25" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="76.7" y1="171.8" x2="81.5" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="78.95" y1="171.8" x2="83.75" y2="167.0" />
+  <line id="fig3_c_loss_2_hatch_1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="81.2" y1="171.8" x2="84.00885714285715" y2="168.99114285714288" />
+  <line id="fig3_c_loss_2_hatch_1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="83.45" y1="171.8" x2="84.00885714285715" y2="171.24114285714288" />
+  <line id="fig3_c_loss_2_hatch_-1_1" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="169.55" x2="34.25" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_2" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="32.0" y1="167.3" x2="36.5" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_3" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="33.95" y1="167" x2="38.75" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_4" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="36.2" y1="167" x2="41.0" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_5" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="38.45" y1="167" x2="43.25" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_6" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="40.7" y1="167" x2="45.5" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_7" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="42.95" y1="167" x2="47.75" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_8" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="45.2" y1="167" x2="50.0" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_9" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="47.45" y1="167" x2="52.25" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_10" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="49.7" y1="167" x2="54.5" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_11" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="51.95" y1="167" x2="56.75" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_12" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="54.2" y1="167" x2="59.0" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_13" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="56.45" y1="167" x2="61.25" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_14" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="58.7" y1="167" x2="63.5" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_15" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="60.95" y1="167" x2="65.75" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_16" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="63.2" y1="167" x2="68.0" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_17" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="65.45" y1="167" x2="70.25" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_18" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="67.7" y1="167" x2="72.5" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_19" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="69.95" y1="167" x2="74.75" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_20" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="72.2" y1="167" x2="77.0" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_21" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="74.45" y1="167" x2="79.25" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_22" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="76.7" y1="167" x2="81.5" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_23" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="78.95" y1="167" x2="83.75" y2="171.8" />
+  <line id="fig3_c_loss_2_hatch_-1_24" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="81.2" y1="167" x2="84.00885714285715" y2="169.80885714285714" />
+  <line id="fig3_c_loss_2_hatch_-1_25" data-role="hatch" fill="none" stroke="#222222" stroke-width="0.1" x1="83.45" y1="167" x2="84.00885714285715" y2="167.55885714285714" />
+  <rect id="fig3_c_loss_2_outline" data-role="bar_outline" fill="none" stroke="#222222" stroke-width="0.15" x="32" y="167" width="52.008857142857146" height="4.8" />
+ </g>
+ <text id="fig3_c_loss_value_2" data-role="label" x="85.00885714285715" y="170.12155" font-family="Liberation Sans" font-size="2.8575" data-font-size-pt="8.1" font-weight="normal" fill="#222222" text-anchor="start">60.7%</text>
+ <text id="fig3_c_direction_2_0" data-role="label" x="96" y="169.10955555555557" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">False</text>
+ <text id="fig3_c_direction_2_1" data-role="label" x="96" y="173.10955555555557" font-family="Liberation Sans" font-size="2.822222222222222" data-font-size-pt="8.0" font-weight="normal" fill="#222222" text-anchor="start">inclusion</text>
+ <line id="fig3_c_axis" data-role="axis" fill="none" stroke="#222222" stroke-width="0.2" x1="32" y1="178" x2="92" y2="178" />
+ <line id="fig3_c_tick_0" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="32.0" y1="178" x2="32.0" y2="179.25" />
+ <text id="fig3_c_tick_label_0" data-role="tick_label" x="32.0" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">0</text>
+ <line id="fig3_c_tick_1" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="40.57142857142857" y1="178" x2="40.57142857142857" y2="179.25" />
+ <text id="fig3_c_tick_label_1" data-role="tick_label" x="40.57142857142857" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">10</text>
+ <line id="fig3_c_tick_2" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="49.14285714285714" y1="178" x2="49.14285714285714" y2="179.25" />
+ <text id="fig3_c_tick_label_2" data-role="tick_label" x="49.14285714285714" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">20</text>
+ <line id="fig3_c_tick_3" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="57.714285714285715" y1="178" x2="57.714285714285715" y2="179.25" />
+ <text id="fig3_c_tick_label_3" data-role="tick_label" x="57.714285714285715" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">30</text>
+ <line id="fig3_c_tick_4" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="66.28571428571428" y1="178" x2="66.28571428571428" y2="179.25" />
+ <text id="fig3_c_tick_label_4" data-role="tick_label" x="66.28571428571428" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">40</text>
+ <line id="fig3_c_tick_5" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="74.85714285714286" y1="178" x2="74.85714285714286" y2="179.25" />
+ <text id="fig3_c_tick_label_5" data-role="tick_label" x="74.85714285714286" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">50</text>
+ <line id="fig3_c_tick_6" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="83.42857142857143" y1="178" x2="83.42857142857143" y2="179.25" />
+ <text id="fig3_c_tick_label_6" data-role="tick_label" x="83.42857142857143" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">60</text>
+ <line id="fig3_c_tick_7" data-role="tick" fill="none" stroke="#222222" stroke-width="0.18" x1="92.0" y1="178" x2="92.0" y2="179.25" />
+ <text id="fig3_c_tick_label_7" data-role="tick_label" x="92.0" y="182.63354444444445" font-family="Liberation Sans" font-size="2.8927777777777774" data-font-size-pt="8.2" font-weight="normal" fill="#222222" text-anchor="middle">70</text>
+ <text id="fig3_c_axis_label" data-role="axis_label" x="59.5" y="189.16952777777777" font-family="Liberation Sans" font-size="2.998611111111111" data-font-size-pt="8.5" font-weight="normal" fill="#222222" text-anchor="middle">Share of total synthetic state mass (%)</text>
+</svg>

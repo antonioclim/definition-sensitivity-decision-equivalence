@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "1d7361861b4eee84dda9313a52ca3a3643873744d933bcdd208dab795ec18e22",
+  "validation": {
+    "status": "PASS",
+    "schema_version": "3.0-econ.1",
+    "state_count": 5,
+    "definition_count": 3,
+    "objective_count": 4,
+    "cost_profile_count": 3,
+    "scenario_count": 6,
+    "unique_full_cell_count": 270,
+    "full_replicate_row_count": 1080000,
+    "smoke_cell_count": 4
+  },
+  "unique_full_cells": 270,
+  "module_membership_counts_after_deduplication": {
+    "core": 192,
+    "sample_size": 30,
+    "weighting": 18,
+    "observation": 54
+  },
+  "cells_with_multiple_module_memberships": 18,
+  "full_replications_per_cell": 4000,
+  "full_replicate_count": 1080000,
+  "full_execution_in_eint_r2": false
+}

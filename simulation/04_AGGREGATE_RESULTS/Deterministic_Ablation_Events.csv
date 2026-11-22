@@ -1,0 +1,8 @@
+﻿metric_name,prespecified_cases,event_count,event_fraction,mutually_exclusive
+action_disagreement_without_material_level_change,8640,384,0.044444444444444446,NO
+decision_equivalence_despite_numerical_difference,8640,3264,0.37777777777777777,NO
+generic_level_materiality_detected,1728,1536,0.8888888888888888,NO
+material_level_change_without_action_disagreement,8640,2688,0.3111111111111111,NO
+rank_reversal_detected,1728,480,0.2777777777777778,NO
+rank_stability_with_semantic_mismatch,8640,4680,0.5416666666666666,NO
+semantic_mismatch_detected,1728,1296,0.75,NO

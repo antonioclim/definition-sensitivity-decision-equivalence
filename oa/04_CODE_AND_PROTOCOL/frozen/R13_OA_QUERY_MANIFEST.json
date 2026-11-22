@@ -1,0 +1,443 @@
+{
+  "schema_version": "R13-OA-query-manifest-1.0",
+  "status": "PLANNED_NOT_EXECUTED",
+  "amendment_id": "ODSA-R13-FAT-OA-DESCRIPTIVE-20261111",
+  "template": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:{country_code}&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+  "query_order": "Ascending ISO alpha-2 code, shared with the tie priority",
+  "known_prior_query_exposure": "The R12 Romania response used the same substantive year/type/institution-country filter without the newly explicit corpus/per_page parameters. It is not reused as cohort input.",
+  "queries": [
+    {
+      "sequence": 1,
+      "unit_id": "AT",
+      "country_name": "Austria",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:at&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/01_AT.json"
+    },
+    {
+      "sequence": 2,
+      "unit_id": "BE",
+      "country_name": "Belgium",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:be&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/02_BE.json"
+    },
+    {
+      "sequence": 3,
+      "unit_id": "BG",
+      "country_name": "Bulgaria",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:bg&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/03_BG.json"
+    },
+    {
+      "sequence": 4,
+      "unit_id": "CY",
+      "country_name": "Cyprus",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:cy&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/04_CY.json"
+    },
+    {
+      "sequence": 5,
+      "unit_id": "CZ",
+      "country_name": "Czechia",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:cz&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/05_CZ.json"
+    },
+    {
+      "sequence": 6,
+      "unit_id": "DE",
+      "country_name": "Germany",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:de&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/06_DE.json"
+    },
+    {
+      "sequence": 7,
+      "unit_id": "DK",
+      "country_name": "Denmark",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:dk&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/07_DK.json"
+    },
+    {
+      "sequence": 8,
+      "unit_id": "EE",
+      "country_name": "Estonia",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:ee&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/08_EE.json"
+    },
+    {
+      "sequence": 9,
+      "unit_id": "ES",
+      "country_name": "Spain",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:es&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/09_ES.json"
+    },
+    {
+      "sequence": 10,
+      "unit_id": "FI",
+      "country_name": "Finland",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:fi&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/10_FI.json"
+    },
+    {
+      "sequence": 11,
+      "unit_id": "FR",
+      "country_name": "France",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:fr&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/11_FR.json"
+    },
+    {
+      "sequence": 12,
+      "unit_id": "GR",
+      "country_name": "Greece",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:gr&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/12_GR.json"
+    },
+    {
+      "sequence": 13,
+      "unit_id": "HR",
+      "country_name": "Croatia",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:hr&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/13_HR.json"
+    },
+    {
+      "sequence": 14,
+      "unit_id": "HU",
+      "country_name": "Hungary",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:hu&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/14_HU.json"
+    },
+    {
+      "sequence": 15,
+      "unit_id": "IE",
+      "country_name": "Ireland",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:ie&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/15_IE.json"
+    },
+    {
+      "sequence": 16,
+      "unit_id": "IT",
+      "country_name": "Italy",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:it&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/16_IT.json"
+    },
+    {
+      "sequence": 17,
+      "unit_id": "LT",
+      "country_name": "Lithuania",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:lt&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/17_LT.json"
+    },
+    {
+      "sequence": 18,
+      "unit_id": "LU",
+      "country_name": "Luxembourg",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:lu&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/18_LU.json"
+    },
+    {
+      "sequence": 19,
+      "unit_id": "LV",
+      "country_name": "Latvia",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:lv&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/19_LV.json"
+    },
+    {
+      "sequence": 20,
+      "unit_id": "MT",
+      "country_name": "Malta",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:mt&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/20_MT.json"
+    },
+    {
+      "sequence": 21,
+      "unit_id": "NL",
+      "country_name": "Netherlands",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:nl&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/21_NL.json"
+    },
+    {
+      "sequence": 22,
+      "unit_id": "PL",
+      "country_name": "Poland",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:pl&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/22_PL.json"
+    },
+    {
+      "sequence": 23,
+      "unit_id": "PT",
+      "country_name": "Portugal",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:pt&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/23_PT.json"
+    },
+    {
+      "sequence": 24,
+      "unit_id": "RO",
+      "country_name": "Romania",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:ro&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/24_RO.json"
+    },
+    {
+      "sequence": 25,
+      "unit_id": "SE",
+      "country_name": "Sweden",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:se&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/25_SE.json"
+    },
+    {
+      "sequence": 26,
+      "unit_id": "SI",
+      "country_name": "Slovenia",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:si&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/26_SI.json"
+    },
+    {
+      "sequence": 27,
+      "unit_id": "SK",
+      "country_name": "Slovakia",
+      "url": "https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:sk&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100",
+      "expected_status_domain": [
+        "closed",
+        "bronze",
+        "green",
+        "hybrid",
+        "gold",
+        "diamond",
+        "unknown"
+      ],
+      "raw_output_name": "raw/27_SK.json"
+    }
+  ],
+  "no_api_queries_executed_by_this_builder": true
+}

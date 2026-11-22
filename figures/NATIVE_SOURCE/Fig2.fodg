@@ -1,0 +1,1087 @@
+<?xml version='1.0' encoding='utf-8'?>
+<office:document xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.graphics">
+ <office:meta>
+  <dc:title>Fig. 2: Overlapping event fractions in the preserved deterministic design register</dc:title>
+  <dc:description>Native editable vector objects reconstructed from preserved public figure data; no new Monte Carlo run or withheld FAT output. R15.</dc:description>
+ </office:meta>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="Liberation Sans" style:font-family-generic="swiss" style:font-pitch="variable" />
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width=".18mm" />
+  </style:default-style>
+  <style:style style:name="G_fig2_event_0_label" style:display-name="fig2_event_0_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0" style:display-name="fig2_event_0" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#477cb3" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_1" style:display-name="fig2_event_0_hatch_1_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_2" style:display-name="fig2_event_0_hatch_1_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_3" style:display-name="fig2_event_0_hatch_1_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_4" style:display-name="fig2_event_0_hatch_1_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_5" style:display-name="fig2_event_0_hatch_1_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_6" style:display-name="fig2_event_0_hatch_1_6" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_7" style:display-name="fig2_event_0_hatch_1_7" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_8" style:display-name="fig2_event_0_hatch_1_8" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_9" style:display-name="fig2_event_0_hatch_1_9" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_10" style:display-name="fig2_event_0_hatch_1_10" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_11" style:display-name="fig2_event_0_hatch_1_11" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_12" style:display-name="fig2_event_0_hatch_1_12" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_13" style:display-name="fig2_event_0_hatch_1_13" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_14" style:display-name="fig2_event_0_hatch_1_14" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_15" style:display-name="fig2_event_0_hatch_1_15" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_16" style:display-name="fig2_event_0_hatch_1_16" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_17" style:display-name="fig2_event_0_hatch_1_17" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_18" style:display-name="fig2_event_0_hatch_1_18" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_19" style:display-name="fig2_event_0_hatch_1_19" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_20" style:display-name="fig2_event_0_hatch_1_20" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_21" style:display-name="fig2_event_0_hatch_1_21" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_22" style:display-name="fig2_event_0_hatch_1_22" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_23" style:display-name="fig2_event_0_hatch_1_23" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_24" style:display-name="fig2_event_0_hatch_1_24" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_25" style:display-name="fig2_event_0_hatch_1_25" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_26" style:display-name="fig2_event_0_hatch_1_26" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_27" style:display-name="fig2_event_0_hatch_1_27" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_28" style:display-name="fig2_event_0_hatch_1_28" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_29" style:display-name="fig2_event_0_hatch_1_29" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_30" style:display-name="fig2_event_0_hatch_1_30" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_31" style:display-name="fig2_event_0_hatch_1_31" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_32" style:display-name="fig2_event_0_hatch_1_32" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_hatch_1_33" style:display-name="fig2_event_0_hatch_1_33" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_outline" style:display-name="fig2_event_0_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_percent" style:display-name="fig2_event_0_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_0_count" style:display-name="fig2_event_0_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1_label" style:display-name="fig2_event_1_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1" style:display-name="fig2_event_1" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#228c35" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1_hatch_0" style:display-name="fig2_event_1_hatch_0" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1_hatch_1" style:display-name="fig2_event_1_hatch_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1_outline" style:display-name="fig2_event_1_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1_percent" style:display-name="fig2_event_1_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_1_count" style:display-name="fig2_event_1_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_label" style:display-name="fig2_event_2_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2" style:display-name="fig2_event_2" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#59c2e8" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_1" style:display-name="fig2_event_2_hatch_1_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_2" style:display-name="fig2_event_2_hatch_1_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_3" style:display-name="fig2_event_2_hatch_1_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_4" style:display-name="fig2_event_2_hatch_1_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_5" style:display-name="fig2_event_2_hatch_1_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_6" style:display-name="fig2_event_2_hatch_1_6" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_7" style:display-name="fig2_event_2_hatch_1_7" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_8" style:display-name="fig2_event_2_hatch_1_8" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_9" style:display-name="fig2_event_2_hatch_1_9" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_10" style:display-name="fig2_event_2_hatch_1_10" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_11" style:display-name="fig2_event_2_hatch_1_11" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_12" style:display-name="fig2_event_2_hatch_1_12" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_13" style:display-name="fig2_event_2_hatch_1_13" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_14" style:display-name="fig2_event_2_hatch_1_14" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_15" style:display-name="fig2_event_2_hatch_1_15" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_16" style:display-name="fig2_event_2_hatch_1_16" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_17" style:display-name="fig2_event_2_hatch_1_17" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_18" style:display-name="fig2_event_2_hatch_1_18" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_19" style:display-name="fig2_event_2_hatch_1_19" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_1_20" style:display-name="fig2_event_2_hatch_1_20" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_1" style:display-name="fig2_event_2_hatch_-1_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_2" style:display-name="fig2_event_2_hatch_-1_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_3" style:display-name="fig2_event_2_hatch_-1_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_4" style:display-name="fig2_event_2_hatch_-1_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_5" style:display-name="fig2_event_2_hatch_-1_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_6" style:display-name="fig2_event_2_hatch_-1_6" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_7" style:display-name="fig2_event_2_hatch_-1_7" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_8" style:display-name="fig2_event_2_hatch_-1_8" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_9" style:display-name="fig2_event_2_hatch_-1_9" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_10" style:display-name="fig2_event_2_hatch_-1_10" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_11" style:display-name="fig2_event_2_hatch_-1_11" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_12" style:display-name="fig2_event_2_hatch_-1_12" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_13" style:display-name="fig2_event_2_hatch_-1_13" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_14" style:display-name="fig2_event_2_hatch_-1_14" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_15" style:display-name="fig2_event_2_hatch_-1_15" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_16" style:display-name="fig2_event_2_hatch_-1_16" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_17" style:display-name="fig2_event_2_hatch_-1_17" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_18" style:display-name="fig2_event_2_hatch_-1_18" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_19" style:display-name="fig2_event_2_hatch_-1_19" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_hatch_-1_20" style:display-name="fig2_event_2_hatch_-1_20" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_outline" style:display-name="fig2_event_2_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_percent" style:display-name="fig2_event_2_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_2_count" style:display-name="fig2_event_2_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_label" style:display-name="fig2_event_3_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3" style:display-name="fig2_event_3" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#d2be3a" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_1" style:display-name="fig2_event_3_hatch_1_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_2" style:display-name="fig2_event_3_hatch_1_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_3" style:display-name="fig2_event_3_hatch_1_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_4" style:display-name="fig2_event_3_hatch_1_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_5" style:display-name="fig2_event_3_hatch_1_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_6" style:display-name="fig2_event_3_hatch_1_6" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_7" style:display-name="fig2_event_3_hatch_1_7" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_8" style:display-name="fig2_event_3_hatch_1_8" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_9" style:display-name="fig2_event_3_hatch_1_9" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_10" style:display-name="fig2_event_3_hatch_1_10" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_11" style:display-name="fig2_event_3_hatch_1_11" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_12" style:display-name="fig2_event_3_hatch_1_12" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_13" style:display-name="fig2_event_3_hatch_1_13" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_14" style:display-name="fig2_event_3_hatch_1_14" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_hatch_1_15" style:display-name="fig2_event_3_hatch_1_15" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_outline" style:display-name="fig2_event_3_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_percent" style:display-name="fig2_event_3_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_3_count" style:display-name="fig2_event_3_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_label" style:display-name="fig2_event_4_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4" style:display-name="fig2_event_4" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#d2be3a" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_1" style:display-name="fig2_event_4_hatch_1_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_2" style:display-name="fig2_event_4_hatch_1_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_3" style:display-name="fig2_event_4_hatch_1_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_4" style:display-name="fig2_event_4_hatch_1_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_5" style:display-name="fig2_event_4_hatch_1_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_6" style:display-name="fig2_event_4_hatch_1_6" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_7" style:display-name="fig2_event_4_hatch_1_7" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_8" style:display-name="fig2_event_4_hatch_1_8" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_9" style:display-name="fig2_event_4_hatch_1_9" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_10" style:display-name="fig2_event_4_hatch_1_10" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_11" style:display-name="fig2_event_4_hatch_1_11" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_hatch_1_12" style:display-name="fig2_event_4_hatch_1_12" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_outline" style:display-name="fig2_event_4_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_percent" style:display-name="fig2_event_4_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_4_count" style:display-name="fig2_event_4_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5_label" style:display-name="fig2_event_5_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5" style:display-name="fig2_event_5" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#ef6673" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5_hatch_0" style:display-name="fig2_event_5_hatch_0" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5_hatch_1" style:display-name="fig2_event_5_hatch_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5_outline" style:display-name="fig2_event_5_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5_percent" style:display-name="fig2_event_5_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_5_count" style:display-name="fig2_event_5_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_label" style:display-name="fig2_event_6_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6" style:display-name="fig2_event_6" style:family="graphic">
+   <style:graphic-properties draw:fill="solid" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" draw:fill-color="#d2be3a" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_hatch_1_1" style:display-name="fig2_event_6_hatch_1_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_hatch_1_2" style:display-name="fig2_event_6_hatch_1_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_hatch_1_3" style:display-name="fig2_event_6_hatch_1_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.100000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_outline" style:display-name="fig2_event_6_outline" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.150000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_percent" style:display-name="fig2_event_6_percent" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_event_6_count" style:display-name="fig2_event_6_count" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="right" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_axis" style:display-name="fig2_fraction_axis" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.200000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_0" style:display-name="fig2_fraction_tick_0" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_label_0" style:display-name="fig2_fraction_tick_label_0" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_1" style:display-name="fig2_fraction_tick_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_label_1" style:display-name="fig2_fraction_tick_label_1" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_2" style:display-name="fig2_fraction_tick_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_label_2" style:display-name="fig2_fraction_tick_label_2" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_3" style:display-name="fig2_fraction_tick_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_label_3" style:display-name="fig2_fraction_tick_label_3" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_4" style:display-name="fig2_fraction_tick_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_label_4" style:display-name="fig2_fraction_tick_label_4" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_5" style:display-name="fig2_fraction_tick_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_tick_label_5" style:display-name="fig2_fraction_tick_label_5" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="G_fig2_fraction_axis_label" style:display-name="fig2_fraction_axis_label" style:family="graphic">
+   <style:graphic-properties draw:fill="none" draw:stroke="none" svg:stroke-color="#222222" svg:stroke-width="0.180000mm" fo:padding="0mm" draw:textarea-vertical-align="middle" draw:textarea-horizontal-align="center" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="false" style:wrap="none" />
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="P_fig2_event_0_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_0_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_0_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_0_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_0_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_0_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_1_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_1_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_1_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_1_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_1_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_1_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_2_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_2_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_2_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_2_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_2_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_2_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_3_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_3_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_3_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_3_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_3_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_3_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_4_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_4_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_4_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_4_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_4_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_4_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_5_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_5_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_5_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_5_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_5_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_5_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_6_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_6_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_6_percent" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_6_percent" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.3pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_event_6_count" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_event_6_count" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.0pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_tick_label_0" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_tick_label_0" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_tick_label_1" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_tick_label_1" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_tick_label_2" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_tick_label_2" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_tick_label_3" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_tick_label_3" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_tick_label_4" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_tick_label_4" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_tick_label_5" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_tick_label_5" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.2pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="P_fig2_fraction_axis_label" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="0mm" fo:margin-bottom="0mm" fo:line-height="100%" />
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:style style:name="T_fig2_fraction_axis_label" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="Liberation Sans" fo:font-size="8.5pt" fo:font-weight="normal" fo:color="#222222" />
+  </style:style>
+  <style:page-layout style:name="PM">
+   <style:page-layout-properties fo:page-width="119.000000mm" fo:page-height="145.000000mm" fo:margin="0mm" style:print-orientation="portrait" />
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="PM" />
+ </office:master-styles>
+ <office:body>
+  <office:drawing>
+   <draw:page draw:name="Fig2" draw:master-page-name="Default">
+    <draw:frame draw:name="fig2_event_0_label" draw:style-name="G_fig2_event_0_label" svg:x="4.000000mm" svg:y="4.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_0_label">
+       <text:span text:style-name="T_fig2_event_0_label">Material level detected</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_0_editable_bar_group">
+     <draw:rect draw:name="fig2_event_0" draw:style-name="G_fig2_event_0" svg:x="4.000000mm" svg:y="10.000000mm" svg:width="69.333333mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_1" draw:style-name="G_fig2_event_0_hatch_1_1" svg:x1="4.000000mm" svg:y1="12.250000mm" svg:x2="6.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_2" draw:style-name="G_fig2_event_0_hatch_1_2" svg:x1="4.000000mm" svg:y1="14.500000mm" svg:x2="8.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_3" draw:style-name="G_fig2_event_0_hatch_1_3" svg:x1="5.750000mm" svg:y1="15.000000mm" svg:x2="10.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_4" draw:style-name="G_fig2_event_0_hatch_1_4" svg:x1="8.000000mm" svg:y1="15.000000mm" svg:x2="13.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_5" draw:style-name="G_fig2_event_0_hatch_1_5" svg:x1="10.250000mm" svg:y1="15.000000mm" svg:x2="15.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_6" draw:style-name="G_fig2_event_0_hatch_1_6" svg:x1="12.500000mm" svg:y1="15.000000mm" svg:x2="17.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_7" draw:style-name="G_fig2_event_0_hatch_1_7" svg:x1="14.750000mm" svg:y1="15.000000mm" svg:x2="19.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_8" draw:style-name="G_fig2_event_0_hatch_1_8" svg:x1="17.000000mm" svg:y1="15.000000mm" svg:x2="22.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_9" draw:style-name="G_fig2_event_0_hatch_1_9" svg:x1="19.250000mm" svg:y1="15.000000mm" svg:x2="24.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_10" draw:style-name="G_fig2_event_0_hatch_1_10" svg:x1="21.500000mm" svg:y1="15.000000mm" svg:x2="26.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_11" draw:style-name="G_fig2_event_0_hatch_1_11" svg:x1="23.750000mm" svg:y1="15.000000mm" svg:x2="28.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_12" draw:style-name="G_fig2_event_0_hatch_1_12" svg:x1="26.000000mm" svg:y1="15.000000mm" svg:x2="31.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_13" draw:style-name="G_fig2_event_0_hatch_1_13" svg:x1="28.250000mm" svg:y1="15.000000mm" svg:x2="33.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_14" draw:style-name="G_fig2_event_0_hatch_1_14" svg:x1="30.500000mm" svg:y1="15.000000mm" svg:x2="35.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_15" draw:style-name="G_fig2_event_0_hatch_1_15" svg:x1="32.750000mm" svg:y1="15.000000mm" svg:x2="37.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_16" draw:style-name="G_fig2_event_0_hatch_1_16" svg:x1="35.000000mm" svg:y1="15.000000mm" svg:x2="40.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_17" draw:style-name="G_fig2_event_0_hatch_1_17" svg:x1="37.250000mm" svg:y1="15.000000mm" svg:x2="42.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_18" draw:style-name="G_fig2_event_0_hatch_1_18" svg:x1="39.500000mm" svg:y1="15.000000mm" svg:x2="44.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_19" draw:style-name="G_fig2_event_0_hatch_1_19" svg:x1="41.750000mm" svg:y1="15.000000mm" svg:x2="46.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_20" draw:style-name="G_fig2_event_0_hatch_1_20" svg:x1="44.000000mm" svg:y1="15.000000mm" svg:x2="49.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_21" draw:style-name="G_fig2_event_0_hatch_1_21" svg:x1="46.250000mm" svg:y1="15.000000mm" svg:x2="51.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_22" draw:style-name="G_fig2_event_0_hatch_1_22" svg:x1="48.500000mm" svg:y1="15.000000mm" svg:x2="53.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_23" draw:style-name="G_fig2_event_0_hatch_1_23" svg:x1="50.750000mm" svg:y1="15.000000mm" svg:x2="55.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_24" draw:style-name="G_fig2_event_0_hatch_1_24" svg:x1="53.000000mm" svg:y1="15.000000mm" svg:x2="58.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_25" draw:style-name="G_fig2_event_0_hatch_1_25" svg:x1="55.250000mm" svg:y1="15.000000mm" svg:x2="60.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_26" draw:style-name="G_fig2_event_0_hatch_1_26" svg:x1="57.500000mm" svg:y1="15.000000mm" svg:x2="62.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_27" draw:style-name="G_fig2_event_0_hatch_1_27" svg:x1="59.750000mm" svg:y1="15.000000mm" svg:x2="64.750000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_28" draw:style-name="G_fig2_event_0_hatch_1_28" svg:x1="62.000000mm" svg:y1="15.000000mm" svg:x2="67.000000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_29" draw:style-name="G_fig2_event_0_hatch_1_29" svg:x1="64.250000mm" svg:y1="15.000000mm" svg:x2="69.250000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_30" draw:style-name="G_fig2_event_0_hatch_1_30" svg:x1="66.500000mm" svg:y1="15.000000mm" svg:x2="71.500000mm" svg:y2="10.000000mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_31" draw:style-name="G_fig2_event_0_hatch_1_31" svg:x1="68.750000mm" svg:y1="15.000000mm" svg:x2="73.333333mm" svg:y2="10.416667mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_32" draw:style-name="G_fig2_event_0_hatch_1_32" svg:x1="71.000000mm" svg:y1="15.000000mm" svg:x2="73.333333mm" svg:y2="12.666667mm" />
+     <draw:line draw:name="fig2_event_0_hatch_1_33" draw:style-name="G_fig2_event_0_hatch_1_33" svg:x1="73.250000mm" svg:y1="15.000000mm" svg:x2="73.333333mm" svg:y2="14.916667mm" />
+     <draw:rect draw:name="fig2_event_0_outline" draw:style-name="G_fig2_event_0_outline" svg:x="4.000000mm" svg:y="10.000000mm" svg:width="69.333333mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_0_percent" draw:style-name="G_fig2_event_0_percent" svg:x="83.000000mm" svg:y="10.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_0_percent">
+       <text:span text:style-name="T_fig2_event_0_percent">88.9%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_0_count" draw:style-name="G_fig2_event_0_count" svg:x="98.000000mm" svg:y="10.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_0_count">
+       <text:span text:style-name="T_fig2_event_0_count">1536/1728</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_1_label" draw:style-name="G_fig2_event_1_label" svg:x="4.000000mm" svg:y="22.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_1_label">
+       <text:span text:style-name="T_fig2_event_1_label">Semantic mismatch</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_1_editable_bar_group">
+     <draw:rect draw:name="fig2_event_1" draw:style-name="G_fig2_event_1" svg:x="4.000000mm" svg:y="28.000000mm" svg:width="58.500000mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_1_hatch_0" draw:style-name="G_fig2_event_1_hatch_0" svg:x1="4.000000mm" svg:y1="29.600000mm" svg:x2="62.500000mm" svg:y2="29.600000mm" />
+     <draw:line draw:name="fig2_event_1_hatch_1" draw:style-name="G_fig2_event_1_hatch_1" svg:x1="4.000000mm" svg:y1="31.400000mm" svg:x2="62.500000mm" svg:y2="31.400000mm" />
+     <draw:rect draw:name="fig2_event_1_outline" draw:style-name="G_fig2_event_1_outline" svg:x="4.000000mm" svg:y="28.000000mm" svg:width="58.500000mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_1_percent" draw:style-name="G_fig2_event_1_percent" svg:x="83.000000mm" svg:y="28.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_1_percent">
+       <text:span text:style-name="T_fig2_event_1_percent">75.0%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_1_count" draw:style-name="G_fig2_event_1_count" svg:x="98.000000mm" svg:y="28.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_1_count">
+       <text:span text:style-name="T_fig2_event_1_count">1296/1728</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_2_label" draw:style-name="G_fig2_event_2_label" svg:x="4.000000mm" svg:y="40.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_2_label">
+       <text:span text:style-name="T_fig2_event_2_label">No strict reversal with semantic mismatch</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_2_editable_bar_group">
+     <draw:rect draw:name="fig2_event_2" draw:style-name="G_fig2_event_2" svg:x="4.000000mm" svg:y="46.000000mm" svg:width="42.250000mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_1" draw:style-name="G_fig2_event_2_hatch_1_1" svg:x1="4.000000mm" svg:y1="48.250000mm" svg:x2="6.250000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_2" draw:style-name="G_fig2_event_2_hatch_1_2" svg:x1="4.000000mm" svg:y1="50.500000mm" svg:x2="8.500000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_3" draw:style-name="G_fig2_event_2_hatch_1_3" svg:x1="5.750000mm" svg:y1="51.000000mm" svg:x2="10.750000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_4" draw:style-name="G_fig2_event_2_hatch_1_4" svg:x1="8.000000mm" svg:y1="51.000000mm" svg:x2="13.000000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_5" draw:style-name="G_fig2_event_2_hatch_1_5" svg:x1="10.250000mm" svg:y1="51.000000mm" svg:x2="15.250000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_6" draw:style-name="G_fig2_event_2_hatch_1_6" svg:x1="12.500000mm" svg:y1="51.000000mm" svg:x2="17.500000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_7" draw:style-name="G_fig2_event_2_hatch_1_7" svg:x1="14.750000mm" svg:y1="51.000000mm" svg:x2="19.750000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_8" draw:style-name="G_fig2_event_2_hatch_1_8" svg:x1="17.000000mm" svg:y1="51.000000mm" svg:x2="22.000000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_9" draw:style-name="G_fig2_event_2_hatch_1_9" svg:x1="19.250000mm" svg:y1="51.000000mm" svg:x2="24.250000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_10" draw:style-name="G_fig2_event_2_hatch_1_10" svg:x1="21.500000mm" svg:y1="51.000000mm" svg:x2="26.500000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_11" draw:style-name="G_fig2_event_2_hatch_1_11" svg:x1="23.750000mm" svg:y1="51.000000mm" svg:x2="28.750000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_12" draw:style-name="G_fig2_event_2_hatch_1_12" svg:x1="26.000000mm" svg:y1="51.000000mm" svg:x2="31.000000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_13" draw:style-name="G_fig2_event_2_hatch_1_13" svg:x1="28.250000mm" svg:y1="51.000000mm" svg:x2="33.250000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_14" draw:style-name="G_fig2_event_2_hatch_1_14" svg:x1="30.500000mm" svg:y1="51.000000mm" svg:x2="35.500000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_15" draw:style-name="G_fig2_event_2_hatch_1_15" svg:x1="32.750000mm" svg:y1="51.000000mm" svg:x2="37.750000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_16" draw:style-name="G_fig2_event_2_hatch_1_16" svg:x1="35.000000mm" svg:y1="51.000000mm" svg:x2="40.000000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_17" draw:style-name="G_fig2_event_2_hatch_1_17" svg:x1="37.250000mm" svg:y1="51.000000mm" svg:x2="42.250000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_18" draw:style-name="G_fig2_event_2_hatch_1_18" svg:x1="39.500000mm" svg:y1="51.000000mm" svg:x2="44.500000mm" svg:y2="46.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_19" draw:style-name="G_fig2_event_2_hatch_1_19" svg:x1="41.750000mm" svg:y1="51.000000mm" svg:x2="46.250000mm" svg:y2="46.500000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_1_20" draw:style-name="G_fig2_event_2_hatch_1_20" svg:x1="44.000000mm" svg:y1="51.000000mm" svg:x2="46.250000mm" svg:y2="48.750000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_1" draw:style-name="G_fig2_event_2_hatch_-1_1" svg:x1="4.000000mm" svg:y1="48.750000mm" svg:x2="6.250000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_2" draw:style-name="G_fig2_event_2_hatch_-1_2" svg:x1="4.000000mm" svg:y1="46.500000mm" svg:x2="8.500000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_3" draw:style-name="G_fig2_event_2_hatch_-1_3" svg:x1="5.750000mm" svg:y1="46.000000mm" svg:x2="10.750000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_4" draw:style-name="G_fig2_event_2_hatch_-1_4" svg:x1="8.000000mm" svg:y1="46.000000mm" svg:x2="13.000000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_5" draw:style-name="G_fig2_event_2_hatch_-1_5" svg:x1="10.250000mm" svg:y1="46.000000mm" svg:x2="15.250000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_6" draw:style-name="G_fig2_event_2_hatch_-1_6" svg:x1="12.500000mm" svg:y1="46.000000mm" svg:x2="17.500000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_7" draw:style-name="G_fig2_event_2_hatch_-1_7" svg:x1="14.750000mm" svg:y1="46.000000mm" svg:x2="19.750000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_8" draw:style-name="G_fig2_event_2_hatch_-1_8" svg:x1="17.000000mm" svg:y1="46.000000mm" svg:x2="22.000000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_9" draw:style-name="G_fig2_event_2_hatch_-1_9" svg:x1="19.250000mm" svg:y1="46.000000mm" svg:x2="24.250000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_10" draw:style-name="G_fig2_event_2_hatch_-1_10" svg:x1="21.500000mm" svg:y1="46.000000mm" svg:x2="26.500000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_11" draw:style-name="G_fig2_event_2_hatch_-1_11" svg:x1="23.750000mm" svg:y1="46.000000mm" svg:x2="28.750000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_12" draw:style-name="G_fig2_event_2_hatch_-1_12" svg:x1="26.000000mm" svg:y1="46.000000mm" svg:x2="31.000000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_13" draw:style-name="G_fig2_event_2_hatch_-1_13" svg:x1="28.250000mm" svg:y1="46.000000mm" svg:x2="33.250000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_14" draw:style-name="G_fig2_event_2_hatch_-1_14" svg:x1="30.500000mm" svg:y1="46.000000mm" svg:x2="35.500000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_15" draw:style-name="G_fig2_event_2_hatch_-1_15" svg:x1="32.750000mm" svg:y1="46.000000mm" svg:x2="37.750000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_16" draw:style-name="G_fig2_event_2_hatch_-1_16" svg:x1="35.000000mm" svg:y1="46.000000mm" svg:x2="40.000000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_17" draw:style-name="G_fig2_event_2_hatch_-1_17" svg:x1="37.250000mm" svg:y1="46.000000mm" svg:x2="42.250000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_18" draw:style-name="G_fig2_event_2_hatch_-1_18" svg:x1="39.500000mm" svg:y1="46.000000mm" svg:x2="44.500000mm" svg:y2="51.000000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_19" draw:style-name="G_fig2_event_2_hatch_-1_19" svg:x1="41.750000mm" svg:y1="46.000000mm" svg:x2="46.250000mm" svg:y2="50.500000mm" />
+     <draw:line draw:name="fig2_event_2_hatch_-1_20" draw:style-name="G_fig2_event_2_hatch_-1_20" svg:x1="44.000000mm" svg:y1="46.000000mm" svg:x2="46.250000mm" svg:y2="48.250000mm" />
+     <draw:rect draw:name="fig2_event_2_outline" draw:style-name="G_fig2_event_2_outline" svg:x="4.000000mm" svg:y="46.000000mm" svg:width="42.250000mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_2_percent" draw:style-name="G_fig2_event_2_percent" svg:x="83.000000mm" svg:y="46.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_2_percent">
+       <text:span text:style-name="T_fig2_event_2_percent">54.2%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_2_count" draw:style-name="G_fig2_event_2_count" svg:x="98.000000mm" svg:y="46.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_2_count">
+       <text:span text:style-name="T_fig2_event_2_count">4680/8640</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_3_label" draw:style-name="G_fig2_event_3_label" svg:x="4.000000mm" svg:y="58.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_3_label">
+       <text:span text:style-name="T_fig2_event_3_label">Numerical difference but same action</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_3_editable_bar_group">
+     <draw:rect draw:name="fig2_event_3" draw:style-name="G_fig2_event_3" svg:x="4.000000mm" svg:y="64.000000mm" svg:width="29.466667mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_1" draw:style-name="G_fig2_event_3_hatch_1_1" svg:x1="4.000000mm" svg:y1="66.250000mm" svg:x2="6.250000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_2" draw:style-name="G_fig2_event_3_hatch_1_2" svg:x1="4.000000mm" svg:y1="68.500000mm" svg:x2="8.500000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_3" draw:style-name="G_fig2_event_3_hatch_1_3" svg:x1="5.750000mm" svg:y1="69.000000mm" svg:x2="10.750000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_4" draw:style-name="G_fig2_event_3_hatch_1_4" svg:x1="8.000000mm" svg:y1="69.000000mm" svg:x2="13.000000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_5" draw:style-name="G_fig2_event_3_hatch_1_5" svg:x1="10.250000mm" svg:y1="69.000000mm" svg:x2="15.250000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_6" draw:style-name="G_fig2_event_3_hatch_1_6" svg:x1="12.500000mm" svg:y1="69.000000mm" svg:x2="17.500000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_7" draw:style-name="G_fig2_event_3_hatch_1_7" svg:x1="14.750000mm" svg:y1="69.000000mm" svg:x2="19.750000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_8" draw:style-name="G_fig2_event_3_hatch_1_8" svg:x1="17.000000mm" svg:y1="69.000000mm" svg:x2="22.000000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_9" draw:style-name="G_fig2_event_3_hatch_1_9" svg:x1="19.250000mm" svg:y1="69.000000mm" svg:x2="24.250000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_10" draw:style-name="G_fig2_event_3_hatch_1_10" svg:x1="21.500000mm" svg:y1="69.000000mm" svg:x2="26.500000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_11" draw:style-name="G_fig2_event_3_hatch_1_11" svg:x1="23.750000mm" svg:y1="69.000000mm" svg:x2="28.750000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_12" draw:style-name="G_fig2_event_3_hatch_1_12" svg:x1="26.000000mm" svg:y1="69.000000mm" svg:x2="31.000000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_13" draw:style-name="G_fig2_event_3_hatch_1_13" svg:x1="28.250000mm" svg:y1="69.000000mm" svg:x2="33.250000mm" svg:y2="64.000000mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_14" draw:style-name="G_fig2_event_3_hatch_1_14" svg:x1="30.500000mm" svg:y1="69.000000mm" svg:x2="33.466667mm" svg:y2="66.033333mm" />
+     <draw:line draw:name="fig2_event_3_hatch_1_15" draw:style-name="G_fig2_event_3_hatch_1_15" svg:x1="32.750000mm" svg:y1="69.000000mm" svg:x2="33.466667mm" svg:y2="68.283333mm" />
+     <draw:rect draw:name="fig2_event_3_outline" draw:style-name="G_fig2_event_3_outline" svg:x="4.000000mm" svg:y="64.000000mm" svg:width="29.466667mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_3_percent" draw:style-name="G_fig2_event_3_percent" svg:x="83.000000mm" svg:y="64.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_3_percent">
+       <text:span text:style-name="T_fig2_event_3_percent">37.8%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_3_count" draw:style-name="G_fig2_event_3_count" svg:x="98.000000mm" svg:y="64.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_3_count">
+       <text:span text:style-name="T_fig2_event_3_count">3264/8640</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_4_label" draw:style-name="G_fig2_event_4_label" svg:x="4.000000mm" svg:y="76.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_4_label">
+       <text:span text:style-name="T_fig2_event_4_label">Material level change but same action</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_4_editable_bar_group">
+     <draw:rect draw:name="fig2_event_4" draw:style-name="G_fig2_event_4" svg:x="4.000000mm" svg:y="82.000000mm" svg:width="24.266667mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_1" draw:style-name="G_fig2_event_4_hatch_1_1" svg:x1="4.000000mm" svg:y1="84.250000mm" svg:x2="6.250000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_2" draw:style-name="G_fig2_event_4_hatch_1_2" svg:x1="4.000000mm" svg:y1="86.500000mm" svg:x2="8.500000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_3" draw:style-name="G_fig2_event_4_hatch_1_3" svg:x1="5.750000mm" svg:y1="87.000000mm" svg:x2="10.750000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_4" draw:style-name="G_fig2_event_4_hatch_1_4" svg:x1="8.000000mm" svg:y1="87.000000mm" svg:x2="13.000000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_5" draw:style-name="G_fig2_event_4_hatch_1_5" svg:x1="10.250000mm" svg:y1="87.000000mm" svg:x2="15.250000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_6" draw:style-name="G_fig2_event_4_hatch_1_6" svg:x1="12.500000mm" svg:y1="87.000000mm" svg:x2="17.500000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_7" draw:style-name="G_fig2_event_4_hatch_1_7" svg:x1="14.750000mm" svg:y1="87.000000mm" svg:x2="19.750000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_8" draw:style-name="G_fig2_event_4_hatch_1_8" svg:x1="17.000000mm" svg:y1="87.000000mm" svg:x2="22.000000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_9" draw:style-name="G_fig2_event_4_hatch_1_9" svg:x1="19.250000mm" svg:y1="87.000000mm" svg:x2="24.250000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_10" draw:style-name="G_fig2_event_4_hatch_1_10" svg:x1="21.500000mm" svg:y1="87.000000mm" svg:x2="26.500000mm" svg:y2="82.000000mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_11" draw:style-name="G_fig2_event_4_hatch_1_11" svg:x1="23.750000mm" svg:y1="87.000000mm" svg:x2="28.266667mm" svg:y2="82.483333mm" />
+     <draw:line draw:name="fig2_event_4_hatch_1_12" draw:style-name="G_fig2_event_4_hatch_1_12" svg:x1="26.000000mm" svg:y1="87.000000mm" svg:x2="28.266667mm" svg:y2="84.733333mm" />
+     <draw:rect draw:name="fig2_event_4_outline" draw:style-name="G_fig2_event_4_outline" svg:x="4.000000mm" svg:y="82.000000mm" svg:width="24.266667mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_4_percent" draw:style-name="G_fig2_event_4_percent" svg:x="83.000000mm" svg:y="82.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_4_percent">
+       <text:span text:style-name="T_fig2_event_4_percent">31.1%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_4_count" draw:style-name="G_fig2_event_4_count" svg:x="98.000000mm" svg:y="82.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_4_count">
+       <text:span text:style-name="T_fig2_event_4_count">2688/8640</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_5_label" draw:style-name="G_fig2_event_5_label" svg:x="4.000000mm" svg:y="94.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_5_label">
+       <text:span text:style-name="T_fig2_event_5_label">Rank reversal</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_5_editable_bar_group">
+     <draw:rect draw:name="fig2_event_5" draw:style-name="G_fig2_event_5" svg:x="4.000000mm" svg:y="100.000000mm" svg:width="21.666667mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_5_hatch_0" draw:style-name="G_fig2_event_5_hatch_0" svg:x1="4.000000mm" svg:y1="101.600000mm" svg:x2="25.666667mm" svg:y2="101.600000mm" />
+     <draw:line draw:name="fig2_event_5_hatch_1" draw:style-name="G_fig2_event_5_hatch_1" svg:x1="4.000000mm" svg:y1="103.400000mm" svg:x2="25.666667mm" svg:y2="103.400000mm" />
+     <draw:rect draw:name="fig2_event_5_outline" draw:style-name="G_fig2_event_5_outline" svg:x="4.000000mm" svg:y="100.000000mm" svg:width="21.666667mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_5_percent" draw:style-name="G_fig2_event_5_percent" svg:x="83.000000mm" svg:y="100.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_5_percent">
+       <text:span text:style-name="T_fig2_event_5_percent">27.8%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_5_count" draw:style-name="G_fig2_event_5_count" svg:x="98.000000mm" svg:y="100.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_5_count">
+       <text:span text:style-name="T_fig2_event_5_count">480/1728</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_6_label" draw:style-name="G_fig2_event_6_label" svg:x="4.000000mm" svg:y="112.000000mm" svg:width="111.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_6_label">
+       <text:span text:style-name="T_fig2_event_6_label">Action change below materiality threshold</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:g draw:name="fig2_event_6_editable_bar_group">
+     <draw:rect draw:name="fig2_event_6" draw:style-name="G_fig2_event_6" svg:x="4.000000mm" svg:y="118.000000mm" svg:width="3.466667mm" svg:height="5.000000mm" />
+     <draw:line draw:name="fig2_event_6_hatch_1_1" draw:style-name="G_fig2_event_6_hatch_1_1" svg:x1="4.000000mm" svg:y1="120.250000mm" svg:x2="6.250000mm" svg:y2="118.000000mm" />
+     <draw:line draw:name="fig2_event_6_hatch_1_2" draw:style-name="G_fig2_event_6_hatch_1_2" svg:x1="4.000000mm" svg:y1="122.500000mm" svg:x2="7.466667mm" svg:y2="119.033333mm" />
+     <draw:line draw:name="fig2_event_6_hatch_1_3" draw:style-name="G_fig2_event_6_hatch_1_3" svg:x1="5.750000mm" svg:y1="123.000000mm" svg:x2="7.466667mm" svg:y2="121.283333mm" />
+     <draw:rect draw:name="fig2_event_6_outline" draw:style-name="G_fig2_event_6_outline" svg:x="4.000000mm" svg:y="118.000000mm" svg:width="3.466667mm" svg:height="5.000000mm" />
+    </draw:g>
+    <draw:frame draw:name="fig2_event_6_percent" draw:style-name="G_fig2_event_6_percent" svg:x="83.000000mm" svg:y="118.000000mm" svg:width="14.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_6_percent">
+       <text:span text:style-name="T_fig2_event_6_percent">4.4%</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_event_6_count" draw:style-name="G_fig2_event_6_count" svg:x="98.000000mm" svg:y="118.000000mm" svg:width="18.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_event_6_count">
+       <text:span text:style-name="T_fig2_event_6_count">384/8640</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:line draw:name="fig2_fraction_axis" draw:style-name="G_fig2_fraction_axis" svg:x1="4.000000mm" svg:y1="131.000000mm" svg:x2="82.000000mm" svg:y2="131.000000mm" />
+    <draw:line draw:name="fig2_fraction_tick_0" draw:style-name="G_fig2_fraction_tick_0" svg:x1="4.000000mm" svg:y1="131.000000mm" svg:x2="4.000000mm" svg:y2="132.250000mm" />
+    <draw:frame draw:name="fig2_fraction_tick_label_0" draw:style-name="G_fig2_fraction_tick_label_0" svg:x="-1.000000mm" svg:y="132.500000mm" svg:width="10.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_tick_label_0">
+       <text:span text:style-name="T_fig2_fraction_tick_label_0">0</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:line draw:name="fig2_fraction_tick_1" draw:style-name="G_fig2_fraction_tick_1" svg:x1="19.600000mm" svg:y1="131.000000mm" svg:x2="19.600000mm" svg:y2="132.250000mm" />
+    <draw:frame draw:name="fig2_fraction_tick_label_1" draw:style-name="G_fig2_fraction_tick_label_1" svg:x="14.600000mm" svg:y="132.500000mm" svg:width="10.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_tick_label_1">
+       <text:span text:style-name="T_fig2_fraction_tick_label_1">20</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:line draw:name="fig2_fraction_tick_2" draw:style-name="G_fig2_fraction_tick_2" svg:x1="35.200000mm" svg:y1="131.000000mm" svg:x2="35.200000mm" svg:y2="132.250000mm" />
+    <draw:frame draw:name="fig2_fraction_tick_label_2" draw:style-name="G_fig2_fraction_tick_label_2" svg:x="30.200000mm" svg:y="132.500000mm" svg:width="10.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_tick_label_2">
+       <text:span text:style-name="T_fig2_fraction_tick_label_2">40</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:line draw:name="fig2_fraction_tick_3" draw:style-name="G_fig2_fraction_tick_3" svg:x1="50.800000mm" svg:y1="131.000000mm" svg:x2="50.800000mm" svg:y2="132.250000mm" />
+    <draw:frame draw:name="fig2_fraction_tick_label_3" draw:style-name="G_fig2_fraction_tick_label_3" svg:x="45.800000mm" svg:y="132.500000mm" svg:width="10.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_tick_label_3">
+       <text:span text:style-name="T_fig2_fraction_tick_label_3">60</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:line draw:name="fig2_fraction_tick_4" draw:style-name="G_fig2_fraction_tick_4" svg:x1="66.400000mm" svg:y1="131.000000mm" svg:x2="66.400000mm" svg:y2="132.250000mm" />
+    <draw:frame draw:name="fig2_fraction_tick_label_4" draw:style-name="G_fig2_fraction_tick_label_4" svg:x="61.400000mm" svg:y="132.500000mm" svg:width="10.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_tick_label_4">
+       <text:span text:style-name="T_fig2_fraction_tick_label_4">80</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:line draw:name="fig2_fraction_tick_5" draw:style-name="G_fig2_fraction_tick_5" svg:x1="82.000000mm" svg:y1="131.000000mm" svg:x2="82.000000mm" svg:y2="132.250000mm" />
+    <draw:frame draw:name="fig2_fraction_tick_label_5" draw:style-name="G_fig2_fraction_tick_label_5" svg:x="77.000000mm" svg:y="132.500000mm" svg:width="10.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_tick_label_5">
+       <text:span text:style-name="T_fig2_fraction_tick_label_5">100</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:name="fig2_fraction_axis_label" draw:style-name="G_fig2_fraction_axis_label" svg:x="2.000000mm" svg:y="138.000000mm" svg:width="115.000000mm" svg:height="4.300000mm">
+     <draw:text-box>
+      <text:p text:style-name="P_fig2_fraction_axis_label">
+       <text:span text:style-name="T_fig2_fraction_axis_label">Share of registered design cases (%)</text:span>
+      </text:p>
+     </draw:text-box>
+    </draw:frame>
+   </draw:page>
+  </office:drawing>
+ </office:body>
+</office:document>

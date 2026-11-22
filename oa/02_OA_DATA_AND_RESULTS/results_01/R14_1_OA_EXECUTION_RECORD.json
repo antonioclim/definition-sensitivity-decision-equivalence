@@ -1,0 +1,18 @@
+{
+  "status": "EXECUTED_AWAITING_INDEPENDENT_RESULT_REVIEW",
+  "started_utc": "2026-11-11T21:53:04.290883+00:00",
+  "completed_utc": "2026-11-11T21:53:04.319379+00:00",
+  "protocol_sha256": "cde4280396ac29ba8cb840148bb019ec5a5d75da1f42b7d17cbe09f11b0358e4",
+  "input_sha256": "beb764cfe4d441f009da8a2202ae2350b19d0eaefbfe5be624e8f927073114fe",
+  "adapter_review_sha256": "9b8fce80399147dc2b2dd9b73a0710d4d5b6570734b2cb788d88d8a2125b2e0e",
+  "pipeline_sha256": "75454f693b1df3b7620c984733f14ed7aff37d9e8ec2ca78aca26b1b0dd65826",
+  "python": "3.12.14",
+  "platform": "linux",
+  "jsonschema": "4.26.0",
+  "network_requests": 0,
+  "new_MC_replications": 0,
+  "outputs": {
+    "R14_1_OA_POINT_RESULTS.json": "a0449ac419aa9b0fd210bca4ede2f623085a943291871453a1d45d3710f2f5a2",
+    "R14_1_OA_SECONDARY_RESULTS.json": "6366f408c4ad0fb10fe6ff7dc15da8dc2e3cd89bde92647a18e753a2b169fc74"
+  }
+}

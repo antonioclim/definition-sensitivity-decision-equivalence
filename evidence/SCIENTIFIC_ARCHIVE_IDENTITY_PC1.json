@@ -1,0 +1,10 @@
+{
+  "archive": "scientific/ODSA_SCIENTIFIC_RECORDS_PC1.zip",
+  "root": "scientific_records",
+  "bytes": 53321994,
+  "sha256": "62c5fcb825d1ddaed0e1816d45599bd6e11a5e00ead26af970d4dffc3873383e",
+  "expanded_bytes_including_manifest": 867649259,
+  "member_count": 361,
+  "no_monte_carlo_replications_executed": true,
+  "source_archive_sha256": "70524920555d6622558d4c0b94f266a57112470f057da14e1046a7c8151f3765"
+}

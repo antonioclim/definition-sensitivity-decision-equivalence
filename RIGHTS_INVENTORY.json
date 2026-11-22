@@ -1,0 +1,2388 @@
+{
+  "schema": "ODSA_COMPONENT_RIGHTS_INVENTORY_1.0",
+  "scope_file": "RIGHTS_SCOPE.json",
+  "classification_basis": "Author-approved LICENSE.md and reviewed path classifications for the pinned PC1 scientific contents as distributed in version 1.0.0.",
+  "scientific_archive": "scientific/ODSA_SCIENTIFIC_RECORDS_PC1.zip",
+  "categories": {
+    "author_code": {
+      "label": "Original source code, tests, schemas and execution configuration",
+      "author_grant": "MIT",
+      "scope": "Only original source and implementation/configuration contributions for which Antonio Clim holds the relevant rights; dependencies and separately licensed fragments retain their own terms.",
+      "notice": "LICENSES/MIT.txt"
+    },
+    "author_documentation": {
+      "label": "Original software and research-protocol documentation",
+      "author_grant": "CC-BY-4.0",
+      "scope": "Only original authored expression, structure and commentary. Source facts, quotations and separately licensed material are not relicensed.",
+      "notice": "LICENSES/CC-BY-4.0.txt"
+    },
+    "author_figures": {
+      "label": "Original figure contributions and editable/exported representations",
+      "author_grant": "CC-BY-4.0",
+      "scope": "Only original drawing, layout, explanatory and presentation contributions within the author's rights. Source/provider facts and separately licensed material retain their status.",
+      "notice": "LICENSES/CC-BY-4.0.txt"
+    },
+    "author_aggregate_results": {
+      "label": "Approved original aggregate-result and derived-table contributions",
+      "author_grant": "CC-BY-4.0",
+      "scope": "Only original authored presentation, arrangement and commentary in the approved aggregate outputs; no exclusive rights are asserted over numbers, source facts or underlying provider material. This does not cover microdata or withheld outputs.",
+      "notice": "LICENSES/CC-BY-4.0.txt"
+    },
+    "openalex_provider_material": {
+      "label": "Retained raw OpenAlex provider responses and metadata",
+      "author_grant": null,
+      "retained_upstream_terms": "CC0-1.0 as recorded for the retained provider material",
+      "scope": "Provider material remains under its recorded upstream terms; the author does not relicense it. Metadata terms do not convey rights in indexed article full texts.",
+      "provenance": "oa/04_CODE_AND_PROTOCOL/frozen/R13_EMPIRICAL_SOURCE_EVIDENCE.json",
+      "provider_terms_url": "https://openalex.org/transparency"
+    },
+    "mixed_provenance": {
+      "label": "Acquisition, normalisation, provider/source facts and mixed-provenance records",
+      "author_grant": "CC-BY-4.0 only for original authored structure or commentary",
+      "whole_file_licence": null,
+      "scope": "No blanket author grant over the file. Source facts, provider material, quotations and separately licensed content retain their status. Factual source routes grant no rights in the catalogue or dataset they identify.",
+      "notice": "LICENSE.md"
+    },
+    "world_bank_source": {
+      "label": "Seven retained original World Bank Stata source files",
+      "author_grant": null,
+      "retained_upstream_terms": "LicenseRef-World-Bank-Retained-Notice",
+      "scope": "The exact retained World Bank source notice governs this component. No MIT or CC BY author grant is applied; the source notice does not license controlled FAT microdata.",
+      "notice": "third_party_notices/WORLD_BANK_SOURCE_LICENSE.txt",
+      "inner_notice": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/LICENSE.txt"
+    },
+    "world_bank_notice": {
+      "label": "Retained original World Bank copyright and licence notice",
+      "author_grant": null,
+      "scope": "Retained source notice, without correction or substitution. No author-owned copyright grant is asserted over this text.",
+      "notice": "third_party_notices/WORLD_BANK_SOURCE_LICENSE.txt"
+    },
+    "historical_evidence": {
+      "label": "Historical manifests, execution/audit receipts, diagnostics and provenance ledgers",
+      "author_grant": "CC-BY-4.0 only for original authored structure or commentary",
+      "whole_file_licence": null,
+      "scope": "Recorded hashes, run facts and historical states remain factual evidence. Original authored structure/commentary is covered only within the author's rights; quoted/provider/dependency material retains its status. Earlier proposed-licence and unpublished-status statements remain historical, not current grants.",
+      "notice": "LICENSE.md"
+    },
+    "current_distribution_metadata": {
+      "label": "Current distribution identification, rights mapping and integrity indices",
+      "author_grant": "CC-BY-4.0 only for original authored structure or commentary",
+      "scope": "Original authored metadata presentation is covered within the author's rights. Names, identifiers, hashes and source facts are not given new exclusive rights. Rights statements describe the approved scope rather than enlarging it.",
+      "notice": "LICENSE.md"
+    },
+    "standard_licence_text": {
+      "label": "Reproduced standard licence legal text",
+      "author_grant": null,
+      "scope": "No author-owned copyright grant is asserted over the standard licence legal text itself. The licence governs identified contributions, not ownership of the legal text.",
+      "notice": "LICENSE.md"
+    },
+    "mixed_component_archive": {
+      "label": "Container of separately scoped scientific components",
+      "author_grant": null,
+      "whole_file_licence": null,
+      "scope": "No blanket archive licence. Consult every member's explicit classification in RIGHTS_INVENTORY.json and the applicable original notices.",
+      "notice": "RIGHTS_INVENTORY.json"
+    }
+  },
+  "outer_files": [
+    {
+      "path": ".gitattributes",
+      "scope": "author_code"
+    },
+    {
+      "path": ".gitignore",
+      "scope": "author_code"
+    },
+    {
+      "path": "CITATION.cff",
+      "scope": "current_distribution_metadata"
+    },
+    {
+      "path": "FILE_ALLOWLIST.txt",
+      "scope": "current_distribution_metadata"
+    },
+    {
+      "path": "LICENSE.md",
+      "scope": "current_distribution_metadata"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "scope": "standard_licence_text"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "scope": "standard_licence_text"
+    },
+    {
+      "path": "MANIFEST_SHA256.json",
+      "scope": "current_distribution_metadata"
+    },
+    {
+      "path": "README.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "RIGHTS_INVENTORY.json",
+      "scope": "current_distribution_metadata"
+    },
+    {
+      "path": "RIGHTS_SCOPE.json",
+      "scope": "current_distribution_metadata"
+    },
+    {
+      "path": "evidence/SCIENTIFIC_ARCHIVE_IDENTITY_PC1.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "evidence/SCIENTIFIC_SOURCE_LINEAGE_R18.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "evidence/SOURCE_TO_CANDIDATE_PC1.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "figures/00_INCEPE_AICI_RO.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/FIGURE_CAPTIONS_AND_ALT_TEXT_EN_GB.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/Fig1_OBJECTS_AND_VALUES.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/Fig2_OBJECTS_AND_VALUES.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/Fig3_OBJECTS_AND_VALUES.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/Fig4_OBJECTS_AND_VALUES.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/Fig5_OBJECTS_AND_VALUES.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/NATIVE_STRUCTURE_AND_VALUES.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/CONTROL/R19_FIGURE_COMPONENT_AUDIT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "figures/CONTROL/SOURCE_PROVENANCE.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "figures/EPS_VECTOR/Fig1.eps",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/EPS_VECTOR/Fig2.eps",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/EPS_VECTOR/Fig3.eps",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/EPS_VECTOR/Fig4.eps",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/EPS_VECTOR/Fig5.eps",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/GHID_EDITARE_FIGURI_RO.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/MANIFEST_SHA256.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "figures/NATIVE_SOURCE/Fig1.fodg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/NATIVE_SOURCE/Fig2.fodg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/NATIVE_SOURCE/Fig3.fodg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/NATIVE_SOURCE/Fig4.fodg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/NATIVE_SOURCE/Fig5.fodg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/ODG_NATIVE/Fig1.odg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/ODG_NATIVE/Fig2.odg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/ODG_NATIVE/Fig3.odg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/ODG_NATIVE/Fig4.odg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/ODG_NATIVE/Fig5.odg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PDF_VECTOR/Fig1.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PDF_VECTOR/Fig2.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PDF_VECTOR/Fig3.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PDF_VECTOR/Fig4.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PDF_VECTOR/Fig5.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PNG_600/Fig1.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PNG_600/Fig2.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PNG_600/Fig3.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PNG_600/Fig4.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/PNG_600/Fig5.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/README_FIGURES_EN_GB.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "figures/SOURCE_DATA/Figure_1_architecture_register.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SOURCE_DATA/Figure_2_ablation_event_frequencies.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SOURCE_DATA/Figure_3_panel_A_reference_rates_mae.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SOURCE_DATA/Figure_3_panel_B_reference_ordering.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SOURCE_DATA/Figure_3_panel_C_unmatched_objective.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SOURCE_DATA/Figure_4_unresolved_determinacy.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SOURCE_DATA/R14_1_OA_REPORTING_TABLES.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "figures/SVG_EDITABLE/Fig1.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/SVG_EDITABLE/Fig2.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/SVG_EDITABLE/Fig3.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/SVG_EDITABLE/Fig4.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/SVG_EDITABLE/Fig5.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/TIFF/Fig1.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/TIFF/Fig2.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/TIFF/Fig3.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/TIFF/Fig4.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/TIFF/Fig5.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "figures/code/build_figures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "figures/code/verify_exports.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "figures/code/verify_figures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "figures/requirements_figures.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "figures/verify_package.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/R14_1_OA_CANDIDATE_INPUT.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/R14_1_OA_COVERAGE.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/R14_1_OA_NORMALISED_INPUT.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/R14_1_OA_REPORTING_TABLES.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/R14_1_OA_ACQUISITION_BATCH.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/01_AT_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/02_BE_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/03_BG_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/04_CY_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/05_CZ_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/06_DE_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/07_DK_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/08_EE_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/09_ES_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/10_FI_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/11_FR_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/12_GR_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/13_HR_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/14_HU_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/15_IE_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/16_IT_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/17_LT_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/18_LU_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/19_LV_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/20_MT_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/21_NL_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/22_PL_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/23_PT_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/24_RO_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/25_SE_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/26_SI_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/attempts/27_SK_attempt1.body",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/01_AT.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/02_BE.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/03_BG.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/04_CY.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/05_CZ.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/06_DE.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/07_DK.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/08_EE.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/09_ES.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/10_FI.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/11_FR.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/12_GR.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/13_HR.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/14_HU.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/15_IE.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/16_IT.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/17_LT.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/18_LU.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/19_LV.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/20_MT.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/21_NL.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/22_PL.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/23_PT.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/24_RO.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/25_SE.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/26_SI.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/batch_01/raw/27_SK.json",
+      "scope": "openalex_provider_material"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/results_01/R14_1_OA_EXECUTION_RECORD.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/results_01/R14_1_OA_POINT_RESULTS.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "oa/02_OA_DATA_AND_RESULTS/results_01/R14_1_OA_SECONDARY_RESULTS.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/build_reporting_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/frozen/R13_EMPIRICAL_PROTOCOL_EN_GB.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/frozen/R13_EMPIRICAL_PROTOCOL_EN_GB.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/frozen/R13_EMPIRICAL_SOURCE_EVIDENCE.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/frozen/R13_OA_QUERY_MANIFEST.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/implementation_history/oa_pipeline_r14_1_acquisition_01.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/independent/independent_oa_raw_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/independent/r141_independent_math.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/independent/verify_oa_adapter_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/independent/verify_oa_r141.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/independent/verify_reporting_r141.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/oa_pipeline_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_CONTRACT_CORE_CHECKS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_INTERVAL_MEMBERSHIP_ORACLES.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_STATE_CONTRACT_CHECKS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_STATE_INPUT.schema.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_STATE_OUTPUT.schema.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_SYNTHETIC_INPUT.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_SYNTHETIC_OUTPUT.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/R13_SYNTHETIC_SOURCE_ROWS.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/build_contract_schema.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/build_output_schema.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/check_contract_core.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/check_state_contract.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/execute_state_contract.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/odsa_contract_core.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/r13_contracts/requirements_r13_checks.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/replay_oa_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/requirements_replay.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/04_CODE_AND_PROTOCOL/verify_bundle_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "oa/05_AUDIT_AND_CONTINUITY/R14_1_AMENDMENT_01_RECOVERY.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "oa/05_AUDIT_AND_CONTINUITY/R14_1_OA_ADAPTER_INDEPENDENT_REVIEW.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "oa/MANIFEST_SHA256.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "reproduce.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "requirements-oa.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific/ODSA_SCIENTIFIC_RECORDS_PC1.zip",
+      "scope": "mixed_component_archive"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/EINT_R2_ADEMP_AND_EXECUTION_PROTOCOL_EN.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/EINT_R2_FULL_GRID_REGISTRY.csv",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/EINT_R2_OUTPUT_CONTRACT_EN.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/EINT_R2_PROTOCOL_AMENDMENT_AND_CHANGE_CONTROL_EN.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/EINT_R2_PROTOCOL_LINEAGE.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/EINT_R2_PROTOCOL_SUMMARY.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/eint_r2_decision_protocol.freeze.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/02_FROZEN_PROTOCOL/eint_r2_decision_protocol.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/odsa_econ/__init__.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/odsa_econ/dgp.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/odsa_econ/diagnostics.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/odsa_econ/engine.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/odsa_econ/observation.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/odsa_econ/protocol.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/preflight_full_run.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/pyproject.toml",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/requirements.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/run_protocol.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_dgp_observation.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_execution_gate.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_formal_properties.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_parallel_determinism.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_preflight.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_protocol.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_scenario_signatures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/tests/test_smoke_boundary.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/03_EXECUTABLE/validate_outputs.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Deterministic_Ablation_Events.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Deterministic_Parity_Note.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Execution_Summary.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Full_Execution_and_Convergence_Audit.md",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Full_Output_Validation.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Key_Findings.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Parallel_Reproducibility_Check.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Protocol_Validation.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Scenario_Ordering_Summary.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Source_Integrity.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "simulation/04_AGGREGATE_RESULTS/Top_K_Tie_Diagnostics.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "third_party_notices/README.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "third_party_notices/WORLD_BANK_SOURCE_LICENSE.txt",
+      "scope": "world_bank_notice"
+    },
+    {
+      "path": "tools/build_manifest.py",
+      "scope": "author_code"
+    }
+  ],
+  "scientific_archive_members": [
+    {
+      "path": "scientific_records/MANIFEST_SHA256.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/R10_ENGINE_PYTEST.xml",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/R10_FULL_MOMENT_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/R10_LAUNCHER_TESTS_R4_VIEW.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/R10_R4_COMPATIBILITY_VIEW.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/R10_RECONCILER_MUTATION_TESTS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/R10_VALIDATOR_MUTATION_TESTS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reconciliation/R4_RECONSTRUCTED_AGGREGATES.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reconciliation/R4_REFERENCE_EXTRACTED_CELL_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reconciliation/R4_REFERENCE_EXTRACTED_STREAM_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reconciliation/R4_SCIENTIFIC_RECONCILIATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reference_rerun/R2_SOURCE_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reference_rerun/REFERENCE_REPRODUCTION_CHECK.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reference_rerun/REFERENCE_RERUN_CELL_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/computation/reference_rerun/REFERENCE_RERUN_STREAM_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_BUNDLED_AGGREGATE_CHECKS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_BUNDLED_EXECUTION_RECORD.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_EMPIRICAL_FINAL_IDENTITY.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_EMPIRICAL_REPLAY_EXACT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_EXACT_REPLAY.stderr.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_EXACT_REPLAY.stdout.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_EXACT_REPLAY_INVOCATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_HEADER_CONTRACT_RECHECK.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_POSTHOC_PORTABLE_REPRODUCTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_POSTHOC_PORTABLE_VERIFICATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_POSTHOC_PORTABLE_VERIFICATION_RO.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_POSTHOC_SENSITIVITY_REPRODUCTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_PUBLIC_AGGREGATE_AUDIT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/R10_R4_COMPATIBILITY_INDEPENDENT_REVIEW.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/recovered_source_synthetic.stderr.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/recovered_source_synthetic.stdout.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/replay_adapter_selftest.stderr.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/replay_adapter_selftest.stdout.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/stored_aggregate_checks.stderr.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/checks/stored_aggregate_checks.stdout.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/provenance_sources/audit_public_aggregates_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/provenance_sources/compare_portable_posthoc_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/provenance_sources/review_r4_compatibility_view_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/provenance_sources/run_bundled_checks_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/provenance_sources/run_exact_empirical_replay_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/provenance_sources/verify_posthoc_sensitivities_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/empirical/verify_posthoc_sensitivities_portable_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/bounded_tools_tests/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/bounded_tools_tests/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/bounded_tools_tests/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/engine_pytest/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/engine_pytest/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/engine_pytest/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/full_moment_validation/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/full_moment_validation/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/full_moment_validation/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/launcher_preflight_original_r5/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/launcher_preflight_original_r5/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/launcher_preflight_original_r5/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/launcher_tests_r4_view/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/launcher_tests_r4_view/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/launcher_tests_r4_view/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/prepare_r4_view/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/prepare_r4_view/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/prepare_r4_view/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/reconciler_mutation_tests/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/reconciler_mutation_tests/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/reconciler_mutation_tests/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/reference_rerun/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/reference_rerun/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/reference_rerun/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/scientific_reconciliation/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/scientific_reconciliation/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/scientific_reconciliation/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/validator_mutation_tests/EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/validator_mutation_tests/stderr.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/execution_records/validator_mutation_tests/stdout.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/R10_DETERMINISTIC_CASE_REGISTER.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/R10_DETERMINISTIC_RECONSTRUCTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/R10_FORMAL_ADVERSARIAL_CHECKS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/R10_HASH_SEED_DETERMINISM.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/R10_REFERENCE_DELTA_CLASSIFICATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/audit_deterministic_register_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/audit_formal_boundaries_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/audit_hash_seed_determinism_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/math/provenance_sources/classify_reference_delta_r10.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/tools/prepare_r4_compatibility_view.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/R10_VERIFICATION/tools/run_recorded.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/README_SCIENTIFIC_RECORDS.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/SOURCE_LINEAGE_R18.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/SOURCE_PROJECTION_PC1.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/GHID_FAT_POWERSHELL51_RO.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/PUBLIC_COMPONENT_MANIFEST.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R13_REQUIRED_FILE_COPIES.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R14_1_FAT_ACCEPTANCE_LEDGER.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R14_1_FAT_PORTABLE_COMPARISON.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R14_1_FAT_PORTABLE_EXECUTION_RECEIPT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R14_1_FAT_PUBLIC_EXECUTION_RECEIPT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R14_1_LOCAL_RECOVERY_INVENTORY.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/R14_1_RECOVERED_SOURCE_IDENTITY_CHECKS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/README_FAT_R14_1_EN_GB.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/baselines/BASELINE_COPY_IDENTITIES.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/METHOD_REGISTER_R2.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/historical_protocols/outcome_analysis_freeze.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/historical_protocols/outcome_analysis_implementation_amendment_01.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/historical_protocols/weighted_unresolved_row_sensitivity_freeze.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/historical_source/weighted_sensitivity.html",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/public_aggregates/WORLD_BANK_PUBLIC_RESULT_SUMMARY.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/fat/baselines/historical_source_root/public_aggregates/WORLD_BANK_PUBLIC_WEIGHTED_MISSINGNESS_SUMMARY.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/fat/baselines/replay_historical_source.mjs",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/capture_legacy_private_r14_1.mjs",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/check_recovered_sources_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/04_FROZEN_PROTOCOL/R13_EMPIRICAL_PROTOCOL_EN_GB.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/04_FROZEN_PROTOCOL/R13_EMPIRICAL_SOURCE_EVIDENCE.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/04_FROZEN_PROTOCOL/R13_FAT_DISCLOSURE_DESIGN.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/04_FROZEN_PROTOCOL/R13_FAT_INPUT_AVAILABILITY.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/05_EXECUTABLE_CONTRACTS/R13_STATE_INPUT.schema.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/05_EXECUTABLE_CONTRACTS/R13_STATE_OUTPUT.schema.json",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/05_EXECUTABLE_CONTRACTS/execute_state_contract.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/frozen_r13/05_EXECUTABLE_CONTRACTS/odsa_contract_core.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/requirements_fat_r14_1.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/run_fat_recovery_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/fat/verify_fat_component_r14_1.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/EINT_R2_ADEMP_AND_EXECUTION_PROTOCOL_EN.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/EINT_R2_FULL_GRID_REGISTRY.csv",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/EINT_R2_OUTPUT_CONTRACT_EN.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/EINT_R2_PROTOCOL_AMENDMENT_AND_CHANGE_CONTROL_EN.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/EINT_R2_PROTOCOL_LINEAGE.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/EINT_R2_PROTOCOL_SUMMARY.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/eint_r2_decision_protocol.freeze.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/02_FROZEN_PROTOCOL/eint_r2_decision_protocol.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/odsa_econ/__init__.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/odsa_econ/dgp.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/odsa_econ/diagnostics.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/odsa_econ/engine.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/odsa_econ/observation.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/odsa_econ/protocol.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/preflight_full_run.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/pyproject.toml",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/requirements.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/run_protocol.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_dgp_observation.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_execution_gate.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_formal_properties.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_parallel_determinism.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_preflight.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_protocol.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_scenario_signatures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/tests/test_smoke_boundary.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/03_EXECUTABLE/validate_outputs.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Deterministic_Ablation_Events.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Deterministic_Parity_Note.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Execution_Summary.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Full_Execution_and_Convergence_Audit.md",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Full_Output_Validation.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Key_Findings.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Parallel_Reproducibility_Check.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Protocol_Validation.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Scenario_Ordering_Summary.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Source_Integrity.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_AGGREGATE_RESULTS/Top_K_Tie_Diagnostics.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/CELL_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/EINT_R2_CALIBRATION_AND_DGP_INVARIANTS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/EXECUTION_SUMMARY.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/NOT_MANUSCRIPT_EVIDENCE.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/OUTPUT_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/PROTOCOL_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/REPLICATE_MECHANICS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/04_SMOKE_OUTPUTS_NOT_MANUSCRIPT_EVIDENCE/STREAM_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PDF_VECTOR/Figure_1_ODSA_Economic_Decision_Architecture.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PDF_VECTOR/Figure_2_Diagnostic_Nonredundancy.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PDF_VECTOR/Figure_3_Reference_Cell_Diagnostics.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PDF_VECTOR/Figure_4_Unresolved_State_Determinacy.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PNG_QA/Figure_1_ODSA_Economic_Decision_Architecture.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PNG_QA/Figure_2_Diagnostic_Nonredundancy.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PNG_QA/Figure_3_Reference_Cell_Diagnostics.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PNG_QA/Figure_4_Unresolved_State_Determinacy.png",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PPTX_EDITABLE/EINT_R5_ALL_FIGURES_EDITABLE_MASTER.pptx",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PPTX_EDITABLE/Figure_1_EDITABLE.pptx",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PPTX_EDITABLE/Figure_2_EDITABLE.pptx",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PPTX_EDITABLE/Figure_3_EDITABLE.pptx",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/PPTX_EDITABLE/Figure_4_EDITABLE.pptx",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/README_FIGURES.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_CODE/EINT_R5_build_editable_pptx.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_CODE/EINT_R5_generate_final_figures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/EINT_R5_FIGURE_ENVIRONMENT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/EINT_R5_FIGURE_FILE_MANIFEST.csv",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/Figure_1_architecture_register.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/Figure_2_ablation_event_frequencies.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/Figure_3_panel_A_reference_rates_mae.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/Figure_3_panel_B_reference_ordering.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/Figure_3_panel_C_unmatched_objective.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/Figure_4_unresolved_determinacy.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/R2_FIGURE_BUILD_ENVIRONMENT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/R2_LABEL_MAP.csv",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SOURCE_DATA/R2_PPTX_BUILD_ENVIRONMENT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SVG/Figure_1_ODSA_Economic_Decision_Architecture.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SVG/Figure_2_Diagnostic_Nonredundancy.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SVG/Figure_3_Reference_Cell_Diagnostics.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/SVG/Figure_4_Unresolved_State_Determinacy.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/TIFF/Figure_1_ODSA_Economic_Decision_Architecture.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/TIFF/Figure_2_Diagnostic_Nonredundancy.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/TIFF/Figure_3_Reference_Cell_Diagnostics.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/TIFF/Figure_4_Unresolved_State_Determinacy.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/requirements_editable_pptx.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/05_FIGURE_REPRODUCTION/requirements_figures.txt",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/INDEPENDENT_MATH_CHECKS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/PRE_R2_PYTEST_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/PRE_R2_REFERENCE_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/PRE_R2_SMOKE_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_BOUNDED_TOOLS_TESTS.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_FIGURE_QA.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_FINAL_SMOKE_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_FINAL_SMOKE_NUMERIC_COMPARISON.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_FINAL_SMOKE_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_FIRST_SMOKE_NUMERIC_COMPARISON.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_PYTEST_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_PYTEST_RESULTS.xml",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/R2_REFERENCE_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/REFERENCE_HEADLINE_MCSE.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/AUDIT_EVIDENCE_20261111/SAMPLE_SIZE_TIE_AUDIT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/R1_TO_R2_COMPARISON.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/R2_CHANGE_LEDGER.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/R2_LABEL_MAP.csv",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/REFERENCE_AUDIT_20261111/REFERENCE_RERUN_CELL_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/REFERENCE_AUDIT_20261111/REFERENCE_RERUN_STREAM_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/reproduce_bounded.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/tests/test_bounded_tools.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/06_R2_REPRODUCTION/verify_package.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/METHOD_REGISTER_R2.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/PROVENANCE.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/README_RECOVERY_EN.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/checks/test_recovered_source.js",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/checks/verify_recovered_aggregates.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/evidence/AGGREGATE_CHECKS_CONSOLE_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/evidence/AGGREGATE_CHECKS_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/evidence/EXECUTION_SCOPE_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/evidence/SOURCE_FUNCTIONS_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/definitions.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_freeze.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_implementation_amendment_01.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/weighted_unresolved_row_sensitivity_freeze.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/historical_source/weighted_sensitivity.html",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_RESULT_SUMMARY.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_WEIGHTED_MISSINGNESS_SUMMARY.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/R2_TO_R3_MEMBER_COMPARISON.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/S2_CONTENT_ROLES_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/COMPUTATION_CLOSURE_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/GRID_RESOURCE_PROFILE_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/LAUNCHER_GUARD_TESTS_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/ORIGINAL_FULL_PREFLIGHT_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/ORIGINAL_FULL_PREFLIGHT_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/R2_PROTECTED_SOURCE_HASHES.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/README_COMPUTATION_R3_RO.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/REFERENCE_VALIDATION_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/RESOURCES_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/VALIDATOR_TESTS_R3.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/run_full_verified_r3.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/test_launcher_r3.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/test_validator_r3.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/computation/validate_full_outputs_r3.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/METHOD_REGISTER_R2.json",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/PROVENANCE.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/README_RECOVERY_EN.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/checks/test_recovered_source.js",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/checks/verify_recovered_aggregates.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/evidence/AGGREGATE_CHECKS_CONSOLE_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/evidence/AGGREGATE_CHECKS_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/evidence/EXECUTION_SCOPE_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/evidence/SOURCE_FUNCTIONS_R2.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/definitions.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_freeze.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_implementation_amendment_01.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/weighted_unresolved_row_sensitivity_freeze.yml",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/historical_source/weighted_sensitivity.html",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_RESULT_SUMMARY.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_WEIGHTED_MISSINGNESS_SUMMARY.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/EMPIRICAL_DELIVERABLE_MANIFEST.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/LOCAL_ARCHIVE_METADATA_SEARCH.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/R3_EMPIRICAL_EVIDENCE_REPORT_RO.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/R3_EMPIRICAL_REPLAY_EXACT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/R3_EMPIRICAL_REPLAY_QA.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/R3_HEADER_CONTRACT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/R3_OFFICIAL_STATA_STATIC_SCAN.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/R3_UPSTREAM_PROVENANCE_AUDIT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/REPLAY_README_EN.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/empirical/replay_historical_source.mjs",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/0_data_merge_poland.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/0_master.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/1_data_construction.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/2_main_tables.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/3_appendix_tables.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/4_main_figures.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/2_codes/5_appendix_figures.do",
+      "scope": "world_bank_source"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/LICENSE.txt",
+      "scope": "world_bank_notice"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/PROVENANCE_R3.json",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/08_R3_VERIFICATION/official_world_bank_source/README_SOURCE_SCOPE_EN.txt",
+      "scope": "mixed_provenance"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/EXECUTION_SCOPE_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/R3_TO_R4_MEMBER_COMPARISON.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/README_FULL_R4_EN.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/REPRODUCERE_R4_POWERSHELL51_RO.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/REPRODUCE_R4_POSIX_EN.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/S2_CONTENT_ROLES_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/checks/README_RECONCILIATION_R4_EN.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/checks/reconcile_full_results_r4.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/checks/test_reconcile_full_results_r4.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/COMMANDS_STATIC_REVIEW_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/R4_EXECUTION_EVIDENCE_SUMMARY.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/ROOT_STATIC_EXECUTION_CONTRACT_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/host/FULL_LAUNCHER_CONSOLE.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/host/RUN_COMPLETION_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/host/RUN_REQUEST_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/FULL_COMMAND.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/FULL_CONSOLE.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/FULL_PROCESS.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/INDEPENDENT_FULL_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/PREFLIGHT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/PREFLIGHT_EXECUTION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/PREPARATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/launcher/RESULT.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/R4_RECONSTRUCTED_AGGREGATES.json",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/R4_REFERENCE_EXTRACTED_CELL_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/R4_REFERENCE_EXTRACTED_STREAM_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/R4_SCIENTIFIC_RECONCILIATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/RAPORT_RECONCILIERE_COMPLETA_R4_RO.txt",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/RECONCILER_BOUNDED_TESTS_R4_FINAL.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/RECONCILER_STATIC_REVIEW_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/RECONCILIATION_CONSOLE_R4.log",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/RECONCILIATION_DELIVERABLE_MANIFEST_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/evidence/reconciliation/RECONCILIATION_EXECUTION_R4.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/outputs/CELL_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/outputs/EXECUTION_SUMMARY.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/outputs/PROTOCOL_VALIDATION.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/09_R4_FULL_REPRODUCTION/outputs/STREAM_METRIC_SUMMARY.csv",
+      "scope": "author_aggregate_results"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/CURRENT_ADDITION_MANIFEST_SHA256.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/FIGURE_3_LEGEND_CHANGE_LEDGER_R5.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/FIGURE_EXPORT_MANIFEST_R5.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/FIGURE_VISUAL_QA_R5.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/R4_DOCX_FIGURE_EMBEDDING_CHECK.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/RAPORT_FIGURI_R5_RO.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/README_CURRENT_R5.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/README_R5_FIGURE_EXPORT.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/SOURCE_VECTOR_PROVENANCE_R5.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/derivatives/Figure_3_Reference_Cell_Diagnostics_R5_legend_fixed.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/export_r5_figures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/final/04_Figure_1_ODSA_Framework.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/final/05_Figure_2_Diagnostic_Nonredundancy.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/final/06_Figure_3_Reference_Cell_Diagnostics.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/final/07_Figure_4_Unresolved_State_Determinacy.tif",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/PDF_VECTOR/Figure_1_ODSA_Economic_Decision_Architecture.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/PDF_VECTOR/Figure_2_Diagnostic_Nonredundancy.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/PDF_VECTOR/Figure_3_Reference_Cell_Diagnostics.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/PDF_VECTOR/Figure_4_Unresolved_State_Determinacy.pdf",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/SOURCE_CODE/EINT_R5_generate_final_figures.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/SVG/Figure_1_ODSA_Economic_Decision_Architecture.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/SVG/Figure_2_Diagnostic_Nonredundancy.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/SVG/Figure_3_Reference_Cell_Diagnostics.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/10_R5_EDITORIAL_FIGURE_SOURCES/sources/SVG/Figure_4_Unresolved_State_Determinacy.svg",
+      "scope": "author_figures"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/MANIFEST.csv",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/README_FIRST.md",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/frozen_simulation/SHA256SUMS.txt",
+      "scope": "author_documentation"
+    },
+    {
+      "path": "scientific_records/independent/R141_FAT_INDEPENDENT_REVIEW_PUBLIC.json",
+      "scope": "historical_evidence"
+    },
+    {
+      "path": "scientific_records/independent/check_r141_independent_math.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/independent/r141_independent_math.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/independent/verify_fat_r141.py",
+      "scope": "author_code"
+    },
+    {
+      "path": "scientific_records/source_information/WORLD_BANK_FAT_SOURCE_ROUTE_PC1.json",
+      "scope": "mixed_provenance"
+    }
+  ],
+  "integrity_design": "Path classifications do not contain per-file hashes or self hashes. The distribution manifest binds outer bytes; the unchanged inner manifest binds scientific member bytes. This avoids circular self-hashes."
+}

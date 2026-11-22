@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "legacy_protocol_phase": "IM-R3/IM-R4",
+  "legacy_protocol_sha256": "157bc88f41ff68261253fb19e79cc2c0aeebe63a4687d1f1073edd25ecc0b8f3",
+  "legacy_freeze_sha256": "308b95e46c4b0b28f043956e1f44d07ee3ee246de4d9cdae174ce144e4bb964c",
+  "legacy_full_cells": 432,
+  "legacy_replications_per_cell": 4000,
+  "legacy_full_replicates": 1728000,
+  "legacy_results_seen_before_eint_r2_design": true,
+  "new_protocol_phase": "EINT-R2",
+  "new_protocol_sha256": "1d7361861b4eee84dda9313a52ca3a3643873744d933bcdd208dab795ec18e22",
+  "new_full_cells": 270,
+  "new_replications_per_cell": 4000,
+  "new_full_replicates": 1080000,
+  "new_decision_layer_results_seen_before_freeze": false,
+  "relationship": "Versioned disciplinary and estimand amendment. The legacy association-centred results are not pooled with or silently re-labelled as the new decision-layer results."
+}

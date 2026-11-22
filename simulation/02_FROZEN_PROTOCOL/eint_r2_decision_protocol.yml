@@ -1,0 +1,314 @@
+schema_version: "3.0-econ.1"
+protocol_status: "FROZEN DESIGN for EINT-R3 full execution; no decision-layer manuscript results have been generated"
+freeze_date: "2026-08-21"
+root_seed: 20260821
+
+freeze_contract:
+  design_locked: true
+  previous_association_protocol_results_seen: true
+  new_decision_layer_results_seen_before_freeze: false
+  public_study2_calibration_values_seen: true
+  private_source_level_results_used_for_calibration: false
+  smoke_outputs_are_manuscript_evidence: false
+  full_execution_authorised_in_eint_r2: false
+  rationale: "The amendment is driven by a documented disciplinary reconstruction after editorial rejection, not by inspection of outcomes from the new decision layer."
+  change_control: "Any post-freeze change requires a versioned amendment, rationale, updated SHA-256 and rerun of every affected cell."
+
+ademp:
+  aims:
+    - "Identify when substantively defensible technology-adoption boundaries are numerically different but decision-equivalent."
+    - "Identify when small or apparently routine boundary changes alter threshold sets, top-k sets, partial orders or objective-relative loss."
+    - "Separate definition-induced action changes from sampling, weighting, missingness and state-recording error."
+    - "Establish the incremental information supplied by the economic ODSA decision layer beyond single-definition and generic robustness reporting."
+  data_generating_mechanisms:
+    - "Five mutually exclusive technological states calibrated to disclosure-cleared Study 2 cross-stratum medians."
+    - "Six prespecified cross-unit state-distribution scenarios."
+    - "Two separation levels, two added-state heterogeneity levels, two unit counts, multiple sample sizes and two allocation profiles."
+    - "Three weight-dispersion profiles, three state-misclassification profiles and three unresolved-state profiles."
+  estimands:
+    - "Generating-population rate under each adoption definition and declared objective."
+    - "Definition-induced threshold-set and top-k-set disagreement relative to an objective-aligned benchmark."
+    - "State-level false inclusion, false exclusion and objective-relative semantic loss."
+    - "Pairwise ordering reversal, interval-order determinacy and guaranteed or possible top-k membership."
+  methods:
+    - "Nested-definition identities and exact decision diagnostics."
+    - "Prespecified threshold and top-k action rules with explicit tie handling."
+    - "Deterministic unresolved-state bounds and rectangular-uncertainty partial orders."
+    - "Four-level comparator ablation from single-definition reporting to full economic ODSA."
+  performance_measures:
+    - "Threshold entry, exit and symmetric-difference rates."
+    - "Top-k churn and Jaccard overlap."
+    - "Population and observed objective-relative action loss."
+    - "Semantic false-inclusion and false-exclusion mass."
+    - "Pairwise reversal and partial-order determinacy."
+    - "Monte Carlo standard errors and undefined-result frequencies."
+
+states:
+  - manual
+  - standard_software
+  - platform
+  - specialised_software
+  - integrated_system
+
+definitions:
+  integrated_planning:
+    states: [integrated_system]
+    label: "integrated planning"
+  specialised_planning:
+    states: [specialised_software, integrated_system]
+    label: "specialised planning"
+  digitally_enabled_planning:
+    states: [standard_software, platform, specialised_software, integrated_system]
+    label: "digitally enabled planning"
+
+definition_order:
+  - integrated_planning
+  - specialised_planning
+  - digitally_enabled_planning
+
+nested_contrasts:
+  - left: integrated_planning
+    right: specialised_planning
+  - left: specialised_planning
+    right: digitally_enabled_planning
+  - left: integrated_planning
+    right: digitally_enabled_planning
+
+objectives:
+  integrated_system_objective:
+    relevant_states: [integrated_system]
+    interpretation: "Action is relevant only to integrated-system use."
+  specialised_or_integrated_objective:
+    relevant_states: [specialised_software, integrated_system]
+    interpretation: "Action is relevant to specialised or integrated planning."
+  dedicated_or_integrated_objective:
+    relevant_states: [platform, specialised_software, integrated_system]
+    interpretation: "Action is relevant to dedicated platform, specialised or integrated planning; no registered definition matches this objective exactly."
+  any_digital_enablement_objective:
+    relevant_states: [standard_software, platform, specialised_software, integrated_system]
+    interpretation: "Action is relevant to any non-manual digital enablement."
+
+cost_profiles:
+  equal_costs:
+    false_inclusion: 1.0
+    false_exclusion: 1.0
+  exclusion_costly:
+    false_inclusion: 1.0
+    false_exclusion: 2.0
+  inclusion_costly:
+    false_inclusion: 2.0
+    false_exclusion: 1.0
+
+decision_rules:
+  threshold_values: [0.05, 0.10, 0.25, 0.50, 0.75]
+  threshold_directions: [above_or_equal, below]
+  top_k_values: [1, 3, 5]
+  top_k_directions: [highest, lowest]
+  level_materiality_values: [0.02, 0.05, 0.10]
+  point_tie_policy: "Lexicographic unit identifier breaks exact point ties for reproducibility; every boundary tie is flagged."
+  interval_policy: "Guaranteed and possible membership are set-valued under rectangular marginal intervals; no arbitrary point tie-break is used."
+
+calibration:
+  source_status: "PUBLIC_AGGREGATE_ONLY"
+  source_reference: "World Bank Technology Sophistication Across Establishments, WLD_2019-2023_FAT_v01_M"
+  source_doi: "10.48529/assd-3j65"
+  mapped_common_denominator: 20069
+  unresolved_rows: 986
+  analytical_source_strata: 16
+  weighted_cross_stratum_medians:
+    integrated_planning: 0.03780094415905093
+    specialised_planning: 0.10664255785150895
+    digitally_enabled_planning: 0.7321759478234249
+  use_boundary: "The public medians calibrate a synthetic reference mixture only. Source labels, source-level rates and private reports are not inputs."
+
+base_state_probabilities:
+  manual: 0.2678240521765751
+  standard_software: 0.6067673882727584
+  platform: 0.01876600169915748
+  specialised_software: 0.06884161369245802
+  integrated_system: 0.03780094415905093
+
+scenario_parameters:
+  separation_levels:
+    low: 0.008
+    high: 0.025
+  added_state_heterogeneity_levels:
+    low: 0.015
+    high: 0.040
+  scenarios:
+    null_common:
+      interpretation: "Every unit has the same generating state mixture."
+    aligned_diffusion:
+      interpretation: "Integrated, specialised and broadly enabling state masses increase in the same latent direction."
+    broad_margin_only:
+      interpretation: "Only the standard-or-platform margin varies; narrow definitions remain population-invariant."
+    middle_compensation:
+      interpretation: "Integrated and specialised masses offset so that the middle definition is population-invariant while narrower and broader indicators may change."
+    strict_to_broad_reversal:
+      interpretation: "Integrated planning increases while added broad-state mass declines sufficiently to reverse the broad ordering."
+    mixed_nonmonotone:
+      interpretation: "Linear and non-linear state shifts produce locally changing order and action-set relations."
+
+allocation_profiles:
+  balanced:
+    description: "Equal expected sample size in every analytical unit."
+  gradient_skewed:
+    description: "Expected sample sizes rise linearly from one half to one and a half times the base size, normalised to mean one."
+
+weight_profiles:
+  uniform:
+    coefficient_of_variation: 0.0
+  moderate:
+    coefficient_of_variation: 0.5
+  high:
+    coefficient_of_variation: 1.0
+
+misclassification_profiles:
+  none:
+    description: "No state misclassification."
+    matrix:
+      - [1.0, 0.0, 0.0, 0.0, 0.0]
+      - [0.0, 1.0, 0.0, 0.0, 0.0]
+      - [0.0, 0.0, 1.0, 0.0, 0.0]
+      - [0.0, 0.0, 0.0, 1.0, 0.0]
+      - [0.0, 0.0, 0.0, 0.0, 1.0]
+  within_boundary_swap_10:
+    description: "Ten per cent symmetric swapping within the broad positive set: standard with platform and specialised with integrated. Broad membership is preserved but narrow membership may change."
+    matrix:
+      - [1.0, 0.0, 0.0, 0.0, 0.0]
+      - [0.0, 0.9, 0.1, 0.0, 0.0]
+      - [0.0, 0.1, 0.9, 0.0, 0.0]
+      - [0.0, 0.0, 0.0, 0.9, 0.1]
+      - [0.0, 0.0, 0.0, 0.1, 0.9]
+  cross_boundary_swap_10:
+    description: "Ten per cent symmetric swapping across the broad boundary for manual and standard software and across the middle boundary for platform and specialised software."
+    matrix:
+      - [0.9, 0.1, 0.0, 0.0, 0.0]
+      - [0.1, 0.9, 0.0, 0.0, 0.0]
+      - [0.0, 0.0, 0.9, 0.1, 0.0]
+      - [0.0, 0.0, 0.1, 0.9, 0.0]
+      - [0.0, 0.0, 0.0, 0.0, 1.0]
+
+unresolved_profiles:
+  none:
+    description: "No unresolved state."
+    state_probabilities: [0.0, 0.0, 0.0, 0.0, 0.0]
+  state_independent_05:
+    description: "Five per cent unresolved probability in every true state."
+    state_probabilities: [0.05, 0.05, 0.05, 0.05, 0.05]
+  state_dependent_10:
+    description: "Unresolved probability rises with technological specificity."
+    state_probabilities: [0.03, 0.05, 0.10, 0.12, 0.15]
+
+execution:
+  full_replications_per_cell: 4000
+  full_stream_count: 4
+  full_replications_per_stream: 1000
+  smoke_replications_per_cell: 50
+  declared_unique_full_cell_count: 270
+  declared_full_replicate_row_count: 1080000
+  reference_cell:
+    scenario: aligned_diffusion
+    separation_level: high
+    added_state_heterogeneity_level: high
+    unit_count: 16
+    base_sample_size: 250
+    allocation_profile: balanced
+    weight_profile: uniform
+    misclassification_profile: none
+    unresolved_profile: none
+  full_modules:
+    core:
+      factors:
+        scenario: [null_common, aligned_diffusion, broad_margin_only, middle_compensation, strict_to_broad_reversal, mixed_nonmonotone]
+        separation_level: [low, high]
+        added_state_heterogeneity_level: [low, high]
+        unit_count: [8, 16]
+        base_sample_size: [100, 500]
+        allocation_profile: [balanced, gradient_skewed]
+    sample_size:
+      factors:
+        scenario: [null_common, aligned_diffusion, broad_margin_only, middle_compensation, strict_to_broad_reversal, mixed_nonmonotone]
+        base_sample_size: [50, 100, 250, 500, 1000]
+    weighting:
+      factors:
+        scenario: [null_common, aligned_diffusion, broad_margin_only, middle_compensation, strict_to_broad_reversal, mixed_nonmonotone]
+        weight_profile: [uniform, moderate, high]
+    observation:
+      factors:
+        scenario: [null_common, aligned_diffusion, broad_margin_only, middle_compensation, strict_to_broad_reversal, mixed_nonmonotone]
+        misclassification_profile: [none, within_boundary_swap_10, cross_boundary_swap_10]
+        unresolved_profile: [none, state_independent_05, state_dependent_10]
+  smoke_cells:
+    - smoke_id: null_clean
+      scenario: null_common
+      separation_level: low
+      added_state_heterogeneity_level: low
+      unit_count: 8
+      base_sample_size: 100
+      allocation_profile: balanced
+      weight_profile: uniform
+      misclassification_profile: none
+      unresolved_profile: none
+    - smoke_id: broad_weighted
+      scenario: broad_margin_only
+      separation_level: high
+      added_state_heterogeneity_level: high
+      unit_count: 16
+      base_sample_size: 250
+      allocation_profile: balanced
+      weight_profile: high
+      misclassification_profile: none
+      unresolved_profile: none
+    - smoke_id: reversal_observation
+      scenario: strict_to_broad_reversal
+      separation_level: high
+      added_state_heterogeneity_level: high
+      unit_count: 16
+      base_sample_size: 250
+      allocation_profile: balanced
+      weight_profile: uniform
+      misclassification_profile: cross_boundary_swap_10
+      unresolved_profile: state_dependent_10
+    - smoke_id: mixed_skewed
+      scenario: mixed_nonmonotone
+      separation_level: high
+      added_state_heterogeneity_level: high
+      unit_count: 8
+      base_sample_size: 500
+      allocation_profile: gradient_skewed
+      weight_profile: uniform
+      misclassification_profile: none
+      unresolved_profile: none
+
+seed_stream_policy:
+  generator: "numpy.random.SeedSequence"
+  root_entropy: 20260821
+  cell_key_derivation: "First four unsigned 32-bit words of SHA-256 over canonical cell JSON."
+  stream_count: 4
+  replications_per_stream_per_cell: 1000
+  pooling_rule: "Pool streams only after completeness and stream-convergence checks."
+
+monte_carlo_precision:
+  event_probability_worst_case_mcse_target: 0.008
+  event_probability_worst_case_mcse_at_4000: 0.007905694150420948
+  approximate_95_half_width_at_4000: 0.015495160233035846
+  continuous_mean_mcse_formula: "sample standard deviation across replications divided by square root of the number defined"
+  report_all_mcse: true
+
+undefined_result_policy:
+  report_every_undefined_result: true
+  condition_summaries_on_defined_values: true
+  warning_fraction: 0.01
+  no_claim_fraction: 0.05
+  minimum_defined_fraction_for_claim: 0.95
+
+reporting_boundary:
+  smoke_outputs: "MECHANICS AND INVARIANT CHECKS ONLY — NOT MANUSCRIPT EVIDENCE"
+  full_results: "NOT GENERATED IN EINT-R2"
+  country_ranking: false
+  causal_policy_claim: false
+  welfare_claim: false
+  private_source_level_results: false
+  source_labels: false
+  microdata: false

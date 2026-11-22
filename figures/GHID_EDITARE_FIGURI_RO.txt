@@ -1,0 +1,74 @@
+R19 GHIDUL FIGURILOR EDITABILE
+
+Fişierele principale sunt ODG_NATIVE/Fig1.odg până la Fig5.odg. Textele, axele,
+liniile, dreptunghiurile, marcajele, vârfurile săgeţilor şi haşurile sunt obiecte
+Draw native. Cele 35 de fişiere grafice principale păstrează exact conţinutul
+binar din R18. În R19 au fost eliminate numai punctele finale ale celor cinci
+legende, iar documentaţia şi auditul pachetului au fost actualizate. Punctuaţia
+internă a legendelor şi textele alternative sunt păstrate integral.
+
+DESCHIDERE ŞI EDITARE
+
+1. Deschide fişierul ODG în LibreOffice Draw şi salvează o copie de lucru.
+2. Selectează un text şi apasă F2. Fontul folosit este Liberation Sans.
+3. F4 deschide poziţia şi dimensiunile obiectului selectat; F5 deschide Navigator.
+4. Pentru componentele unei bare haşurate, foloseşte Enter Group sau F3.
+   Ctrl+F3 închide editarea grupului. F8 permite editarea punctelor, unde tipul
+   obiectului acceptă această operaţie.
+5. După modificare, exportă un PDF şi verifică spaţierea, textele şi valorile.
+
+Numele, rolurile şi coordonatele obiectelor sunt în
+CONTROL/FigN_OBJECTS_AND_VALUES.json. Schimbarea manuală a unei bare nu modifică
+automat eticheta numerică sau datele-sursă. Pentru o schimbare ştiinţifică se
+actualizează împreună sursa autorizată şi generatorul, apoi se refac verificările.
+
+Din Windows PowerShell 5.1, după extragerea arhivei:
+
+    $figureFolder = (Resolve-Path -LiteralPath (Read-Host 'Calea folderului extras al figurilor')).ProviderPath
+    $figureFile = Join-Path $figureFolder 'ODG_NATIVE\Fig1.odg'
+    if (-not (Test-Path -LiteralPath $figureFile -PathType Leaf)) { throw 'Fig1.odg nu exista in componenta selectata.' }
+    Invoke-Item -LiteralPath $figureFile
+
+Comanda foloseşte asocierea Windows pentru ODG. Dacă nu este configurată,
+deschide LibreOffice Draw şi foloseşte File > Open. Aceste instrucţiuni nu sunt
+prezentate ca un test Windows executat în această etapă.
+
+FORMATE ŞI LEGENDE
+
+ODG_NATIVE este sursa de editare în Draw. SVG_EDITABLE păstrează textul real şi
+vectorii. PDF_VECTOR şi EPS_VECTOR sunt exporturi vectoriale cu fonturi
+încorporate. PNG_600 conţine imaginile la 600 dpi pentru manuscris; TIFF conţine
+alternativele RGB la 1200 dpi pentru Fig. 1 şi la 600 dpi pentru Fig. 2-5.
+NATIVE_SOURCE conţine fişierele FODG folosite de generator.
+
+Lăţimea figurilor este 119 mm, iar înălţimile sunt 111, 145, 191, 110 şi 143 mm.
+Textul are între 8 şi 9 pt. Evită micşorarea arbitrară; verifică lizibilitatea
+la dimensiunea efectivă din document. ODG este formatul de lucru editabil, nu o
+afirmaţie privind acceptarea acestuia de către portalul revistei.
+
+Legendele şi textele alternative sunt în
+CONTROL/FIGURE_CAPTIONS_AND_ALT_TEXT_EN_GB.json. Legenda nu este imprimată în
+interiorul figurii. În manuscris se adaugă prefixul Fig. şi numărul corespunzător.
+
+VERIFICARE ŞI REGENERARE
+
+Din directorul componentei extrase:
+
+    python verify_package.py
+
+Verificatorul compară lista completă de fişiere, dimensiunile şi amprentele
+SHA-256 cu manifestul livrat. Respinge fişierele lipsă, modificate sau adăugate.
+Pentru verificarea structurii şi a valorilor, lucrează pe o copie şi rulează:
+
+    python -m pip install -r requirements_figures.txt
+    python code/verify_figures.py
+
+Pentru o regenerare efectivă sunt necesare LibreOffice, pdftops, Inkscape şi
+Ghostscript. Comenzile complete şi limitele verificărilor sunt în
+README_FIGURES_EN_GB.txt. După regenerare sau editare, manifestul original nu
+mai certifică fişierele schimbate; sunt necesare verificări şi o revizuire vizuală.
+
+Au fost păstrate cele şapte surse publice şi toate valorile ştiinţifice. Evidenţa
+istorică a probelor native de editare şi a verificărilor vizuale rămâne în R17;
+nu este rescrisă sau prezentată ca o execuţie nouă. Pachetul R19 nu atribuie
+automat o licenţă globală şi nu efectuează nicio publicare.

@@ -1,0 +1,410 @@
+{
+  "status": "PASS",
+  "scope": "Structural and source-value checks of existing ODG, SVG and PDF files; no native edit/reopen/save probe executed.",
+  "figures": [
+    {
+      "figure": 1,
+      "status": "PASS",
+      "odg_sha256": "b12e85b5900e6a3992373285543a3d05a136fdc105667245fc684ea59d46ecb6",
+      "pdf_sha256": "0ed140ac4a5be6ceaf750c52c7f3aee07c5c7ebe8bc6892b66a1c78a81ca41be",
+      "svg_sha256": "dd95e0f4491c012216e1b1da8b1c6efb95af550bfb7416b5a87f70e4292388cf",
+      "native_objects": 27,
+      "native_primitive_counts": {
+        "rect": 5,
+        "frame": 14,
+        "line": 4,
+        "polygon": 4
+      },
+      "native_editable_bar_groups": 0,
+      "independent_direct_graphic_styles": 27,
+      "native_text_frames": 14,
+      "draw_images": 0,
+      "external_asset_links": 0,
+      "minimum_font_pt": 8.19999980926514,
+      "maximum_font_pt": 9.0,
+      "maximum_object_geometry_residual_mm": 1.4210854715202004e-14,
+      "value_checks": [],
+      "svg_editable_text_elements": 14,
+      "pdf_font_records": [
+        {
+          "name": "BAAAAA+LiberationSans-Bold",
+          "type": "TrueType",
+          "embedded": true
+        },
+        {
+          "name": "CAAAAA+LiberationSans",
+          "type": "TrueType",
+          "embedded": true
+        }
+      ],
+      "pdf_embedded_images": 0,
+      "pdf_dimensions_mm": [
+        119.00000381469727,
+        110.99999686347114
+      ]
+    },
+    {
+      "figure": 2,
+      "status": "PASS",
+      "odg_sha256": "a00d0c91f7247900b7938abe4a9c910f1e8f7f71e79249a7a7d93bdcc8119c38",
+      "pdf_sha256": "69b491dc4b575f65562813c51c9df062b6d2ed215d64116a5336225ec9b85902",
+      "svg_sha256": "2ea6b10c5985c23743453d41a59ff0cee12075438a566a759ad87a758783f185",
+      "native_objects": 156,
+      "native_primitive_counts": {
+        "frame": 28,
+        "rect": 14,
+        "line": 114
+      },
+      "native_editable_bar_groups": 7,
+      "independent_direct_graphic_styles": 156,
+      "native_text_frames": 28,
+      "draw_images": 0,
+      "external_asset_links": 0,
+      "minimum_font_pt": 8.0,
+      "maximum_font_pt": 8.5,
+      "maximum_object_geometry_residual_mm": 0.0033333367999999197,
+      "value_checks": [
+        {
+          "object_id": "fig2_event_0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0033333341999934873
+        },
+        {
+          "object_id": "fig2_event_1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0
+        },
+        {
+          "object_id": "fig2_event_2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 2.599996662411286e-09
+        },
+        {
+          "object_id": "fig2_event_3",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0033333316000003776
+        },
+        {
+          "object_id": "fig2_event_4",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0033333342000005928
+        },
+        {
+          "object_id": "fig2_event_5",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.003333331599996825
+        },
+        {
+          "object_id": "fig2_event_6",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0033333367999999197
+        }
+      ],
+      "svg_editable_text_elements": 28,
+      "pdf_font_records": [
+        {
+          "name": "BAAAAA+LiberationSans",
+          "type": "TrueType",
+          "embedded": true
+        }
+      ],
+      "pdf_embedded_images": 0,
+      "pdf_dimensions_mm": [
+        119.00000381469727,
+        144.99999949137367
+      ]
+    },
+    {
+      "figure": 3,
+      "status": "PASS",
+      "odg_sha256": "ba8ba9e6baf6489288d9963e8cdd13354a38bb0c12538ec70af5a2f00ca09218",
+      "pdf_sha256": "5f289c5284825461f5ae635b620519c5725b8b96d2c73e4541c59f56b5533aeb",
+      "svg_sha256": "e0ee97234509545621aae92992ad61dbc2f91579f79563092ae17ccabd61c90e",
+      "native_objects": 215,
+      "native_primitive_counts": {
+        "frame": 57,
+        "rect": 16,
+        "line": 138,
+        "circle": 4
+      },
+      "native_editable_bar_groups": 6,
+      "independent_direct_graphic_styles": 215,
+      "native_text_frames": 57,
+      "draw_images": 0,
+      "external_asset_links": 0,
+      "minimum_font_pt": 8.0,
+      "maximum_font_pt": 9.0,
+      "maximum_object_geometry_residual_mm": 0.004722226333328194,
+      "value_checks": [
+        {
+          "object_id": "fig3_a_rate_0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0033172713323783576
+        },
+        {
+          "object_id": "fig3_a_mae_0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": null
+        },
+        {
+          "object_id": "fig3_a_rate_1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0017177530799870055
+        },
+        {
+          "object_id": "fig3_a_mae_1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": null
+        },
+        {
+          "object_id": "fig3_a_rate_2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0024637175809800738
+        },
+        {
+          "object_id": "fig3_a_mae_2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": null
+        },
+        {
+          "object_id": "fig3_b_reversal_0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.004062499999996305
+        },
+        {
+          "object_id": "fig3_b_churn_0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0033333333333445125
+        },
+        {
+          "object_id": "fig3_b_reversal_1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.003576392999995903
+        },
+        {
+          "object_id": "fig3_b_churn_1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.004722226333328194
+        },
+        {
+          "object_id": "fig3_b_reversal_2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0017222263333351862
+        },
+        {
+          "object_id": "fig3_b_churn_2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0027777736666649844
+        },
+        {
+          "object_id": "fig3_c_loss_0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.000571428571428001
+        },
+        {
+          "object_id": "fig3_c_loss_1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0011428571428573342
+        },
+        {
+          "object_id": "fig3_c_loss_2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0011428571428524492
+        }
+      ],
+      "svg_editable_text_elements": 57,
+      "pdf_font_records": [
+        {
+          "name": "BAAAAA+LiberationSans-Bold",
+          "type": "TrueType",
+          "embedded": true
+        },
+        {
+          "name": "CAAAAA+LiberationSans",
+          "type": "TrueType",
+          "embedded": true
+        }
+      ],
+      "pdf_embedded_images": 0,
+      "pdf_dimensions_mm": [
+        119.00000381469727,
+        190.99999101426863
+      ]
+    },
+    {
+      "figure": 4,
+      "status": "PASS",
+      "odg_sha256": "c5bb3fb4ecd37d90c96146df7ab3698ce6e0b0c908e30de65d9ae8365ad60467",
+      "pdf_sha256": "db2619042924ff6caac1b68168c6acf06e7595ecad0efa02d5bf4ae5f1291f98",
+      "svg_sha256": "f97a0d2a9482ad3a4e50543379c7f2bd7eddf30c177c9484dfc515f66905a8ba",
+      "native_objects": 276,
+      "native_primitive_counts": {
+        "frame": 23,
+        "line": 229,
+        "rect": 24
+      },
+      "native_editable_bar_groups": 12,
+      "independent_direct_graphic_styles": 276,
+      "native_text_frames": 23,
+      "draw_images": 0,
+      "external_asset_links": 0,
+      "minimum_font_pt": 8.0,
+      "maximum_font_pt": 8.5,
+      "maximum_object_geometry_residual_mm": 0.0040000000000048885,
+      "value_checks": [
+        {
+          "object_id": "fig4_d0_p0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0035666643999974212
+        },
+        {
+          "object_id": "fig4_d0_p1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.002000000000000668
+        },
+        {
+          "object_id": "fig4_d0_p2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0
+        },
+        {
+          "object_id": "fig4_d1_p0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0035583355999904143
+        },
+        {
+          "object_id": "fig4_d1_p1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0019999999999988916
+        },
+        {
+          "object_id": "fig4_d1_p2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.004000000000001336
+        },
+        {
+          "object_id": "fig4_d2_p0",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0012333356000056028
+        },
+        {
+          "object_id": "fig4_d2_p1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 7.105427357601002e-15
+        },
+        {
+          "object_id": "fig4_d2_p2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.003999999999997783
+        }
+      ],
+      "svg_editable_text_elements": 23,
+      "pdf_font_records": [
+        {
+          "name": "BAAAAA+LiberationSans",
+          "type": "TrueType",
+          "embedded": true
+        }
+      ],
+      "pdf_embedded_images": 0,
+      "pdf_dimensions_mm": [
+        119.00000381469727,
+        110.00000406901042
+      ]
+    },
+    {
+      "figure": 5,
+      "status": "PASS",
+      "odg_sha256": "3f24a4687ab4c7e4985099b516ed42ee3cd55e37c6c931ce96129ebad0b853b4",
+      "pdf_sha256": "f60b0758a5c140c6fe989678f4266561d4b0fd60118518b2fd07c67b615454b9",
+      "svg_sha256": "b550eab015dca6f17cb14e9e917ec61552adf33071b5591ce8c6c91a125e015b",
+      "native_objects": 261,
+      "native_primitive_counts": {
+        "frame": 40,
+        "rect": 18,
+        "line": 203
+      },
+      "native_editable_bar_groups": 9,
+      "independent_direct_graphic_styles": 261,
+      "native_text_frames": 40,
+      "draw_images": 0,
+      "external_asset_links": 0,
+      "minimum_font_pt": 8.0,
+      "maximum_font_pt": 9.0,
+      "maximum_object_geometry_residual_mm": 0.0049999999999954525,
+      "value_checks": [
+        {
+          "object_id": "fig5_a_D1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.004055762623679016
+        },
+        {
+          "object_id": "fig5_a_D2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0018485751007943918
+        },
+        {
+          "object_id": "fig5_a_D3",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0008868016474430362
+        },
+        {
+          "object_id": "fig5_b_D1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.00037037037036924403
+        },
+        {
+          "object_id": "fig5_b_D2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0007407407407384881
+        },
+        {
+          "object_id": "fig5_b_D3",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0007407407407384881
+        },
+        {
+          "object_id": "fig5_c_D1",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0011111111111148375
+        },
+        {
+          "object_id": "fig5_c_D2",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0007407407407384881
+        },
+        {
+          "object_id": "fig5_c_D3",
+          "source_exact_equal": true,
+          "geometry_residual_mm": 0.0007407407407384881
+        }
+      ],
+      "svg_editable_text_elements": 40,
+      "pdf_font_records": [
+        {
+          "name": "BAAAAA+LiberationSans-Bold",
+          "type": "TrueType",
+          "embedded": true
+        },
+        {
+          "name": "CAAAAA+LiberationSans",
+          "type": "TrueType",
+          "embedded": true
+        }
+      ],
+      "pdf_embedded_images": 0,
+      "pdf_dimensions_mm": [
+        119.00000381469727,
+        143.00000313652885
+      ]
+    }
+  ],
+  "edit_probe_summaries": [],
+  "limitations": [
+    "No native Windows or macOS execution",
+    "No claim that a submission portal accepts ODG",
+    "Editable SVG and ODG sources require the named font or an appropriate substitute; PDF and EPS are the font-embedded submission exports",
+    "Native Draw geometry has finite coordinate precision; recorded residuals are in millimetres, not changes to source values",
+    "No native application or GUI acceptance test was run by this invocation"
+  ]
+}

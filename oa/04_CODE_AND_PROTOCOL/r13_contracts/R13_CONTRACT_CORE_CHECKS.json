@@ -1,0 +1,1110 @@
+{
+  "status": "PASS",
+  "scope": "Reference contract operations on synthetic examples and finite independent oracles only",
+  "direct_checks_including_oracle_batch": 34,
+  "independent_oracle_cases": 222,
+  "checks": [
+    {
+      "id": "exact_mass_normalisation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "nested_additivity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "semantic_known_false_inclusion",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "semantic_weighted_false_exclusion",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "zero_cost_does_not_establish_alignment",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "threshold_lt_excludes_boundary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "threshold_ge_includes_boundary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "lowest_fixed_priority",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "highest_fixed_priority",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "zero_selection_cardinality",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "action_costs_and_universe_denominator",
+      "status": "PASS",
+      "details": {
+        "false_selection_count": 1,
+        "missed_reference_count": 1,
+        "action_loss_count_scale": "3",
+        "action_loss_per_unit": "1",
+        "selected_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "id": "jaccard_and_churn_different_denominators",
+      "status": "PASS",
+      "details": {
+        "equal_sets": false,
+        "intersection_count": 1,
+        "union_count": 3,
+        "symmetric_difference_count": 2,
+        "jaccard": "1/3",
+        "jaccard_status": "defined_nonempty_union",
+        "normalised_symmetric_difference": "2/3",
+        "rank_churn": "1/2",
+        "rank_churn_status": "defined_equal_positive_rank_size"
+      }
+    },
+    {
+      "id": "historic_empty_jaccard_convention_flagged",
+      "status": "PASS",
+      "details": {
+        "equal_sets": true,
+        "intersection_count": 0,
+        "union_count": 0,
+        "symmetric_difference_count": 0,
+        "jaccard": "1",
+        "jaccard_status": "both_empty_convention_one",
+        "normalised_symmetric_difference": "0",
+        "rank_churn": null,
+        "rank_churn_status": "not_applicable_to_rule_or_zero_k"
+      }
+    },
+    {
+      "id": "equal_size_threshold_sets_do_not_implicitly_report_rank_churn",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "unequal_size_churn_not_reported",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "same_definition_sets_can_both_miss_objective",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_inconsistent_rank_cardinality",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_float_implicit_binary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_negative_total",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_zero_denominator",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_extra_state",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_duplicate_boundary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_invalid_mass_sum",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_different_priority_universe",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_k_above_size",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_negative_cost",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_other_unit_in_action",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "unknown_mass_envelope_uses_full_denominator",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "unknown_threshold_strict_boundary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "unknown_threshold_complement",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_unknown_zero_total_denominator",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_known_positives_above_denominator",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "reject_reversed_threshold_interval",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "independent_interval_oracles",
+      "status": "PASS",
+      "details": {
+        "cases": 222
+      }
+    }
+  ],
+  "oracle_comparisons": [
+    {
+      "case_id": "two_exact_ties__highest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__highest__k1__priority_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__highest__k1__priority_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__highest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__highest__k2__priority_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__highest__k2__priority_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k1__priority_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k1__priority_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k2__priority_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k2__priority_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_2_1_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__all_admissible",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_0_1_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_0_2_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_1_0_2",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_1_2_0",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_2_0_1",
+      "pass": true
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_2_1_0",
+      "pass": true
+    }
+  ],
+  "identities": {
+    "core_sha256": "221afe006b7d799b2f5044b5cbb0c61ba8b3f46304d6abb1d0003169715f0541",
+    "checker_sha256": "10aa3379fd5b51504224d705833346dbcd9e0a53aacde9b98b2546f82fa2b652",
+    "oracles_sha256": "4c3cc8828fc339a01fc63a3082e37f2eb9fe344344f9786a875c2827c90f17d6"
+  },
+  "runtime_python": "3.12.14",
+  "new_empirical_analyses": 0,
+  "new_MC_replications": 0,
+  "limitations": [
+    "Finite tests do not prove general theorems.",
+    "No native Windows execution.",
+    "No input adapters or empirical source reconstruction validated here."
+  ]
+}

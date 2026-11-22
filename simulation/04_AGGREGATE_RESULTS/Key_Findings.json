@@ -1,0 +1,2300 @@
+{
+  "status": "PASS",
+  "execution": {
+    "status": "PASS",
+    "mode": "full",
+    "cell_count": 270,
+    "worker_count": 4,
+    "stream_count": 4,
+    "replications_per_stream": 1000,
+    "replications_per_cell": 4000,
+    "replicate_count": 1080000,
+    "summary_row_count": 1076760,
+    "stream_summary_row_count": 1708560,
+    "full_results_generated": true,
+    "manuscript_evidence": true,
+    "ordered_output_independent_of_worker_completion": true,
+    "cpu_count_visible": 5
+  },
+  "validation": {
+    "status": "PASS",
+    "undefined": {
+      "cell_max_fraction": 0.0,
+      "cell_over_1pct": 0,
+      "cell_over_5pct": 0,
+      "stream_max_fraction": 0.0,
+      "stream_over_1pct": 0,
+      "stream_over_5pct": 0
+    },
+    "pooling_parity": {
+      "metric_keys_checked": 427140,
+      "max_abs_pooled_mean_difference": 3.9745984281580604e-14,
+      "max_abs_pooled_sd_difference": 3.359059558283306e-12,
+      "max_abs_pooled_minmax_difference": 0.0
+    },
+    "stream_convergence": {
+      "rhat": {
+        "count": 427140,
+        "finite_count": 427140,
+        "median": 1.0,
+        "p95": 1.000587454052851,
+        "p99": 1.0011680903981162,
+        "p999": 1.0020193792208365,
+        "maximum": 1.0040123044165767
+      },
+      "rhat_threshold_counts": {},
+      "zero_with_between_stream_drift": 0,
+      "z_span": {
+        "count": 427140,
+        "finite_count": 427140,
+        "median": 0.7728972673578283,
+        "p95": 2.3302254317719124,
+        "p99": 2.914910036771787,
+        "p999": 3.5890021900225224,
+        "maximum": 4.746636723461124
+      },
+      "by_family": {
+        "action_loss": {
+          "rhat": {
+            "count": 362880,
+            "finite_count": 362880,
+            "median": 1.0,
+            "p95": 1.0005742521097603,
+            "p99": 1.0011632871052152,
+            "p999": 1.0020220453537598,
+            "maximum": 1.0030346307566906
+          },
+          "z_span": {
+            "count": 362880,
+            "finite_count": 362880,
+            "median": 0.6873972400544465,
+            "p95": 2.3185639431949987,
+            "p99": 2.9199021647346264,
+            "p999": 3.617742484486665,
+            "maximum": 4.143020754821063
+          }
+        },
+        "contrast": {
+          "rhat": {
+            "count": 1620,
+            "finite_count": 1620,
+            "median": 0.9998774695191809,
+            "p95": 1.0007588416357804,
+            "p99": 1.0012200165756213,
+            "p999": 1.0019981392765156,
+            "maximum": 1.002217705500747
+          },
+          "z_span": {
+            "count": 1620,
+            "finite_count": 1620,
+            "median": 1.369149385216847,
+            "p95": 2.486964114983995,
+            "p99": 3.0018444557018094,
+            "p999": 3.65445809685084,
+            "maximum": 3.8078803510885506
+          }
+        },
+        "cross_definition_action": {
+          "rhat": {
+            "count": 17820,
+            "finite_count": 17820,
+            "median": 1.0,
+            "p95": 1.0006827418747082,
+            "p99": 1.0013064400304486,
+            "p999": 1.0022577852035375,
+            "maximum": 1.0040123044165767
+          },
+          "z_span": {
+            "count": 17820,
+            "finite_count": 17820,
+            "median": 1.1171575027095815,
+            "p95": 2.4350642786684733,
+            "p99": 2.9863404627155345,
+            "p999": 3.789865260482223,
+            "maximum": 4.746636723461124
+          }
+        },
+        "level": {
+          "rhat": {
+            "count": 1620,
+            "finite_count": 1620,
+            "median": 0.9999039473029345,
+            "p95": 1.000804931239726,
+            "p99": 1.00130459097683,
+            "p999": 1.00215194484747,
+            "maximum": 1.0027236901470484
+          },
+          "z_span": {
+            "count": 1620,
+            "finite_count": 1620,
+            "median": 1.4182132898480813,
+            "p95": 2.590020870506437,
+            "p99": 3.1121194254650613,
+            "p999": 3.456866736965178,
+            "maximum": 4.130888203481754
+          }
+        },
+        "observation": {
+          "rhat": {
+            "count": 270,
+            "finite_count": 270,
+            "median": 1.0,
+            "p95": 1.0,
+            "p99": 1.0006372285536882,
+            "p999": 1.000956548231087,
+            "maximum": 1.0009918287410988
+          },
+          "z_span": {
+            "count": 270,
+            "finite_count": 270,
+            "median": 0.0,
+            "p95": 1.4262739992963809,
+            "p99": 2.4114800104038583,
+            "p999": 2.8212909312604593,
+            "maximum": 2.8814388676838614
+          }
+        },
+        "partial_order": {
+          "rhat": {
+            "count": 18630,
+            "finite_count": 18630,
+            "median": 1.0,
+            "p95": 1.0005456151641285,
+            "p99": 1.0010996679229687,
+            "p999": 1.0018262322912161,
+            "maximum": 1.0022462189454129
+          },
+          "z_span": {
+            "count": 18630,
+            "finite_count": 18630,
+            "median": 0.6887026879577214,
+            "p95": 2.2722740324590744,
+            "p99": 2.8293723859525204,
+            "p999": 3.3516401636311883,
+            "maximum": 4.007421547101647
+          }
+        },
+        "tie_audit": {
+          "rhat": {
+            "count": 24300,
+            "finite_count": 24300,
+            "median": 1.0,
+            "p95": 1.0006403852195032,
+            "p99": 1.0011796940316302,
+            "p999": 1.0018726093256232,
+            "maximum": 1.0027785179355428
+          },
+          "z_span": {
+            "count": 24300,
+            "finite_count": 24300,
+            "median": 1.0789283880006204,
+            "p95": 2.3688346957493462,
+            "p99": 2.868917916270639,
+            "p999": 3.5003395388916667,
+            "maximum": 3.797743942468005
+          }
+        }
+      },
+      "stream_index_drift": {
+        "stream_01": {
+          "n": 244576,
+          "mean_standardised_difference": -0.012564990877814436,
+          "sd_standardised_difference": 0.8104724455115582,
+          "positive_fraction": 0.48920172052858824
+        },
+        "stream_02": {
+          "n": 244576,
+          "mean_standardised_difference": 0.0030694610392574422,
+          "sd_standardised_difference": 0.7968962793889283,
+          "positive_fraction": 0.49673312181080725
+        },
+        "stream_03": {
+          "n": 244576,
+          "mean_standardised_difference": -0.00021754467795566897,
+          "sd_standardised_difference": 0.8067265085670334,
+          "positive_fraction": 0.4929592437524532
+        },
+        "stream_04": {
+          "n": 244576,
+          "mean_standardised_difference": -0.0015218954336315375,
+          "sd_standardised_difference": 0.8042581084262482,
+          "positive_fraction": 0.4959317349208426
+        }
+      }
+    }
+  },
+  "reference_rerun": {
+    "status": "PASS",
+    "reference_cell_id": "cell_0051",
+    "reference_cell": {
+      "scenario": "aligned_diffusion",
+      "separation_level": "high",
+      "added_state_heterogeneity_level": "high",
+      "unit_count": 16,
+      "base_sample_size": 250,
+      "allocation_profile": "balanced",
+      "weight_profile": "uniform",
+      "misclassification_profile": "none",
+      "unresolved_profile": "none",
+      "modules": [
+        "sample_size",
+        "weighting",
+        "observation"
+      ],
+      "cell_id": "cell_0051"
+    },
+    "elapsed_seconds": 47.937934284999756,
+    "cell_rows": 3988,
+    "stream_rows": 6328,
+    "cell_byte_identical": true,
+    "stream_byte_identical": true,
+    "files": {
+      "REFERENCE_RERUN_CELL_METRIC_SUMMARY.csv": {
+        "bytes": 1125014,
+        "sha256": "db9abc2a30136d9f82c4367a4b26def06b251d9e099061508beb0a4295783e20"
+      },
+      "REFERENCE_RERUN_STREAM_METRIC_SUMMARY.csv": {
+        "bytes": 1772202,
+        "sha256": "af589451d8a2e5de15ef821456ea99020df5613574977abc1df526d15d622b66"
+      },
+      "REFERENCE_EXTRACTED_CELL_METRIC_SUMMARY.csv": {
+        "bytes": 1125014,
+        "sha256": "db9abc2a30136d9f82c4367a4b26def06b251d9e099061508beb0a4295783e20"
+      },
+      "REFERENCE_EXTRACTED_STREAM_METRIC_SUMMARY.csv": {
+        "bytes": 1772202,
+        "sha256": "af589451d8a2e5de15ef821456ea99020df5613574977abc1df526d15d622b66"
+      }
+    }
+  },
+  "reference_cell": {
+    "population_rates": {
+      "integrated_planning": 0.03780094415905093,
+      "specialised_planning": 0.10664255785150895,
+      "digitally_enabled_planning": 0.7321759478234249
+    },
+    "observed_rates": {
+      "integrated_planning": 0.03793256249999983,
+      "specialised_planning": 0.10667981249999978,
+      "digitally_enabled_planning": 0.7322038125000014
+    },
+    "observed_mae": {
+      "integrated_planning": 0.009391411176735207,
+      "specialised_planning": 0.015374016183973242,
+      "digitally_enabled_planning": 0.022048673560367507
+    },
+    "observed_strict_reversal": {
+      "integrated_planning__to__specialised_planning": 0.11615624999999974,
+      "specialised_planning__to__digitally_enabled_planning": 0.14094791666666667,
+      "integrated_planning__to__digitally_enabled_planning": 0.16928333333333295
+    },
+    "highest_top3_churn": {
+      "integrated_planning__to__specialised_planning": 0.36099999999999627,
+      "specialised_planning__to__digitally_enabled_planning": 0.38841666666666164,
+      "integrated_planning__to__digitally_enabled_planning": 0.4731666666666657
+    },
+    "determinate_share": {
+      "integrated_planning": 0.9452416666666649,
+      "specialised_planning": 0.9740229166666393,
+      "digitally_enabled_planning": 0.9863416666666449
+    }
+  },
+  "ablation": [
+    {
+      "metric_name": "action_disagreement_without_material_level_change",
+      "prespecified_cases": 8640,
+      "event_count": 384,
+      "event_fraction": 0.044444444444444446,
+      "mutually_exclusive": "NO"
+    },
+    {
+      "metric_name": "decision_equivalence_despite_numerical_difference",
+      "prespecified_cases": 8640,
+      "event_count": 3264,
+      "event_fraction": 0.37777777777777777,
+      "mutually_exclusive": "NO"
+    },
+    {
+      "metric_name": "generic_level_materiality_detected",
+      "prespecified_cases": 1728,
+      "event_count": 1536,
+      "event_fraction": 0.8888888888888888,
+      "mutually_exclusive": "NO"
+    },
+    {
+      "metric_name": "material_level_change_without_action_disagreement",
+      "prespecified_cases": 8640,
+      "event_count": 2688,
+      "event_fraction": 0.3111111111111111,
+      "mutually_exclusive": "NO"
+    },
+    {
+      "metric_name": "rank_reversal_detected",
+      "prespecified_cases": 1728,
+      "event_count": 480,
+      "event_fraction": 0.2777777777777778,
+      "mutually_exclusive": "NO"
+    },
+    {
+      "metric_name": "rank_stability_with_semantic_mismatch",
+      "prespecified_cases": 8640,
+      "event_count": 4680,
+      "event_fraction": 0.5416666666666666,
+      "mutually_exclusive": "NO"
+    },
+    {
+      "metric_name": "semantic_mismatch_detected",
+      "prespecified_cases": 1728,
+      "event_count": 1296,
+      "event_fraction": 0.75,
+      "mutually_exclusive": "NO"
+    }
+  ],
+  "deterministic_scenario_ordering": [
+    {
+      "scenario": "aligned_diffusion",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "aligned_diffusion",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "aligned_diffusion",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "aligned_diffusion",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "aligned_diffusion",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "aligned_diffusion",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "broad_margin_only",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "broad_margin_only",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "broad_margin_only",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "broad_margin_only",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "broad_margin_only",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "broad_margin_only",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "middle_compensation",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "middle_compensation",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "middle_compensation",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "middle_compensation",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "middle_compensation",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "middle_compensation",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "mixed_nonmonotone",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.32127976190476193,
+      "minimum": 0.275,
+      "maximum": 0.39285714285714285
+    },
+    {
+      "scenario": "mixed_nonmonotone",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.32127976190476193,
+      "minimum": 0.275,
+      "maximum": 0.39285714285714285
+    },
+    {
+      "scenario": "mixed_nonmonotone",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.37916666666666665,
+      "minimum": 0.21428571428571427,
+      "maximum": 0.4666666666666667
+    },
+    {
+      "scenario": "mixed_nonmonotone",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.37395833333333334,
+      "minimum": 0.20833333333333334,
+      "maximum": 0.4666666666666667
+    },
+    {
+      "scenario": "mixed_nonmonotone",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.34211309523809524,
+      "minimum": 0.17857142857142858,
+      "maximum": 0.42857142857142855
+    },
+    {
+      "scenario": "mixed_nonmonotone",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.3369047619047619,
+      "minimum": 0.16666666666666666,
+      "maximum": 0.42857142857142855
+    },
+    {
+      "scenario": "null_common",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "null_common",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "null_common",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "null_common",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "null_common",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "null_common",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "strict_to_broad_reversal",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "strict_to_broad_reversal",
+      "contrast": "integrated_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "strict_to_broad_reversal",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "strict_to_broad_reversal",
+      "contrast": "integrated_planning__to__specialised_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "scenario": "strict_to_broad_reversal",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_pairwise_disagreement_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "scenario": "strict_to_broad_reversal",
+      "contrast": "specialised_planning__to__digitally_enabled_planning",
+      "metric_name": "population_strict_reversal_share",
+      "dgp_variants": 8,
+      "mean": 1.0,
+      "minimum": 1.0,
+      "maximum": 1.0
+    }
+  ],
+  "sample_size": {
+    "(100, 'equal_cost_action_loss')": {
+      "n": 1152,
+      "mean": 0.31346223958333336,
+      "median": 0.2165625,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "(100, 'reversal')": {
+      "n": 18,
+      "mean": 0.300226388888889,
+      "median": 0.32504895833333247,
+      "minimum": 0.13381666666666667,
+      "maximum": 0.49550833333333366
+    },
+    "(100, 'top_k_churn')": {
+      "n": 108,
+      "mean": 0.6720714506172819,
+      "median": 0.6899499999999955,
+      "minimum": 0.2651000000000063,
+      "maximum": 0.982
+    },
+    "(100, 'mae')": {
+      "n": 18,
+      "mean": 0.024926836041583987,
+      "median": 0.02463529223593027,
+      "minimum": 0.014806463210348828,
+      "maximum": 0.035380708362390885
+    },
+    "(1000, 'equal_cost_action_loss')": {
+      "n": 1152,
+      "mean": 0.2934105631510417,
+      "median": 0.117125,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "(1000, 'reversal')": {
+      "n": 18,
+      "mean": 0.34900613425925925,
+      "median": 0.36246145833333354,
+      "minimum": 0.0689249999999997,
+      "maximum": 0.7975937499999998
+    },
+    "(1000, 'top_k_churn')": {
+      "n": 108,
+      "mean": 0.6338677469135789,
+      "median": 0.6507499999999914,
+      "minimum": 0.1005999999999966,
+      "maximum": 1.0
+    },
+    "(1000, 'mae')": {
+      "n": 18,
+      "mean": 0.007874247263636622,
+      "median": 0.007783763274405598,
+      "minimum": 0.004678372099222789,
+      "maximum": 0.011208603124115413
+    },
+    "(250, 'equal_cost_action_loss')": {
+      "n": 1152,
+      "mean": 0.3062802734375,
+      "median": 0.16934375,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "(250, 'reversal')": {
+      "n": 18,
+      "mean": 0.32761770833333337,
+      "median": 0.32997604166666616,
+      "minimum": 0.11615624999999974,
+      "maximum": 0.6239708333333353
+    },
+    "(250, 'top_k_churn')": {
+      "n": 108,
+      "mean": 0.6589944444444429,
+      "median": 0.6633749999999974,
+      "minimum": 0.19455000000000414,
+      "maximum": 0.9965
+    },
+    "(250, 'mae')": {
+      "n": 18,
+      "mean": 0.01577493525221338,
+      "median": 0.01557999335963473,
+      "minimum": 0.009362657128088427,
+      "maximum": 0.02244605078769803
+    },
+    "(50, 'equal_cost_action_loss')": {
+      "n": 1152,
+      "mean": 0.3190459255642361,
+      "median": 0.25,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "(50, 'reversal')": {
+      "n": 18,
+      "mean": 0.2653659722222223,
+      "median": 0.3013062499999994,
+      "minimum": 0.12262083333333351,
+      "maximum": 0.3969166666666668
+    },
+    "(50, 'top_k_churn')": {
+      "n": 108,
+      "mean": 0.6765854938271585,
+      "median": 0.691875,
+      "minimum": 0.3085500000000111,
+      "maximum": 0.9645
+    },
+    "(50, 'mae')": {
+      "n": 18,
+      "mean": 0.03525653317099214,
+      "median": 0.034906550036890555,
+      "minimum": 0.02094378343923857,
+      "maximum": 0.050166108581110085
+    },
+    "(500, 'equal_cost_action_loss')": {
+      "n": 1152,
+      "mean": 0.29980257161458335,
+      "median": 0.13359375,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "(500, 'reversal')": {
+      "n": 18,
+      "mean": 0.3416531249999996,
+      "median": 0.359117708333334,
+      "minimum": 0.0925145833333327,
+      "maximum": 0.7180458333333323
+    },
+    "(500, 'top_k_churn')": {
+      "n": 108,
+      "mean": 0.6485700617283942,
+      "median": 0.6548249999999962,
+      "minimum": 0.1402499999999974,
+      "maximum": 0.99975
+    },
+    "(500, 'mae')": {
+      "n": 18,
+      "mean": 0.011158428063397155,
+      "median": 0.011037454901611716,
+      "minimum": 0.006639468914915425,
+      "maximum": 0.015833807528424372
+    }
+  },
+  "sample_size_reversal_by_scenario": {
+    "100|reversal|aligned_diffusion|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.2163312500000001,
+      "median": 0.2163312500000001,
+      "minimum": 0.2163312500000001,
+      "maximum": 0.2163312500000001
+    },
+    "100|reversal|aligned_diffusion|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.13381666666666667,
+      "median": 0.13381666666666667,
+      "minimum": 0.13381666666666667,
+      "maximum": 0.13381666666666667
+    },
+    "100|reversal|aligned_diffusion|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.1929229166666669,
+      "median": 0.1929229166666669,
+      "minimum": 0.1929229166666669,
+      "maximum": 0.1929229166666669
+    },
+    "100|reversal|broad_margin_only|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3704770833333329,
+      "median": 0.3704770833333329,
+      "minimum": 0.3704770833333329,
+      "maximum": 0.3704770833333329
+    },
+    "100|reversal|broad_margin_only|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.19843125000000017,
+      "median": 0.19843125000000017,
+      "minimum": 0.19843125000000017,
+      "maximum": 0.19843125000000017
+    },
+    "100|reversal|broad_margin_only|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3739187499999998,
+      "median": 0.3739187499999998,
+      "minimum": 0.3739187499999998,
+      "maximum": 0.3739187499999998
+    },
+    "100|reversal|middle_compensation|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3265124999999987,
+      "median": 0.3265124999999987,
+      "minimum": 0.3265124999999987,
+      "maximum": 0.3265124999999987
+    },
+    "100|reversal|middle_compensation|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.2619750000000005,
+      "median": 0.2619750000000005,
+      "minimum": 0.2619750000000005,
+      "maximum": 0.2619750000000005
+    },
+    "100|reversal|middle_compensation|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3607083333333346,
+      "median": 0.3607083333333346,
+      "minimum": 0.3607083333333346,
+      "maximum": 0.3607083333333346
+    },
+    "100|reversal|mixed_nonmonotone|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3235854166666663,
+      "median": 0.3235854166666663,
+      "minimum": 0.3235854166666663,
+      "maximum": 0.3235854166666663
+    },
+    "100|reversal|mixed_nonmonotone|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.24823125000000065,
+      "median": 0.24823125000000065,
+      "minimum": 0.24823125000000065,
+      "maximum": 0.24823125000000065
+    },
+    "100|reversal|mixed_nonmonotone|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3560333333333336,
+      "median": 0.3560333333333336,
+      "minimum": 0.3560333333333336,
+      "maximum": 0.3560333333333336
+    },
+    "100|reversal|null_common|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.36341666666666705,
+      "median": 0.36341666666666705,
+      "minimum": 0.36341666666666705,
+      "maximum": 0.36341666666666705
+    },
+    "100|reversal|null_common|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.19711458333333337,
+      "median": 0.19711458333333337,
+      "minimum": 0.19711458333333337,
+      "maximum": 0.19711458333333337
+    },
+    "100|reversal|null_common|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3625562499999987,
+      "median": 0.3625562499999987,
+      "minimum": 0.3625562499999987,
+      "maximum": 0.3625562499999987
+    },
+    "100|reversal|strict_to_broad_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.49550833333333366,
+      "median": 0.49550833333333366,
+      "minimum": 0.49550833333333366,
+      "maximum": 0.49550833333333366
+    },
+    "100|reversal|strict_to_broad_reversal|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.19031458333333337,
+      "median": 0.19031458333333337,
+      "minimum": 0.19031458333333337,
+      "maximum": 0.19031458333333337
+    },
+    "100|reversal|strict_to_broad_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.43222083333333416,
+      "median": 0.43222083333333416,
+      "minimum": 0.43222083333333416,
+      "maximum": 0.43222083333333416
+    },
+    "1000|reversal|aligned_diffusion|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.09142916666666587,
+      "median": 0.09142916666666587,
+      "minimum": 0.09142916666666587,
+      "maximum": 0.09142916666666587
+    },
+    "1000|reversal|aligned_diffusion|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.06906666666666661,
+      "median": 0.06906666666666661,
+      "minimum": 0.06906666666666661,
+      "maximum": 0.06906666666666661
+    },
+    "1000|reversal|aligned_diffusion|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.0689249999999997,
+      "median": 0.0689249999999997,
+      "minimum": 0.0689249999999997,
+      "maximum": 0.0689249999999997
+    },
+    "1000|reversal|broad_margin_only|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.4554041666666671,
+      "median": 0.4554041666666671,
+      "minimum": 0.4554041666666671,
+      "maximum": 0.4554041666666671
+    },
+    "1000|reversal|broad_margin_only|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.2680979166666666,
+      "median": 0.2680979166666666,
+      "minimum": 0.2680979166666666,
+      "maximum": 0.2680979166666666
+    },
+    "1000|reversal|broad_margin_only|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.45433333333333287,
+      "median": 0.45433333333333287,
+      "minimum": 0.45433333333333287,
+      "maximum": 0.45433333333333287
+    },
+    "1000|reversal|middle_compensation|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.24038541666666752,
+      "median": 0.24038541666666752,
+      "minimum": 0.24038541666666752,
+      "maximum": 0.24038541666666752
+    },
+    "1000|reversal|middle_compensation|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.42247083333333313,
+      "median": 0.42247083333333313,
+      "minimum": 0.42247083333333313,
+      "maximum": 0.42247083333333313
+    },
+    "1000|reversal|middle_compensation|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.42778125000000033,
+      "median": 0.42778125000000033,
+      "minimum": 0.42778125000000033,
+      "maximum": 0.42778125000000033
+    },
+    "1000|reversal|mixed_nonmonotone|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.29269583333333254,
+      "median": 0.29269583333333254,
+      "minimum": 0.29269583333333254,
+      "maximum": 0.29269583333333254
+    },
+    "1000|reversal|mixed_nonmonotone|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.3572500000000005,
+      "median": 0.3572500000000005,
+      "minimum": 0.3572500000000005,
+      "maximum": 0.3572500000000005
+    },
+    "1000|reversal|mixed_nonmonotone|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3676729166666666,
+      "median": 0.3676729166666666,
+      "minimum": 0.3676729166666666,
+      "maximum": 0.3676729166666666
+    },
+    "1000|reversal|null_common|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.42865624999999946,
+      "median": 0.42865624999999946,
+      "minimum": 0.42865624999999946,
+      "maximum": 0.42865624999999946
+    },
+    "1000|reversal|null_common|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.26880833333333287,
+      "median": 0.26880833333333287,
+      "minimum": 0.26880833333333287,
+      "maximum": 0.26880833333333287
+    },
+    "1000|reversal|null_common|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.4107895833333343,
+      "median": 0.4107895833333343,
+      "minimum": 0.4107895833333343,
+      "maximum": 0.4107895833333343
+    },
+    "1000|reversal|strict_to_broad_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.7975937499999998,
+      "median": 0.7975937499999998,
+      "minimum": 0.7975937499999998,
+      "maximum": 0.7975937499999998
+    },
+    "1000|reversal|strict_to_broad_reversal|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.1495749999999999,
+      "median": 0.1495749999999999,
+      "minimum": 0.1495749999999999,
+      "maximum": 0.1495749999999999
+    },
+    "1000|reversal|strict_to_broad_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.7111750000000007,
+      "median": 0.7111750000000007,
+      "minimum": 0.7111750000000007,
+      "maximum": 0.7111750000000007
+    },
+    "250|reversal|aligned_diffusion|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.16928333333333295,
+      "median": 0.16928333333333295,
+      "minimum": 0.16928333333333295,
+      "maximum": 0.16928333333333295
+    },
+    "250|reversal|aligned_diffusion|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.11615624999999974,
+      "median": 0.11615624999999974,
+      "minimum": 0.11615624999999974,
+      "maximum": 0.11615624999999974
+    },
+    "250|reversal|aligned_diffusion|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.14094791666666667,
+      "median": 0.14094791666666667,
+      "minimum": 0.14094791666666667,
+      "maximum": 0.14094791666666667
+    },
+    "250|reversal|broad_margin_only|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.41271874999999875,
+      "median": 0.41271874999999875,
+      "minimum": 0.41271874999999875,
+      "maximum": 0.41271874999999875
+    },
+    "250|reversal|broad_margin_only|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.2330395833333335,
+      "median": 0.2330395833333335,
+      "minimum": 0.2330395833333335,
+      "maximum": 0.2330395833333335
+    },
+    "250|reversal|broad_margin_only|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.41033541666666756,
+      "median": 0.41033541666666756,
+      "minimum": 0.41033541666666756,
+      "maximum": 0.41033541666666756
+    },
+    "250|reversal|middle_compensation|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.31981041666666693,
+      "median": 0.31981041666666693,
+      "minimum": 0.31981041666666693,
+      "maximum": 0.31981041666666693
+    },
+    "250|reversal|middle_compensation|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.3401416666666654,
+      "median": 0.3401416666666654,
+      "minimum": 0.3401416666666654,
+      "maximum": 0.3401416666666654
+    },
+    "250|reversal|middle_compensation|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3914395833333345,
+      "median": 0.3914395833333345,
+      "minimum": 0.3914395833333345,
+      "maximum": 0.3914395833333345
+    },
+    "250|reversal|mixed_nonmonotone|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.31623333333333303,
+      "median": 0.31623333333333303,
+      "minimum": 0.31623333333333303,
+      "maximum": 0.31623333333333303
+    },
+    "250|reversal|mixed_nonmonotone|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.30972083333333367,
+      "median": 0.30972083333333367,
+      "minimum": 0.30972083333333367,
+      "maximum": 0.30972083333333367
+    },
+    "250|reversal|mixed_nonmonotone|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3716937499999996,
+      "median": 0.3716937499999996,
+      "minimum": 0.3716937499999996,
+      "maximum": 0.3716937499999996
+    },
+    "250|reversal|null_common|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3942645833333334,
+      "median": 0.3942645833333334,
+      "minimum": 0.3942645833333334,
+      "maximum": 0.3942645833333334
+    },
+    "250|reversal|null_common|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.23269583333333282,
+      "median": 0.23269583333333282,
+      "minimum": 0.23269583333333282,
+      "maximum": 0.23269583333333282
+    },
+    "250|reversal|null_common|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3866562499999996,
+      "median": 0.3866562499999996,
+      "minimum": 0.3866562499999996,
+      "maximum": 0.3866562499999996
+    },
+    "250|reversal|strict_to_broad_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.6239708333333353,
+      "median": 0.6239708333333353,
+      "minimum": 0.6239708333333353,
+      "maximum": 0.6239708333333353
+    },
+    "250|reversal|strict_to_broad_reversal|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.19745416666666618,
+      "median": 0.19745416666666618,
+      "minimum": 0.19745416666666618,
+      "maximum": 0.19745416666666618
+    },
+    "250|reversal|strict_to_broad_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.5305562500000006,
+      "median": 0.5305562500000006,
+      "minimum": 0.5305562500000006,
+      "maximum": 0.5305562500000006
+    },
+    "50|reversal|aligned_diffusion|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.2297041666666668,
+      "median": 0.2297041666666668,
+      "minimum": 0.2297041666666668,
+      "maximum": 0.2297041666666668
+    },
+    "50|reversal|aligned_diffusion|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.12262083333333351,
+      "median": 0.12262083333333351,
+      "minimum": 0.12262083333333351,
+      "maximum": 0.12262083333333351
+    },
+    "50|reversal|aligned_diffusion|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.22133958333333376,
+      "median": 0.22133958333333376,
+      "minimum": 0.22133958333333376,
+      "maximum": 0.22133958333333376
+    },
+    "50|reversal|broad_margin_only|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.32471666666666693,
+      "median": 0.32471666666666693,
+      "minimum": 0.32471666666666693,
+      "maximum": 0.32471666666666693
+    },
+    "50|reversal|broad_margin_only|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.1581083333333335,
+      "median": 0.1581083333333335,
+      "minimum": 0.1581083333333335,
+      "maximum": 0.1581083333333335
+    },
+    "50|reversal|broad_margin_only|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.33852291666666684,
+      "median": 0.33852291666666684,
+      "minimum": 0.33852291666666684,
+      "maximum": 0.33852291666666684
+    },
+    "50|reversal|middle_compensation|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3048291666666657,
+      "median": 0.3048291666666657,
+      "minimum": 0.3048291666666657,
+      "maximum": 0.3048291666666657
+    },
+    "50|reversal|middle_compensation|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.1972729166666661,
+      "median": 0.1972729166666661,
+      "minimum": 0.1972729166666661,
+      "maximum": 0.1972729166666661
+    },
+    "50|reversal|middle_compensation|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.33046041666666737,
+      "median": 0.33046041666666737,
+      "minimum": 0.33046041666666737,
+      "maximum": 0.33046041666666737
+    },
+    "50|reversal|mixed_nonmonotone|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.29778333333333307,
+      "median": 0.29778333333333307,
+      "minimum": 0.29778333333333307,
+      "maximum": 0.29778333333333307
+    },
+    "50|reversal|mixed_nonmonotone|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.18649583333333325,
+      "median": 0.18649583333333325,
+      "minimum": 0.18649583333333325,
+      "maximum": 0.18649583333333325
+    },
+    "50|reversal|mixed_nonmonotone|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.32838125,
+      "median": 0.32838125,
+      "minimum": 0.32838125,
+      "maximum": 0.32838125
+    },
+    "50|reversal|null_common|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3220750000000003,
+      "median": 0.3220750000000003,
+      "minimum": 0.3220750000000003,
+      "maximum": 0.3220750000000003
+    },
+    "50|reversal|null_common|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.157685416666667,
+      "median": 0.157685416666667,
+      "minimum": 0.157685416666667,
+      "maximum": 0.157685416666667
+    },
+    "50|reversal|null_common|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.33183749999999995,
+      "median": 0.33183749999999995,
+      "minimum": 0.33183749999999995,
+      "maximum": 0.33183749999999995
+    },
+    "50|reversal|strict_to_broad_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3969166666666668,
+      "median": 0.3969166666666668,
+      "minimum": 0.3969166666666668,
+      "maximum": 0.3969166666666668
+    },
+    "50|reversal|strict_to_broad_reversal|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.1591729166666666,
+      "median": 0.1591729166666666,
+      "minimum": 0.1591729166666666,
+      "maximum": 0.1591729166666666
+    },
+    "50|reversal|strict_to_broad_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.36866458333333363,
+      "median": 0.36866458333333363,
+      "minimum": 0.36866458333333363,
+      "maximum": 0.36866458333333363
+    },
+    "500|reversal|aligned_diffusion|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.1285479166666667,
+      "median": 0.1285479166666667,
+      "minimum": 0.1285479166666667,
+      "maximum": 0.1285479166666667
+    },
+    "500|reversal|aligned_diffusion|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.0925145833333327,
+      "median": 0.0925145833333327,
+      "minimum": 0.0925145833333327,
+      "maximum": 0.0925145833333327
+    },
+    "500|reversal|aligned_diffusion|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.10184791666666582,
+      "median": 0.10184791666666582,
+      "minimum": 0.10184791666666582,
+      "maximum": 0.10184791666666582
+    },
+    "500|reversal|broad_margin_only|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.4385041666666652,
+      "median": 0.4385041666666652,
+      "minimum": 0.4385041666666652,
+      "maximum": 0.4385041666666652
+    },
+    "500|reversal|broad_margin_only|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.25216874999999944,
+      "median": 0.25216874999999944,
+      "minimum": 0.25216874999999944,
+      "maximum": 0.25216874999999944
+    },
+    "500|reversal|broad_margin_only|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.4324770833333322,
+      "median": 0.4324770833333322,
+      "minimum": 0.4324770833333322,
+      "maximum": 0.4324770833333322
+    },
+    "500|reversal|middle_compensation|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.288108333333332,
+      "median": 0.288108333333332,
+      "minimum": 0.288108333333332,
+      "maximum": 0.288108333333332
+    },
+    "500|reversal|middle_compensation|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.3868208333333336,
+      "median": 0.3868208333333336,
+      "minimum": 0.3868208333333336,
+      "maximum": 0.3868208333333336
+    },
+    "500|reversal|middle_compensation|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.41244166666666615,
+      "median": 0.41244166666666615,
+      "minimum": 0.41244166666666615,
+      "maximum": 0.41244166666666615
+    },
+    "500|reversal|mixed_nonmonotone|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.3034104166666657,
+      "median": 0.3034104166666657,
+      "minimum": 0.3034104166666657,
+      "maximum": 0.3034104166666657
+    },
+    "500|reversal|mixed_nonmonotone|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.34253125000000123,
+      "median": 0.34253125000000123,
+      "minimum": 0.34253125000000123,
+      "maximum": 0.34253125000000123
+    },
+    "500|reversal|mixed_nonmonotone|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.37570416666666673,
+      "median": 0.37570416666666673,
+      "minimum": 0.37570416666666673,
+      "maximum": 0.37570416666666673
+    },
+    "500|reversal|null_common|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.41726874999999997,
+      "median": 0.41726874999999997,
+      "minimum": 0.41726874999999997,
+      "maximum": 0.41726874999999997
+    },
+    "500|reversal|null_common|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.25478124999999974,
+      "median": 0.25478124999999974,
+      "minimum": 0.25478124999999974,
+      "maximum": 0.25478124999999974
+    },
+    "500|reversal|null_common|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.4031229166666659,
+      "median": 0.4031229166666659,
+      "minimum": 0.4031229166666659,
+      "maximum": 0.4031229166666659
+    },
+    "500|reversal|strict_to_broad_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.7180458333333323,
+      "median": 0.7180458333333323,
+      "minimum": 0.7180458333333323,
+      "maximum": 0.7180458333333323
+    },
+    "500|reversal|strict_to_broad_reversal|integrated_planning__to__specialised_planning": {
+      "n": 1,
+      "mean": 0.17997708333333295,
+      "median": 0.17997708333333295,
+      "minimum": 0.17997708333333295,
+      "maximum": 0.17997708333333295
+    },
+    "500|reversal|strict_to_broad_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 1,
+      "mean": 0.6214833333333346,
+      "median": 0.6214833333333346,
+      "minimum": 0.6214833333333346,
+      "maximum": 0.6214833333333346
+    }
+  },
+  "weighting": {
+    "high|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.31510782877604165,
+      "median": 0.20565624999999998,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "high|reversal": {
+      "n": 18,
+      "mean": 0.38147638888888924,
+      "median": 0.3971708333333339,
+      "minimum": 0.19698333333333318,
+      "maximum": 0.5972187500000002
+    },
+    "high|top_k_churn": {
+      "n": 108,
+      "mean": 0.6721223765432078,
+      "median": 0.691624999999995,
+      "minimum": 0.27715000000000767,
+      "maximum": 0.986
+    },
+    "high|mae": {
+      "n": 18,
+      "mean": 0.022233283047467984,
+      "median": 0.02198854238212722,
+      "minimum": 0.013093039572065378,
+      "maximum": 0.031627897459755645
+    },
+    "moderate|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3103244900173611,
+      "median": 0.179171875,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "moderate|reversal": {
+      "n": 18,
+      "mean": 0.3768427083333337,
+      "median": 0.3841885416666677,
+      "minimum": 0.16652291666666666,
+      "maximum": 0.6418833333333329
+    },
+    "moderate|top_k_churn": {
+      "n": 108,
+      "mean": 0.6640569444444426,
+      "median": 0.6633749999999976,
+      "minimum": 0.23390000000000594,
+      "maximum": 0.99325
+    },
+    "moderate|mae": {
+      "n": 18,
+      "mean": 0.01762312861197333,
+      "median": 0.01737791177411089,
+      "minimum": 0.010468815077169635,
+      "maximum": 0.02510762818300184
+    },
+    "uniform|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3062802734375,
+      "median": 0.16934375,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "uniform|reversal": {
+      "n": 18,
+      "mean": 0.32761770833333337,
+      "median": 0.32997604166666616,
+      "minimum": 0.11615624999999974,
+      "maximum": 0.6239708333333353
+    },
+    "uniform|top_k_churn": {
+      "n": 108,
+      "mean": 0.6589944444444429,
+      "median": 0.6633749999999974,
+      "minimum": 0.19455000000000414,
+      "maximum": 0.9965
+    },
+    "uniform|mae": {
+      "n": 18,
+      "mean": 0.01577493525221338,
+      "median": 0.01557999335963473,
+      "minimum": 0.009362657128088427,
+      "maximum": 0.02244605078769803
+    }
+  },
+  "observation": {
+    "cross_boundary_swap_10|none|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.30076920572916666,
+      "median": 0.1285,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cross_boundary_swap_10|none|reversal": {
+      "n": 18,
+      "mean": 0.31969259259259264,
+      "median": 0.334429166666666,
+      "minimum": 0.11438749999999948,
+      "maximum": 0.5801604166666675
+    },
+    "cross_boundary_swap_10|none|top_k_churn": {
+      "n": 108,
+      "mean": 0.6513918209876528,
+      "median": 0.6587916666666648,
+      "minimum": 0.19275000000000359,
+      "maximum": 0.9885
+    },
+    "cross_boundary_swap_10|none|mae": {
+      "n": 18,
+      "mean": 0.020925051606757113,
+      "median": 0.01590425381694683,
+      "minimum": 0.00935014653944566,
+      "maximum": 0.038130856029028055
+    },
+    "cross_boundary_swap_10|none|unresolved": {
+      "n": 6,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "cross_boundary_swap_10|none|determinate": {
+      "n": 18,
+      "mean": 0.9499094907407319,
+      "median": 0.9458208333333307,
+      "minimum": 0.9051979166666734,
+      "maximum": 0.9839479166666444
+    },
+    "cross_boundary_swap_10|none|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "cross_boundary_swap_10|none|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.022257957175925925,
+      "median": 0.020109375,
+      "minimum": 0.0046875,
+      "maximum": 0.063703125
+    },
+    "cross_boundary_swap_10|state_dependent_10|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3072998589409722,
+      "median": 0.13346875,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cross_boundary_swap_10|state_dependent_10|reversal": {
+      "n": 18,
+      "mean": 0.3676973379629631,
+      "median": 0.3800562499999998,
+      "minimum": 0.15578333333333286,
+      "maximum": 0.616206249999999
+    },
+    "cross_boundary_swap_10|state_dependent_10|top_k_churn": {
+      "n": 108,
+      "mean": 0.6578087962962945,
+      "median": 0.6763333333333296,
+      "minimum": 0.22315000000000546,
+      "maximum": 0.988
+    },
+    "cross_boundary_swap_10|state_dependent_10|mae": {
+      "n": 18,
+      "mean": 0.023878311089459182,
+      "median": 0.01888518543399434,
+      "minimum": 0.009820894067811234,
+      "maximum": 0.04307194809205302
+    },
+    "cross_boundary_swap_10|state_dependent_10|unresolved": {
+      "n": 6,
+      "mean": 0.05418666666666684,
+      "median": 0.05418862500000015,
+      "minimum": 0.054152750000000145,
+      "maximum": 0.05421862500000024
+    },
+    "cross_boundary_swap_10|state_dependent_10|determinate": {
+      "n": 18,
+      "mean": 0.1394836805555557,
+      "median": 0.061284375000000266,
+      "minimum": 0.006110416666666635,
+      "maximum": 0.5425124999999992
+    },
+    "cross_boundary_swap_10|state_dependent_10|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.12844270833333332,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.923046875
+    },
+    "cross_boundary_swap_10|state_dependent_10|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.6341160300925925,
+      "median": 0.672703125,
+      "minimum": 0.179359375,
+      "maximum": 0.909890625
+    },
+    "cross_boundary_swap_10|state_independent_05|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3024665798611111,
+      "median": 0.13215625,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cross_boundary_swap_10|state_independent_05|reversal": {
+      "n": 18,
+      "mean": 0.36427453703703716,
+      "median": 0.37747604166666693,
+      "minimum": 0.15121874999999985,
+      "maximum": 0.6156916666666663
+    },
+    "cross_boundary_swap_10|state_independent_05|top_k_churn": {
+      "n": 108,
+      "mean": 0.6534516975308625,
+      "median": 0.6700416666666626,
+      "minimum": 0.21630000000000502,
+      "maximum": 0.989
+    },
+    "cross_boundary_swap_10|state_independent_05|mae": {
+      "n": 18,
+      "mean": 0.021253134819199746,
+      "median": 0.01622479570169618,
+      "minimum": 0.009629969701717585,
+      "maximum": 0.038265739136140474
+    },
+    "cross_boundary_swap_10|state_independent_05|unresolved": {
+      "n": 6,
+      "mean": 0.05000959375000012,
+      "median": 0.04999809375000011,
+      "minimum": 0.04996631250000002,
+      "maximum": 0.05009675000000013
+    },
+    "cross_boundary_swap_10|state_independent_05|determinate": {
+      "n": 18,
+      "mean": 0.1695118055555556,
+      "median": 0.08847604166666667,
+      "minimum": 0.012558333333333154,
+      "maximum": 0.5780999999999987
+    },
+    "cross_boundary_swap_10|state_independent_05|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.11465902777777778,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.868171875
+    },
+    "cross_boundary_swap_10|state_independent_05|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.5991035879629629,
+      "median": 0.654625,
+      "minimum": 0.17475,
+      "maximum": 0.884546875
+    },
+    "none|none|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3062802734375,
+      "median": 0.16934375,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "none|none|reversal": {
+      "n": 18,
+      "mean": 0.32761770833333337,
+      "median": 0.32997604166666616,
+      "minimum": 0.11615624999999974,
+      "maximum": 0.6239708333333353
+    },
+    "none|none|top_k_churn": {
+      "n": 108,
+      "mean": 0.6589944444444429,
+      "median": 0.6633749999999974,
+      "minimum": 0.19455000000000414,
+      "maximum": 0.9965
+    },
+    "none|none|mae": {
+      "n": 18,
+      "mean": 0.01577493525221338,
+      "median": 0.01557999335963473,
+      "minimum": 0.009362657128088427,
+      "maximum": 0.02244605078769803
+    },
+    "none|none|unresolved": {
+      "n": 6,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "none|none|determinate": {
+      "n": 18,
+      "mean": 0.9507021990740653,
+      "median": 0.9457395833333306,
+      "minimum": 0.9058000000000052,
+      "maximum": 0.9863416666666449
+    },
+    "none|none|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "none|none|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.021822627314814814,
+      "median": 0.0198359375,
+      "minimum": 0.0043125,
+      "maximum": 0.060640625
+    },
+    "none|state_dependent_10|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3114743109809028,
+      "median": 0.16496875,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "none|state_dependent_10|reversal": {
+      "n": 18,
+      "mean": 0.3745516203703703,
+      "median": 0.38028645833333397,
+      "minimum": 0.1598833333333333,
+      "maximum": 0.6558708333333324
+    },
+    "none|state_dependent_10|top_k_churn": {
+      "n": 108,
+      "mean": 0.6654507716049365,
+      "median": 0.6553499999999923,
+      "minimum": 0.2294500000000056,
+      "maximum": 0.995
+    },
+    "none|state_dependent_10|mae": {
+      "n": 18,
+      "mean": 0.016880795831661816,
+      "median": 0.017158780376162065,
+      "minimum": 0.009819571080505072,
+      "maximum": 0.023837386583910644
+    },
+    "none|state_dependent_10|unresolved": {
+      "n": 6,
+      "mean": 0.05417823958333351,
+      "median": 0.05420109375000002,
+      "minimum": 0.05405500000000038,
+      "maximum": 0.05424268750000016
+    },
+    "none|state_dependent_10|determinate": {
+      "n": 18,
+      "mean": 0.14940960648148163,
+      "median": 0.06278020833333367,
+      "minimum": 0.005820833333333308,
+      "maximum": 0.5969124999999994
+    },
+    "none|state_dependent_10|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.13819114583333333,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.923046875
+    },
+    "none|state_dependent_10|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.6253864293981481,
+      "median": 0.6716328125,
+      "minimum": 0.15521875,
+      "maximum": 0.910640625
+    },
+    "none|state_independent_05|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.30818296983506943,
+      "median": 0.171,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "none|state_independent_05|reversal": {
+      "n": 18,
+      "mean": 0.37203738425925925,
+      "median": 0.3782697916666666,
+      "minimum": 0.15311874999999966,
+      "maximum": 0.6573687499999998
+    },
+    "none|state_independent_05|top_k_churn": {
+      "n": 108,
+      "mean": 0.6619859567901218,
+      "median": 0.6576249999999983,
+      "minimum": 0.2178500000000051,
+      "maximum": 0.9955
+    },
+    "none|state_independent_05|mae": {
+      "n": 18,
+      "mean": 0.016172712699420867,
+      "median": 0.01599945253363804,
+      "minimum": 0.00959154376250878,
+      "maximum": 0.022942947806809173
+    },
+    "none|state_independent_05|unresolved": {
+      "n": 6,
+      "mean": 0.04997040625000008,
+      "median": 0.04997437500000005,
+      "minimum": 0.04990112500000009,
+      "maximum": 0.050029312500000166
+    },
+    "none|state_independent_05|determinate": {
+      "n": 18,
+      "mean": 0.17927407407407414,
+      "median": 0.09101666666666677,
+      "minimum": 0.012824999999999795,
+      "maximum": 0.6298958333333333
+    },
+    "none|state_independent_05|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.12415017361111111,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.86571875
+    },
+    "none|state_independent_05|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.5905698784722222,
+      "median": 0.6533515625,
+      "minimum": 0.15653125,
+      "maximum": 0.882609375
+    },
+    "within_boundary_swap_10|none|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.30613612196180556,
+      "median": 0.182328125,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "within_boundary_swap_10|none|reversal": {
+      "n": 18,
+      "mean": 0.32310057870370357,
+      "median": 0.3212375000000002,
+      "minimum": 0.11440208333333267,
+      "maximum": 0.6056687500000004
+    },
+    "within_boundary_swap_10|none|top_k_churn": {
+      "n": 108,
+      "mean": 0.6538797839506159,
+      "median": 0.6618333333333304,
+      "minimum": 0.19220000000000284,
+      "maximum": 0.995
+    },
+    "within_boundary_swap_10|none|mae": {
+      "n": 18,
+      "mean": 0.01604177123356872,
+      "median": 0.015606243037335491,
+      "minimum": 0.009979186333105228,
+      "maximum": 0.022501381736841006
+    },
+    "within_boundary_swap_10|none|unresolved": {
+      "n": 6,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "within_boundary_swap_10|none|determinate": {
+      "n": 18,
+      "mean": 0.9500922453703613,
+      "median": 0.9465541666666627,
+      "minimum": 0.9090854166666751,
+      "maximum": 0.9860458333333143
+    },
+    "within_boundary_swap_10|none|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "within_boundary_swap_10|none|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.022110966435185186,
+      "median": 0.018976562500000002,
+      "minimum": 0.0041875,
+      "maximum": 0.059125
+    },
+    "within_boundary_swap_10|state_dependent_10|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.3114866265190972,
+      "median": 0.18490625,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "within_boundary_swap_10|state_dependent_10|reversal": {
+      "n": 18,
+      "mean": 0.3699017361111112,
+      "median": 0.37141562500000036,
+      "minimum": 0.1546833333333332,
+      "maximum": 0.6384729166666661
+    },
+    "within_boundary_swap_10|state_dependent_10|top_k_churn": {
+      "n": 108,
+      "mean": 0.6590399691358009,
+      "median": 0.6639583333333317,
+      "minimum": 0.223500000000005,
+      "maximum": 0.99275
+    },
+    "within_boundary_swap_10|state_dependent_10|mae": {
+      "n": 18,
+      "mean": 0.016904256120239033,
+      "median": 0.017109317997972315,
+      "minimum": 0.009656159992528437,
+      "maximum": 0.023832017610952203
+    },
+    "within_boundary_swap_10|state_dependent_10|unresolved": {
+      "n": 6,
+      "mean": 0.05420187500000023,
+      "median": 0.054194062500000265,
+      "minimum": 0.05414100000000016,
+      "maximum": 0.05431712500000011
+    },
+    "within_boundary_swap_10|state_dependent_10|determinate": {
+      "n": 18,
+      "mean": 0.1476325231481481,
+      "median": 0.06604166666666685,
+      "minimum": 0.0071874999999999535,
+      "maximum": 0.5985124999999968
+    },
+    "within_boundary_swap_10|state_dependent_10|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.14001875,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.888671875
+    },
+    "within_boundary_swap_10|state_dependent_10|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.6279084201388889,
+      "median": 0.67225,
+      "minimum": 0.1555625,
+      "maximum": 0.903609375
+    },
+    "within_boundary_swap_10|state_independent_05|equal_cost_action_loss": {
+      "n": 1152,
+      "mean": 0.30805997721354167,
+      "median": 0.18325,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "within_boundary_swap_10|state_independent_05|reversal": {
+      "n": 18,
+      "mean": 0.3671398148148148,
+      "median": 0.36821249999999933,
+      "minimum": 0.15093124999999974,
+      "maximum": 0.6399520833333352
+    },
+    "within_boundary_swap_10|state_independent_05|top_k_churn": {
+      "n": 108,
+      "mean": 0.6551905864197518,
+      "median": 0.656916666666665,
+      "minimum": 0.21375000000000471,
+      "maximum": 0.9925
+    },
+    "within_boundary_swap_10|state_independent_05|mae": {
+      "n": 18,
+      "mean": 0.01641983314924288,
+      "median": 0.01597405078322154,
+      "minimum": 0.010139220299401393,
+      "maximum": 0.022974722213409092
+    },
+    "within_boundary_swap_10|state_independent_05|unresolved": {
+      "n": 6,
+      "mean": 0.05002216666666675,
+      "median": 0.05001834375000004,
+      "minimum": 0.04999875000000009,
+      "maximum": 0.05004818750000023
+    },
+    "within_boundary_swap_10|state_independent_05|determinate": {
+      "n": 18,
+      "mean": 0.17592291666666665,
+      "median": 0.09241458333333341,
+      "minimum": 0.014587499999999738,
+      "maximum": 0.6293812500000003
+    },
+    "within_boundary_swap_10|state_independent_05|threshold_ambiguity": {
+      "n": 180,
+      "mean": 0.12571979166666666,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.81371875
+    },
+    "within_boundary_swap_10|state_independent_05|top_k_possible_excess": {
+      "n": 108,
+      "mean": 0.5950112847222222,
+      "median": 0.6546562499999999,
+      "minimum": 0.158171875,
+      "maximum": 0.875234375
+    }
+  },
+  "core_scenarios": {
+    "aligned_diffusion|observed_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.2688562872023808,
+      "median": 0.286075595238095,
+      "minimum": 0.09955357142856988,
+      "maximum": 0.42355208333333405
+    },
+    "aligned_diffusion|observed_reversal|integrated_planning__to__specialised_planning": {
+      "n": 32,
+      "mean": 0.186512509300595,
+      "median": 0.1956785714285714,
+      "minimum": 0.07542857142857119,
+      "maximum": 0.2908520833333333
+    },
+    "aligned_diffusion|observed_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.21980488281249988,
+      "median": 0.22684821428571394,
+      "minimum": 0.07430357142857125,
+      "maximum": 0.389272916666667
+    },
+    "aligned_diffusion|observed_top_k_churn|integrated_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.4961968750000006,
+      "median": 0.49582500000000007,
+      "minimum": 0.08899999999999716,
+      "maximum": 0.8995
+    },
+    "aligned_diffusion|observed_top_k_churn|integrated_planning__to__specialised_planning": {
+      "n": 192,
+      "mean": 0.3794546875000015,
+      "median": 0.3674000000000122,
+      "minimum": 0.07334999999999806,
+      "maximum": 0.74225
+    },
+    "aligned_diffusion|observed_top_k_churn|specialised_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.4245038194444456,
+      "median": 0.41453333333333575,
+      "minimum": 0.06419999999999852,
+      "maximum": 0.86675
+    },
+    "broad_margin_only|observed_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.4307795851934524,
+      "median": 0.44883928571428516,
+      "minimum": 0.36175833333333474,
+      "maximum": 0.4786696428571421
+    },
+    "broad_margin_only|observed_reversal|integrated_planning__to__specialised_planning": {
+      "n": 32,
+      "mean": 0.2648518508184523,
+      "median": 0.2785529761904758,
+      "minimum": 0.1949821428571431,
+      "maximum": 0.30676785714285715
+    },
+    "broad_margin_only|observed_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.41799484747023813,
+      "median": 0.4327124999999996,
+      "minimum": 0.35927678571428634,
+      "maximum": 0.4628035714285721
+    },
+    "broad_margin_only|observed_top_k_churn|integrated_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6821600694444439,
+      "median": 0.7093249999999923,
+      "minimum": 0.33265000000001205,
+      "maximum": 0.955
+    },
+    "broad_margin_only|observed_top_k_churn|integrated_planning__to__specialised_planning": {
+      "n": 192,
+      "mean": 0.492896614583335,
+      "median": 0.4894416666666703,
+      "minimum": 0.23595000000000474,
+      "maximum": 0.75175
+    },
+    "broad_margin_only|observed_top_k_churn|specialised_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6588104166666662,
+      "median": 0.6842916666666609,
+      "minimum": 0.3244000000000119,
+      "maximum": 0.9485
+    },
+    "middle_compensation|observed_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.37653976004464274,
+      "median": 0.3809642857142861,
+      "minimum": 0.27191964285714293,
+      "maximum": 0.4506104166666662
+    },
+    "middle_compensation|observed_reversal|integrated_planning__to__specialised_planning": {
+      "n": 32,
+      "mean": 0.3245948567708334,
+      "median": 0.32305863095238074,
+      "minimum": 0.20524791666666686,
+      "maximum": 0.43496428571428825
+    },
+    "middle_compensation|observed_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.40956822916666674,
+      "median": 0.4217544642857145,
+      "minimum": 0.3591958333333344,
+      "maximum": 0.4461249999999999
+    },
+    "middle_compensation|observed_top_k_churn|integrated_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6238978298611108,
+      "median": 0.63177499999999,
+      "minimum": 0.22245000000000564,
+      "maximum": 0.92825
+    },
+    "middle_compensation|observed_top_k_churn|integrated_planning__to__specialised_planning": {
+      "n": 192,
+      "mean": 0.5646641493055563,
+      "median": 0.5719583333333352,
+      "minimum": 0.24270000000000505,
+      "maximum": 0.889
+    },
+    "middle_compensation|observed_top_k_churn|specialised_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6508595486111106,
+      "median": 0.6719583333333254,
+      "minimum": 0.32185000000001174,
+      "maximum": 0.91825
+    },
+    "mixed_nonmonotone|observed_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.38368308221726194,
+      "median": 0.3832043154761905,
+      "minimum": 0.3034104166666657,
+      "maximum": 0.4492500000000001
+    },
+    "mixed_nonmonotone|observed_reversal|integrated_planning__to__specialised_planning": {
+      "n": 32,
+      "mean": 0.3022029761904761,
+      "median": 0.316790476190476,
+      "minimum": 0.2047812499999997,
+      "maximum": 0.3640089285714283
+    },
+    "mixed_nonmonotone|observed_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.3974856863839287,
+      "median": 0.3998794642857141,
+      "minimum": 0.35422321428571446,
+      "maximum": 0.429732142857143
+    },
+    "mixed_nonmonotone|observed_top_k_churn|integrated_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6430167534722218,
+      "median": 0.6367249999999918,
+      "minimum": 0.22355000000000563,
+      "maximum": 0.97075
+    },
+    "mixed_nonmonotone|observed_top_k_churn|integrated_planning__to__specialised_planning": {
+      "n": 192,
+      "mean": 0.539168750000001,
+      "median": 0.5435083333333309,
+      "minimum": 0.24005000000000565,
+      "maximum": 0.94
+    },
+    "mixed_nonmonotone|observed_top_k_churn|specialised_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6399369791666663,
+      "median": 0.6448833333333266,
+      "minimum": 0.2904000000000091,
+      "maximum": 0.92075
+    },
+    "null_common|observed_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.42436196056547604,
+      "median": 0.4366964285714291,
+      "minimum": 0.3588979166666656,
+      "maximum": 0.46503571428571433
+    },
+    "null_common|observed_reversal|integrated_planning__to__specialised_planning": {
+      "n": 32,
+      "mean": 0.2641634114583332,
+      "median": 0.2774910714285713,
+      "minimum": 0.19544166666666643,
+      "maximum": 0.305303571428571
+    },
+    "null_common|observed_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.40611125372023815,
+      "median": 0.41605074404761927,
+      "minimum": 0.3587083333333331,
+      "maximum": 0.43828571428571295
+    },
+    "null_common|observed_top_k_churn|integrated_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6776225694444439,
+      "median": 0.6999416666666579,
+      "minimum": 0.34420000000001305,
+      "maximum": 0.91325
+    },
+    "null_common|observed_top_k_churn|integrated_planning__to__specialised_planning": {
+      "n": 192,
+      "mean": 0.49325546875000165,
+      "median": 0.4871750000000038,
+      "minimum": 0.23210000000000558,
+      "maximum": 0.73975
+    },
+    "null_common|observed_top_k_churn|specialised_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.6482794270833329,
+      "median": 0.6637833333333258,
+      "minimum": 0.32230000000001235,
+      "maximum": 0.89125
+    },
+    "strict_to_broad_reversal|observed_reversal|integrated_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.5509582589285714,
+      "median": 0.5299550595238093,
+      "minimum": 0.3781437500000005,
+      "maximum": 0.7678571428571426
+    },
+    "strict_to_broad_reversal|observed_reversal|integrated_planning__to__specialised_planning": {
+      "n": 32,
+      "mean": 0.23425412016369035,
+      "median": 0.22812321428571364,
+      "minimum": 0.16694642857142888,
+      "maximum": 0.3012833333333345
+    },
+    "strict_to_broad_reversal|observed_reversal|specialised_planning__to__digitally_enabled_planning": {
+      "n": 32,
+      "mean": 0.4893420944940474,
+      "median": 0.4737501488095236,
+      "minimum": 0.368110416666667,
+      "maximum": 0.6646785714285731
+    },
+    "strict_to_broad_reversal|observed_top_k_churn|integrated_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.7847513020833321,
+      "median": 0.8424583333333202,
+      "minimum": 0.3585000000000135,
+      "maximum": 0.99975
+    },
+    "strict_to_broad_reversal|observed_top_k_churn|integrated_planning__to__specialised_planning": {
+      "n": 192,
+      "mean": 0.45066579861111294,
+      "median": 0.4310000000000047,
+      "minimum": 0.14594999999999814,
+      "maximum": 0.72925
+    },
+    "strict_to_broad_reversal|observed_top_k_churn|specialised_planning__to__digitally_enabled_planning": {
+      "n": 192,
+      "mean": 0.7277737847222213,
+      "median": 0.7747416666666634,
+      "minimum": 0.33385000000001225,
+      "maximum": 0.994
+    }
+  },
+  "interpretation_warning": "All proportions and means are properties of the frozen synthetic design or its Monte Carlo observation layer. They are not real-world prevalence, policy-effect or welfare estimates."
+}

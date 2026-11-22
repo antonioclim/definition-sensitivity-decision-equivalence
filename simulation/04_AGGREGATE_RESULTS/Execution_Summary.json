@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "cell_count": 270,
+  "worker_count": 4,
+  "stream_count": 4,
+  "replications_per_stream": 1000,
+  "replications_per_cell": 4000,
+  "replicate_count": 1080000,
+  "summary_row_count": 1076760,
+  "stream_summary_row_count": 1708560,
+  "full_results_generated": true,
+  "manuscript_evidence": true,
+  "ordered_output_independent_of_worker_completion": true,
+  "cpu_count_visible": 5
+}

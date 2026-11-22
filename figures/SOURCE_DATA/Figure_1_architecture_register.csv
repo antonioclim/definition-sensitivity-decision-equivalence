@@ -1,0 +1,6 @@
+stage,label,function
+1,Technological state register,Mutually exclusive observed states
+2,Adoption boundary,Definition as a subset of states
+3,Indicator,"Level, composition and ordering"
+4,Objective and action rule,"Threshold, top-k or robust ordering"
+5,Decision audit,"Entries, exits, loss and indeterminacy"

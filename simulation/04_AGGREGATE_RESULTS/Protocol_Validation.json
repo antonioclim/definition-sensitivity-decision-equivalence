@@ -1,0 +1,18 @@
+{
+  "protocol": {
+    "status": "PASS",
+    "schema_version": "3.0-econ.1",
+    "state_count": 5,
+    "definition_count": 3,
+    "objective_count": 4,
+    "cost_profile_count": 3,
+    "scenario_count": 6,
+    "unique_full_cell_count": 270,
+    "full_replicate_row_count": 1080000,
+    "smoke_cell_count": 4
+  },
+  "freeze": {
+    "status": "PASS",
+    "protocol_sha256": "1d7361861b4eee84dda9313a52ca3a3643873744d933bcdd208dab795ec18e22"
+  }
+}

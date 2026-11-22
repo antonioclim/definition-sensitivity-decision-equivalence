@@ -1,0 +1,349 @@
+{
+  "schema_version": "R13-empirical-sources-1.0",
+  "assembled_at_utc": "2026-11-11T19:23:58.837971+00:00",
+  "scope": "Primary documentation consulted; selected public historical documents statically inspected and hashed. No API cohort queries or new empirical calculations.",
+  "web_sources": [
+    {
+      "id": "WEB01",
+      "title": "European Union: EU countries, page 1",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "ref_id": "turn723518590view0",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "Official roster: 27 member-country pages; first 20 names inspected. Country inclusion is fixed independently of OA outcomes."
+    },
+    {
+      "id": "WEB02",
+      "title": "European Union: EU countries, page 2",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en?page=1",
+      "ref_id": "turn723518590view1",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "Remaining seven members inspected: Poland, Portugal, Romania, Slovakia, Slovenia, Spain and Sweden."
+    },
+    {
+      "id": "WEB03",
+      "title": "OpenAlex: Countries",
+      "url": "https://help.openalex.org/data/countries/",
+      "ref_id": "turn723518590view2",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-10-26",
+      "scope": "Country identifiers use ISO 3166-1 alpha-2. The fixed protocol uses GR for Greece, not the Eurostat EL label."
+    },
+    {
+      "id": "WEB04",
+      "title": "OpenAlex: Open access",
+      "url": "https://help.openalex.org/data/works/open-access/",
+      "ref_id": "turn476673780view0",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "Six scalar work statuses: diamond, gold, green, hybrid, bronze and closed. A work may have several access locations. The provider classification is not an independent licence, embargo or policy-compliance audit. Bronze includes free publisher access without an identified open licence; green denotes repository availability with toll access at the publisher."
+    },
+    {
+      "id": "WEB05",
+      "title": "OpenAlex: Filter",
+      "url": "https://help.openalex.org/api/filtering/",
+      "ref_id": "turn476673780view1",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "Comma-separated filters are conjunctive; values are case-insensitive. No paid created/updated-date filters are used."
+    },
+    {
+      "id": "WEB06",
+      "title": "OpenAlex: Group",
+      "url": "https://help.openalex.org/api/grouping/",
+      "ref_id": "turn476673780view2",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-10-26",
+      "scope": "group_by counts matching works. include_unknown includes missing/empty field values; the string-field unknown key is unknown. meta.count is the matched-work count; groups_count concerns the current page, not proof of complete pagination."
+    },
+    {
+      "id": "WEB07",
+      "title": "OpenAlex: Work attributes",
+      "url": "https://help.openalex.org/data/works/attributes/",
+      "ref_id": "turn344256225view0",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "publication_year, type and open_access.oa_status are work fields. Provider indexing, record merging and classification delimit the population."
+    },
+    {
+      "id": "WEB08",
+      "title": "OpenAlex: API reference",
+      "url": "https://help.openalex.org/api/",
+      "ref_id": "turn344256225view1",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "Basic public HTTP queries need no key; metadata are CC0. Default works corpus is core, which is distinct from any CWTS core-publication definition."
+    },
+    {
+      "id": "WEB09",
+      "title": "OpenAlex: Authentication",
+      "url": "https://help.openalex.org/api/authentication/",
+      "ref_id": "turn344256225view2",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-11-03",
+      "scope": "Anonymous basic use is documented, with 10 requests per second. Cursor paging beyond the first page needs a key. This design uses no account, key, cursor, payment or credential."
+    },
+    {
+      "id": "WEB10",
+      "title": "OpenAlex: Work types",
+      "url": "https://help.openalex.org/data/work-types/",
+      "ref_id": "turn764813182view1",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-11-07",
+      "scope": "article is a provider-assigned controlled type. It is not independently verified peer review. Type classification changes over time, so response bytes are frozen."
+    },
+    {
+      "id": "WEB11",
+      "title": "OpenAlex: Authorships",
+      "url": "https://help.openalex.org/data/authorships/",
+      "ref_id": "turn764813182view2",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-10-17",
+      "scope": "authorships.institutions.country_code filters mapped institutions. authorships.countries can additionally use countries extracted directly from an unmatched raw address; these filters are therefore not silently substituted."
+    },
+    {
+      "id": "WEB12",
+      "title": "OpenAlex: Expansion corpus",
+      "url": "https://help.openalex.org/data/works/corpus/",
+      "ref_id": "turn796961005view2",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-10-23",
+      "scope": "The corpus selector has core, expansion and all views; core is the default. The amendment pins corpus=core explicitly and does not combine legacy XPAC controls."
+    },
+    {
+      "id": "WEB13",
+      "title": "OpenAlex: How it is built",
+      "url": "https://help.openalex.org/data/how-its-built/",
+      "ref_id": "turn796961005view1",
+      "consulted_utc_date": "2026-11-11",
+      "page_updated": "2026-11-02",
+      "scope": "The database evolves daily, merges records and maps affiliations. Metadata are released under CC0. A small acquisition batch is a local extract, not an atomic snapshot of the full provider database."
+    },
+    {
+      "id": "WEB14",
+      "title": "cOAlition S: Guidance on the Implementation of Plan S",
+      "url": "https://www.coalition-s.org/guidance-on-the-implementation-of-plan-s/",
+      "ref_id": "turn796961005view0",
+      "consulted_utc_date": "2026-11-11",
+      "scope": "Compliance requires applicable funding/policy conditions and immediate access with appropriate version and rights. OA colours alone do not establish it. No Plan S compliance variable is constructed."
+    }
+  ],
+  "local_sources": [
+    {
+      "id": "LOCAL01",
+      "inspected_workspace_path": "outputs/scientometrics_r12_20261111/SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111/02_CONTROL_AND_REGISTER/R12_ACTION_PLAN.json",
+      "baseline_package": "R12",
+      "baseline_locator": "02_CONTROL_AND_REGISTER/R12_ACTION_PLAN.json",
+      "bytes": 16476,
+      "sha256": "9c59477befbf1c8c7cb16f490568a79f3a47809af9bf4c00e22dd0ebd2195ee9",
+      "scope": "Canonical Phase 1 scope and phase boundary."
+    },
+    {
+      "id": "LOCAL02",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/02_FROZEN_PROTOCOL/eint_r2_decision_protocol.yml",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/02_FROZEN_PROTOCOL/eint_r2_decision_protocol.yml",
+      "bytes": 13279,
+      "sha256": "1d7361861b4eee84dda9313a52ca3a3643873744d933bcdd208dab795ec18e22",
+      "scope": "Historical five states, three nested boundaries, platform/specialised/integrated objective, k=3, tau=0.25 and three cost profiles."
+    },
+    {
+      "id": "LOCAL03",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/METHOD_REGISTER_R2.json",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/METHOD_REGISTER_R2.json",
+      "bytes": 2468,
+      "sha256": "d493b5e9972dc25545d29fe895d05c7721b676ee092eb0ff77f4f223df318289",
+      "scope": "Empirical method and public source identities."
+    },
+    {
+      "id": "LOCAL04",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_freeze.yml",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_freeze.yml",
+      "bytes": 6903,
+      "sha256": "2491149bcc41596d8dbb9e509ee731447da70100de380d909daf45a4c46603be",
+      "scope": "Historical mapping, eligibility and disclosure rules; later hardened public-release constraints take precedence."
+    },
+    {
+      "id": "LOCAL05",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_implementation_amendment_01.yml",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/outcome_analysis_implementation_amendment_01.yml",
+      "bytes": 3433,
+      "sha256": "03244a3761052b294ab122999ff061b8f5932b4332b2ad7bd713e5f2f255e1ef",
+      "scope": "Corrected distinction between mapped, unresolved and ambiguous-positive rows."
+    },
+    {
+      "id": "LOCAL06",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/weighted_unresolved_row_sensitivity_freeze.yml",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_protocols/weighted_unresolved_row_sensitivity_freeze.yml",
+      "bytes": 5610,
+      "sha256": "b36347ac18c77790a57ae4d1cac3c5917005a31f35030afcf9b68f57f23e09fc",
+      "scope": "Historical conditional unresolved-weight analysis, retained without new FAT interval calculations."
+    },
+    {
+      "id": "LOCAL07",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_source/weighted_sensitivity.html",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/historical_source/weighted_sensitivity.html",
+      "bytes": 52858,
+      "sha256": "72f4dea52a586f8c59c5fc60fe9834154c1ba3065d517ada930d2c83593549c8",
+      "scope": "Static inspection of parser, classifier, weight validity, suppression, aggregation and sensitivity functions. Not executed in R13."
+    },
+    {
+      "id": "LOCAL08",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_RESULT_SUMMARY.json",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_RESULT_SUMMARY.json",
+      "bytes": 20021,
+      "sha256": "f656b1049d5e21e9a950ddb6bdcfe748ce06671e84d72aa979f1b58599d1aad3",
+      "scope": "Previously released aggregate results. No complete source-level vector is public."
+    },
+    {
+      "id": "LOCAL09",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_WEIGHTED_MISSINGNESS_SUMMARY.json",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/07_RECOVERED_EMPIRICAL_SOURCE/public_aggregates/WORLD_BANK_PUBLIC_WEIGHTED_MISSINGNESS_SUMMARY.json",
+      "bytes": 7521,
+      "sha256": "a78301a4d75adbb462bd7d9a596eefac8a5c6ef81d1fff99c254f32de08c845c",
+      "scope": "Previously released conditional missingness aggregates."
+    },
+    {
+      "id": "LOCAL10",
+      "inspected_workspace_path": "tmp/scientometrics_r10_20261111/fresh_s2/Supplementary_Material_S2_Code_and_Aggregate_Results/08_R3_VERIFICATION/empirical/replay_historical_source.mjs",
+      "baseline_package": "R11 inner S2",
+      "baseline_locator": "Supplementary_Material_S2_Code_and_Aggregate_Results/08_R3_VERIFICATION/empirical/replay_historical_source.mjs",
+      "bytes": 14495,
+      "sha256": "a8e080e44b9fb8e39556cd9aebdb973f7d7c9e012e3b6123c72228bceef4a0d2",
+      "scope": "Historical adapter retains internal results in memory and exports sanitised verification. Static inspection only in R13."
+    },
+    {
+      "id": "LOCAL11",
+      "inspected_workspace_path": "outputs/scientometrics_r11_20261111/SCIENTOMETRICS_ODSA_R11_FINAL_20261111/03_AUDIT_AND_GUIDE/SUBMISSION_REVIEW/R11_DATA_ACCESS_PROVENANCE_REVIEW.json",
+      "baseline_package": "R11",
+      "baseline_locator": "03_AUDIT_AND_GUIDE/SUBMISSION_REVIEW/R11_DATA_ACCESS_PROVENANCE_REVIEW.json",
+      "bytes": 7016,
+      "sha256": "44d5a0d63cb7d922da2bea87120c3737b22c90fe3ba99ab5492c9af9e5b6af48",
+      "scope": "Retained producer access/provenance evidence, including original-download and current-export limitations."
+    },
+    {
+      "id": "LOCAL12",
+      "inspected_workspace_path": "outputs/scientometrics_r12_20261111/SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111/05_EMPIRICAL_FEASIBILITY/R12_PROPOSED_OA_SPECIFICATION.json",
+      "baseline_package": "R12",
+      "baseline_locator": "05_EMPIRICAL_FEASIBILITY/R12_PROPOSED_OA_SPECIFICATION.json",
+      "bytes": 7524,
+      "sha256": "233445f0f41af78e158a7e39e06ffe68e95a68f532a587bd37b259419b166c04",
+      "scope": "Earlier candidate specification, now narrowed to explicit choices. No study was executed under it."
+    },
+    {
+      "id": "LOCAL13",
+      "inspected_workspace_path": "outputs/scientometrics_r12_20261111/SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111/05_EMPIRICAL_FEASIBILITY/OPENALEX_TRANSPORT_PROBE_METADATA.json",
+      "baseline_package": "R12",
+      "baseline_locator": "05_EMPIRICAL_FEASIBILITY/OPENALEX_TRANSPORT_PROBE_METADATA.json",
+      "bytes": 1544,
+      "sha256": "7e2e27236c5f9f23d6a7f36e1738d155a73072d08cdc683e1a00b54c7b011091",
+      "scope": "Already executed global transport/schema probe, not an empirical sample."
+    },
+    {
+      "id": "LOCAL14",
+      "inspected_workspace_path": "outputs/scientometrics_r12_20261111/SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111/05_EMPIRICAL_FEASIBILITY/OPENALEX_TRANSPORT_PROBE_RESPONSE.json",
+      "baseline_package": "R12",
+      "baseline_locator": "05_EMPIRICAL_FEASIBILITY/OPENALEX_TRANSPORT_PROBE_RESPONSE.json",
+      "bytes": 1432,
+      "sha256": "c1512dafd923d689c4bc3949efaaa7b10bfb446488f0695a0bee7b5441e17a95",
+      "scope": "Already observed R12 global response; hashed only here and not included in the future cohort."
+    },
+    {
+      "id": "LOCAL15",
+      "inspected_workspace_path": "outputs/scientometrics_r12_20261111/SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111/05_EMPIRICAL_FEASIBILITY/OPENALEX_COUNTRY_ROUTE_METADATA.json",
+      "baseline_package": "R12",
+      "baseline_locator": "05_EMPIRICAL_FEASIBILITY/OPENALEX_COUNTRY_ROUTE_METADATA.json",
+      "bytes": 1641,
+      "sha256": "ffb907843663011d7eaf0fb8dc40631204e8bbc70f1465e915cc481fab8e5ebf",
+      "scope": "Already executed Romania 2024 article route probe."
+    },
+    {
+      "id": "LOCAL16",
+      "inspected_workspace_path": "outputs/scientometrics_r12_20261111/SCIENTOMETRICS_ODSA_R12_COUNTERAUDIT_PLAN_20261111/05_EMPIRICAL_FEASIBILITY/OPENALEX_COUNTRY_ROUTE_RESPONSE.json",
+      "baseline_package": "R12",
+      "baseline_locator": "05_EMPIRICAL_FEASIBILITY/OPENALEX_COUNTRY_ROUTE_RESPONSE.json",
+      "bytes": 1871,
+      "sha256": "18834b7d43fd35cab89911b1ee3967d85740553e2713ef43e40f826d9deab808",
+      "scope": "Already observed R12 Romania response; hashed only here, not recycled as a future cohort row."
+    },
+    {
+      "id": "LOCAL17",
+      "inspected_workspace_path": "outputs/scientometrics_r11_20261111/SCIENTOMETRICS_ODSA_R11_FINAL_20261111/01_SUBMISSION/Scientometrics_Manuscript_R11.docx",
+      "baseline_package": "R11",
+      "baseline_locator": "01_SUBMISSION/Scientometrics_Manuscript_R11.docx",
+      "bytes": 1103916,
+      "sha256": "d4c0e32b7cd17ef333a793ecd10a1b40dc103f7e694880727653dfd0ba80977c",
+      "scope": "Canonical manuscript, retained unchanged and included in the cumulative disclosure inventory."
+    },
+    {
+      "id": "LOCAL18",
+      "inspected_workspace_path": "outputs/scientometrics_r11_20261111/SCIENTOMETRICS_ODSA_R11_FINAL_20261111/02_EDITABLE_AND_PREVIEW/Scientometrics_Online_Resource_1_R11.docx",
+      "baseline_package": "R11",
+      "baseline_locator": "02_EDITABLE_AND_PREVIEW/Scientometrics_Online_Resource_1_R11.docx",
+      "bytes": 67084,
+      "sha256": "d44897060866f12a6b1a0aeadbb10fdcb1ba8db6d11a69983b8c5b92b2f78f60",
+      "scope": "Canonical Online Resource 1, retained unchanged and included in the cumulative disclosure inventory."
+    },
+    {
+      "id": "LOCAL19",
+      "inspected_workspace_path": "tmp/scientometrics_r11_20261111/esm2_r11_stage/R10_VERIFICATION/empirical/checks/R10_POSTHOC_SENSITIVITY_REPRODUCTION.json",
+      "baseline_package": "R11 ESM_2.zip",
+      "baseline_locator": "R10_VERIFICATION/empirical/checks/R10_POSTHOC_SENSITIVITY_REPRODUCTION.json",
+      "bytes": 16905,
+      "sha256": "dcb1acb9ec883ae2c3273178cb67d5f19fc5aac60dc5eda94ea44a3d145670be",
+      "scope": "Already distributed R10 sensitivity results and checks; part of the cumulative release inventory."
+    },
+    {
+      "id": "LOCAL20",
+      "inspected_workspace_path": "tmp/scientometrics_r11_20261111/esm2_r11_stage/R10_VERIFICATION/empirical/checks/R10_EMPIRICAL_REPLAY_EXACT.json",
+      "baseline_package": "R11 ESM_2.zip",
+      "baseline_locator": "R10_VERIFICATION/empirical/checks/R10_EMPIRICAL_REPLAY_EXACT.json",
+      "bytes": 6955,
+      "sha256": "db81b0a0ced885ca1a01498c6901a9f08e93f8dbd649681da14d85f4289bf3e1",
+      "scope": "Retained R10 historical replay verification, not a new R13 execution."
+    }
+  ],
+  "archive_locator_rule": "R11 inner S2 locators are inside R11/01_SUBMISSION/ESM_2.zip -> FROZEN_ARCHIVE/S2_FROZEN_R5.zip. R11 ESM_2.zip locators are members of that outer resource.",
+  "frozen_inner_sha256": "841e71c4cec572e6bc1c90ec9ab10abfc14febb9514bad7dbf03f44fb17a1a62",
+  "source_retrieval_limit": "The WEB registry records consulted pages and tool refs, not a claim that complete HTML snapshots or all upstream code were downloaded. The failed guessed /data/works/expansion/ URL was replaced with the observed canonical /data/works/corpus/ documentation link.",
+  "retained_world_bank_primary_routes": [
+    {
+      "id": "D01",
+      "url": "https://microdata.worldbank.org/catalog/8209/data-dictionary/F1",
+      "web_ref": "turn993285814view0",
+      "lines": "5-15; 42-50",
+      "finding": "Official catalogue identifies fat0_raw_data_qje as the principal logical data file, with 21,055 cases and 723 variables.",
+      "establishes": "Public logical-file identification and concordant dimensions.",
+      "does_not_establish": "CSV export format, ZIP archive identity, file bytes or upstream coding."
+    },
+    {
+      "id": "D02",
+      "url": "https://microdata.worldbank.org/catalog/8209/get-microdata",
+      "web_ref": "turn993285814view1",
+      "lines": "41-45",
+      "finding": "The current public access page requires a logged-in account and offers login or free registration.",
+      "establishes": "Concrete producer access route.",
+      "does_not_establish": "Successful access, terms accepted, file inventory behind login or a current file hash."
+    },
+    {
+      "id": "D03",
+      "url": "https://microdata.worldbank.org/catalog/8209/study-description",
+      "web_ref": "turn296253041view2",
+      "lines": "96-104; 187-204",
+      "finding": "The catalogue describes an edited/anonymised release for public distribution and requires citation including download source/date.",
+      "establishes": "Producer description and attribution expectations.",
+      "does_not_establish": "The author’s original download-event date or fulfilment of all access conditions."
+    },
+    {
+      "id": "D04",
+      "url": "https://reproducibility.worldbank.org/catalog/463",
+      "web_ref": "turn296253041view1",
+      "lines": "128-149",
+      "finding": "The official companion package names FAT0_raw_data_qje.dta, links the FAT source to catalogue8209 and describes public availability with redistribution restricted.",
+      "establishes": "Producer documentation connecting the logical data file and access catalogue.",
+      "does_not_establish": "Identity between a Stata file and the registered CSV bytes or a completed upstream recoding audit."
+    }
+  ]
+}

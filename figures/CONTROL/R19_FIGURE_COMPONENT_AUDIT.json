@@ -1,0 +1,311 @@
+{
+  "schema": "R19_FIGURE_COMPONENT_AUDIT_1",
+  "status": "PASS",
+  "scope": "Caption terminal-punctuation correction and private component closure against R18.",
+  "source_version": "R18",
+  "source_manifest_sha256": "3c05ac5e2efec6f8b9ad7d1ca47624a205ba7c03c244582629d38bfc2a2b9864",
+  "caption_changes": [
+    {
+      "figure": 1,
+      "removed_terminal_character": ".",
+      "removed_characters": 1,
+      "internal_text_and_punctuation_identical": true,
+      "alternative_text_identical": true,
+      "original_caption_sha256": "6b634eb1f1ac63024e65165ddccca355c43e37815df25b940b4e3ca023cc7dd1",
+      "current_caption_sha256": "019ed7bd9d373f9cc3b481bc4bd54025a6d1725c11ce1b111a558596454bb480"
+    },
+    {
+      "figure": 2,
+      "removed_terminal_character": ".",
+      "removed_characters": 1,
+      "internal_text_and_punctuation_identical": true,
+      "alternative_text_identical": true,
+      "original_caption_sha256": "5d5011d9fb47361c71384e2d2491781479a1e6e636ddd06776c2f184c0ea8aa1",
+      "current_caption_sha256": "e8676b594b647df17f54418f940db326bfe90c0244aed8ce83d99ac3b03ceaa6"
+    },
+    {
+      "figure": 3,
+      "removed_terminal_character": ".",
+      "removed_characters": 1,
+      "internal_text_and_punctuation_identical": true,
+      "alternative_text_identical": true,
+      "original_caption_sha256": "ec20a21eb5e919abcff0f28c1cb584a7313f345b5436850803b5621ea0bf564b",
+      "current_caption_sha256": "3fd56c67337c74308003866dd624a04e4cbea5738f3f4983ad727a89c778d09f"
+    },
+    {
+      "figure": 4,
+      "removed_terminal_character": ".",
+      "removed_characters": 1,
+      "internal_text_and_punctuation_identical": true,
+      "alternative_text_identical": true,
+      "original_caption_sha256": "3190bdd200e7ae1b6e0ee5c74afc754cdab5d389a4f3e04242bf7531ddfd4414",
+      "current_caption_sha256": "bfd17ad7df8d3b459f734a8d45fa55858230ba7f82643e25303f12a1de8d1625"
+    },
+    {
+      "figure": 5,
+      "removed_terminal_character": ".",
+      "removed_characters": 1,
+      "internal_text_and_punctuation_identical": true,
+      "alternative_text_identical": true,
+      "original_caption_sha256": "5a82369b1a8cd072d712d785d46fb3616a000ae576bbecee5d30fb8d43af3402",
+      "current_caption_sha256": "96e0961356f0204bbd6a38660168ae2417cb0b0a06726a7566a0056ebb717684"
+    }
+  ],
+  "removed_caption_characters": 5,
+  "primary_artwork_files_unchanged": 35,
+  "source_files_unchanged": 7,
+  "code_and_dependency_files_unchanged": [
+    {
+      "path": "code/build_figures.py",
+      "sha256": "20be5b609e83d0840b8c7f810459f353966f4338229744ed0cb0abd53305f2cf",
+      "identical_to_R18": true
+    },
+    {
+      "path": "code/verify_exports.py",
+      "sha256": "a9fdeea9e8ec1e639a9cea2b4027bf63d86157b74baa5e941b152d014ca0f988",
+      "identical_to_R18": true
+    },
+    {
+      "path": "code/verify_figures.py",
+      "sha256": "d4bcd64eae85e73bb26ec518a2981fdcaeddec890d22a01742dbc20526bfe773",
+      "identical_to_R18": true
+    },
+    {
+      "path": "requirements_figures.txt",
+      "sha256": "326d821f54c07e0cdc259a567517eaf33c12b6fef9814e7a29d56a81da5bb7c5",
+      "identical_to_R18": true
+    },
+    {
+      "path": "verify_package.py",
+      "sha256": "07a870052bf4bf2d650149f89370323eada5f2f019d0d05e54aef67bd03fce79",
+      "identical_to_R18": true
+    }
+  ],
+  "primary_artwork": [
+    {
+      "path": "EPS_VECTOR/Fig1.eps",
+      "sha256": "f0ac26715a0018451b4fbda2649ac5c480bd4ed1b1b75caa47ba4fc7f706f459",
+      "identical_to_R18": true
+    },
+    {
+      "path": "EPS_VECTOR/Fig2.eps",
+      "sha256": "fe90417f409556f2f3f950a915db232385ea60d347472054e68be04c49fd6c75",
+      "identical_to_R18": true
+    },
+    {
+      "path": "EPS_VECTOR/Fig3.eps",
+      "sha256": "213be385c193ec1ce3018c9ef20c61c79f98f651140088348bdd33b7e54345f7",
+      "identical_to_R18": true
+    },
+    {
+      "path": "EPS_VECTOR/Fig4.eps",
+      "sha256": "8aa13fd156fba4c61da622a3c93dbe816ed535db6860b303154324a88243bb69",
+      "identical_to_R18": true
+    },
+    {
+      "path": "EPS_VECTOR/Fig5.eps",
+      "sha256": "6d4a3d91293f06a9c0c286149cc3d88826ed758b8b01729895fd0510d827a15e",
+      "identical_to_R18": true
+    },
+    {
+      "path": "NATIVE_SOURCE/Fig1.fodg",
+      "sha256": "dff4c41b0d08b6bae8b05aead077365c2d2057f85cf5afa065060e5529cb3b8d",
+      "identical_to_R18": true
+    },
+    {
+      "path": "NATIVE_SOURCE/Fig2.fodg",
+      "sha256": "0b186fe6375c8fe89e8e50a1a4f6c139892acf402c692df0daf141b08b485e96",
+      "identical_to_R18": true
+    },
+    {
+      "path": "NATIVE_SOURCE/Fig3.fodg",
+      "sha256": "dfa11da4b5c3ccf6aa0de9a71dcebfdc694e2bd1a89e4b1980843ce99f782451",
+      "identical_to_R18": true
+    },
+    {
+      "path": "NATIVE_SOURCE/Fig4.fodg",
+      "sha256": "9fb13565f971961b70188eb6876aac53367e13583e944bacaf5807ee3cd194a9",
+      "identical_to_R18": true
+    },
+    {
+      "path": "NATIVE_SOURCE/Fig5.fodg",
+      "sha256": "ca20b996c67f7934d73ac6c8ed0cf4c5d8a606c2063681b816a21d9a99948be9",
+      "identical_to_R18": true
+    },
+    {
+      "path": "ODG_NATIVE/Fig1.odg",
+      "sha256": "b12e85b5900e6a3992373285543a3d05a136fdc105667245fc684ea59d46ecb6",
+      "identical_to_R18": true
+    },
+    {
+      "path": "ODG_NATIVE/Fig2.odg",
+      "sha256": "a00d0c91f7247900b7938abe4a9c910f1e8f7f71e79249a7a7d93bdcc8119c38",
+      "identical_to_R18": true
+    },
+    {
+      "path": "ODG_NATIVE/Fig3.odg",
+      "sha256": "ba8ba9e6baf6489288d9963e8cdd13354a38bb0c12538ec70af5a2f00ca09218",
+      "identical_to_R18": true
+    },
+    {
+      "path": "ODG_NATIVE/Fig4.odg",
+      "sha256": "c5bb3fb4ecd37d90c96146df7ab3698ce6e0b0c908e30de65d9ae8365ad60467",
+      "identical_to_R18": true
+    },
+    {
+      "path": "ODG_NATIVE/Fig5.odg",
+      "sha256": "3f24a4687ab4c7e4985099b516ed42ee3cd55e37c6c931ce96129ebad0b853b4",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PDF_VECTOR/Fig1.pdf",
+      "sha256": "0ed140ac4a5be6ceaf750c52c7f3aee07c5c7ebe8bc6892b66a1c78a81ca41be",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PDF_VECTOR/Fig2.pdf",
+      "sha256": "69b491dc4b575f65562813c51c9df062b6d2ed215d64116a5336225ec9b85902",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PDF_VECTOR/Fig3.pdf",
+      "sha256": "5f289c5284825461f5ae635b620519c5725b8b96d2c73e4541c59f56b5533aeb",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PDF_VECTOR/Fig4.pdf",
+      "sha256": "db2619042924ff6caac1b68168c6acf06e7595ecad0efa02d5bf4ae5f1291f98",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PDF_VECTOR/Fig5.pdf",
+      "sha256": "f60b0758a5c140c6fe989678f4266561d4b0fd60118518b2fd07c67b615454b9",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PNG_600/Fig1.png",
+      "sha256": "7a9e957c1e57109f312db624d8b6f98f94c6745692d6372147d32bdfd7d78a3e",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PNG_600/Fig2.png",
+      "sha256": "2c502e8b14e1542eff5702f987e29c42b710785d6c303b01aa24faece2a8d72e",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PNG_600/Fig3.png",
+      "sha256": "93a1009a779b6d4a29e56fbd299069c25525475e657f8aacbaa90c2bd9098db0",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PNG_600/Fig4.png",
+      "sha256": "97dac301b0875e23093a7bf969c4c5c7a0dd6c6c386d23f675d945f3272e1c1b",
+      "identical_to_R18": true
+    },
+    {
+      "path": "PNG_600/Fig5.png",
+      "sha256": "7b720bad98df262a0786f3aca26b1ac205f5973261578955beba9ed82c89084f",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SVG_EDITABLE/Fig1.svg",
+      "sha256": "dd95e0f4491c012216e1b1da8b1c6efb95af550bfb7416b5a87f70e4292388cf",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SVG_EDITABLE/Fig2.svg",
+      "sha256": "2ea6b10c5985c23743453d41a59ff0cee12075438a566a759ad87a758783f185",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SVG_EDITABLE/Fig3.svg",
+      "sha256": "e0ee97234509545621aae92992ad61dbc2f91579f79563092ae17ccabd61c90e",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SVG_EDITABLE/Fig4.svg",
+      "sha256": "f97a0d2a9482ad3a4e50543379c7f2bd7eddf30c177c9484dfc515f66905a8ba",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SVG_EDITABLE/Fig5.svg",
+      "sha256": "b550eab015dca6f17cb14e9e917ec61552adf33071b5591ce8c6c91a125e015b",
+      "identical_to_R18": true
+    },
+    {
+      "path": "TIFF/Fig1.tif",
+      "sha256": "9a2f3bca180d4638b2ea9df4f81425ef4f348105135c5621d0fc5e7b88cc3faf",
+      "identical_to_R18": true
+    },
+    {
+      "path": "TIFF/Fig2.tif",
+      "sha256": "e766520d146041a66b4d2a968a8f506a4e7eb579cb9726f9bd3d92bef5f0e726",
+      "identical_to_R18": true
+    },
+    {
+      "path": "TIFF/Fig3.tif",
+      "sha256": "6e1c1b5160cd9e1cb98fba96cb7aacb69b6a4c77c33025ab170579a406477682",
+      "identical_to_R18": true
+    },
+    {
+      "path": "TIFF/Fig4.tif",
+      "sha256": "537740239074be01fed39dd668a8fed17e6afccd788a8bda0abceeae5bd84534",
+      "identical_to_R18": true
+    },
+    {
+      "path": "TIFF/Fig5.tif",
+      "sha256": "2d261d357721cb3c056815d1e6495b6365df18b6a00af125d95a8de2f46df599",
+      "identical_to_R18": true
+    }
+  ],
+  "source_data": [
+    {
+      "path": "SOURCE_DATA/Figure_1_architecture_register.csv",
+      "sha256": "698662f049deff77030652eec5579726518ee349251ec6ec229bfd42554d2bf5",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SOURCE_DATA/Figure_2_ablation_event_frequencies.csv",
+      "sha256": "4790a4afced7cd57c4eb6c40121ed8291cc92ed203046182bc72ccfcf2ad7327",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SOURCE_DATA/Figure_3_panel_A_reference_rates_mae.csv",
+      "sha256": "f7262ad9141f0f7503b837efe4a9ef1714431da98cbb6aab2da6257d3eec18ac",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SOURCE_DATA/Figure_3_panel_B_reference_ordering.csv",
+      "sha256": "fc74a987911aa021ea2bc3436b3b19af877d53708e338acf0d4f05b53066116a",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SOURCE_DATA/Figure_3_panel_C_unmatched_objective.csv",
+      "sha256": "ce883a4bf65b04a6cf1702d250bba12101ba36e0eeb8ba1b7736231aca9679ea",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SOURCE_DATA/Figure_4_unresolved_determinacy.csv",
+      "sha256": "185c5ad05307ccfdfae01ba955b26f9d4bc3043a876ef3687919ed5576e049bd",
+      "identical_to_R18": true
+    },
+    {
+      "path": "SOURCE_DATA/R14_1_OA_REPORTING_TABLES.json",
+      "sha256": "b96426af1c100caea41a616fd1a962cd6bb15bd5ecd681a559ca60af000bd99b",
+      "identical_to_R18": true
+    }
+  ],
+  "retained_structural_evidence": {
+    "path": "CONTROL/NATIVE_STRUCTURE_AND_VALUES.json",
+    "sha256": "eff898d67c47d758eb7eb734ce92094cffaf4bad169786cf8db9c7bbecc9c709",
+    "identical_to_R18": true,
+    "scope": "Existing R18 structural and source-value evidence; no new invocation is represented by this retained record."
+  },
+  "new_native_application_roundtrip": false,
+  "new_scientific_simulations": 0,
+  "limits": [
+    "The primary artwork and its metadata are unchanged; no export or visual layout was regenerated.",
+    "R19 compares file identities and the exact caption edit; the structural verification record remains historical.",
+    "No native Windows acceptance test was run."
+  ]
+}

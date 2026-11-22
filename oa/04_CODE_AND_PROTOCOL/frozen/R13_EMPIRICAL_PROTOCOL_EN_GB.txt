@@ -1,0 +1,248 @@
+ODSA R13: EMPIRICAL AMENDMENT FOR FAT AND OPEN ACCESS
+Protocol identifier: ODSA-R13-FAT-OA-DESCRIPTIVE-20261111
+Prepared on 11 November 2026
+Status: specified for the final R13 freeze; the new empirical analyses have not been executed
+
+1. Purpose, authority and limits
+
+This amendment specifies two bounded descriptive applications of the ODSA decision layer. It fixes the state boundaries, analytical benchmarks, units, common universes, denominators, rules, costs, numerical conventions, sensitivity families and release conditions before the new diagnostics are calculated. The machine-readable specification is R13_EMPIRICAL_PROTOCOL_EN_GB.json. The companion source register, query manifest, disclosure design and input/output contract are identified at the end of this document.
+
+The research question is whether alternative operational boundaries identify the same units under a declared descriptive follow-up rule, and how their plug-in semantic mismatch and action-set disagreement depend on an explicit benchmark. The benchmarks are constructed from the same state registers as the candidate indicators. They are not independently observed productivity, welfare, policy success or research-quality outcomes. Consequently, this extension can illustrate consequences of a measurement choice but cannot establish external construct validity or causal policy loss.
+
+R11 remains the canonical completed article and computational baseline. Its manuscript, Online Resource 1, frozen S2 archive, figures and historical results remain unchanged. R12 remains the completed counter-audit and four-phase plan. This amendment is prospective for the newly specified diagnostics. It is not a retrospective preregistration of the original FAT analysis, a public registry deposit or a new author signature. The accepted package is dated and hash-bound before Phase 2.
+
+The work executed during this empirical subtask was limited to reading public historical code and protocols, checking primary documentation, validating the declared specification and checking the existence, size and SHA-256 of the retained FAT input. No private CSV row was parsed, no new FAT metric or G* was calculated, no EU27 cohort was acquired and no new Monte Carlo or empirical replay was run. No login, account, API key, payment, terms acceptance or external deposit was performed.
+
+2. Information known before the amendment
+
+The original public FAT aggregates and R11 text were already known. These include 15 reporting countries represented by 16 source strata, and the original boundary-specific eligible counts of 14, 16 and 16. Those counts do not determine the common universe of this extension. The public integrated-planning maximum is already known to be below 0.25. The secondary threshold is therefore not blind to every prior FAT outcome; the potentially degenerate result under the narrow definition must be retained, not removed as uninteresting.
+
+The original synthetic protocol already contains k=3, a threshold of 0.25, highest and lowest selection, the platform/specialised/ERP benchmark and cost profiles 1:1, 1:2 and 2:1. These are retained design settings, not parameters estimated from the new empirical results. The frozen simulation need not be rerun to add the present applications. [LOCAL02]
+
+R12 also acquired two small OpenAlex responses for feasibility: a global OA-status grouping and a Romania 2024 article grouping. Their original timestamps and hashes remain in R12. They established transport/schema feasibility at those times; they were not a representative sample or an executed EU27 study. The Romania response will not be reused as one row of the future batch. The full EU27 diagnostic results and the new FAT action/semantic metrics have not been calculated in R13. [LOCAL13–LOCAL16]
+
+3. Common analytical contract
+
+3.1 Units, distributions and weighting
+
+Let G* denote the common eligible analytical universe. It is fixed once for an application and is shared by every boundary, benchmark and comparison within that application. Let p_g(s) be the complete-case state proportion for state s in unit g. Every p_g is nonnegative and sums exactly to one. For boundary D_d and benchmark A_q, the scores are a_gd = sum over s in D_d of p_g(s), and q_g = sum over s in A_q of p_g(s).
+
+All cross-unit semantic averages and action losses give every eligible stratum/country weight one. FAT survey weights operate within a source stratum; they are not used to pool strata into a global adoption rate. OA publication counts operate within a country; larger publication-producing countries do not receive a larger weight in the comparison of country selections. The two India source strata remain distinct. International OA publications can contribute to several country counts, so country scores are not asserted to be independent.
+
+3.2 Primary and secondary rules
+
+The primary rule selects the three units with the lowest score. This represents a fixed, small descriptive review capacity: which low-prevalence units would be flagged for follow-up under each boundary? It is an illustration, not an actual allocation of resources or an empirically optimised policy. Three is inherited from the synthetic design; it is not justified by a claimed external policy standard.
+
+The first secondary rule selects the three highest-score units. It describes identifying high-prevalence examples and checks whether conclusions depend on direction. It is not a substitute primary analysis. The second secondary rule selects every unit whose score is strictly below 1/4. Equality at 1/4 is excluded. The threshold is one-quarter as an illustrative reference inherited from the earlier grid, not a validated adoption target or OA requirement. No other k, threshold or direction will be searched in this extension.
+
+The same rule, parameter, score denominator and priority apply to each candidate definition and the benchmark. A comparison of selections constructed on different eligible universes is not accepted.
+
+3.3 Ties and numerical comparisons
+
+Selection uses exact rational scores. Exact equality is resolved using the fixed unit priority specified below, shared by all definitions and the benchmark. Neither rounded display values nor a tolerance may merge scores for selection. For a rank rule, an exact tie between the kth and (k+1)th scores is flagged. A separate flag records whether that boundary gap is at most 1e-12; it is diagnostic only and never changes membership.
+
+For each score vector separately, a secondary all-admissible membership envelope describes which units are guaranteed or possible if exact point ties may be resolved in any admissible way. It does not combine an independently favourable tie resolution for one definition with another favourable resolution for the benchmark to claim an exact loss bound. The primary action loss remains a single, reproducible value under the common fixed priority.
+
+3.4 Semantic and action costs
+
+Both cost systems use the numerical profiles equal_costs=(1,1), exclusion_costly=(1,2) and inclusion_costly=(2,1), in the order false inclusion, false exclusion. They are explicitly separate cost systems. A unit of semantic cost concerns probability mass assigned to different state sets. A unit of action cost concerns selection of a source stratum/country. The coefficients are assumed relative costs, not estimated monetary values or actual losses. [LOCAL02]
+
+For semantic mismatch, equal costs are primary. Both asymmetric profiles are secondary for all three boundaries. Define FP_sem(g,d) as the mass in D_d but outside A_q, and FN_sem(g,d) as the mass in A_q but outside D_d. The reported semantic loss is:
+
+L_S(d;c) = [sum over g in G* of {c_FP FP_sem(g,d) + c_FN FN_sem(g,d)}] / |G*|.
+
+Report the two mean masses as well as their cost-weighted sum. These are plug-in differences between declared state sets, not observed error rates against an independently validated outcome. If D_d is a subset of A_q, false-inclusion mass is zero by design. If A_q is a subset of D_d, false-exclusion mass is zero by design. Such zeros are algebraic consequences, not new empirical discoveries or validation findings.
+
+For action loss, let B_d,r and B_q,r be the candidate and benchmark selections. False selection is |B_d,r minus B_q,r| and missed reference is |B_q,r minus B_d,r|. Report the count-scale loss c_FP times false selection plus c_FN times missed reference, and divide that value by |G*| for the per-unit loss. The denominator is not k, the selected count, the union size, the number of establishments or the number of publications. With asymmetric costs, per-unit loss can exceed one; it is an average assumed cost, not a probability.
+
+Equal action costs are used for the primary lowest-three rule and both secondary rules. The two asymmetric action profiles are evaluated only for the threshold rule. Two rank sets of the same size have equal false-selection and missed-reference counts. Thus the 1:2 and 2:1 profiles coincide for a fixed k and cannot demonstrate a directional cost trade-off there.
+
+3.5 Set statistics and empty cases
+
+For each of the three definitions versus q, report objective-relative action loss and set comparisons. For each of the three definition pairs, report set comparisons without relabelling the second definition as a separately justified objective. Set comparisons include equality, intersection and union sizes, symmetric difference and its division by |G*|, Jaccard and rank churn where applicable.
+
+Jaccard is intersection/union for a nonempty union. When both sets are empty, retain the R11 convention Jaccard=1 and attach the status both_empty_convention_one, together with both cardinalities. Equality and symmetric difference zero remain true, but this convention is not positive evidence of substantive robustness. Rank churn is symmetric-difference size divided by 2k, only for the registered rank comparisons with equal positive k=3. It is null/not_applicable for threshold comparisons even if their realised sizes happen to be equal. Empty G* is a hard failure.
+
+The internal canonical calculation uses exact integers or rational representations. Decimal displays are derived after calculation. Public outputs contain only authorised estimates and their authorised denominators, including |G*|. Protected FAT source-level denominators and any components exposing them remain internal. No p-values, confidence intervals, bootstrap, sampling-variance estimate or causal interpretation is added.
+
+4. FAT application
+
+4.1 Input identity and access
+
+The retained input is fat0_raw_data_qje.csv, 19,633,172 bytes, with SHA-256:
+
+f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17
+
+The R13 availability check confirmed those bytes by streaming hash and stat only; no CSV rows were parsed. The producer catalogue identifies the logical file fat0_raw_data_qje and gives the Get Microdata route. That route requires login. This extension uses the already retained registered file and makes no new access request. The original download-event date and identity with a current producer export remain unverified. No data redistribution permission is inferred from another project or from this amendment. The raw input stays outside all delivery kits. [LOCAL03, LOCAL11; R13_FAT_INPUT_AVAILABILITY.json]
+
+Producer catalogue: https://microdata.worldbank.org/catalog/8209
+Access route: https://microdata.worldbank.org/catalog/8209/get-microdata
+Data DOI: https://doi.org/10.48529/assd-3j65
+
+4.2 Unit, fields and state meaning
+
+The unit is the exact country source label, not a pooled country total. The fixed priority is:
+
+Bangladesh; Brazil; BurkinaFaso; Cambodia; Chile; Croatia; Ethiopia; Georgia; Ghana; India; India_Wave2_New; Kenya; Korea; Poland; Senegal; Vietnam.
+
+This literal order also equals ascending ASCII order for this roster. Filter it to G* without reordering; do not use a locale-dependent comparison. The distinction between India and India_Wave2_New is retained.
+
+Only country, base_wt and ib9b1–ib9b5 are required. The five state atoms, in that indicator order, are handwritten_processes, standard_software, mobile_apps_or_digital_platforms, specialised_software and erp. The measurement concerns the MOST-used production-planning method. It is not the most sophisticated technology possessed, all technologies available, a capability inventory, investment or firm performance. [LOCAL03–LOCAL07]
+
+A mapped row has exactly one valid positive and four valid zeros. All-valid-zero rows and no-positive rows with a missing/special indicator and no invalid nonbinary value remain unresolved. A row with one positive and another missing/special indicator is ambiguous-positive and is excluded. Multiple positives, invalid nonmissing nonbinary values or disagreement with the registered taxonomy/counts cause a failure before new diagnostics. ib9b6 is unavailable; unresolved rows are not silently relabelled Other, handwritten, non-users or inapplicable.
+
+4.3 Boundaries and benchmark
+
+The fixed definition order is:
+
+1. integrated_planning = {erp}.
+2. specialised_planning = {specialised_software, erp}.
+3. digitally_enabled_planning = {standard_software, mobile_apps_or_digital_platforms, specialised_software, erp}.
+
+The primary benchmark is platform_or_more_specific_planning = {mobile_apps_or_digital_platforms, specialised_software, erp}. It corresponds to the existing synthetic dedicated_or_integrated_objective state set. The substantive question is routine planning through an application/platform, specialised software or ERP, beyond generic standard software alone. The shorthand platform-or-higher identifies this set; it does not demonstrate a universal capability hierarchy or higher productivity.
+
+This objective lies between the specialised and broad digital sets but matches neither. Its being unmatched is a mathematical property, not the reason to choose it. Because it is built from the same observations, a lower loss against it means closer agreement with this analytical scope, not independent validity. Matching-boundary zero-loss cases are synthetic implementation controls and will not be presented as empirical validation.
+
+4.4 Weights, arithmetic and reconciliation
+
+The primary denominator D_g is the sum of positive finite base_wt over mapped rows in source stratum g. The same denominator is used for every d and q. First preserve the historical missing-token and JavaScript Number validity classification. For retained positive finite weights, convert the original decimal/scientific token exactly into a rational and sum exactly. The accepted grammar is fixed in the JSON. A finite positive token accepted by the historical parser but outside this grammar causes a halt; it is not silently reinterpreted.
+
+This is new exact arithmetic on the recorded decimal weights. It is not claimed to reproduce sequential floating-point summation bit for bit. Before new action or semantic metrics, the adapter must reconcile the registered taxonomy/counts, weight eligibility, suppression flags and released historical outputs. Integer counts and flags must agree exactly. Comparable rate/summary values must agree within absolute 1e-12. The unchanged historical source, or its transparently observed in-memory execution, supplies the comparison; full source-stratum results must not be written into a public report. The reconciliation report contains only check counts, status and maximum residuals. Any failure stops the extension before new metrics. The historical code and outputs remain byte-unchanged. [LOCAL07, LOCAL10]
+
+The tolerance is for numerical reconciliation only. Exact rational selection ties are a separate convention and are not replaced with a 1e-12 tie band.
+
+4.5 Fixed common eligibility G*_FAT
+
+A source enters G*_FAT only if it belongs to the fixed roster, has at least 100 mapped rows and at least 100 positive-weight mapped contributors, and has a positive denominator D_g. For each of the five state atoms, its all-mapped count and its positive-weight contributor count must each be either zero or at least five. All three definitions and q must also satisfy the historical binary positive/negative small-cell screen. The state-atom screen covers every contrast atom generated by these four membership patterns. Input, taxonomy and reconciliation gates must have passed.
+
+This is an explicit new common-universe screen, stronger than an endpoint-only screen. It protects the population that actually contributes weighted mass and prevents exchanging original 14/16/16 denominators across comparisons. It does not certify privacy. The historical minimum of 30 for positive-class composition is not imposed: no new within-positive-class composition tables are proposed.
+
+At least ten strata must remain. This retains the project minimum for cross-stratum summaries and avoids a three-unit rule dominating a very small surviving roster. It is not a statistical-power threshold, a producer requirement or a confidentiality guarantee. If G* has fewer than ten strata, the new numerical FAT extension is reported as not estimable under the specified release design. Neither the benchmark nor the screens may be relaxed to obtain a favourable result. G* has not been calculated during R13.
+
+The identical G* is used for all boundaries, q, rules, costs and the weighting sensitivity. No pairwise deletion or rule-specific universe is allowed.
+
+4.6 Weighting and unresolved rows
+
+The single weighting sensitivity removes weight magnitudes from exactly the same positive-weight mapped contributors as the primary analysis. Each state mass becomes its count in that matched row set divided by the total number of those contributors. Recalculate only primary lowest-three comparisons and equal-cost semantic mismatch. This isolates the effect of weight magnitudes. It is not the historical all-mapped unweighted sensitivity, which has a different row universe and remains unchanged.
+
+No new FAT uncertainty interval or unresolved-state action-loss analysis is specified. The historical source calculates the mass of the positive-weight unresolved subset, so that statistic is not denied. However, the admissibility of all unresolved observations to the five states and a full weight mass for rows with missing/invalid weights are not established. The new normalised FAT input therefore has unresolved_total=null and unresolved_status=not_identifiable; null is not zero. The explanatory reason remains in separate protocol/adapter evidence. Original conditional unresolved bounds remain in R11 with their original assumptions. [LOCAL06, LOCAL09]
+
+5. OpenAlex OA application
+
+5.1 Fixed cohort and counting
+
+The cohort is OpenAlex work type article with publication_year=2024 in corpus=core, with at least one mapped authorship institution in the country concerned. There is no additional journal, language, citation, retraction, research-quality or OA filter. Provider type/year classification is used as recorded at acquisition, not independently validated peer review or complete national output. OpenAlex core is not CWTS core publications. [WEB05, WEB07, WEB10–WEB12]
+
+The official EU roster was checked on both pages. The following fixed ISO alpha-2 order is used for query acquisition and ties:
+
+AT Austria; BE Belgium; BG Bulgaria; CY Cyprus; CZ Czechia; DE Germany; DK Denmark; EE Estonia; ES Spain; FI Finland; FR France; GR Greece; HR Croatia; HU Hungary; IE Ireland; IT Italy; LT Lithuania; LU Luxembourg; LV Latvia; MT Malta; NL Netherlands; PL Poland; PT Portugal; RO Romania; SE Sweden; SI Slovenia; SK Slovakia.
+
+GR is the ISO code used for Greece; it is not replaced with Eurostat's EL code. All 27 countries are specified before acquisition. [WEB01–WEB03]
+
+The exact country filter is authorships.institutions.country_code. It is deliberately not replaced by authorships.countries, which can also include a country parsed from a raw address when no institution was matched. Each matching work is counted once within a country; a work with institutions in several countries receives full credit in each. Country totals are not summed as a unique EU total. Unmapped affiliations and works outside OpenAlex are outside this observed frame, not members of the unknown-OA group. [WEB06, WEB11]
+
+5.2 States, nested boundaries and benchmark
+
+The native scalar states are closed, bronze, green, hybrid, gold and diamond. Use them as an exclusive nominal partition of provider-assigned work status. Actual publisher and repository copies can overlap; this scalar partition does not assert that hosting channels are mutually exclusive in reality. Unknown is a missing-status bucket, not a seventh substantive OA state. An unexpected new enum value halts the acquisition; it is not silently moved into closed or a residual category. [WEB04, WEB06]
+
+The fixed definition order is:
+
+1. fully_oa_journal_status = {gold, diamond}.
+2. provider_detected_oa_excluding_bronze = {gold, diamond, hybrid, green}.
+3. any_provider_detected_oa = {gold, diamond, hybrid, green, bronze}.
+
+The benchmark is provider_classified_publisher_availability = {gold, diamond, hybrid, bronze}. It asks whether the alternative summaries flag the same countries when the analytical objective is the publisher access route specifically. Repository-only green availability is a different route, not an inferior or failed form of openness. Bronze is included: it may involve free publisher access without an identified open licence. Accordingly this benchmark cannot be named licensed OA, CC BY compliance, immediate access, persistence or Plan S compliance. It is also not an independent check of actual full-text locations.
+
+No colour-to-Plan-S mapping is constructed. Licence, version, availability date and applicable funder conditions require evidence beyond the seven aggregate buckets. Metadata CC0 rights also do not transfer to article full texts. The planned application downloads no full text. [WEB04, WEB08, WEB14]
+
+5.3 Queries and prospective acquisition
+
+There are 27 required successful grouped responses; zero were acquired in R13. The exact planned query for country code c is:
+
+https://api.openalex.org/works?filter=publication_year:2024,type:article,authorships.institutions.country_code:{c}&group_by=open_access.oa_status:include_unknown&corpus=core&per_page=100
+
+The query manifest expands all 27 URLs, in the fixed priority order, with lowercase filter codes. No query in that manifest has been executed. Basic anonymous access and the required grouping/filter operations are documented by the provider; R12 separately demonstrated the earlier route. [WEB05, WEB06, WEB08, WEB09]
+
+Phase 2 acquisition will use anonymous HTTPS GET, at most one sequential request per second, a 60-second timeout, a 262,144-byte response cap and at most three attempts per country. Only transport errors and HTTP 408, 429 or 5xx are retryable, with delays of 5 and 15 seconds. Respect a longer Retry-After up to 60 seconds; longer blocks, credential/plan requirements or access restrictions cause a stop, not a bypass. The batch must complete within one hour.
+
+For each query retain the first successfully transported and schema-valid response, all failed-attempt metadata, URL, request/response UTC times, HTTP status, content type and relevant Date/ETag/Last-Modified/rate-limit headers when present. Hash and preserve raw response bytes before transformation. Record the code/runtime and source-registry identity. Do not record credentials or cookies. A schema failure is not remedied by silently choosing a later response with preferable values.
+
+If any country fails, the cohort analysis stops. There is no reduced-country diagnostic, substitution from the earlier Romania probe or outcome-selected new batch. A later permitted acquisition is separately numbered, retaining failed evidence. The analytical object is a frozen local batch over a documented interval, not an atomic snapshot of the full evolving OpenAlex database. Recomputing from the stored raw batch is the reproducibility route; repeating a live URL may produce different data. [WEB13]
+
+5.4 Response gates, denominators and common universe
+
+A valid response has HTTP 200 and bounded JSON. Returned group keys must be unique and limited to the six registered states or literal unknown. Counts and meta.count must be nonnegative integers, with Boolean values rejected. The sum of all group counts must equal meta.count. Nested grouping and nonempty unrequested work-record payloads are not accepted; an absent or empty results list is harmless. The fixed domain has at most seven buckets and per_page is 100.
+
+When groups_count is returned, it must equal the number of returned buckets. When next_cursor is returned, it must be null. Neither optional field is required to exist. The fixed enum, count equality and capacity checks remain required; groups_count alone would not establish complete pagination. A missing recognised bucket may be zero-filled only after those checks pass. Unknown absence then means zero unknown records; no mismatch residual is imputed as unknown or closed. [WEB06]
+
+For each country, N=meta.count, M is the count of literal unknown and D=N-M is the sum of the six known-status counts. Primary scores divide each positive numerator by D. All d and q use that same known-status denominator. Publish N, M, D and M/N as separate coverage information. M/N concerns missing OA status among matched works, not all missing affiliation or indexing coverage.
+
+All 27 predeclared countries must have valid complete responses with N>0 and D>0. If so, G*_OA is exactly the full roster. If any fails, report the acquisition/denominator failure instead of a reduced decision analysis. A valid country's zero OA rate or unfavourable result never removes it.
+
+5.5 Unknown-status sensitivity and shared publications
+
+The OA sensitivity is allowed only when M is identified from a validated response. For each d and q separately, it uses the interval [P/(D+M), (P+M)/(D+M)], where P is the corresponding known-state count. M=0 gives a degenerate interval. Missing M is not zero and blocks this sensitivity.
+
+The assumption is that an unknown-status matched work could occupy any of the six registered states. It is a sensitivity model, not a verification of upstream classification. Report marginal guaranteed/possible/excluded membership for lowest-three under all-admissible ties, and guaranteed/ambiguous/excluded membership for the strict below-one-quarter rule.
+
+These are rectangular marginal outer-envelope certificates. The same international work can appear in several countries. Its unknown OA status must be the same in each appearance, so assignments couple country counts. Grouped country totals do not identify the overlap structure or the full joint feasible set. Within a country, the same unknown work also couples all definitions and q. Rectangularity is therefore not asserted for the actual common cohort.
+
+Guaranteed or excluded membership established over the outer box remains a sufficient certificate for a feasible subset. A unit that is merely possible in the outer box is not claimed to be attainable in the actual joint cohort. No independent best/worst assignment across d and q, exact joint action-loss bound, optimised scenario search or statistical confidence interval is reported.
+
+6. Fixed analysis families and reporting
+
+P1, primary: complete-case lowest-three. For each d versus q, calculate equal-cost action loss and set statistics. For the three d-versus-d pairs, calculate set statistics. FAT uses exact weighted masses; OA uses known-status counts.
+
+P2, primary: complete-case semantic mismatch. For each d, retain mean false-inclusion mass, mean false-exclusion mass and equal-cost L_S.
+
+S1, secondary: the P1 comparison structure with highest-three and equal costs.
+
+S2, secondary: strict below-one-quarter with equal costs and both asymmetric action-cost profiles against q. Pairwise set statistics are calculated once. Empty and all-selected cases are retained.
+
+S3, secondary: both asymmetric semantic-cost profiles on the same complete-case masses and G*. No interpretation transfers between semantic and action units.
+
+S4, FAT only: matched-row unweighted P1 and P2 on the same positive-weight contributors and G*.
+
+S5, secondary: exact boundary-tie flags, near-gap flags and separate all-admissible point-membership envelopes for lowest-three and highest-three, one vector at a time. FAT source identities are not published.
+
+S6, OA only: marginal unknown-status membership certificates for lowest-three and below-one-quarter. These are envelopes, not coupled loss extrema.
+
+No cross-product of additional objectives, thresholds, k values, weighting rules or cost profiles is explored. No CIS application, FAT regression, new simulation grid, licence-aware OA extension or new FAT missing-state interval is added. All registered eligible comparisons and zero/no-change results are retained. Scientific outcomes do not select which family is reported. A failed data gate or disclosure review may withhold a complete predefined block with an explicit reason; withheld does not mean zero.
+
+7. Cumulative FAT disclosure conditions
+
+The project continues its hardened public-release restrictions: no establishment rows, source-level state/rate vectors, source denominators, exact source weight totals, source exclusions, rankings, selected IDs or eligibility membership lists are published. The state-atom screen is necessary for the proposed computation but is not itself publication approval. These are project safeguards, not a new producer authorisation. [LOCAL04–LOCAL11]
+
+Before release, construct a cumulative ledger of the full already distributed corpus: R11 main/S1; both historical public FAT summaries; the empirical replay and R10 post-hoc reports in ESM_2 and frozen S2; and R12/R13 text repeating those values. Inventory exact/rounded totals, extrema, quantiles, contrasts, eligibility counts, inequalities and algebraic equivalents. Hash files and de-duplicate repeated evidence values. Include the threat of auxiliary knowledge about the public source roster and source totals.
+
+The candidate blocks are FAT_PRIMARY (P1/P2), FAT_SECONDARY_RULES_COSTS (S1–S3), FAT_MATCHED_ROW_WEIGHTING (S4) and FAT_TIES (S5). They contain only cross-unit scalar summaries and a cleared common eligible count, without identities or source-level vectors. Trace every proposed field to its underlying state atoms, units and denominator. Review the proposed blocks jointly with the old release for complementary recovery, differencing and combinations that reconstruct suppressed cells or prohibited source-specific facts. A cost transformation or duplicate ratio is not independent evidence and must not bypass suppression.
+
+Where a concrete reconstruction attack can be encoded, retain its constraints and test the feasible values of implicated suppressed cells. A recovered 1–4 cell, singleton recovery of a prohibited source statistic or unavoidable source identification fails the relevant release. An unimplemented or intractable test is not called a pass. A second reviewer records the bounded inventory, attack checks and uncovered auxiliary information. There is no promise of universal anonymity, differential privacy or a complete privacy proof.
+
+If reconstruction risk remains unresolved, or the inventory is incomplete, withhold the whole affected block and record a generic reason without leaking the protected values. Re-review across blocks: suppressing a field while releasing an algebraic equivalent is insufficient. If primary blocks cannot be cleared, retain the method, toy demonstration and original FAT study rather than inventing a publishable extension. These fail-closed rules are fixed now; the disclosure outcome has not been obtained in R13.
+
+8. Reproducibility, input/output contracts and acceptance
+
+The normative delivered contracts are 05_EXECUTABLE_CONTRACTS/R13_STATE_INPUT.schema.json and 05_EXECUTABLE_CONTRACTS/R13_STATE_OUTPUT.schema.json. They govern the exact field names, enum values and serialisation. The normalised internal input contains the declared state register, definition/benchmark memberships, common eligible IDs, common priority and per-unit exact state_totals. known_denominator must equal their exact sum and be positive. OA carries identified nonnegative integer unresolved_total=M with unresolved_status=known_nonnegative_total; FAT carries null with unresolved_status=not_identifiable. Source counts, eligibility evidence and explanatory reasons are separate records, protected where necessary for FAT. Reject duplicated units, missing/extra states, implicit binary floats, negative totals, denominator mismatch or a wrong source identity.
+
+Canonical output records identify protocol/input/code hashes, actual execution command/runtime/date, universe size, family, rule and costs, with exact-number serialisation defined by the output schema. Only authorised denominators of public results, including |G*|, are attached publicly; protected FAT source-level denominators remain internal. Undefined or withheld values are null plus a reason. OA can distribute its raw grouped responses, country counts and deterministic transformations under the provider's metadata CC0 terms with attribution. Code licensing is a separate project decision. FAT can distribute only cleared scalar outputs and sanitised verification; its registered input is not included.
+
+R13_EMPIRICAL_IO_SCHEMA_SUGGESTIONS.json is a separate conceptual sketch. Its six explicitly artificial units and hand-derived lowest-three oracle have not been executed here and do not meet the real-data minimum universe gate. They are not the normative executed fixture. The delivered contract workflow instead uses eight synthetic units; its retained report records 43 executed workflow checks. A separate core report records 34 direct checks, including an independent batch of 222 finite oracle cases. These reports are results of synthetic contract verification, not new empirical data analysis. They must not be summed or renamed as independent empirical observations. The checks address matched-boundary zero loss, exact ties, empty Jaccard convention, churn applicability, decimal rational input, denominator/universe rejection and marginal-envelope labelling. Synthetic verification is not native browser acceptance, empirical reproduction or an upstream-data audit.
+
+Before Phase 2, the accepted amendment and choice files must be dated and hash-bound. Before new FAT diagnostics, identity/taxonomy/reconciliation gates must pass. Before OA diagnostics, all 27 response, schema and denominator gates must pass. An independent implementation or direct rational identities should verify the small aggregate calculations, with its scope labelled accurately. Before FAT publication, each block requires the cumulative review. Every failure remains recorded. All zero/no-change and adverse results receive the same reporting rules.
+
+Any post-freeze change receives a numbered amendment with reason, UTC time, hash and statement of outcomes already seen. Rerun every affected new diagnostic while preserving original inputs, failed runs and code. Do not overwrite R11/R12 or frozen S2. If anonymous OA acquisition is unavailable, retain the planned illustration and existing feasibility evidence; do not silently switch to CWTS, Unpaywall, a smaller subset, a paid service or newly created credentials.
+
+9. Companion records and source locators
+
+R13_EMPIRICAL_PROTOCOL_EN_GB.json: machine-readable choices and acceptance gates.
+R13_EMPIRICAL_SOURCE_EVIDENCE.json: consulted primary web sources with URLs, tool ref IDs and dates; exact hashes and baseline locators for selected public historical files.
+R13_FAT_INPUT_AVAILABILITY.json: executed stat/hash-only input identity check.
+R13_OA_QUERY_MANIFEST.json: all 27 planned URLs; no cohort queries executed.
+R13_FAT_DISCLOSURE_DESIGN.json: cumulative release inventory, block rules and fail-closed conditions.
+R13_EMPIRICAL_IO_SCHEMA_SUGGESTIONS.json: exact-number input/output contract and explicitly synthetic example.
+R13_EMPIRICAL_SPECIFICATION_CHECKS.json: executed structural/set checks of this specification, not empirical tests.
+
+WEB01–WEB14 and LOCAL01–LOCAL20 refer to the source register. The R11 inner-S2 locator resolves through R11/01_SUBMISSION/ESM_2.zip, then FROZEN_ARCHIVE/S2_FROZEN_R5.zip. The inner archive remains SHA-256 841e71c4cec572e6bc1c90ec9ab10abfc14febb9514bad7dbf03f44fb17a1a62. The register records consulted documentation, not a claim that complete provider HTML or all upstream source code was downloaded.
+
+The current phase closes after protocol and contract verification. The next agreed author instruction opens Phase 2. That instruction does not independently authorise accounts, submissions, deposits or new terms acceptance.

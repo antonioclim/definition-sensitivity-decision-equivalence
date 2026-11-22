@@ -1,0 +1,3 @@
+THIRD-PARTY COMPONENTS
+
+The World Bank source notice is retained unchanged in WORLD_BANK_SOURCE_LICENSE.txt and applies only to its own source component. The seven historical Stata files are preserved in the scientific archive. The factual World Bank source-route record preserves the rights scope observed in the historical catalogue capture; the unchanged original capture remains in the private R19 source record. Source metadata terms do not grant rights over indexed article texts, restricted survey data or the whole mixed package. No new blanket licence has been assigned by this PC1 preparation.

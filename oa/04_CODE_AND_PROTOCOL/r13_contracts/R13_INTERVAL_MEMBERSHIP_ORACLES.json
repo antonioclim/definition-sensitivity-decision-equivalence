@@ -1,0 +1,7494 @@
+{
+  "schema_version": 1,
+  "producer_script_sha256": "cee51679ea42184ebc0306ee7a4956bded019362f1062cccffb14f48b256df87",
+  "exact_number_encoding": "Rational strings parsed by fractions.Fraction; zero-based unit indices.",
+  "source": "Direct finite enumeration; expected sets are not copied from interval-count formulae.",
+  "case_count": 222,
+  "cases": [
+    {
+      "case_id": "two_exact_ties__highest__k1__all_admissible",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__highest__k1__priority_0_1",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__highest__k1__priority_1_0",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__highest__k2__all_admissible",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__highest__k2__priority_0_1",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__highest__k2__priority_1_0",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k1__all_admissible",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k1__priority_0_1",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k1__priority_1_0",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k2__all_admissible",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k2__priority_0_1",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "two_exact_ties__lowest__k2__priority_1_0",
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__highest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        2
+      ],
+      "expected_possible": [
+        0,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        2
+      ],
+      "expected_possible": [
+        0,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        2
+      ],
+      "expected_possible": [
+        0,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "three_degenerate_with_tie__lowest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 1
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        1
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__highest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "touching_and_crossing__lowest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 125
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__all_admissible",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__all_admissible",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__all_admissible",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__highest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__all_admissible",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__all_admissible",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__all_admissible",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "nested_intervals__lowest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "1/4",
+          "3/4"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 45
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        2
+      ],
+      "expected_possible": [
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        1,
+        2
+      ],
+      "expected_possible": [
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__highest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0
+      ],
+      "expected_possible": [
+        0
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1
+      ],
+      "expected_possible": [
+        0,
+        1
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "separated_intervals__lowest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "3/4"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 9
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__highest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "highest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k1__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 1,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k2__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 2,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__all_admissible",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "all_admissible",
+      "priority": null,
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Enumeration of all valid k-subsets at each finite grid point.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_0_1_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        1,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_0_2_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        0,
+        2,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_1_0_2",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        0,
+        2
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_1_2_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        1,
+        2,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_2_0_1",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        0,
+        1
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    },
+    {
+      "case_id": "fully_shared_box__lowest__k3__priority_2_1_0",
+      "bounds": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "k": 3,
+      "direction": "lowest",
+      "tie_mode": "fixed_priority",
+      "priority": [
+        2,
+        1,
+        0
+      ],
+      "expected_guaranteed": [
+        0,
+        1,
+        2
+      ],
+      "expected_possible": [
+        0,
+        1,
+        2
+      ],
+      "oracle_method": "Direct sorting at every finite grid point with a fixed total priority.",
+      "enumerated_point_count": 27
+    }
+  ]
+}
